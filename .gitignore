@@ -1,0 +1,18 @@
+# Ignore everything
+/*
+
+# Include our configs and CT scripts
+!.gitignore
+!/config/
+!/config/**
+!/scripts/
+!/scripts/**
+
+# Ignore some spammy config files
+/config/thaumicjei_itemstack_aspects.json
+/config/splash.properties
+/config/jei/worldSettings.cfg
+/config/InvTweaks.cfg
+/config/AppliedEnergistics2/items.csv
+/config/AppliedEnergistics2/CustomRecipes.cfg
+/config/tellme/**

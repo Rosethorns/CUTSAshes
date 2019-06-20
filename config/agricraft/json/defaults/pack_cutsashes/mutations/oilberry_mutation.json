@@ -1,0 +1,8 @@
+{
+  "path": "pack_cutsashes/mutations/oilberry_mutation.json",
+  "enabled": true,
+  "chance": 1.0,
+  "child": "cutsashes:oilberry_plant",
+  "parent1": "vanilla:red_tulip_plant",
+  "parent2": "vanilla:wheat_plant"
+}

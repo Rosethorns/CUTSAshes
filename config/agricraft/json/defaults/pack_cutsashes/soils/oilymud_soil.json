@@ -1,0 +1,18 @@
+{
+  "path": "pack_cutsashes/soils/oilymud_soil.json",
+  "enabled": true,
+  "id": "oilymud_soil",
+  "name": "Oily Mud",
+  "varients": [
+    {
+      "item": "contenttweaker:oily_mud",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "path": "pack_cutsashes/soils/flesh_soil.json",
+  "enabled": true,
+  "id": "flesh_soil",
+  "name": "Flesh",
+  "varients": [
+    {
+      "item": "biomesoplenty:flesh",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}

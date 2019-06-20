@@ -1,0 +1,8 @@
+{
+  "path": "pack_cutsashes/mutations/milkwart_mutation.json",
+  "enabled": true,
+  "chance": 1.0,
+  "child": "cutsashes:milkwart_plant",
+  "parent1": "vanilla:red_tulip_plant",
+  "parent2": "vanilla:wheat_plant"
+}

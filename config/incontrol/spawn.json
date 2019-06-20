@@ -1,0 +1,41 @@
+[
+  {
+    "hostile": true,
+    "dimension": 0,
+    "minheight": 60,
+    "spawner": true,
+    "result": "allow"
+  },
+  {
+    "hostile": true,
+    "dimension": 0,
+    "minheight": 60,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "structure": "Fortress",
+    "result": "default"
+  },
+  {
+    "dimension": -1,
+    "block": [
+        "minecraft:netherrack",
+        "minecraft:soul_sand",
+        "minecraft:gravel",
+        "minecraft:magma_block",
+        "minecraft:bone_block",
+        "biomesoplenty:flash",
+        "biomesoplenty:grass@6",
+        "betternether:nether_mycelium",
+        "betternether:netherrack_moss",
+        "betternether:bone_block"
+    ],
+    "result": "default"
+  },
+  {
+    "dimension": -1,
+    "minlight": 7,
+    "result": "deny"
+  }
+]

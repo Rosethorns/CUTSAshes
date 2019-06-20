@@ -1,0 +1,61 @@
+{
+  "path": "pack_cutsashes/plants/creeperweed_plant.json",
+  "enabled": true,
+  "id": "cutsashes:creeperweed_plant",
+  "plant_name": "Creeperweed",
+  "seed_name": "Creeperweed Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A short and bushy plant yielding tiny fruits which explode like firecrackers."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 2,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:gunpowder",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": true,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "cutsashes:agricraft/items/seed_creeperweed",
+    "plant_textures": [
+      "cutsashes:agricraft/blocks/crop_creeperweed1",
+      "cutsashes:agricraft/blocks/crop_creeperweed1",
+      "cutsashes:agricraft/blocks/crop_creeperweed1",
+      "cutsashes:agricraft/blocks/crop_creeperweed2",
+      "cutsashes:agricraft/blocks/crop_creeperweed2",
+      "cutsashes:agricraft/blocks/crop_creeperweed3",
+      "cutsashes:agricraft/blocks/crop_creeperweed3",
+      "cutsashes:agricraft/blocks/crop_creeperweed4"
+    ]
+  }
+}

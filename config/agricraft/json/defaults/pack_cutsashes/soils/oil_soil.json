@@ -1,0 +1,18 @@
+{
+  "path": "pack_cutsashes/soils/oil_soil.json",
+  "enabled": true,
+  "id": "oil_soil",
+  "name": "Light Oil",
+  "varients": [
+    {
+      "item": "gregtech:fluid.oil_light",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "path": "pack_cutsashes/plants/tearstalks_plant.json",
+  "enabled": true,
+  "id": "cutsashes:tearstalks_plant",
+  "plant_name": "Tearstalks",
+  "seed_name": "Tearstalk Clippings",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A long grass-like fungus which weeps globs of thick fluid. This fluid appears to be identical to ghast tears. Might their tentacle-like structure imply relation?"
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.5,
+        "required": true,
+        "item": "minecraft:ghast_tear",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": true,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "soul_sand_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "cutsashes:agricraft/items/seed_tearstalks",
+    "plant_textures": [
+      "cutsashes:agricraft/blocks/crop_tearstalks1",
+      "cutsashes:agricraft/blocks/crop_tearstalks1",
+      "cutsashes:agricraft/blocks/crop_tearstalks1",
+      "cutsashes:agricraft/blocks/crop_tearstalks2",
+      "cutsashes:agricraft/blocks/crop_tearstalks2",
+      "cutsashes:agricraft/blocks/crop_tearstalks3",
+      "cutsashes:agricraft/blocks/crop_tearstalks3",
+      "cutsashes:agricraft/blocks/crop_tearstalks4"
+    ]
+  }
+}

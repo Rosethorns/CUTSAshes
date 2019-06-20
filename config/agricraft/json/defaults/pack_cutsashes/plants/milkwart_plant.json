@@ -1,0 +1,61 @@
+{
+  "path": "pack_cutsashes/plants/milkwart_plant.json",
+  "enabled": true,
+  "id": "cutsashes:milkwart_plant",
+  "plant_name": "Milkwart",
+  "seed_name": "Milkwart Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "Testing 1, 2, 3."
+  },
+  "growth_chance": 1.0,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:dirt",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "cutsashes:agricraft/items/seed_milkwart",
+    "plant_textures": [
+      "cutsashes:agricraft/blocks/crop_milkwart1",
+      "cutsashes:agricraft/blocks/crop_milkwart1",
+      "cutsashes:agricraft/blocks/crop_milkwart1",
+      "cutsashes:agricraft/blocks/crop_milkwart2",
+      "cutsashes:agricraft/blocks/crop_milkwart2",
+      "cutsashes:agricraft/blocks/crop_milkwart3",
+      "cutsashes:agricraft/blocks/crop_milkwart3",
+      "cutsashes:agricraft/blocks/crop_milkwart4"
+    ]
+  }
+}
