@@ -1,4 +1,7 @@
 import crafttweaker.oredict.IOreDictEntry;
+
+
+// Ore dicts
 oreDict.oreGtExcavatorOreBerylliumEnd.add(<gregtech:ore_beryllium_0:7>);
 oreDict.oreGtExcavatorOreEmeraldEnd.add(<gregtech:ore_emerald_0:7>);
 oreDict.oreGtExcavatorOreThoriumEnd.add(<gregtech:ore_thorium_0:7>);
@@ -30,12 +33,19 @@ oreDict.oreGtExcavatorOreIridiumEnd.add(<gregtech:ore_iridium_0:7>);
 oreDict.oreGtExcavatorOreScheeliteEnd.add(<gregtech:ore_scheelite_0:7>);
 oreDict.oreGtExcavatorOreTungstateEnd.add(<gregtech:ore_tungstate_0:7>);
 oreDict.oreGtExcavatorOreLithiumEnd.add(<gregtech:ore_lithium_0:7>);
-mods.immersiveengineering.Excavator.addMineral("Beryllium", 30, 0.005, ["oreGtExcavatorOreBerylliumEnd", "oreGtExcavatorOreEmeraldEnd", "oreGtExcavatorOreThoriumEnd"], [0.3,0.18,0.12], [1]);
-mods.immersiveengineering.Excavator.addMineral("Lapis", 50, 0.005, ["oreGtExcavatorOreLazuriteEnd", "oreGtExcavatorOreSodaliteEnd", "oreGtExcavatorOreLapisEnd", "oreGtExcavatorOreCalciteEnd"], [0.3,0.2,0.35,0.15], [1]);
-mods.immersiveengineering.Excavator.addMineral("Manganese", 25, 0.005, ["oreGtExcavatorOreGrossularEnd", "oreGtExcavatorOreSpessartineEnd", "oreGtExcavatorOrePyrolusiteEnd", "oreGtExcavatorOreTantaliteEnd"], [0.18,0.18,0.18,0.06], [1]);
-mods.immersiveengineering.Excavator.addMineral("Molybdenum", 15, 0.005, ["oreGtExcavatorOreWulfeniteEnd", "oreGtExcavatorOreMolybdeniteEnd", "oreGtExcavatorOrePowelliteEnd"], [0.4,0.4,0.2], [1]);
-mods.immersiveengineering.Excavator.addMineral("Naquadah", 8, 0.005, ["oreGtExcavatorOreNaquadahEnd", "oreGtExcavatorOreNaquadahEnrichedEnd"], [0.9,0.1], [1]);
-mods.immersiveengineering.Excavator.addMineral("Nickel", 50, 0.005, ["oreGtExcavatorOreGarnieriteEnd", "oreGtExcavatorOreNickelEnd", "oreGtExcavatorOreCobaltiteEnd", "oreGtExcavatorOrePentlanditeEnd"], [0.24,0.24,0.24,0.08], [1]);
-mods.immersiveengineering.Excavator.addMineral("Olivine", 60, 0.005, ["oreGtExcavatorOreBentoniteEnd", "oreGtExcavatorOreMagnesiteEnd", "oreGtExcavatorOreOlivineEnd", "oreGtExcavatorOreGlauconiteEnd", "oreGtExcavatorOreChromiteEnd"], [0.18,0.18,0.18,0.06,0.06], [1]);
-mods.immersiveengineering.Excavator.addMineral("Platinum", 20, 0.005, ["oreGtExcavatorOreCooperiteEnd", "oreGtExcavatorOrePalladiumEnd", "oreGtExcavatorOreIridiumEnd"], [0.54,0.42,0.24], [1]);
-mods.immersiveengineering.Excavator.addMineral("Tungstate", 10, 0.005, ["oreGtExcavatorOreScheeliteEnd", "oreGtExcavatorOreTungstateEnd", "oreGtExcavatorOreLithiumEnd"], [0.48,0.16,0.16], [1]);
+
+
+// Filler ore dicts
+oreDict.oreGtExcavatorFillerend0.add(<minecraft:end_stone>);
+
+
+// Dig that hole
+mods.immersiveengineering.Excavator.addMineral("End Beryllium", 30, 0.005, ["oreGtExcavatorOreBerylliumEnd", "oreGtExcavatorOreEmeraldEnd", "oreGtExcavatorOreThoriumEnd", "oreGtExcavatorFillerend0"], [0.15,0.09,0.06,0.7], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Lapis", 50, 0.005, ["oreGtExcavatorOreLazuriteEnd", "oreGtExcavatorOreSodaliteEnd", "oreGtExcavatorOreLapisEnd", "oreGtExcavatorOreCalciteEnd", "oreGtExcavatorFillerend0"], [0.15,0.1,0.175,0.075,0.5], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Grossular", 25, 0.005, ["oreGtExcavatorOreGrossularEnd", "oreGtExcavatorOreSpessartineEnd", "oreGtExcavatorOrePyrolusiteEnd", "oreGtExcavatorOreTantaliteEnd", "oreGtExcavatorFillerend0"], [0.09,0.09,0.09,0.03,0.7], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Wulfenite", 15, 0.005, ["oreGtExcavatorOreWulfeniteEnd", "oreGtExcavatorOreMolybdeniteEnd", "oreGtExcavatorOrePowelliteEnd", "oreGtExcavatorFillerend0"], [0.2,0.2,0.1,0.5], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Naquadah", 8, 0.005, ["oreGtExcavatorOreNaquadahEnd", "oreGtExcavatorOreNaquadahEnrichedEnd", "oreGtExcavatorFillerend0"], [0.45,0.05,0.5], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Garnierite", 50, 0.005, ["oreGtExcavatorOreGarnieriteEnd", "oreGtExcavatorOreNickelEnd", "oreGtExcavatorOreCobaltiteEnd", "oreGtExcavatorOrePentlanditeEnd", "oreGtExcavatorFillerend0"], [0.12,0.12,0.12,0.04,0.6], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Bentonite", 60, 0.005, ["oreGtExcavatorOreBentoniteEnd", "oreGtExcavatorOreMagnesiteEnd", "oreGtExcavatorOreOlivineEnd", "oreGtExcavatorOreGlauconiteEnd", "oreGtExcavatorOreChromiteEnd", "oreGtExcavatorFillerend0"], [0.0818,0.0818,0.0818,0.0273,0.0273,0.7], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Sheldonite", 20, 0.005, ["oreGtExcavatorOreCooperiteEnd", "oreGtExcavatorOrePalladiumEnd", "oreGtExcavatorOreIridiumEnd", "oreGtExcavatorFillerend0"], [0.27,0.21,0.12,0.4], [1]);
+mods.immersiveengineering.Excavator.addMineral("End Scheelite", 10, 0.005, ["oreGtExcavatorOreScheeliteEnd", "oreGtExcavatorOreTungstateEnd", "oreGtExcavatorOreLithiumEnd", "oreGtExcavatorFillerend0"], [0.24,0.08,0.08,0.6], [1]);
