@@ -1,0 +1,73 @@
+{
+  "path": "pack_cutsashes/plants/witherreed_plant.json",
+  "enabled": true,
+  "id": "cutsashes:witherreed_plant",
+  "plant_name": "Witherreed",
+  "seed_name": "Witherreed Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A seemingly self-destructive variant of sugarcane, wither reed grows strongly only to rapidly carbonise as it reaches maturity."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "item": "gregtech:meta_item_1",
+        "meta": 2106,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "chance": 0.05,
+        "required": true,
+        "item": "minecraft:coal",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": true,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "soul_sand_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "cutsashes:agricraft/items/seed_witherreed",
+    "plant_textures": [
+      "cutsashes:agricraft/blocks/crop_witherreed1",
+      "cutsashes:agricraft/blocks/crop_witherreed1",
+      "cutsashes:agricraft/blocks/crop_witherreed1",
+      "cutsashes:agricraft/blocks/crop_witherreed2",
+      "cutsashes:agricraft/blocks/crop_witherreed2",
+      "cutsashes:agricraft/blocks/crop_witherreed3",
+      "cutsashes:agricraft/blocks/crop_witherreed3",
+      "cutsashes:agricraft/blocks/crop_witherreed4"
+    ]
+  }
+}

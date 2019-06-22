@@ -1,0 +1,61 @@
+{
+  "path": "pack_cutsashes/plants/slimeplant_plant.json",
+  "enabled": true,
+  "id": "cutsashes:slimeplant_plant",
+  "plant_name": "Slimeplant",
+  "seed_name": "Slimeplant Stone",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A broad leaved plant producing seeds sheathed in a thick jelly."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 2,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:slime_ball",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "cutsashes:agricraft/items/seed_slimeplant",
+    "plant_textures": [
+      "cutsashes:agricraft/blocks/crop_slimeplant1",
+      "cutsashes:agricraft/blocks/crop_slimeplant1",
+      "cutsashes:agricraft/blocks/crop_slimeplant1",
+      "cutsashes:agricraft/blocks/crop_slimeplant2",
+      "cutsashes:agricraft/blocks/crop_slimeplant2",
+      "cutsashes:agricraft/blocks/crop_slimeplant3",
+      "cutsashes:agricraft/blocks/crop_slimeplant3",
+      "cutsashes:agricraft/blocks/crop_slimeplant4"
+    ]
+  }
+}
