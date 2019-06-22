@@ -1,0 +1,73 @@
+{
+  "path": "pack_cutsashes/plants/stickreed_plant.json",
+  "enabled": true,
+  "id": "cutsashes:stickreed_plant",
+  "plant_name": "Stickreed",
+  "seed_name": "Stickreed Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A mutant sugarcane which produces thick, resinous sap."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.8,
+        "required": true,
+        "item": "minecraft:reeds",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.95,
+        "required": true,
+        "item": "gregtech:meta_item_1",
+        "meta": 32627,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "sand_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "cutsashes:agricraft/items/seed_stickreed",
+    "plant_textures": [
+      "cutsashes:agricraft/blocks/crop_stickreed1",
+      "cutsashes:agricraft/blocks/crop_stickreed1",
+      "cutsashes:agricraft/blocks/crop_stickreed1",
+      "cutsashes:agricraft/blocks/crop_stickreed2",
+      "cutsashes:agricraft/blocks/crop_stickreed2",
+      "cutsashes:agricraft/blocks/crop_stickreed3",
+      "cutsashes:agricraft/blocks/crop_stickreed3",
+      "cutsashes:agricraft/blocks/crop_stickreed4"
+    ]
+  }
+}
