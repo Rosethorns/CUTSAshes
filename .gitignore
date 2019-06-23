@@ -7,6 +7,10 @@
 !/config/**
 !/scripts/
 !/scripts/**
+!/resources/
+!/resources/**
+!/patchouli_books/
+!/patchouli_books/**
 
 # Ignore some spammy config files
 /config/thaumicjei_itemstack_aspects.json
