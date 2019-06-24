@@ -1,0 +1,20 @@
+{
+  "name": "Yttrium Barium Cuprate",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10200",
+      "text": "Abbreviation: YBC$(p)Chemical Makeup: YBa2Cu3O7$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Yttrium_barium_copper_oxide)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Yttrium)Yttrium$(/l) $(l:materials/Barium)barium$(/l) $(l:materials/Copper)copper$(/l) oxide (YBCO) is a family of crystalline chemical compounds, famous for displaying high-temperature superconductivity. It includes the first material ever discovered to become superconducting above the boiling point of liquid nitrogen (77 K) at about 90 K. Many YBCO compounds have the general formula YBa2Cu3O7−x (also known as Y123), although materials with other Y:Ba:Cu ratios exist, such as "
+    },
+    {
+      "type": "text",
+      "text": "YBa2Cu4Oy (Y124) or Y2Ba4Cu7Oy (Y247)."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10200"
+}

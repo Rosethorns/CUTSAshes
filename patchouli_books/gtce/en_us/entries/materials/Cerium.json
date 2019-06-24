@@ -1,0 +1,32 @@
+{
+  "name": "Cerium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10014",
+      "text": "Abbreviation: Ce$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Cerium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Cerium is a chemical element with the symbol Ce and atomic number 58. Cerium is a soft, ductile and silvery-white metal that tarnishes when exposed to air, and it is soft enough to be cut with a knife. Cerium is the second element in the lanthanide series, and while it often shows the +3 oxidation state characteristic of the series, it also exceptionally has a stable +4 state that does not oxidize water. It is also considered one of the rare-"
+    },
+    {
+      "type": "text",
+      "text": "earth elements. Cerium has no biological role and is not very toxic.$(p)Despite always occurring in combination with the other rare-earth elements in minerals such as those of the monazite and bastnäsite groups, cerium is easy to extract from its ores, as it can be distinguished among the lanthanides by its unique ability to be oxidized to the +4 state. It is the most common of the lanthanides, "
+    },
+    {
+      "type": "text",
+      "text": "followed by $(l:materials/Neodymium)neodymium$(/l), $(l:materials/Lanthanum)lanthanum$(/l), and $(l:materials/Praseodymium)praseodymium$(/l). It is the 26th-most abundant element, making up 66 ppm of the Earth's crust, half as much as chlorine and five times as much as $(l:materials/Lead)lead$(/l).$(p)Cerium was the first of the lanthanides to be discovered, in Bastnäs, Sweden by Jöns Jakob Berzelius and Wilhelm Hisinger in 1803, and independently by Martin Heinrich Klaproth in Germany "
+    },
+    {
+      "type": "text",
+      "text": "in the same year. In 1839 Carl Gustaf Mosander became the first to isolate the metal. Today, cerium and its compounds have a variety of uses: for example, cerium(IV) oxide is used to polish glass and is an important part of catalytic converters. Cerium metal is used in ferrocerium lighters for its pyrophoric properties. Cerium-doped YAG phosphor is used in conjunction with blue light-emitting diodes to produce white light in most "
+    },
+    {
+      "type": "text",
+      "text": "commercial white LED light sources."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10014"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Indium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10031",
+      "text": "Abbreviation: In$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Indium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Indium is a chemical element with the symbol In and atomic number 49. Indium is the softest metal that is not considered to be an alkali metal. It is a silvery-white metal that resembles $(l:materials/Tin)Tin$(/l)(Sn) in appearance. It is a post-transition metal that makes up 0.21 parts per million of the Earth's crust. Indium has a melting point higher than $(l:materials/Sodium)sodium$(/l) and $(l:materials/Gallium)gallium$(/l), but lower than $(l:materials/Lithium)lithium$(/l) and $(l:materials/Tin)tin$(/l). Chemically, indium is similar to $(l:materials/Gallium)gallium$(/l) and thallium, and "
+    },
+    {
+      "type": "text",
+      "text": "it is largely intermediate between the two in terms of its properties. Indium was discovered in 1863 by Ferdinand Reich and Hieronymous Theodor Richter by spectroscopic methods. They named it for the indigo blue line in its spectrum. Indium was isolated the next year.$(p)Indium is a minor component in $(l:materials/Zinc)zinc$(/l) sulfide ores and is produced as a byproduct of $(l:materials/Zinc)zinc$(/l) refinement. "
+    },
+    {
+      "type": "text",
+      "text": "It is most notably used in the semiconductor industry, in low-melting-point metal alloys such as solders, in soft-metal high-vacuum seals, and in the production of transparent conductive coatings of indium $(l:materials/Tin)tin$(/l) oxide (ITO) on glass. Indium is considered a technology-critical element.$(p)Indium has no biological role, though its compounds are somewhat toxic when injected into the bloodstream."
+    },
+    {
+      "type": "text",
+      "text": " Most occupational exposure is through ingestion, from which indium compounds are not absorbed well, and inhalation, from which they are moderately absorbed."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10031"
+}

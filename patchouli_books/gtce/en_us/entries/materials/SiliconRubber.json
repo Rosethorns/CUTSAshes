@@ -1,0 +1,24 @@
+{
+  "name": "Silicone Rubber",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10391",
+      "text": "Abbreviation: SRB$(p)Chemical Makeup: C2H6OSi$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Silicone_rubber)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Silicone $(l:materials/Rubber)rubber$(/l) is an elastomer ($(l:materials/Rubber)rubber$(/l)-like material) composed of silicone—itself a polymer—containing $(l:materials/Silicon)silicon$(/l) together with $(l:materials/Carbon)carbon$(/l), hydrogen, and oxygen. Silicone rubbers are widely used in industry, and there are multiple formulations. Silicone rubbers are often one- or two-part polymers, and may contain fillers to improve properties or reduce cost. Silicone $(l:materials/Rubber)rubber$(/l) is generally non-reactive, stable, and "
+    },
+    {
+      "type": "text",
+      "text": "resistant to extreme environments and temperatures from -67 °F to 572 °F (-55 °C to 300 °C) while still maintaining its useful properties. Due to these properties and its ease of manufacturing and shaping, silicone $(l:materials/Rubber)rubber$(/l) can be found in a wide variety of products, including: voltage line insulators, automotive applications; cooking, baking, and food storage products; apparel such as undergarments, sportswear, and footwear; "
+    },
+    {
+      "type": "text",
+      "text": "electronics; medical devices and implants; and in home repair and hardware with products such as silicone sealants."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10391"
+}

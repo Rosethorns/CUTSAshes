@@ -1,0 +1,20 @@
+{
+  "name": "Duranium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10312",
+      "text": "Source: Star Trek$(p)Abbreviation: Dr$(p)Further Reading: $(l:https://memory-alpha.fandom.com/wiki/Duranium)Star Trek Wiki$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Duranium was an extremely strong metallic substance that was used in alloys for hull construction of the starships and space stations of numerous cultures, including Andorians, Cardassians, Ferengi, Humans, Klingons, and Trabe.$(p)Duranium interests were traded on the open market of the Ferengi Futures Exchange. Over the last three trading cycles prior to mid-2373, there had been an increase of "
+    },
+    {
+      "type": "text",
+      "text": "7.75, a decrease of 2.125, and another increase of 11.375, making an overall gain of seventeen points. That year, DaiMon Igel petitioned to Grand Nagus Zek as to whether he should sell his duranium interests on the Exchange. (DS9: \"Ferengi Love Songs\")"
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10312"
+}

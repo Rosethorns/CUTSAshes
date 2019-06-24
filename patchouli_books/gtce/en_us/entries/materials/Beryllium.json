@@ -1,0 +1,32 @@
+{
+  "name": "Beryllium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "nuclearcraft:ingot:9",
+      "text": "Abbreviation: Be$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Beryllium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Beryllium is a chemical element with the symbol Be and atomic number 4. It is a relatively rare element in the universe, usually occurring as a product of the spallation of larger atomic nuclei that have collided with cosmic rays. Within the cores of stars, beryllium is depleted as it is fused into heavier elements. It is a divalent element which occurs naturally only in combination with other elements in minerals. Notable gemstones "
+    },
+    {
+      "type": "text",
+      "text": "which contain beryllium include beryl (aquamarine, emerald) and chrysoberyl. As a free element it is a $(l:materials/Steel)steel$(/l)-gray, strong, lightweight and brittle alkaline earth metal.$(p)In structural applications, the combination of high flexural rigidity, thermal stability, thermal conductivity and low density (1.85 times that of water) make beryllium metal a desirable aerospace material for aircraft components, "
+    },
+    {
+      "type": "text",
+      "text": "missiles, spacecraft, and satellites. Because of its low density and atomic mass, beryllium is relatively transparent to X-rays and other forms of ionizing radiation; therefore, it is the most common window material for X-ray equipment and components of particle detectors. The high thermal conductivities of beryllium and beryllium oxide have led to their use in thermal management applications. When added as an alloying element "
+    },
+    {
+      "type": "text",
+      "text": "to $(l:materials/Aluminium)aluminium$(/l), $(l:materials/Copper)copper$(/l) (notably the alloy beryllium $(l:materials/Copper)copper$(/l)), $(l:materials/Iron)iron$(/l) or $(l:materials/Nickel)nickel$(/l) beryllium improves many physical properties. Tools made of beryllium $(l:materials/Copper)copper$(/l) alloys are strong and hard and do not create sparks when they strike a $(l:materials/Steel)steel$(/l) surface. Beryllium does not form oxides until it reaches very high temperatures.$(p)The commercial use of beryllium requires the use of appropriate dust control "
+    },
+    {
+      "type": "text",
+      "text": "equipment and industrial controls at all times because of the toxicity of inhaled beryllium-containing dusts that can cause a chronic life-threatening allergic disease in some people called berylliosis."
+    }
+  ],
+  "icon": "nuclearcraft:ingot:9"
+}

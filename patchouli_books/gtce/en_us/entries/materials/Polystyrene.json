@@ -1,0 +1,24 @@
+{
+  "name": "Polystyrene",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10395",
+      "text": "Abbreviation: Poly$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Polystyrene)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Polystyrene (PS) is a synthetic aromatic hydrocarbon polymer made from the monomer styrene. Polystyrene can be solid or foamed. General-purpose polystyrene is clear, hard, and rather brittle. It is an inexpensive resin per unit weight. It is a rather poor barrier to oxygen and water vapour and has a relatively low melting point. Polystyrene is one of the most widely used plastics, the scale of its production "
+    },
+    {
+      "type": "text",
+      "text": "being several million tonnes per year. Polystyrene can be naturally transparent, but can be coloured with colourants. Uses include protective packaging (such as packing peanuts and CD and DVD cases), containers, lids, bottles, trays, tumblers, disposable cutlery  and in the making of models.$(p)As a thermoplastic polymer, polystyrene is in a solid (glassy) state at room temperature but flows if "
+    },
+    {
+      "type": "text",
+      "text": "heated above about 100 °C, its glass transition temperature. It becomes rigid again when cooled. This temperature behaviour is exploited for extrusion (as in Styrofoam) and also for molding and vacuum forming, since it can be cast into molds with fine detail."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10395"
+}

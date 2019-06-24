@@ -1,0 +1,28 @@
+{
+  "name": "Annealed Copper",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10087",
+      "text": "Abbreviation: ACu$(p)Chemical Makeup: Cu$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Annealing_(metallurgy))Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "In metallurgy and materials science, annealing is a heat treatment that alters the physical and sometimes chemical properties of a material to increase its ductility and reduce its hardness, making it more workable. It involves heating a material above its recrystallization temperature, maintaining a suitable temperature for a suitable amount of time, and then cooling."
+    },
+    {
+      "type": "text",
+      "text": "In annealing, atoms migrate in the crystal lattice and the number of dislocations decreases, leading to a change in ductility and hardness. As the material cools it recrystallizes. For many alloys, including $(l:materials/Carbon)carbon$(/l) $(l:materials/Steel)steel$(/l), the crystal grain size and phase composition, which ultimately determine the material properties, are dependent on the heating rate and cooling rate. Hot working or cold working after the "
+    },
+    {
+      "type": "text",
+      "text": "annealing process alter the metal structure, so further heat treatments may be used to achieve the properties required. With knowledge of the composition and phase diagram, heat treatment can be used to adjust from harder and more brittle to softer and more ductile.$(p)In the cases of $(l:materials/Copper)copper$(/l), $(l:materials/Steel)steel$(/l), $(l:materials/Silver)silver$(/l), and $(l:materials/Brass)brass$(/l), this process is performed by heating the material (generally until glowing) for "
+    },
+    {
+      "type": "text",
+      "text": "a while and then slowly letting it cool to room temperature in still air. $(l:materials/Copper)Copper$(/l), $(l:materials/Silver)silver$(/l) and $(l:materials/Brass)brass$(/l) can be cooled slowly in air, or quickly by quenching in water, unlike ferrous metals, such as $(l:materials/Steel)steel$(/l), which must be cooled slowly to anneal. In this fashion, the metal is softened and prepared for further work such as shaping, stamping, or forming."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10087"
+}

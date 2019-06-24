@@ -1,0 +1,24 @@
+{
+  "name": "Damascus Steel",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10234",
+      "text": "Abbreviation: DaSt$(p)Chemical Makeup: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Damascus_steel)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Damascus $(l:materials/Steel)steel$(/l) was the forged $(l:materials/Steel)steel$(/l) comprising the blades of swords smithed in the Near East from ingots of Wootz $(l:materials/Steel)steel$(/l) imported from India and Sri Lanka. These swords are characterized by distinctive patterns of banding and mottling reminiscent of flowing water, or in a \"ladder\" or \"teardrop\" pattern. Such blades were reputed to be tough, resistant to shattering, and capable of being honed to a sharp, resilient edge."
+    },
+    {
+      "type": "text",
+      "text": "The $(l:materials/Steel)steel$(/l) is named after Damascus, the capital city of Syria and one of the largest cities in the ancient Levant. It may either refer to swords made or sold in Damascus directly, or it may just refer to the aspect of the typical patterns, by comparison with Damask fabrics (which are themselves named after Damascus).$(p)The original method of producing wootz is not known. Modern attempts to duplicate "
+    },
+    {
+      "type": "text",
+      "text": "the metal have not been entirely successful due to differences in raw materials and manufacturing techniques. Several individuals in modern times have claimed that they have rediscovered the methods by which the original Damascus $(l:materials/Steel)steel$(/l) was produced."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10234"
+}

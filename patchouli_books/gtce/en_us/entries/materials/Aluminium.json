@@ -1,0 +1,24 @@
+{
+  "name": "Aluminium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "embers:ingot_aluminum:0",
+      "text": "Abbreviation: Al$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Aluminium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Aluminium (aluminum in American and Canadian English) is a chemical element with the symbol Al and atomic number 13. It is a silvery-white, soft, non-magnetic and ductile metal in the $(l:materials/Boron)boron$(/l) group. By mass, aluminium makes up about 8% of the Earth's crust; it is the third most abundant element after oxygen and $(l:materials/Silicon)silicon$(/l) and the most abundant metal in the crust, though it is less common in the mantle below. The chief ore of aluminium is "
+    },
+    {
+      "type": "text",
+      "text": "bauxite. Aluminium metal is so chemically reactive that native specimens are rare and limited to extreme reducing environments. Instead, it is found combined in over 270 different minerals.$(p)Aluminium is remarkable for its low density and its ability to resist corrosion through the phenomenon of passivation. Aluminium and its alloys are vital to the aerospace industry and important in transportation "
+    },
+    {
+      "type": "text",
+      "text": "and building industries, such as building facades and window frames. The oxides and sulfates are the most useful compounds of aluminium."
+    }
+  ],
+  "icon": "embers:ingot_aluminum:0"
+}

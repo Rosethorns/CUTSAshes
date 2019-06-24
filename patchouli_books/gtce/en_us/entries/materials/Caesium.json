@@ -1,0 +1,32 @@
+{
+  "name": "Caesium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10010",
+      "text": "Abbreviation: Cs$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Caesium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Caesium (IUPAC spelling) (also spelled cesium (American spelling)) is a chemical element with the symbol Cs and atomic number 55. It is a soft, silvery-golden alkali metal with a melting point of 28.5 °C (83.3 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium has physical and chemical properties similar to those of $(l:materials/Rubidium)rubidium$(/l) and $(l:materials/Potassium)potassium$(/l). The most reactive of all "
+    },
+    {
+      "type": "text",
+      "text": "metals, it is pyrophoric and reacts with water even at −116 °C (−177 °F). It is the least electronegative element, with a value of 0.79 on the Pauling scale. It has only one stable isotope, caesium-133. Caesium is mined mostly from pollucite, while the radioisotopes, especially caesium-137, a fission product, are extracted from waste produced by nuclear reactors.$(p)The German chemist Robert "
+    },
+    {
+      "type": "text",
+      "text": "Bunsen and physicist Gustav Kirchhoff discovered caesium in 1860 by the newly developed method of flame spectroscopy. The first small-scale applications for caesium were as a \"getter\" in vacuum tubes and in photoelectric cells. In 1967, acting on Einstein's proof that the speed of light is the most constant dimension in the universe, the International System of Units used two specific wave counts from an emission spectrum of "
+    },
+    {
+      "type": "text",
+      "text": "caesium-133 to co-define the second and the metre. Since then, caesium has been widely used in highly accurate atomic clocks.$(p)Since the 1990s, the largest application of the element has been as caesium formate for drilling fluids, but it has a range of applications in the production of electricity, in electronics, and in chemistry. The radioactive isotope caesium-137 has a half-life "
+    },
+    {
+      "type": "text",
+      "text": "of about 30 years and is used in medical applications, industrial gauges, and hydrology. Nonradioactive caesium compounds are only mildly toxic, but the pure metal's tendency to react explosively with water means that caesium is considered a hazardous material, and the radioisotopes present a significant health and ecological hazard in the environment."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10010"
+}

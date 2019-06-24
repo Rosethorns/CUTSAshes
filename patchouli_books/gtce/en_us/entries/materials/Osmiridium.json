@@ -1,0 +1,20 @@
+{
+  "name": "Osmiridium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10207",
+      "text": "Abbreviation: IrOs$(p)Chemical Makeup: Ir3Os$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Osmiridium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Osmiridium and iridosmine are natural alloys of the elements $(l:materials/Osmium)osmium$(/l) and $(l:materials/Iridium)iridium$(/l), with traces of other $(l:materials/Platinum)platinum$(/l)-group metals.$(p)Osmiridium has been defined as containing a higher proportion of $(l:materials/Iridium)iridium$(/l), with iridosmine containing more $(l:materials/Osmium)osmium$(/l). However, as the content of the natural Os-Ir alloys varies considerably, the constituent percentages of specimens often reflects the reverse situation of "
+    },
+    {
+      "type": "text",
+      "text": "osmiridium describing specimens containing a higher proportion of $(l:materials/Osmium)osmium$(/l) and iridosmine specimens containing more $(l:materials/Iridium)iridium$(/l)."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10207"
+}

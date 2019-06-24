@@ -1,0 +1,28 @@
+{
+  "name": "Cobalt",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10017",
+      "text": "Abbreviation: Co$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Cobalt)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Cobalt is a chemical element with the symbol Co and atomic number 27. Like $(l:materials/Nickel)nickel$(/l), cobalt is found in the Earth's crust only in chemically combined form, save for small deposits found in alloys of natural meteoric $(l:materials/Iron)iron$(/l). The free element, produced by reductive smelting, is a hard, lustrous, $(l:materials/Silver)silver$(/l)-gray metal.$(p)Cobalt-based blue pigments (cobalt blue) have been used since ancient times for jewelry and paints, and "
+    },
+    {
+      "type": "text",
+      "text": "to impart a distinctive blue tint to glass, but the color was later thought by alchemists  to be due to the known metal $(l:materials/Bismuth)bismuth$(/l). Miners had long used the name kobold ore (German for goblin ore) for some of the blue-pigment producing minerals; they were so named because they were poor in known metals, and gave poisonous arsenic-containing fumes when smelted. In 1735, such ores were found to be reducible to a new metal (the first "
+    },
+    {
+      "type": "text",
+      "text": "discovered since ancient times), and this was ultimately named for the kobold.$(p)Cobalt is primarily used in the manufacture of magnetic, wear-resistant and high-strength alloys. The compounds cobalt silicate and cobalt(II) aluminate (CoAl2O4, cobalt blue) give a distinctive deep blue color to glass, ceramics, inks, paints and varnishes. Cobalt occurs naturally as only one "
+    },
+    {
+      "type": "text",
+      "text": "stable isotope, cobalt-59. Cobalt-60 is a commercially important radioisotope, used as a radioactive tracer and for the production of high energy gamma rays."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10017"
+}

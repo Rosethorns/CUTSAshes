@@ -1,0 +1,24 @@
+{
+  "name": "Cupronickel",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10109",
+      "text": "Abbreviation: CuNi$(p)Chemical Makeup: CuNi$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Cupronickel)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Cupronickel or $(l:materials/Copper)copper$(/l)-$(l:materials/Nickel)nickel$(/l) (CuNi) is an alloy of $(l:materials/Copper)copper$(/l) that contains $(l:materials/Nickel)nickel$(/l) and strengthening elements, such as $(l:materials/Iron)iron$(/l) and $(l:materials/Manganese)manganese$(/l). The $(l:materials/Copper)copper$(/l) contents typically varies from 60 to 90 percent. (Monel metal is a $(l:materials/Nickel)nickel$(/l)-$(l:materials/Copper)copper$(/l) alloy that contains a minimum of 52 percent $(l:materials/Nickel)nickel$(/l).)$(p)Despite its high $(l:materials/Copper)copper$(/l) content, cupronickel is $(l:materials/Silver)silver$(/l) in colour. Cupronickel is highly resistant to corrosion by salt water, and "
+    },
+    {
+      "type": "text",
+      "text": "is therefore used for piping, heat exchangers and condensers in seawater systems, as well as for marine hardware. It is sometimes used for the propellers, propeller shafts, and hulls of high-quality boats. Other uses include military equipment and chemical, petrochemical, and electrical industries.$(p)Another common modern use of cupronickel is $(l:materials/Silver)silver$(/l)-coloured coins. For this use, "
+    },
+    {
+      "type": "text",
+      "text": "the typical alloy has 3:1 $(l:materials/Copper)copper$(/l) to $(l:materials/Nickel)nickel$(/l) ratio, with very small amounts of $(l:materials/Manganese)manganese$(/l). In the past, true $(l:materials/Silver)silver$(/l) coins were debased with cupronickel."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10109"
+}

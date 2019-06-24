@@ -1,0 +1,16 @@
+{
+  "name": "Nichrome",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10133",
+      "text": "Abbreviation: Nich$(p)Chemical Makeup: Ni4Cr$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Nichrome)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Nichrome (NiCr, $(l:materials/Nickel)nickel$(/l)-$(l:materials/Chrome)chrome$(/l), $(l:materials/Chrome)chrome$(/l)-$(l:materials/Nickel)nickel$(/l), etc.) is any of various alloys of $(l:materials/Nickel)nickel$(/l), chromium, and often $(l:materials/Iron)iron$(/l) (and possibly other elements). The most common usage is as resistance wire, although they are also used in some dental restorations (fillings) and in a few other applications."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10133"
+}

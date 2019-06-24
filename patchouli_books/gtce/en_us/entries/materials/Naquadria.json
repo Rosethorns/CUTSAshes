@@ -1,0 +1,16 @@
+{
+  "name": "Naquadria",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10310",
+      "text": "Source: Stargate$(p)Abbreviation: Nqr$(p)Further Reading: $(l:https://stargate.fandom.com/wiki/Naquadria)Stargate Wiki$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Naquadria is a highly unstable radioactive isotope of $(l:materials/Naquadah)Naquadah$(/l) which has the potential to be an enormously powerful energy source. Even a small amount is capable of emitting a pulse of energy far greater than that of weapons-grade $(l:materials/Naquadah)Naquadah$(/l). As such, when used as a weapon, it has the potential to be as (if not more) powerful as a $(l:materials/Naquadah)Naquadah$(/l)-enhanced nuclear warhead."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10310"
+}

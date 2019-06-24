@@ -1,0 +1,28 @@
+{
+  "name": "HSLA Steel",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "nuclearcraft:alloy:15",
+      "text": "Abbreviation: HSLA$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/High-strength_low-alloy_steel)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "High-strength low-alloy $(l:materials/Steel)steel$(/l) (HSLA) is a type of alloy $(l:materials/Steel)steel$(/l) that provides better mechanical properties or greater resistance to corrosion than $(l:materials/Carbon)carbon$(/l) $(l:materials/Steel)steel$(/l). HSLA steels vary from other steels in that they are not made to meet a specific chemical composition but rather to specific mechanical properties. They have a $(l:materials/Carbon)carbon$(/l) content between 0.05-0.25% to retain formability and weldability. Other alloying elements include up to 2.0% "
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Manganese)manganese$(/l) and small quantities of $(l:materials/Copper)copper$(/l), $(l:materials/Nickel)nickel$(/l), $(l:materials/Niobium)niobium$(/l), nitrogen, $(l:materials/Vanadium)vanadium$(/l), chromium, $(l:materials/Molybdenum)molybdenum$(/l), $(l:materials/Titanium)titanium$(/l), $(l:materials/Calcium)calcium$(/l), rare earth elements, or $(l:materials/Zirconium)zirconium$(/l). $(l:materials/Copper)Copper$(/l), $(l:materials/Titanium)titanium$(/l), $(l:materials/Vanadium)vanadium$(/l), and $(l:materials/Niobium)niobium$(/l) are added for strengthening purposes. These elements are intended to alter the microstructure of $(l:materials/Carbon)carbon$(/l) steels, which is usually a ferrite-pearlite aggregate, to produce a very fine dispersion of alloy carbides in an almost pure "
+    },
+    {
+      "type": "text",
+      "text": "ferrite matrix. This eliminates the toughness-reducing effect of a pearlitic volume fraction yet maintains and increases the material's strength by refining the grain size, which in the case of ferrite increases yield strength by 50% for every halving of the mean grain diameter. Precipitation strengthening plays a minor role, too. Their yield strengths can be anywhere between 250–590 megapascals (36,000–86,000 "
+    },
+    {
+      "type": "text",
+      "text": "psi). Because of their higher strength and toughness HSLA steels usually require 25 to 30% more power to form, as compared to $(l:materials/Carbon)carbon$(/l) steels."
+    }
+  ],
+  "icon": "nuclearcraft:alloy:15"
+}

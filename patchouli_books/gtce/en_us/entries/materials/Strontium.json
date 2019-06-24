@@ -1,0 +1,28 @@
+{
+  "name": "Strontium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10064",
+      "text": "Abbreviation: Sr$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Strontium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Strontium is the chemical element with the symbol Sr and atomic number 38. An alkaline earth metal, strontium is a soft $(l:materials/Silver)silver$(/l)-white yellowish metallic element that is highly chemically reactive. The metal forms a dark oxide layer when it is exposed to air. Strontium has physical and chemical properties similar to those of its two vertical neighbors in the periodic table, $(l:materials/Calcium)calcium$(/l) and $(l:materials/Barium)barium$(/l). It occurs naturally "
+    },
+    {
+      "type": "text",
+      "text": "mainly in the minerals celestine and strontianite, and is mostly mined from these. While natural strontium is stable, the synthetic 90Sr isotope is radioactive and is one of the most dangerous components of nuclear fallout, as strontium is absorbed by the body in a similar manner to $(l:materials/Calcium)calcium$(/l). Natural stable strontium, on the other hand, is not hazardous to health.$(p)Both strontium and "
+    },
+    {
+      "type": "text",
+      "text": "strontianite are named after Strontian, a village in Scotland near which the mineral was discovered in 1790 by Adair Crawford and William Cruickshank; it was identified as a new element the next year from its crimson-red flame test color. Strontium was first isolated as a metal in 1808 by Humphry Davy using the then-newly discovered process of electrolysis. During the 19th century, strontium was mostly used in the production of "
+    },
+    {
+      "type": "text",
+      "text": "sugar from sugar beet (see strontian process). At the peak of production of television cathode ray tubes, as much as 75 percent of strontium consumption in the United States was used for the faceplate glass. With the replacement of cathode ray tubes with other display methods, consumption of strontium has dramatically declined."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10064"
+}

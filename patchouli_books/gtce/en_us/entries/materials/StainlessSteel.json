@@ -1,0 +1,28 @@
+{
+  "name": "Stainless Steel",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10183",
+      "text": "Abbreviation: SStl$(p)Chemical Makeup: Fe6CrMnNi$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Stainless_steel)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "In metallurgy, stainless $(l:materials/Steel)steel$(/l), also known as inox $(l:materials/Steel)steel$(/l) or inox from French inoxydable (inoxidizable), is a $(l:materials/Steel)steel$(/l) alloy, with a minimum of 10.5% chromium content by mass and a maximum of 1.2% $(l:materials/Carbon)carbon$(/l) by mass.$(p)Stainless steels are most notable for their corrosion resistance, which increases with increasing chromium content. Additions of $(l:materials/Molybdenum)molybdenum$(/l) increase corrosion resistance in reducing acids "
+    },
+    {
+      "type": "text",
+      "text": "and against pitting attack in chloride solutions. Thus, there are numerous grades of stainless $(l:materials/Steel)steel$(/l) with varying chromium and $(l:materials/Molybdenum)molybdenum$(/l) contents to suit the environment the alloy must endure. Stainless $(l:materials/Steel)steel$(/l)'s resistance to corrosion and staining, low maintenance, and familiar luster make it an ideal material for many applications where both the strength of $(l:materials/Steel)steel$(/l) and corrosion resistance are required."
+    },
+    {
+      "type": "text",
+      "text": "Stainless steels are rolled into sheets, plates, bars, wire, and tubing to be used in: cookware, cutlery, surgical instruments, major appliances; construction material in large buildings, such as the Chrysler Building; industrial equipment (for example, in paper mills, chemical plants, water treatment); and storage tanks and tankers for chemicals and food products (for example, chemical tankers and road tankers). Stainless $(l:materials/Steel)steel$(/l)'s "
+    },
+    {
+      "type": "text",
+      "text": "corrosion resistance, the ease with which it can be steam cleaned and sterilized, and no need for surface coatings has also influenced its use in commercial kitchens and food processing plants."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10183"
+}

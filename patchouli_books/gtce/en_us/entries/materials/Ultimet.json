@@ -1,0 +1,20 @@
+{
+  "name": "Ultimet",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10192",
+      "text": "Abbreviation: Ult$(p)Chemical Makeup: Co5Cr2NiMo$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Haynes_International)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "ULTIMET(r) alloy (UNS R31233) provides a unique blend of properties. From a wear standpoint, it behaves like the STELLITE(r) alloys with lower $(l:materials/Carbon)carbon$(/l) contents. From a corrosion standpoint, it possesses many of the attributes of the C-type and G-type HASTELLOY(r) materials, in particular outstanding resistance to chloride-induced pitting and crevice corrosion. Its mechanical and welding characteristics are much closer to those of the "
+    },
+    {
+      "type": "text",
+      "text": "HASTELLOY(r) alloys than those of the STELLITE(r) alloys, whose low ductilities can be problematic.$(p)While ULTIMET(r) alloy has been used successfully in the form of wrought products, its largest applications have involved weld overlays, made with solid wire consumables and arc-welding processes such as GMAW (MIG) and GTAW (TIG)."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10192"
+}

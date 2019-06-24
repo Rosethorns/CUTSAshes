@@ -1,0 +1,20 @@
+{
+  "name": "Indium Gallium Phosphide",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10421",
+      "text": "Abbreviation: IGP$(p)Chemical Makeup: InGaP$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Indium_gallium_phosphide)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Indium)Indium$(/l) $(l:materials/Gallium)gallium$(/l) phosphide (InGaP), also called $(l:materials/Gallium)gallium$(/l) $(l:materials/Indium)indium$(/l) phosphide (GaInP), is a semiconductor composed of $(l:materials/Indium)indium$(/l), $(l:materials/Gallium)gallium$(/l) and phosphorus. It is used in high-power and high-frequency electronics because of its superior electron velocity with respect to the more common semiconductors $(l:materials/Silicon)silicon$(/l) and $(l:materials/Gallium)gallium$(/l) arsenide.$(p)It is used mainly in HEMT and HBT structures, but also for the fabrication of high "
+    },
+    {
+      "type": "text",
+      "text": "efficiency solar cells used for space applications and, in combination with $(l:materials/Aluminium)aluminium$(/l) (AlGaInP alloy) to make high brightness LEDs with orange-red, orange, yellow, and green colors. Some semiconductor devices such as EFluor Nanocrystal use InGaP as their core particle.$(p)Indium $(l:materials/Gallium)gallium$(/l) phosphide is a solid solution of $(l:materials/Indium)indium$(/l) phosphide and $(l:materials/Gallium)gallium$(/l) phosphide."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10421"
+}

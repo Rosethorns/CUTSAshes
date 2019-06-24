@@ -1,0 +1,28 @@
+{
+  "name": "Magnalium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10129",
+      "text": "Abbreviation: Mag$(p)Chemical Makeup: MgAl2$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Magnalium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Magnalium is an $(l:materials/Aluminium)aluminium$(/l) alloy with 5% $(l:materials/Magnesium)magnesium$(/l) and 95% aluminum.$(p)Although they are generally more expensive than $(l:materials/Aluminium)aluminium$(/l), the high strength, low density, and greater workability of alloys with low amounts of $(l:materials/Magnesium)magnesium$(/l) leads to their use in aircraft and automobile parts. Alloys with about 50% $(l:materials/Magnesium)magnesium$(/l) are brittle and corrode easily, which makes them unsuitable for most "
+    },
+    {
+      "type": "text",
+      "text": "engineering uses. However, these alloys are flammable when powdered, are more resistant to corrosion than pure $(l:materials/Magnesium)magnesium$(/l), and are more reactive than pure $(l:materials/Aluminium)aluminium$(/l) and are therefore used in pyrotechnics as a metal fuel and to produce sparks. Due to the high reactivity, magnalium burns comparably hot and forms bright yellowish white sparks. Magnalium powder also burns with a crackling sound if burnt by itself, and provides "
+    },
+    {
+      "type": "text",
+      "text": "a good compromise between the reactivity of $(l:materials/Magnesium)magnesium$(/l), and the stability of $(l:materials/Aluminium)aluminium$(/l). Another benefit for pyrotechnics is the brittleness of the alloy, as mentioned before. It is easily broken with a hammer and then ground in a coffee grinder to usable powder. It will grind in a ball mill into a fine powder in a matter of hours, as opposed to a matter of days with $(l:materials/Aluminium)aluminium$(/l) powder."
+    },
+    {
+      "type": "text",
+      "text": "It is much more powerful than $(l:materials/Aluminium)aluminium$(/l) powder (when compared at similar mesh size) and similar precautions should be taken as per $(l:materials/Magnesium)magnesium$(/l). These include dangers of moisture and incompatibility with other compounds (boric acid and ammonium compounds). It is also used for making balance beams and other components of light instruments."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10129"
+}

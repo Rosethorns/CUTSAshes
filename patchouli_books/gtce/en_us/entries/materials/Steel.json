@@ -1,0 +1,24 @@
+{
+  "name": "Steel",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "nuclearcraft:alloy:5",
+      "text": "Abbreviation: Stl$(p)Chemical Makeup: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Steel)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Steel is an alloy of $(l:materials/Iron)iron$(/l) and $(l:materials/Carbon)carbon$(/l), and sometimes other elements. Because of its high tensile strength and low cost, it is a major component used in buildings, infrastructure, tools, ships, automobiles, machines, appliances, and weapons.$(p)Iron is the base metal of steel. $(l:materials/Iron)Iron$(/l) is able to take on two crystalline forms (allotropic forms), body centered cubic and face centered cubic, depending on "
+    },
+    {
+      "type": "text",
+      "text": "its temperature. In the body-centered cubic arrangement, there is an $(l:materials/Iron)iron$(/l) atom in the center and eight atoms at the vertices of each cubic unit cell; in the face-centered cubic, there is one atom at the center of each of the six faces of the cubic unit cell and eight atoms at its vertices. It is the interaction of the allotropes of $(l:materials/Iron)iron$(/l) with the alloying elements, primarily $(l:materials/Carbon)carbon$(/l), that gives steel and cast $(l:materials/Iron)iron$(/l) their range of unique "
+    },
+    {
+      "type": "text",
+      "text": "properties.In pure $(l:materials/Iron)iron$(/l), the crystal structure has relatively little resistance to the $(l:materials/Iron)iron$(/l) atoms slipping past one another, and so pure $(l:materials/Iron)iron$(/l) is quite ductile, or soft and easily formed. In steel, small amounts of $(l:materials/Carbon)carbon$(/l), other elements, and inclusions within the $(l:materials/Iron)iron$(/l) act as hardening agents that prevent the movement of dislocations that are common in the crystal lattices of $(l:materials/Iron)iron$(/l) atoms."
+    }
+  ],
+  "icon": "nuclearcraft:alloy:5"
+}

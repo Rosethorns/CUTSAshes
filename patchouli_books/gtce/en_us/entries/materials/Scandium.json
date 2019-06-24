@@ -1,0 +1,28 @@
+{
+  "name": "Scandium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10060",
+      "text": "Abbreviation: Sc$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Scandium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Scandium is a chemical element with the symbol Sc and atomic number 21. A silvery-white metallic d-block element, it has historically been classified as a rare-earth element, together with $(l:materials/Yttrium)yttrium$(/l) and the lanthanides. It was discovered in 1879 by spectral analysis of the minerals euxenite and gadolinite from Scandinavia.$(p)Scandium is present in most of the deposits of rare-"
+    },
+    {
+      "type": "text",
+      "text": "earth and uranium compounds, but it is extracted from these ores in only a few mines worldwide. Because of the low availability and the difficulties in the preparation of metallic scandium, which was first done in 1937, applications for scandium were not developed until the 1970s. The positive effects of scandium on $(l:materials/Aluminium)aluminium$(/l) alloys were discovered in the 1970s, and its use in such alloys remains its only major "
+    },
+    {
+      "type": "text",
+      "text": "application. The global trade of scandium oxide is about 10 tonnes per year.$(p)The properties of scandium compounds are intermediate between those of $(l:materials/Aluminium)aluminium$(/l) and $(l:materials/Yttrium)yttrium$(/l). A diagonal relationship exists between the behavior of $(l:materials/Magnesium)magnesium$(/l) and scandium, just as there is between $(l:materials/Beryllium)beryllium$(/l) and $(l:materials/Aluminium)aluminium$(/l). In the chemical compounds of the elements in group 3, the predominant oxidation state "
+    },
+    {
+      "type": "text",
+      "text": "is +3."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10060"
+}

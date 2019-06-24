@@ -1,0 +1,24 @@
+{
+  "name": "Pig Iron",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10140",
+      "text": "Abbreviation: Pig$(p)Chemical Makeup: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Pig_iron)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Pig $(l:materials/Iron)iron$(/l) is an intermediate product of the $(l:materials/Iron)iron$(/l) industry, also known as crude $(l:materials/Iron)iron$(/l), which is first obtained from a smelting furnace in the form of oblong blocks. Pig $(l:materials/Iron)iron$(/l) has a very high $(l:materials/Carbon)carbon$(/l) content, typically 3.8-4.7%, along with silica and other constituents of dross, which makes it very brittle and not useful directly as a material except for limited applications. Pig $(l:materials/Iron)iron$(/l) is made by smelting $(l:materials/Iron)iron$(/l) ore into a transportable ingot of "
+    },
+    {
+      "type": "text",
+      "text": "impure high $(l:materials/Carbon)carbon$(/l)-content $(l:materials/Iron)iron$(/l) in a blast furnace as an ingredient for further processing steps. The traditional shape of the molds used for pig $(l:materials/Iron)iron$(/l) ingots was a branching structure formed in sand, with many individual ingots at right angles to a central channel or runner, resembling a litter of piglets being suckled by a sow. When the metal had cooled and hardened, the smaller ingots (the pigs) were simply broken from the "
+    },
+    {
+      "type": "text",
+      "text": "runner (the sow), hence the name pig $(l:materials/Iron)iron$(/l). As pig $(l:materials/Iron)iron$(/l) is intended for remelting, the uneven size of the ingots and the inclusion of small amounts of sand caused only insignificant problems considering the ease of casting and handling them."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10140"
+}

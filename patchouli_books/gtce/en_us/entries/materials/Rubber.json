@@ -1,0 +1,24 @@
+{
+  "name": "Rubber",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10152",
+      "text": "Abbreviation: Rub$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Natural_rubber)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Natural rubber, also called India rubber or caoutchouc, as initially produced, consists of polymers of the organic compound isoprene, with minor impurities of other organic compounds, plus water. Thailand and Indonesia are two of the leading rubber producers. Forms of polyisoprene that are used as natural rubbers are classified as elastomers.$(p)Currently, rubber is harvested mainly in the form "
+    },
+    {
+      "type": "text",
+      "text": "of the latex from the rubber tree or others. The latex is a sticky, milky colloid drawn off by making incisions in the bark and collecting the fluid in vessels in a process called \"tapping\". The latex then is refined into rubber ready for commercial processing. In major areas, latex is allowed to coagulate in the collection cup. The coagulated lumps are collected and processed into dry forms for marketing."
+    },
+    {
+      "type": "text",
+      "text": "Natural rubber is used extensively in many applications and products, either alone or in combination with other materials. In most of its useful forms, it has a large stretch ratio and high resilience, and is extremely waterproof."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10152"
+}
