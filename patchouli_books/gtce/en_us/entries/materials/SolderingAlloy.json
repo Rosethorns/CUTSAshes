@@ -1,0 +1,24 @@
+{
+  "name": "Solder",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10180",
+      "text": "Abbreviation: Sld$(p)Chemical Makeup: Sn9Sb$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Solder)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Solder is a fusible metal alloy used to create a permanent bond between metal workpieces. The word solder comes from the Middle English word soudur, via Old French solduree and soulder, from the Latin solidare, meaning \"to make solid\". In fact, solder must first be melted in order to adhere to and connect the pieces together after cooling, which requires that an alloy suitable for use as solder have a lower melting point than the pieces "
+    },
+    {
+      "type": "text",
+      "text": "being joined. The solder should also be resistant to oxidative and corrosive effects that would degrade the joint over time. Solder used in making electrical connections also needs to have favorable electrical characteristics.$(p)Soft solder typically has a melting point range of 90 to 450 °C (190 to 840 °F; 360 to 720 K), and is commonly used in electronics, plumbing, and sheet metal work. Alloys "
+    },
+    {
+      "type": "text",
+      "text": "that melt between 180 and 190 °C (360 and 370 °F; 450 and 460 K) are the most commonly used. Soldering performed using alloys with a melting point above 450 °C (840 °F; 720 K) is called \"hard soldering\", \"silver soldering\", or brazing."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10180"
+}

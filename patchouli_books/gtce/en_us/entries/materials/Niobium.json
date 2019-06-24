@@ -1,0 +1,40 @@
+{
+  "name": "Niobium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10045",
+      "text": "Abbreviation: Nb$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Niobium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Niobium, formerly known as columbium, is a chemical element with the symbol Nb (formerly Cb) and atomic number 41. Niobium is a light grey, crystalline, and ductile transition metal. Pure Niobium has a hardness similar to that of pure $(l:materials/Titanium)titanium$(/l), and it has similar ductility to $(l:materials/Iron)iron$(/l). Niobium oxidizes in the earth's atmosphere very slowly, hence its application in jewelry as a hypoallergenic alternative to $(l:materials/Nickel)nickel$(/l). Niobium is often "
+    },
+    {
+      "type": "text",
+      "text": "found in the minerals pyrochlore and columbite, hence the former name \"columbium\". Its name comes from Greek mythology, specifically Niobe, who was the daughter of Tantalus, the namesake of $(l:materials/Tantalum)tantalum$(/l). The name reflects the great similarity between the two elements in their physical and chemical properties, making them difficult to distinguish.$(p)The English chemist "
+    },
+    {
+      "type": "text",
+      "text": "Charles Hatchett reported a new element similar to $(l:materials/Tantalum)tantalum$(/l) in 1801 and named it columbium. In 1809, the English chemist William Hyde Wollaston wrongly concluded that $(l:materials/Tantalum)tantalum$(/l) and columbium were identical. The German chemist Heinrich Rose determined in 1846 that $(l:materials/Tantalum)tantalum$(/l) ores contain a second element, which he named niobium. In 1864 and 1865, a series of scientific findings clarified that niobium and columbium were "
+    },
+    {
+      "type": "text",
+      "text": "the same element (as distinguished from $(l:materials/Tantalum)tantalum$(/l)), and for a century both names were used interchangeably. Niobium was officially adopted as the name of the element in 1949, but the name columbium remains in current use in metallurgy in the United States.$(p)It was not until the early 20th century that niobium was first used commercially. Brazil is the leading producer of niobium "
+    },
+    {
+      "type": "text",
+      "text": "and ferroniobium, an alloy of 60-70% niobium with $(l:materials/Iron)iron$(/l). Niobium is used mostly in alloys, the largest part in special $(l:materials/Steel)steel$(/l) such as that used in gas pipelines. Although these alloys contain a maximum of 0.1%, the small percentage of niobium enhances the strength of the $(l:materials/Steel)steel$(/l). The temperature stability of niobium-containing superalloys is important for its use in jet and rocket engines."
+    },
+    {
+      "type": "text",
+      "text": "Niobium is used in various superconducting materials. These superconducting alloys, also containing $(l:materials/Titanium)titanium$(/l) and $(l:materials/Tin)tin$(/l), are widely used in the superconducting magnets of MRI scanners. Other applications of niobium include welding, nuclear industries, electronics, optics, numismatics, and jewelry. In the last two applications, the low toxicity and iridescence produced by anodization are "
+    },
+    {
+      "type": "text",
+      "text": "highly desired properties. Niobium is considered a technology-critical element."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10045"
+}

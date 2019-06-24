@@ -1,0 +1,32 @@
+{
+  "name": "Nickel",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "immersiveengineering:metal:4",
+      "text": "Abbreviation: Ni$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Nickel)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Nickel is a chemical element with the symbol Ni and atomic number 28. It is a silvery-white lustrous metal with a slight golden tinge. Nickel belongs to the transition metals and is hard and ductile. Pure nickel, powdered to maximize the reactive surface area, shows a significant chemical activity, but larger pieces are slow to react with air under standard conditions because an oxide layer forms on the surface and prevents "
+    },
+    {
+      "type": "text",
+      "text": "further corrosion (passivation). Even so, pure native nickel is found in Earth's crust only in tiny amounts, usually in ultramafic rocks, and in the interiors of larger nickel-$(l:materials/Iron)iron$(/l) meteorites that were not exposed to oxygen when outside Earth's atmosphere.$(p)Meteoric nickel is found in combination with $(l:materials/Iron)iron$(/l), a reflection of the origin of those elements as major end products of supernova "
+    },
+    {
+      "type": "text",
+      "text": "nucleosynthesis. An $(l:materials/Iron)iron$(/l)–nickel mixture is thought to compose Earth's outer and inner cores.$(p)Use of nickel (as a natural meteoric nickel–iron alloy) has been traced as far back as 3500 BCE. Nickel was first isolated and classified as a chemical element in 1751 by Axel Fredrik Cronstedt, who initially mistook the ore for a $(l:materials/Copper)copper$(/l) mineral, in the $(l:materials/Cobalt)cobalt$(/l) mines of Los, Hälsingland, Sweden. The "
+    },
+    {
+      "type": "text",
+      "text": "element's name comes from a mischievous sprite of German miner mythology, Nickel (similar to Old Nick), who personified the fact that $(l:materials/Copper)copper$(/l)-nickel ores resisted refinement into $(l:materials/Copper)copper$(/l). An economically important source of nickel is the $(l:materials/Iron)iron$(/l) ore limonite, which often contains 1–2% nickel. Nickel's other important ore minerals include pentlandite and a mixture of Ni-rich natural silicates known as garnierite. Major production "
+    },
+    {
+      "type": "text",
+      "text": "sites include the Sudbury region in Canada (which is thought to be of meteoric origin), New Caledonia in the Pacific, and Norilsk in Russia."
+    }
+  ],
+  "icon": "immersiveengineering:metal:4"
+}

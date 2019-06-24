@@ -1,0 +1,9 @@
+{
+	"name": "Engineering 201",
+	"landing_text": "Welcome to Engineering 201, your introduction to the world of pain and suffering.",
+    "version": 0,
+    "book_texture": "patchouli:textures/gui/book_red.png",
+    "model": "patchouli:book_red",
+    "show_progress": false,
+    "subtitle": "Overly Comprehensive Edition"
+}

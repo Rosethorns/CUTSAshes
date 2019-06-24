@@ -1,0 +1,28 @@
+{
+  "name": "Graphene",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10205",
+      "text": "Abbreviation: Gphn$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Graphene)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Graphene is an allotrope of $(l:materials/Carbon)carbon$(/l) in the form of a two-dimensional, atomic-scale, hexagonal lattice in which one atom forms each vertex. It is the basic structural element of other allotropes, including $(l:materials/Graphite)graphite$(/l), charcoal, $(l:materials/Carbon)carbon$(/l) nanotubes and fullerenes. It can also be considered as an indefinitely large aromatic molecule, the ultimate case of the family of flat polycyclic aromatic hydrocarbons."
+    },
+    {
+      "type": "text",
+      "text": "Graphene has many properties. In proportion to its thickness, it is about 100 times stronger than the strongest $(l:materials/Steel)steel$(/l). It conducts heat and electricity very efficiently and is nearly transparent. Graphene also shows a large and nonlinear diamagnetism, even greater than $(l:materials/Graphite)graphite$(/l), and can be levitated by Nd-Fe-B magnets. Researchers have identified the bipolar transistor effect, ballistic transport of charges and large quantum "
+    },
+    {
+      "type": "text",
+      "text": "oscillations in the material.Scientists have theorized about graphene for decades. It has likely been unknowingly produced in small quantities for centuries, through the use of pencils and other similar applications of $(l:materials/Graphite)graphite$(/l). It was originally observed in electron microscopes in 1962, but only studied while supported on metal surfaces. The material was later rediscovered, isolated and characterized in 2004 by "
+    },
+    {
+      "type": "text",
+      "text": "Andre Geim and Konstantin Novoselov at the University of Manchester. Research was informed by existing theoretical descriptions of its composition, structure and properties. High-quality graphene proved to be surprisingly easy to isolate, making more research possible. This work resulted in the two winning the Nobel Prize in Physics in 2010 \"for groundbreaking experiments regarding the two-dimensional material graphene.\""
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10205"
+}

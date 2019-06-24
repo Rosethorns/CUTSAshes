@@ -1,0 +1,20 @@
+{
+  "name": "Manganese Oxide",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "nuclearcraft:ingot_oxide:2",
+      "text": "Abbreviation: MnO$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Manganese(II)_oxide)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Manganese)Manganese$(/l)(II) oxide is an inorganic compound with chemical formula MnO. It forms green crystals. The compound is produced on a large scale as a component of fertilizers and food additives.$(p)Together with $(l:materials/Manganese)manganese$(/l) sulfate, MnO is a component of fertilizers and food additives. Many thousands of tons are consumed annually for this purpose. Other uses include: a catalyst in the "
+    },
+    {
+      "type": "text",
+      "text": "manufacture of allyl alcohol, ceramics, paints, colored glass, bleaching tallow and textile printing."
+    }
+  ],
+  "icon": "nuclearcraft:ingot_oxide:2"
+}

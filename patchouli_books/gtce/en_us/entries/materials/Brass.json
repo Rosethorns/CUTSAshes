@@ -1,0 +1,28 @@
+{
+  "name": "Brass",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "thaumcraft:ingot:2",
+      "text": "Abbreviation: Br$(p)Chemical Makeup: ZnCu3$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Brass)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Brass is an alloy of $(l:materials/Copper)copper$(/l) and $(l:materials/Zinc)zinc$(/l), in proportions which can be varied to achieve varying mechanical and electrical properties. It is a substitutional alloy: atoms of the two constituents may replace each other within the same crystal structure. $(l:materials/Bronze)Bronze$(/l) is an alloy also containing $(l:materials/Copper)copper$(/l), but instead of $(l:materials/Zinc)zinc$(/l) it has $(l:materials/Tin)tin$(/l).$(p)Both $(l:materials/Bronze)bronze$(/l) and brass may include small proportions of a range of other elements "
+    },
+    {
+      "type": "text",
+      "text": "including arsenic, $(l:materials/Lead)lead$(/l), phosphorus, aluminum, $(l:materials/Manganese)manganese$(/l), and $(l:materials/Silicon)silicon$(/l). The distinction is largely historical. Modern practice in museums and archaeology increasingly avoids both terms for historical objects in favour of the all-embracing \"copper alloy\".$(p)Brass is used for decoration for its bright $(l:materials/Gold)gold$(/l)-like appearance; for applications where low friction is required such as "
+    },
+    {
+      "type": "text",
+      "text": "locks, gears, bearings, doorknobs, ammunition casings and valves; for plumbing and electrical applications; and extensively in brass musical instruments such as horns and bells where a combination of high workability (historically with hand tools) and durability is desired. It is also used in zippers. Brass is often used in situations in which it is important that sparks not be struck, such as in fittings and tools used near flammable "
+    },
+    {
+      "type": "text",
+      "text": "or explosive materials."
+    }
+  ],
+  "icon": "thaumcraft:ingot:2"
+}

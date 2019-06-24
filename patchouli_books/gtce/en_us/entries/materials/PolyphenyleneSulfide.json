@@ -1,0 +1,24 @@
+{
+  "name": "Polyphenylene Sulfide",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10411",
+      "text": "Abbreviation: PSfd$(p)Chemical Makeup: C6H4S$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Polyphenylene_sulfide)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Polyphenylene sulfide (PPS) is an organic polymer consisting of aromatic rings linked by sulfides. Synthetic fiber and textiles derived from this polymer resist chemical and thermal attack. PPS is used in filter fabric for coal boilers, papermaking felts, electrical insulation, film capacitors, specialty membranes, gaskets, and packings. PPS is the precursor to a conductive polymer of the semi-flexible rod polymer family. The PPS, "
+    },
+    {
+      "type": "text",
+      "text": "which is otherwise insulating, can be converted to the semiconducting form by oxidation or use of dopants.$(p)Polyphenylene sulfide is an engineering plastic, commonly used today as a high-performance thermoplastic. PPS can be molded, extruded, or machined to tight tolerances. In its pure solid form, it may be opaque white to light tan in color. Maximum service temperature is 218 °C (424 °F). PPS has "
+    },
+    {
+      "type": "text",
+      "text": "not been found to dissolve in any solvent at temperatures below approximately 200 °C (392 °F). An easy way to identify the compound is by the metallic sound it makes when struck."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10411"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Tin",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "forestry:ingot_tin:0",
+      "text": "Abbreviation: Sn$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Tin)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Tin is a chemical element with the symbol Sn (from Latin: stannum) and atomic number 50. Tin is a silvery metal that characteristicly has a faint yellow hue. Tin, like $(l:materials/Indium)indium$(/l), is soft enough to be cut without much force.When a bar of tin is bent the so-called \"tin cry\" can be heard as a result of sliding tin crystals reforming; this trait is shared by $(l:materials/Indium)indium$(/l), $(l:materials/Cadmium)cadmium$(/l) and frozen mercury. Pure tin after solidifying keeps a mirror-like "
+    },
+    {
+      "type": "text",
+      "text": "appearance similar to most metals, however most Tin alloys such as in Pewter, the metal soldifies with a dull gray color. Tin is a post-transition metal in group 14 of the periodic table of elements. It is obtained chiefly from the mineralcassiterite, which contains stannic oxide, SnO2. Tin shows a chemical similarity to both of its neighbors in group 14, germanium and $(l:materials/Lead)lead$(/l), and has two main oxidation states, +2 "
+    },
+    {
+      "type": "text",
+      "text": "and the slightly more stable +4. Tin is the 49th most abundant element and has, with 10 stable isotopes, the largest number of stable isotopes in the periodic table, thanks to its magic number of protons. It has two main allotropes: at room temperature, the stable allotrope is β-tin, a silvery-white, malleable metal, but at low temperatures, it transforms into the less dense grey α-tin, which has the diamond cubic structure. "
+    },
+    {
+      "type": "text",
+      "text": "Metallic tin does not easily oxidize in air."
+    }
+  ],
+  "icon": "forestry:ingot_tin:0"
+}

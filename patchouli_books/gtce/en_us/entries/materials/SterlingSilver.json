@@ -1,0 +1,20 @@
+{
+  "name": "Sterling Silver",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10227",
+      "text": "Abbreviation: CuAg$(p)Chemical Makeup: CuAg4$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Sterling_silver)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Sterling $(l:materials/Silver)silver$(/l) is an alloy of $(l:materials/Silver)silver$(/l) containing 92.5% by weight of $(l:materials/Silver)silver$(/l) and 7.5% by weight of other metals, usually $(l:materials/Copper)copper$(/l). The sterling $(l:materials/Silver)silver$(/l) standard has a minimum millesimal fineness of 925.$(p)Fine $(l:materials/Silver)silver$(/l), for example 99.9% pure $(l:materials/Silver)silver$(/l), is relatively soft, so $(l:materials/Silver)silver$(/l) is usually alloyed with $(l:materials/Copper)copper$(/l) to increase its hardness and strength. Sterling $(l:materials/Silver)silver$(/l) is prone to tarnishing, and elements other than $(l:materials/Copper)copper$(/l) "
+    },
+    {
+      "type": "text",
+      "text": "can be used in alloys to reduce tarnishing, as well as casting porosity and firescale. Such elements include germanium, $(l:materials/Zinc)zinc$(/l), $(l:materials/Platinum)platinum$(/l), $(l:materials/Silicon)silicon$(/l), and $(l:materials/Boron)boron$(/l). Recent examples of alloys using these metals include argentium, sterlium, sterilite and silvadium."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10227"
+}

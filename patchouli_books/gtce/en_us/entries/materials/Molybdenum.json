@@ -1,0 +1,28 @@
+{
+  "name": "Molybdenum",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10041",
+      "text": "Abbreviation: Mo$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Molybdenum)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Molybdenum is a chemical element with the symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek Μόλυβδος molybdos, meaning $(l:materials/Lead)lead$(/l), since its ores were confused with $(l:materials/Lead)lead$(/l) ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele. The "
+    },
+    {
+      "type": "text",
+      "text": "metal was first isolated in 1781 by Peter Jacob Hjelm.$(p)Molybdenum does not occur naturally as a free metal on Earth; it is found only in various oxidation states in minerals. The free element, a silvery metal with a gray cast, has the sixth-highest melting point of any element. It readily forms hard, stable carbides in alloys, and for this reason most of world production of the element (about 80%) is used in $(l:materials/Steel)steel$(/l) "
+    },
+    {
+      "type": "text",
+      "text": "alloys, including high-strength alloys and superalloys.$(p)Most molybdenum compounds have low solubility in water, but when molybdenum-bearing minerals contact oxygen and water, the resulting molybdate ion MoO2−$(p)4 is quite soluble. Industrially, molybdenum compounds (about 14% of world production of the element) are used in high-pressure and "
+    },
+    {
+      "type": "text",
+      "text": "high-temperature applications as pigments and catalysts."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10041"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Rose Gold",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10228",
+      "text": "Abbreviation: CuAu$(p)Chemical Makeup: CuAu4$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Colored_gold#Rose,_red,_and_pink_gold)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Rose $(l:materials/Gold)gold$(/l) is a $(l:materials/Gold)gold$(/l)-$(l:materials/Copper)copper$(/l) alloy widely used for specialized jewelry. Rose $(l:materials/Gold)gold$(/l), also known as pink $(l:materials/Gold)gold$(/l) and red $(l:materials/Gold)gold$(/l), was popular in Russia at the beginning of the nineteenth century, and was also known as Russian $(l:materials/Gold)gold$(/l), although this term is now obsolete. Rose $(l:materials/Gold)gold$(/l) jewelry is becoming more popular in the 21st century, and is commonly used for wedding rings, bracelets, and other jewelry."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10228"
+}

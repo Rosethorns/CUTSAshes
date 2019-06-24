@@ -1,0 +1,24 @@
+{
+  "name": "Black Bronze",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10229",
+      "text": "Abbreviation: BBr$(p)Chemical Makeup: AuAgCu3$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Hepatizon)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Hepatizon (Greek etymology: \"liver\"), also known as Black Corinthian $(l:materials/Bronze)Bronze$(/l), was a highly valuable metal alloy in classical antiquity. It is thought to be an alloy of $(l:materials/Copper)copper$(/l) with the addition of a small proportion of $(l:materials/Gold)gold$(/l) and $(l:materials/Silver)silver$(/l) (perhaps as little as 8% of each), mixed and treated to produce a material with a dark purplish patina, similar to the colour of liver. It is referred to in various ancient texts, but few known examples of "
+    },
+    {
+      "type": "text",
+      "text": "hepatizon exist today.Of the known types of $(l:materials/Bronze)bronze$(/l) or $(l:materials/Brass)brass$(/l) in classical antiquity, hepatizon was the second most valuable. Pliny the Elder mentions it in his Natural History, stating that it is less valuable than Corinthian $(l:materials/Bronze)bronze$(/l), which contained a greater proportion of $(l:materials/Gold)gold$(/l) or $(l:materials/Silver)silver$(/l) and as a result resembled the precious metals, but was esteemed before $(l:materials/Bronze)bronze$(/l) from Delos and Aegina. As a result of its dark colour, it was particularly "
+    },
+    {
+      "type": "text",
+      "text": "valued for statues. According to Pliny, the method of making it, like that for Corinthian $(l:materials/Bronze)bronze$(/l), had been lost for a long time."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10229"
+}

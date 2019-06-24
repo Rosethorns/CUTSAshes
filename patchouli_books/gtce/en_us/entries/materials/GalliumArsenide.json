@@ -1,0 +1,20 @@
+{
+  "name": "Gallium Arsenide",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10410",
+      "text": "Abbreviation: AsGa$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Gallium_arsenide)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Gallium)Gallium$(/l) arsenide (GaAs) is a compound of the elements $(l:materials/Gallium)gallium$(/l) and arsenic. It is a III-V direct bandgap semiconductor with a $(l:materials/Zinc)zinc$(/l) blende crystal structure.$(p)Gallium arsenide is used in the manufacture of devices such as microwave frequency integrated circuits, monolithic microwave integrated circuits, infrared light-emitting diodes, laser diodes, solar cells and optical windows."
+    },
+    {
+      "type": "text",
+      "text": "GaAs is often used as a substrate material for the epitaxial growth of other III-V semiconductors, including $(l:materials/Indium)indium$(/l) $(l:materials/Gallium)gallium$(/l) arsenide, aluminum $(l:materials/Gallium)gallium$(/l) arsenide and others."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10410"
+}

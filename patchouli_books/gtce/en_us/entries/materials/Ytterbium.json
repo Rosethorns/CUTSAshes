@@ -1,0 +1,28 @@
+{
+  "name": "Ytterbium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10353",
+      "text": "Abbreviation: Yb$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Ytterbium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Ytterbium is a chemical element with the symbol Yb and atomic number 70. It is the fourteenth and penultimate element in the lanthanide series, which is the basis of the relative stability of its +2 oxidation state. However, like the other lanthanides, its most common oxidation state is +3, as in its oxide, halides, and other compounds. In aqueous solution, like compounds of other late lanthanides, soluble ytterbium compounds "
+    },
+    {
+      "type": "text",
+      "text": "form complexes with nine water molecules. Because of its closed-shell electron configuration, its density and melting and boiling points differ significantly from those of most other lanthanides.$(p)In 1878, the Swiss chemist Jean Charles Galissard de Marignac separated from the rare earth \"erbia\" another independent component, which he called \"ytterbia\", for Ytterby, the "
+    },
+    {
+      "type": "text",
+      "text": "village in Sweden near where he found the new component of $(l:materials/Erbium)erbium$(/l). He suspected that ytterbia was a compound of a new element that he called \"ytterbium\" (in total, four elements were named after the village, the others being $(l:materials/Yttrium)yttrium$(/l), $(l:materials/Terbium)terbium$(/l) and $(l:materials/Erbium)erbium$(/l)). In 1907, the new earth \"lutecia\" was separated from ytterbia, from which the element \"lutecium\" (now $(l:materials/Lutetium)lutetium$(/l)) was extracted by Georges Urbain, Carl Auer von Welsbach, and Charles James. "
+    },
+    {
+      "type": "text",
+      "text": "After some discussion, Marignac's name \"ytterbium\" was retained. A relatively pure sample of the metal was not obtained until 1953. At present, ytterbium is mainly used as a dopant of $(l:materials/StainlessSteel)stainless $(l:materials/Steel)steel$(/l)$(/l) or active laser media, and less often as a gamma ray source."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10353"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Holmium",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10027",
+      "text": "Abbreviation: Ho$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Holmium)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Holmium is a chemical element with the symbol Ho and atomic number 67. Part of the lanthanide series, holmium is a rare-earth element. Holmium was discovered by Swedish chemist Per Theodor Cleve. Its oxide was first isolated from rare-earth ores in 1878. The element's name comes from Holmia, the Latin name for the city of Stockholm.$(p)Elemental holmium is a relatively soft and malleable silvery-white metal. It is "
+    },
+    {
+      "type": "text",
+      "text": "too reactive to be found uncombined in nature, but when isolated, is relatively stable in dry air at room temperature. However, it reacts with water and corrodes readily and also burns in air when heated.$(p)Holmium is found in the minerals monazite and gadolinite and is usually commercially extracted from monazite using ion-exchange techniques. Its compounds in nature and in nearly all of "
+    },
+    {
+      "type": "text",
+      "text": "its laboratory chemistry are trivalently oxidized, containing Ho(III) ions. Trivalent holmium ions have fluorescent properties similar to many other rare-earth ions (while yielding their own set of unique emission light lines), and thus are used in the same way as some other rare earths in certain laser and glass-colorant applications."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10027"
+}

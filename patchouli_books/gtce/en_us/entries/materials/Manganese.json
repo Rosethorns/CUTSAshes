@@ -1,0 +1,24 @@
+{
+  "name": "Manganese",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "nuclearcraft:ingot:11",
+      "text": "Abbreviation: Mn$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Manganese)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Manganese is a chemical element with the symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in minerals in combination with $(l:materials/Iron)iron$(/l). Manganese is a transition metal with important industrial alloy uses, particularly in stainless steels.$(p)Historically, manganese is named for pyrolusite and other black minerals from the region of Magnesia in Greece, "
+    },
+    {
+      "type": "text",
+      "text": "which also gave its name to $(l:materials/Magnesium)magnesium$(/l) and the $(l:materials/Iron)iron$(/l) ore magnetite. By the mid-18th century, Swedish-German chemist Carl Wilhelm Scheele had used pyrolusite to produce chlorine. Scheele and others were aware that pyrolusite (now known to be $(l:materials/ManganeseDioxide)manganese dioxide$(/l)) contained a new element, but they were unable to isolate it. Johan Gottlieb Gahn was the first to isolate an impure sample of manganese metal in 1774, which he did by reducing the "
+    },
+    {
+      "type": "text",
+      "text": "dioxide with $(l:materials/Carbon)carbon$(/l).Manganese phosphating is used for rust and corrosion prevention on $(l:materials/Steel)steel$(/l). Ionized manganese is used industrially as pigments of various colors, which depend on the oxidation state of the ions. The permanganates of alkali and alkaline earth metals are powerful oxidizers. $(l:materials/ManganeseDioxide)Manganese dioxide$(/l) is used as the cathode (electron acceptor) material in $(l:materials/Zinc)zinc$(/l)-$(l:materials/Carbon)carbon$(/l) and alkaline batteries."
+    }
+  ],
+  "icon": "nuclearcraft:ingot:11"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Styrene-Butadiene",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10398",
+      "text": "Abbreviation: SBR$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Styrene-butadiene)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Styrene-butadiene or styrene-butadiene $(l:materials/Rubber)rubber$(/l) (SBR) describe families of synthetic rubbers derived from styrene and butadiene (the version developed by Goodyear is called Neolite). These materials have good abrasion resistance and good aging stability when protected by additives. In 2012, more than 5.4 million tonnes of SBR were processed worldwide. About 50% of car tires are made from various types of SBR. The styrene/"
+    },
+    {
+      "type": "text",
+      "text": "butadiene ratio influences the properties of the polymer: with high styrene content, the rubbers are harder and less rubbery. SBR is not to be confused with a thermoplastic elastomer made from the same monomers, styrene-butadiene block copolymer."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10398"
+}

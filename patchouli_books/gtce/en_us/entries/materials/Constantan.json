@@ -1,0 +1,16 @@
+{
+  "name": "Constantan",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "immersiveengineering:metal:6",
+      "text": "Abbreviation: Con$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Constantan)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Constantan is a $(l:materials/Copper)copper$(/l)-$(l:materials/Nickel)nickel$(/l) alloy also known as Eureka, Advance, and Ferry. It usually consists of 55% $(l:materials/Copper)copper$(/l) and 45% $(l:materials/Nickel)nickel$(/l). Its main feature is its low thermal variation of its resistivity, which is constant over a wide range of temperatures. Other alloys with similarly low temperature coefficients are known, such as manganin (Cu86Mn12Ni2)."
+    }
+  ],
+  "icon": "immersiveengineering:metal:6"
+}

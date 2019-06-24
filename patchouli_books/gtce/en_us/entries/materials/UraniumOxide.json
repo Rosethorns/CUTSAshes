@@ -1,0 +1,16 @@
+{
+  "name": "Uranium Oxide",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "nuclearcraft:ingot_oxide:1",
+      "text": "Abbreviation: UO$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Uranium_dioxide)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Uranium dioxide or uranium(IV) oxide (UO2), also known as urania or uranous oxide, is an oxide of uranium, and is a black, radioactive, crystalline powder that naturally occurs in the mineral uraninite. It is used in nuclear fuel rods in nuclear reactors. A mixture of uranium and plutonium dioxides is used as MOX fuel. Prior to 1960, it was used as yellow and black color in ceramic glazes and glass."
+    }
+  ],
+  "icon": "nuclearcraft:ingot_oxide:1"
+}

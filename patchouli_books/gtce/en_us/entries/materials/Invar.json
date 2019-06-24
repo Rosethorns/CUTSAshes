@@ -1,0 +1,20 @@
+{
+  "name": "Invar",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "gregtech:meta_item_1:10126",
+      "text": "Abbreviation: Inv$(p)Chemical Makeup: Fe2Ni$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Invar)Wikipedia$(/l)"
+    },
+    {
+      "type": "text",
+      "text": "Invar, also known generically as FeNi36 (64FeNi in the US), is a $(l:materials/Nickel)nickel$(/l)-$(l:materials/Iron)iron$(/l) alloy notable for its uniquely low coefficient of thermal expansion (CTE or α). The name Invar comes from the word invariable, referring to its relative lack of expansion or contraction with temperature changes.$(p)The discovery of the alloy was made in 1896 by Swiss physicist Charles Édouard Guillaume for which he "
+    },
+    {
+      "type": "text",
+      "text": "received the Nobel Prize in Physics in 1920. It enabled improvements in scientific instruments."
+    }
+  ],
+  "icon": "gregtech:meta_item_1:10126"
+}
