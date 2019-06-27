@@ -3,25 +3,30 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10135",
-      "text": "Abbreviation: NbTi$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Niobium%E2%80%93titanium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Niobium-Titanium",
+      "abbreviation": "NbTi",
+      "link": "https://en.wikipedia.org/wiki/Niobium%E2%80%93titanium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10135",
+      "gear": "gregtech:meta_item_2:26135",
+      "plate": "gregtech:meta_item_1:12135"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Niobium)Niobium$(/l)-$(l:materials/Titanium)titanium$(/l) (Nb-Ti) is an alloy of $(l:materials/Niobium)niobium$(/l) and $(l:materials/Titanium)titanium$(/l), used industrially as a type II superconductor wire for superconducting magnets, normally as Nb-Ti fibres in an $(l:materials/Aluminium)aluminium$(/l) or $(l:materials/Copper)copper$(/l) matrix.$(p)Its critical temperature is about 10 kelvins.$(p)In 1962, at Atomics International, T. G. Berlincourt and R. R. Hake, discovered the superior high-"
+      "text": "$(l:materials/Niobium)Niobium$(/l)-$(l:materials/Titanium)titanium$(/l) (Nb-Ti) is an alloy of $(l:materials/Niobium)niobium$(/l) and $(l:materials/Titanium)titanium$(/l), used industrially as a type II superconductor wire for superconducting magnets, normally as Nb-Ti fibres in an $(l:materials/Aluminium)aluminium$(/l) or $(l:materials/Copper)copper$(/l) matrix.$(p)Its critical temperature is about 10 kelvins.$(p)In 1962, at Atomics International, T. G. Berlincourt and R. R. Hake, discovered the superior high-critical-magnetic-field, high-"
     },
     {
       "type": "text",
-      "text": "critical-magnetic-field, high-critical-supercurrent-density properties of Nb-Ti that, together with affordability and easy workability, distinguish Nb-Ti alloys from thousands of other superconductors and justify their status as the most widely utilized (workhorse) superconductors.$(p)With a maximal critical magnetic field of about 15 teslas, Nb-Ti alloys are suitable for fabricating "
+      "text": "critical-supercurrent-density properties of Nb-Ti that, together with affordability and easy workability, distinguish Nb-Ti alloys from thousands of other superconductors and justify their status as the most widely utilized (workhorse) superconductors.$(p)With a maximal critical magnetic field of about 15 teslas, Nb-Ti alloys are suitable for fabricating supermagnets generating "
     },
     {
       "type": "text",
-      "text": "supermagnets generating magnetic fields up to about 10 teslas. For higher magnetic fields, higher-performance, but more expensive and less easily fabricated superconductors, such as $(l:materials/Niobium)niobium$(/l)-$(l:materials/Tin)tin$(/l), are commonly employed.$(p)The part of global economic activity, for which superconductivity is indispensable, amounted to about five billion euros in 2014. MRI systems, most of "
+      "text": "magnetic fields up to about 10 teslas. For higher magnetic fields, higher-performance, but more expensive and less easily fabricated superconductors, such as $(l:materials/Niobium)niobium$(/l)-$(l:materials/Tin)tin$(/l), are commonly employed.$(p)The part of global economic activity, for which superconductivity is indispensable, amounted to about five billion euros in 2014. MRI systems, most of which employ $(l:materials/Niobium)niobium$(/l)-$(l:materials/Titanium)titanium$(/l), "
     },
     {
       "type": "text",
-      "text": "which employ $(l:materials/Niobium)niobium$(/l)-$(l:materials/Titanium)titanium$(/l), accounted for about 80% of that total."
+      "text": "accounted for about 80% of that total."
     }
   ],
   "icon": "gregtech:meta_item_1:10135"

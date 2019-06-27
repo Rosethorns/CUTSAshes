@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10145",
-      "text": "Abbreviation: PTFE$(p)Chemical Makeup: C2F4$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Polytetrafluoroethylene)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Polytetrafluoroethylene",
+      "abbreviation": "PTFE",
+      "link": "https://en.wikipedia.org/wiki/Polytetrafluoroethylene",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10145",
+      "plate": "gregtech:meta_item_1:12145"
     },
     {
       "type": "text",
@@ -13,15 +17,15 @@
     },
     {
       "type": "text",
-      "text": "molecular weight compound consisting wholly of $(l:materials/Carbon)carbon$(/l) and fluorine. PTFE is hydrophobic: neither water nor water-containing substances wet PTFE, as fluorocarbons demonstrate mitigated London dispersion forces due to the high electronegativity of fluorine. PTFE has one of the lowest coefficients of friction of any solid.$(p)PTFE is used as a non-stick coating for pans and "
+      "text": "molecular weight compound consisting wholly of $(l:materials/Carbon)carbon$(/l) and fluorine. PTFE is hydrophobic: neither water nor water-containing substances wet PTFE, as fluorocarbons demonstrate mitigated London dispersion forces due to the high electronegativity of fluorine. PTFE has one of the lowest coefficients of friction of any solid.$(p)PTFE is used as a non-stick coating for pans and other cookware. It is "
     },
     {
       "type": "text",
-      "text": "other cookware. It is nonreactive, partly because of the strength of $(l:materials/Carbon)carbon$(/l)-fluorine bonds, and so it is often used in containers and pipework for reactive and corrosive chemicals. Where used as a lubricant, PTFE reduces friction, wear, and energy consumption of machinery. It is commonly used as a graft material in surgical interventions. It is also frequently employed as coating on catheters; this interferes with the ability "
+      "text": "nonreactive, partly because of the strength of $(l:materials/Carbon)carbon$(/l)-fluorine bonds, and so it is often used in containers and pipework for reactive and corrosive chemicals. Where used as a lubricant, PTFE reduces friction, wear, and energy consumption of machinery. It is commonly used as a graft material in surgical interventions. It is also frequently employed as coating on catheters; this interferes with the ability of bacteria and other infectious "
     },
     {
       "type": "text",
-      "text": "of bacteria and other infectious agents to adhere to catheters and cause hospital-acquired infections."
+      "text": "agents to adhere to catheters and cause hospital-acquired infections."
     }
   ],
   "icon": "gregtech:meta_item_1:10145"

@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10012",
-      "text": "Abbreviation: C$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Carbon)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Carbon",
+      "abbreviation": "C",
+      "link": "https://en.wikipedia.org/wiki/Carbon",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10012"
     },
     {
       "type": "text",
@@ -17,15 +20,15 @@
     },
     {
       "type": "text",
-      "text": "body by mass (about 18.5%) after oxygen.$(p)The atoms of carbon can bond together in different ways, termed allotropes of carbon. The best known are $(l:materials/Graphite)graphite$(/l), diamond, and amorphous carbon. The physical properties of carbon vary widely with the allotropic form. For example, $(l:materials/Graphite)graphite$(/l) is opaque and black while diamond is highly transparent. $(l:materials/Graphite)Graphite$(/l) is soft enough to form a streak on "
+      "text": "body by mass (about 18.5%) after oxygen.$(p)The atoms of carbon can bond together in different ways, termed allotropes of carbon. The best known are $(l:materials/Graphite)graphite$(/l), diamond, and amorphous carbon. The physical properties of carbon vary widely with the allotropic form. For example, $(l:materials/Graphite)graphite$(/l) is opaque and black while diamond is highly transparent. $(l:materials/Graphite)Graphite$(/l) is soft enough to form a streak on paper (hence "
     },
     {
       "type": "text",
-      "text": "paper (hence its name, from the Greek verb \"γράφειν\" which means \"to write\"), while diamond is the hardest naturally occurring material known. $(l:materials/Graphite)Graphite$(/l) is a good electrical conductor while diamond has a low electrical conductivity. Under normal conditions, diamond, carbon nanotubes, and $(l:materials/Graphene)graphene$(/l) have the highest thermal conductivities of all known materials. All carbon allotropes are solids under normal conditions, with "
+      "text": "its name, from the Greek verb \"γράφειν\" which means \"to write\"), while diamond is the hardest naturally occurring material known. $(l:materials/Graphite)Graphite$(/l) is a good electrical conductor while diamond has a low electrical conductivity. Under normal conditions, diamond, carbon nanotubes, and $(l:materials/Graphene)graphene$(/l) have the highest thermal conductivities of all known materials. All carbon allotropes are solids under normal conditions, with $(l:materials/Graphite)graphite$(/l) being the most "
     },
     {
       "type": "text",
-      "text": "$(l:materials/Graphite)graphite$(/l) being the most thermodynamically stable form at standard temperature and pressure. They are chemically resistant and require high temperature to react even with oxygen."
+      "text": "thermodynamically stable form at standard temperature and pressure. They are chemically resistant and require high temperature to react even with oxygen."
     }
   ],
   "icon": "gregtech:meta_item_1:10012"

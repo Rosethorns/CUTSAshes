@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10037",
-      "text": "Abbreviation: Lu$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Lutetium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Lutetium",
+      "abbreviation": "Lu",
+      "link": "https://en.wikipedia.org/wiki/Lutetium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10037"
     },
     {
       "type": "text",
@@ -13,19 +16,19 @@
     },
     {
       "type": "text",
-      "text": "Lutetium was independently discovered in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. All of these researchers found lutetium as an impurity in the mineral ytterbia, which was previously thought to consist entirely of $(l:materials/Ytterbium)ytterbium$(/l). The dispute on the priority of the discovery occurred shortly after, with Urbain and Welsbach accusing each "
+      "text": "Lutetium was independently discovered in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. All of these researchers found lutetium as an impurity in the mineral ytterbia, which was previously thought to consist entirely of $(l:materials/Ytterbium)ytterbium$(/l). The dispute on the priority of the discovery occurred shortly after, with Urbain and Welsbach accusing each other of publishing results "
     },
     {
       "type": "text",
-      "text": "other of publishing results influenced by the published research of the other; the naming honor went to Urbain, as he had published his results earlier. He chose the name lutecium for the new element, but in 1949 the spelling of element 71 was changed to lutetium. In 1909, the priority was finally granted to Urbain and his names were adopted as official ones; however, the name cassiopeium (or later cassiopium) for element 71 "
+      "text": "influenced by the published research of the other; the naming honor went to Urbain, as he had published his results earlier. He chose the name lutecium for the new element, but in 1949 the spelling of element 71 was changed to lutetium. In 1909, the priority was finally granted to Urbain and his names were adopted as official ones; however, the name cassiopeium (or later cassiopium) for element 71 proposed by Welsbach was used "
     },
     {
       "type": "text",
-      "text": "proposed by Welsbach was used by many German scientists until the 1950s.$(p)Lutetium is not a particularly abundant element, although it is significantly more common than $(l:materials/Silver)silver$(/l) in the earth's crust. It has few specific uses. Lutetium-176 is a relatively abundant (2.5%) radioactive isotope with a half-life of about 38 billion years, used to determine the age of minerals and meteorites. Lutetium usually "
+      "text": "by many German scientists until the 1950s.$(p)Lutetium is not a particularly abundant element, although it is significantly more common than $(l:materials/Silver)silver$(/l) in the earth's crust. It has few specific uses. Lutetium-176 is a relatively abundant (2.5%) radioactive isotope with a half-life of about 38 billion years, used to determine the age of minerals and meteorites. Lutetium usually occurs in association with the element "
     },
     {
       "type": "text",
-      "text": "occurs in association with the element $(l:materials/Yttrium)yttrium$(/l) and is sometimes used in metal alloys and as a catalyst in various chemical reactions. 177Lu-DOTA-TATE is used for radionuclide therapy (see Nuclear medicine) on neuroendocrine tumours. Lutetium has the highest Brinell hardness of any lanthanide, at 890-1300 MPa."
+      "text": "$(l:materials/Yttrium)yttrium$(/l) and is sometimes used in metal alloys and as a catalyst in various chemical reactions. 177Lu-DOTA-TATE is used for radionuclide therapy (see Nuclear medicine) on neuroendocrine tumours. Lutetium has the highest Brinell hardness of any lanthanide, at 890-1300 MPa."
     }
   ],
   "icon": "gregtech:meta_item_1:10037"

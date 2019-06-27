@@ -3,29 +3,33 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10025",
-      "text": "Abbreviation: Ga$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Gallium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Gallium",
+      "abbreviation": "Ga",
+      "link": "https://en.wikipedia.org/wiki/Gallium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10025",
+      "plate": "gregtech:meta_item_1:12025"
     },
     {
       "type": "text",
-      "text": "Gallium is a chemical element with the symbol Ga and atomic number 31. Elemental gallium is a soft, silvery blue metal at standard temperature and pressure; however in its liquid state it becomes silvery white. If too much force is applied, the gallium may fracture conchoidally. It is in group 13 of the periodic table, and thus has similarities to the other metals of the group, $(l:materials/Aluminium)aluminium$(/l), $(l:materials/Indium)indium$(/l), and thallium. Gallium does not "
+      "text": "Gallium is a chemical element with the symbol Ga and atomic number 31. Elemental gallium is a soft, silvery blue metal at standard temperature and pressure; however in its liquid state it becomes silvery white. If too much force is applied, the gallium may fracture conchoidally. It is in group 13 of the periodic table, and thus has similarities to the other metals of the group, $(l:materials/Aluminium)aluminium$(/l), $(l:materials/Indium)indium$(/l), and thallium. Gallium does not occur as a free "
     },
     {
       "type": "text",
-      "text": "occur as a free element in nature, but as gallium(III) compounds in trace amounts in $(l:materials/Zinc)zinc$(/l) ores and in bauxite. Elemental gallium is a liquid at temperatures greater than 29.76 °C (85.57 °F), above room temperature, but below the normal human body temperature of 37 °C (99 °F). Hence, the metal will melt in a person's hands.$(p)The melting point of gallium is used as a temperature reference point. "
+      "text": "element in nature, but as gallium(III) compounds in trace amounts in $(l:materials/Zinc)zinc$(/l) ores and in bauxite. Elemental gallium is a liquid at temperatures greater than 29.76 °C (85.57 °F), above room temperature, but below the normal human body temperature of 37 °C (99 °F). Hence, the metal will melt in a person's hands.$(p)The melting point of gallium is used as a temperature reference point. Gallium alloys are used in "
     },
     {
       "type": "text",
-      "text": "Gallium alloys are used in thermometers as a non-toxic and environmentally friendly alternative to mercury, and can withstand higher temperatures than mercury. The alloy galinstan (62-⁠95% gallium, 5–⁠22% $(l:materials/Indium)indium$(/l), and 0–⁠16% $(l:materials/Tin)tin$(/l) by weight) has an even lower melting point of −19 °C (−2 °F), well below the freezing point of water.$(p)Since its discovery in 1875, gallium has been used to make alloys with low "
+      "text": "thermometers as a non-toxic and environmentally friendly alternative to mercury, and can withstand higher temperatures than mercury. The alloy galinstan (62-⁠95% gallium, 5–⁠22% $(l:materials/Indium)indium$(/l), and 0–⁠16% $(l:materials/Tin)tin$(/l) by weight) has an even lower melting point of −19 °C (−2 °F), well below the freezing point of water.$(p)Since its discovery in 1875, gallium has been used to make alloys with low melting points. It is also used in "
     },
     {
       "type": "text",
-      "text": "melting points. It is also used in semiconductors as a dopant in semiconductor substrates.$(p)Gallium is predominantly used in electronics. $(l:materials/GalliumArsenide)Gallium arsenide$(/l), the primary chemical compound of gallium in electronics, is used in microwave circuits, high-speed switching circuits, and infrared circuits. Semiconducting gallium nitride and $(l:materials/Indium)indium$(/l) gallium nitride produce blue and "
+      "text": "semiconductors as a dopant in semiconductor substrates.$(p)Gallium is predominantly used in electronics. $(l:materials/GalliumArsenide)Gallium arsenide$(/l), the primary chemical compound of gallium in electronics, is used in microwave circuits, high-speed switching circuits, and infrared circuits. Semiconducting gallium nitride and $(l:materials/Indium)indium$(/l) gallium nitride produce blue and violet light-emitting diodes (LEDs) and diode lasers. Gallium is also "
     },
     {
       "type": "text",
-      "text": "violet light-emitting diodes (LEDs) and diode lasers. Gallium is also used in the production of artificial $(l:materials/Gadolinium)gadolinium$(/l) gallium garnet for jewelry. Gallium is considered a technology-critical element."
+      "text": "used in the production of artificial $(l:materials/Gadolinium)gadolinium$(/l) gallium garnet for jewelry. Gallium is considered a technology-critical element."
     }
   ],
   "icon": "gregtech:meta_item_1:10025"

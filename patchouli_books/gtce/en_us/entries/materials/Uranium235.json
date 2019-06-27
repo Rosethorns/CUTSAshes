@@ -3,18 +3,22 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:uranium:4",
-      "text": "Abbreviation: U235$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Uranium-235)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Uranium-235",
+      "abbreviation": "U235",
+      "link": "https://en.wikipedia.org/wiki/Uranium-235",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10076",
+      "plate": "gregtech:meta_item_1:12076"
     },
     {
       "type": "text",
-      "text": "Uranium-235 (235U) is an isotope of uranium making up about 0.72% of natural uranium. Unlike the predominant isotope $(l:materials/Uranium)uranium-238$(/l), it is fissile, i.e., it can sustain a fission chain reaction. It is the only fissile isotope that is primordial and found in relatively significant quantities in nature.$(p)Uranium-235 has a half-life of 703.8 million years. It was discovered in 1935 by "
+      "text": "Uranium-235 (235U) is an isotope of uranium making up about 0.72% of natural uranium. Unlike the predominant isotope $(l:materials/Uranium)uranium-238$(/l), it is fissile, i.e., it can sustain a fission chain reaction. It is the only fissile isotope that is primordial and found in relatively significant quantities in nature.$(p)Uranium-235 has a half-life of 703.8 million years. It was discovered in 1935 by Arthur Jeffrey Dempster. Its "
     },
     {
       "type": "text",
-      "text": "Arthur Jeffrey Dempster. Its fission cross section for slow thermal neutrons is about 584.994 barns. For fast neutrons it is on the order of 1 barn. Most but not all neutron absorptions result in fission; a minority result in neutron capture forming uranium-236."
+      "text": "fission cross section for slow thermal neutrons is about 584.994 barns. For fast neutrons it is on the order of 1 barn. Most but not all neutron absorptions result in fission; a minority result in neutron capture forming uranium-236."
     }
   ],
-  "icon": "nuclearcraft:uranium:4"
+  "icon": "gregtech:meta_item_1:10076"
 }

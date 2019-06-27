@@ -3,18 +3,22 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot:8",
-      "text": "Abbreviation: Gpht$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Graphite)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Graphite",
+      "abbreviation": "Gpht",
+      "link": "https://en.wikipedia.org/wiki/Graphite",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10204",
+      "plate": "gregtech:meta_item_1:12204"
     },
     {
       "type": "text",
-      "text": "Graphite, archaically referred to as plumbago, is a crystalline form of the element $(l:materials/Carbon)carbon$(/l) with its atoms arranged in a hexagonal structure. It occurs naturally in this form and is the most stable form of $(l:materials/Carbon)carbon$(/l) under standard conditions. Under high pressures and temperatures it converts to diamond. Graphite is used in pencils and lubricants. Its high conductivity makes it useful in electronic products such "
+      "text": "Graphite, archaically referred to as plumbago, is a crystalline form of the element $(l:materials/Carbon)carbon$(/l) with its atoms arranged in a hexagonal structure. It occurs naturally in this form and is the most stable form of $(l:materials/Carbon)carbon$(/l) under standard conditions. Under high pressures and temperatures it converts to diamond. Graphite is used in pencils and lubricants. Its high conductivity makes it useful in electronic products such as electrodes, batteries, "
     },
     {
       "type": "text",
-      "text": "as electrodes, batteries, and solar panels."
+      "text": "and solar panels."
     }
   ],
-  "icon": "nuclearcraft:ingot:8"
+  "icon": "gregtech:meta_item_1:10204"
 }

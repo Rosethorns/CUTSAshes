@@ -3,29 +3,34 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10197",
-      "text": "Abbreviation: WFe$(p)Chemical Makeup: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Wrought_iron)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Wrought Iron",
+      "abbreviation": "WFe",
+      "link": "https://en.wikipedia.org/wiki/Wrought_iron",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10197",
+      "gear": "gregtech:meta_item_2:26197",
+      "plate": "gregtech:meta_item_1:12197"
     },
     {
       "type": "text",
-      "text": "Wrought $(l:materials/Iron)iron$(/l) is an $(l:materials/Iron)iron$(/l) alloy with a very low $(l:materials/Carbon)carbon$(/l) (less than 0.08%) content in contrast to cast $(l:materials/Iron)iron$(/l) (2.1% to 4%). It is a semi-fused mass of $(l:materials/Iron)iron$(/l) with fibrous slag inclusions (up to 2% by weight), which gives it a \"grain\" resembling wood that is visible when it is etched or bent to the point of failure. Wrought $(l:materials/Iron)iron$(/l) is tough, malleable, ductile, corrosion-resistant and easily welded. Before the development of effective "
+      "text": "Wrought $(l:materials/Iron)iron$(/l) is an $(l:materials/Iron)iron$(/l) alloy with a very low $(l:materials/Carbon)carbon$(/l) (less than 0.08%) content in contrast to cast $(l:materials/Iron)iron$(/l) (2.1% to 4%). It is a semi-fused mass of $(l:materials/Iron)iron$(/l) with fibrous slag inclusions (up to 2% by weight), which gives it a \"grain\" resembling wood that is visible when it is etched or bent to the point of failure. Wrought $(l:materials/Iron)iron$(/l) is tough, malleable, ductile, corrosion-resistant and easily welded. Before the development of effective methods of "
     },
     {
       "type": "text",
-      "text": "methods of steelmaking and the availability of large quantities of $(l:materials/Steel)steel$(/l), wrought $(l:materials/Iron)iron$(/l) was the most common form of malleable $(l:materials/Iron)iron$(/l). It was given the name wrought because it was hammered, rolled or otherwise worked while hot enough to expel molten slag. The modern functional equivalent of wrought $(l:materials/Iron)iron$(/l) is mild or low $(l:materials/Carbon)carbon$(/l) $(l:materials/Steel)steel$(/l). Neither wrought $(l:materials/Iron)iron$(/l) nor mild $(l:materials/Steel)steel$(/l) contain enough $(l:materials/Carbon)carbon$(/l) to be hardenable by heating and "
+      "text": "steelmaking and the availability of large quantities of $(l:materials/Steel)steel$(/l), wrought $(l:materials/Iron)iron$(/l) was the most common form of malleable $(l:materials/Iron)iron$(/l). It was given the name wrought because it was hammered, rolled or otherwise worked while hot enough to expel molten slag. The modern functional equivalent of wrought $(l:materials/Iron)iron$(/l) is mild or low $(l:materials/Carbon)carbon$(/l) $(l:materials/Steel)steel$(/l). Neither wrought $(l:materials/Iron)iron$(/l) nor mild $(l:materials/Steel)steel$(/l) contain enough $(l:materials/Carbon)carbon$(/l) to be hardenable by heating and quenching."
     },
     {
       "type": "text",
-      "text": "quenching.It is a highly refined $(l:materials/Iron)iron$(/l) with a small amount of slag forged out into fibres. The chemical analysis of the metal shows as much as 99 percent of $(l:materials/Iron)iron$(/l). The slag characteristic of wrought $(l:materials/Iron)iron$(/l) is useful in blacksmithing operations and gives the material its peculiar fibrous structure. The non-corrosive slag constituent causes wrought $(l:materials/Iron)iron$(/l) to be resistant to progressive corrosion. Moreover, the presence of "
+      "text": "It is a highly refined $(l:materials/Iron)iron$(/l) with a small amount of slag forged out into fibres. The chemical analysis of the metal shows as much as 99 percent of $(l:materials/Iron)iron$(/l). The slag characteristic of wrought $(l:materials/Iron)iron$(/l) is useful in blacksmithing operations and gives the material its peculiar fibrous structure. The non-corrosive slag constituent causes wrought $(l:materials/Iron)iron$(/l) to be resistant to progressive corrosion. Moreover, the presence of slag produces a structure which "
     },
     {
       "type": "text",
-      "text": "slag produces a structure which diminishes the effect of fatigue caused by shocks and vibrations.$(p)Historically, a modest amount of wrought $(l:materials/Iron)iron$(/l) was refined into $(l:materials/Steel)steel$(/l), which was used mainly to produce swords, cutlery, chisels, axes and other edged tools as well as springs and files. The demand for wrought $(l:materials/Iron)iron$(/l) reached its peak in the 1860s, being in high demand for ironclad warships and railway use. "
+      "text": "diminishes the effect of fatigue caused by shocks and vibrations.$(p)Historically, a modest amount of wrought $(l:materials/Iron)iron$(/l) was refined into $(l:materials/Steel)steel$(/l), which was used mainly to produce swords, cutlery, chisels, axes and other edged tools as well as springs and files. The demand for wrought $(l:materials/Iron)iron$(/l) reached its peak in the 1860s, being in high demand for ironclad warships and railway use. However, as properties such as "
     },
     {
       "type": "text",
-      "text": "However, as properties such as brittleness of mild $(l:materials/Steel)steel$(/l) improved with better ferrous metallurgy and as $(l:materials/Steel)steel$(/l) became less costly to make thanks to the Bessemer process and the Siemens-Martin process, the use of wrought $(l:materials/Iron)iron$(/l) declined."
+      "text": "brittleness of mild $(l:materials/Steel)steel$(/l) improved with better ferrous metallurgy and as $(l:materials/Steel)steel$(/l) became less costly to make thanks to the Bessemer process and the Siemens-Martin process, the use of wrought $(l:materials/Iron)iron$(/l) declined."
     }
   ],
   "icon": "gregtech:meta_item_1:10197"

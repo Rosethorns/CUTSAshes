@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10006",
-      "text": "Abbreviation: Ba$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Barium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Barium",
+      "abbreviation": "Ba",
+      "link": "https://en.wikipedia.org/wiki/Barium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10006"
     },
     {
       "type": "text",
@@ -13,15 +16,15 @@
     },
     {
       "type": "text",
-      "text": "are barite (now called baryte) (barium sulfate, BaSO4) and witherite (barium carbonate, BaCO3), both insoluble in water. The name barium originates from the alchemical derivative \"baryta\", from Greek barys, meaning \"heavy.\" Baric is the adjectival form of barium. Barium was identified as a new element in 1774, but not reduced to a metal until 1808 with the advent of electrolysis."
+      "text": "are barite (now called baryte) (barium sulfate, BaSO4) and witherite (barium carbonate, BaCO3), both insoluble in water. The name barium originates from the alchemical derivative \"baryta\", from Greek barys, meaning \"heavy.\" Baric is the adjectival form of barium. Barium was identified as a new element in 1774, but not reduced to a metal until 1808 with the advent of electrolysis.$(p)Barium has few industrial "
     },
     {
       "type": "text",
-      "text": "Barium has few industrial applications. Historically, it was used as a getter for vacuum tubes and in oxide form as the emissive coating on indirectly heated cathodes. It is a component of YBCO (high-temperature superconductors) and electroceramics, and is added to $(l:materials/Steel)steel$(/l) and cast $(l:materials/Iron)iron$(/l) to reduce the size of $(l:materials/Carbon)carbon$(/l) grains within the microstructure. Barium compounds are added to fireworks to impart a green "
+      "text": "applications. Historically, it was used as a getter for vacuum tubes and in oxide form as the emissive coating on indirectly heated cathodes. It is a component of YBCO (high-temperature superconductors) and electroceramics, and is added to $(l:materials/Steel)steel$(/l) and cast $(l:materials/Iron)iron$(/l) to reduce the size of $(l:materials/Carbon)carbon$(/l) grains within the microstructure. Barium compounds are added to fireworks to impart a green color. Barium sulfate is used as an insoluble additive to "
     },
     {
       "type": "text",
-      "text": "color. Barium sulfate is used as an insoluble additive to oil well drilling fluid, as well as in a purer form, as X-ray radiocontrast agents for imaging the human gastrointestinal tract. The soluble barium ion and soluble compounds are poisonous, and have been used as rodenticides."
+      "text": "oil well drilling fluid, as well as in a purer form, as X-ray radiocontrast agents for imaging the human gastrointestinal tract. The soluble barium ion and soluble compounds are poisonous, and have been used as rodenticides."
     }
   ],
   "icon": "gregtech:meta_item_1:10006"

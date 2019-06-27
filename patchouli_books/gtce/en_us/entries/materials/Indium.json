@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10031",
-      "text": "Abbreviation: In$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Indium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Indium",
+      "abbreviation": "In",
+      "link": "https://en.wikipedia.org/wiki/Indium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10031"
     },
     {
       "type": "text",
@@ -13,15 +16,15 @@
     },
     {
       "type": "text",
-      "text": "it is largely intermediate between the two in terms of its properties. Indium was discovered in 1863 by Ferdinand Reich and Hieronymous Theodor Richter by spectroscopic methods. They named it for the indigo blue line in its spectrum. Indium was isolated the next year.$(p)Indium is a minor component in $(l:materials/Zinc)zinc$(/l) sulfide ores and is produced as a byproduct of $(l:materials/Zinc)zinc$(/l) refinement. "
+      "text": "it is largely intermediate between the two in terms of its properties. Indium was discovered in 1863 by Ferdinand Reich and Hieronymous Theodor Richter by spectroscopic methods. They named it for the indigo blue line in its spectrum. Indium was isolated the next year.$(p)Indium is a minor component in $(l:materials/Zinc)zinc$(/l) sulfide ores and is produced as a byproduct of $(l:materials/Zinc)zinc$(/l) refinement. It is most notably used in the "
     },
     {
       "type": "text",
-      "text": "It is most notably used in the semiconductor industry, in low-melting-point metal alloys such as solders, in soft-metal high-vacuum seals, and in the production of transparent conductive coatings of indium $(l:materials/Tin)tin$(/l) oxide (ITO) on glass. Indium is considered a technology-critical element.$(p)Indium has no biological role, though its compounds are somewhat toxic when injected into the bloodstream."
+      "text": "semiconductor industry, in low-melting-point metal alloys such as solders, in soft-metal high-vacuum seals, and in the production of transparent conductive coatings of indium $(l:materials/Tin)tin$(/l) oxide (ITO) on glass. Indium is considered a technology-critical element.$(p)Indium has no biological role, though its compounds are somewhat toxic when injected into the bloodstream. Most occupational exposure is through ingestion, from which "
     },
     {
       "type": "text",
-      "text": " Most occupational exposure is through ingestion, from which indium compounds are not absorbed well, and inhalation, from which they are moderately absorbed."
+      "text": "indium compounds are not absorbed well, and inhalation, from which they are moderately absorbed."
     }
   ],
   "icon": "gregtech:meta_item_1:10031"

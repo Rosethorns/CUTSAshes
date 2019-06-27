@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10058",
-      "text": "Abbreviation: Rb$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Rubidium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Rubidium",
+      "abbreviation": "Rb",
+      "link": "https://en.wikipedia.org/wiki/Rubidium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10058",
+      "plate": "gregtech:meta_item_1:12058"
     },
     {
       "type": "text",
@@ -17,11 +21,11 @@
     },
     {
       "type": "text",
-      "text": "German chemists Robert Bunsen and Gustav Kirchhoff discovered rubidium in 1861 by the newly developed technique, flame spectroscopy. The name comes from the Latin word rubidus, meaning deep red, the color of its emission spectrum. Rubidium's compounds have various chemical and electronic applications. Rubidium metal is easily vaporized and has a convenient spectral absorption range, making it a frequent target for laser "
+      "text": "German chemists Robert Bunsen and Gustav Kirchhoff discovered rubidium in 1861 by the newly developed technique, flame spectroscopy. The name comes from the Latin word rubidus, meaning deep red, the color of its emission spectrum. Rubidium's compounds have various chemical and electronic applications. Rubidium metal is easily vaporized and has a convenient spectral absorption range, making it a frequent target for laser manipulation of "
     },
     {
       "type": "text",
-      "text": "manipulation of atoms. Rubidium is not a known nutrient for any living organisms. However, rubidium ions have the same charge as $(l:materials/Potassium)potassium$(/l) ions and are actively taken up and treated by animal cells in similar ways."
+      "text": "atoms. Rubidium is not a known nutrient for any living organisms. However, rubidium ions have the same charge as $(l:materials/Potassium)potassium$(/l) ions and are actively taken up and treated by animal cells in similar ways."
     }
   ],
   "icon": "gregtech:meta_item_1:10058"

@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10207",
-      "text": "Abbreviation: IrOs$(p)Chemical Makeup: Ir3Os$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Osmiridium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Osmiridium",
+      "abbreviation": "IrOs",
+      "link": "https://en.wikipedia.org/wiki/Osmiridium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10207",
+      "gear": "gregtech:meta_item_2:26207",
+      "plate": "gregtech:meta_item_1:12207"
     },
     {
       "type": "text",

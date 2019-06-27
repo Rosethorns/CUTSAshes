@@ -3,18 +3,23 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "immersiveengineering:metal:7",
-      "text": "Abbreviation: Ec$(p)Chemical Makeup: AgAu$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Electrum)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Electrum",
+      "abbreviation": "Ec",
+      "link": "https://en.wikipedia.org/wiki/Electrum",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10112",
+      "gear": "gregtech:meta_item_2:26112",
+      "plate": "gregtech:meta_item_1:12112"
     },
     {
       "type": "text",
-      "text": "Electrum is a naturally occurring alloy of $(l:materials/Gold)gold$(/l) and $(l:materials/Silver)silver$(/l), with trace amounts of $(l:materials/Copper)copper$(/l) and other metals. It has also been produced artificially, and is often known as green $(l:materials/Gold)gold$(/l). The ancient Greeks called it 'gold' or 'white $(l:materials/Gold)gold$(/l)', as opposed to 'refined $(l:materials/Gold)gold$(/l)'. Its colour ranges from pale to bright yellow, depending on the proportions of $(l:materials/Gold)gold$(/l) and $(l:materials/Silver)silver$(/l).$(p)The $(l:materials/Gold)gold$(/l) content of "
+      "text": "Electrum is a naturally occurring alloy of $(l:materials/Gold)gold$(/l) and $(l:materials/Silver)silver$(/l), with trace amounts of $(l:materials/Copper)copper$(/l) and other metals. It has also been produced artificially, and is often known as green $(l:materials/Gold)gold$(/l). The ancient Greeks called it 'gold' or 'white $(l:materials/Gold)gold$(/l)', as opposed to 'refined $(l:materials/Gold)gold$(/l)'. Its colour ranges from pale to bright yellow, depending on the proportions of $(l:materials/Gold)gold$(/l) and $(l:materials/Silver)silver$(/l).$(p)The $(l:materials/Gold)gold$(/l) content of naturally occurring electrum "
     },
     {
       "type": "text",
-      "text": "naturally occurring electrum in modern Western Anatolia ranges from 70% to 90%, in contrast to the 45-55% of $(l:materials/Gold)gold$(/l) in electrum used in ancient Lydian coinage of the same geographical area. This suggests that one reason for the invention of coinage in that area was to increase the profits from seigniorage by issuing currency with a lower $(l:materials/Gold)gold$(/l) content than the commonly circulating metal."
+      "text": "in modern Western Anatolia ranges from 70% to 90%, in contrast to the 45-55% of $(l:materials/Gold)gold$(/l) in electrum used in ancient Lydian coinage of the same geographical area. This suggests that one reason for the invention of coinage in that area was to increase the profits from seigniorage by issuing currency with a lower $(l:materials/Gold)gold$(/l) content than the commonly circulating metal."
     }
   ],
-  "icon": "immersiveengineering:metal:7"
+  "icon": "gregtech:meta_item_1:10112"
 }

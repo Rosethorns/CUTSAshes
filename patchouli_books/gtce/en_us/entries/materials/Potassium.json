@@ -3,37 +3,37 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10054",
-      "text": "Abbreviation: K$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Potassium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Potassium",
+      "abbreviation": "K",
+      "link": "https://en.wikipedia.org/wiki/Potassium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10054",
+      "plate": "gregtech:meta_item_1:12054"
     },
     {
       "type": "text",
-      "text": "Potassium is a chemical element with the symbol K (from Neo-Latin kalium) and atomic number 19. Potassium is a silvery-white metal that is soft enough to be cut with a knife with little force. Potassium metal reacts rapidly with atmospheric oxygen to form flaky white potassium peroxide in only seconds of exposure. It was first isolated from potash, the ashes of plants, from which its name derives. In the periodic table, potassium "
+      "text": "Potassium is a chemical element with the symbol K (from Neo-Latin kalium) and atomic number 19. Potassium is a silvery-white metal that is soft enough to be cut with a knife with little force. Potassium metal reacts rapidly with atmospheric oxygen to form flaky white potassium peroxide in only seconds of exposure. It was first isolated from potash, the ashes of plants, from which its name derives. In the periodic table, potassium is "
     },
     {
       "type": "text",
-      "text": "is one of the alkali metals, all of which have a single valence electron in the outer electron shell, that is easily removed to create an ion with a positive charge - a cation, that combines with anions to form salts. Potassium in nature occurs only in ionic salts. Elemental potassium reacts vigorously with water, generating sufficient heat to ignite hydrogen emitted in the reaction, and burning with a lilac-colored flame. "
+      "text": "one of the alkali metals, all of which have a single valence electron in the outer electron shell, that is easily removed to create an ion with a positive charge - a cation, that combines with anions to form salts. Potassium in nature occurs only in ionic salts. Elemental potassium reacts vigorously with water, generating sufficient heat to ignite hydrogen emitted in the reaction, and burning with a lilac-colored flame. It is found dissolved in sea water ("
     },
     {
       "type": "text",
-      "text": "It is found dissolved in sea water (which is 0.04% potassium by weight), and occurs in many minerals such as orthoclase, a common constituent of granites and other igneous rocks.$(p)Potassium is chemically very similar to $(l:materials/Sodium)sodium$(/l), the previous element in group 1 of the periodic table. They have a similar first ionization energy, which allows for each atom to give up its sole outer electron. "
+      "text": "which is 0.04% potassium by weight), and occurs in many minerals such as orthoclase, a common constituent of granites and other igneous rocks.$(p)Potassium is chemically very similar to $(l:materials/Sodium)sodium$(/l), the previous element in group 1 of the periodic table. They have a similar first ionization energy, which allows for each atom to give up its sole outer electron. That they are different elements that combine with the same anions "
     },
     {
       "type": "text",
-      "text": "That they are different elements that combine with the same anions to make similar salts was suspected in 1702, and was proven in 1807 using electrolysis. Naturally occurring potassium is composed of three isotopes, of which 40ⱣK is radioactive. Traces of 40ⱣK are found in all potassium, and it is the most common radioisotope in the human body.$(p)Potassium ions are vital for the functioning of all "
+      "text": "to make similar salts was suspected in 1702, and was proven in 1807 using electrolysis. Naturally occurring potassium is composed of three isotopes, of which 40ⱣK is radioactive. Traces of 40ⱣK are found in all potassium, and it is the most common radioisotope in the human body.$(p)Potassium ions are vital for the functioning of all living cells. The transfer of potassium ions across nerve "
     },
     {
       "type": "text",
-      "text": "living cells. The transfer of potassium ions across nerve cell membranes is necessary for normal nerve transmission; potassium deficiency and excess can each result in numerous signs and symptoms, including an abnormal heart rhythm and various electrocardiographic abnormalities. Fresh fruits and vegetables are good dietary sources of potassium. The body responds to the influx of dietary potassium, which raises serum potassium "
+      "text": "cell membranes is necessary for normal nerve transmission; potassium deficiency and excess can each result in numerous signs and symptoms, including an abnormal heart rhythm and various electrocardiographic abnormalities. Fresh fruits and vegetables are good dietary sources of potassium. The body responds to the influx of dietary potassium, which raises serum potassium levels, with a shift of potassium from outside to "
     },
     {
       "type": "text",
-      "text": "levels, with a shift of potassium from outside to inside cells and an increase in potassium excretion by the kidneys.$(p)Most industrial applications of potassium exploit the high solubility in water of potassium compounds, such as potassium soaps. Heavy crop production rapidly depletes the soil of potassium, and this can be remedied with agricultural fertilizers containing "
-    },
-    {
-      "type": "text",
-      "text": "potassium, accounting for 95% of global potassium chemical production."
+      "text": "inside cells and an increase in potassium excretion by the kidneys.$(p)Most industrial applications of potassium exploit the high solubility in water of potassium compounds, such as potassium soaps. Heavy crop production rapidly depletes the soil of potassium, and this can be remedied with agricultural fertilizers containing potassium, accounting for 95% of global potassium chemical production."
     }
   ],
   "icon": "gregtech:meta_item_1:10054"

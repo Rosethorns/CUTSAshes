@@ -3,25 +3,28 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10024",
-      "text": "Abbreviation: Gd$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Gadolinium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Gadolinium",
+      "abbreviation": "Gd",
+      "link": "https://en.wikipedia.org/wiki/Gadolinium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10024"
     },
     {
       "type": "text",
-      "text": "Gadolinium is a chemical element with the symbol Gd and atomic number 64. Gadolinium is silvery-white metal when oxidation is removed. It is only slightly malleable and is a ductile rare-earth metal. Gadolinium reacts with atmospheric oxygen or moisture slowly to form a black coating. Gadolinium below its Curie point of 20 °C (68 °F) is ferromagnetic, with an attraction to a magnetic field higher than that of "
+      "text": "Gadolinium is a chemical element with the symbol Gd and atomic number 64. Gadolinium is silvery-white metal when oxidation is removed. It is only slightly malleable and is a ductile rare-earth metal. Gadolinium reacts with atmospheric oxygen or moisture slowly to form a black coating. Gadolinium below its Curie point of 20 °C (68 °F) is ferromagnetic, with an attraction to a magnetic field higher than that of $(l:materials/Nickel)Nickel$(/l). Above this temperature it is "
     },
     {
       "type": "text",
-      "text": "$(l:materials/Nickel)Nickel$(/l). Above this temperature it is the most paramagnetic element. It is found in nature only in an oxidized form. When separated, it usually has impurities of the other rare-earths because of their similar chemical properties.$(p)Gadolinium was discovered in 1880 by Jean Charles de Marignac, who detected its oxide by using spectroscopy. It is named after the mineral gadolinite, one of the "
+      "text": "the most paramagnetic element. It is found in nature only in an oxidized form. When separated, it usually has impurities of the other rare-earths because of their similar chemical properties.$(p)Gadolinium was discovered in 1880 by Jean Charles de Marignac, who detected its oxide by using spectroscopy. It is named after the mineral gadolinite, one of the minerals in which gadolinium is found, itself named for the "
     },
     {
       "type": "text",
-      "text": "minerals in which gadolinium is found, itself named for the chemist Johan Gadolin. Pure gadolinium was first isolated by the chemist Paul Emile Lecoq de Boisbaudran around 1886.$(p)Gadolinium possesses unusual metallurgical properties, to the extent that as little as 1% of gadolinium can significantly improve the workability and resistance to oxidation at high temperatures of $(l:materials/Iron)iron$(/l), "
+      "text": "chemist Johan Gadolin. Pure gadolinium was first isolated by the chemist Paul Emile Lecoq de Boisbaudran around 1886.$(p)Gadolinium possesses unusual metallurgical properties, to the extent that as little as 1% of gadolinium can significantly improve the workability and resistance to oxidation at high temperatures of $(l:materials/Iron)iron$(/l), chromium, and related metals. Gadolinium as a metal or a salt absorbs neutrons and "
     },
     {
       "type": "text",
-      "text": "chromium, and related metals. Gadolinium as a metal or a salt absorbs neutrons and is, therefore, used sometimes for shielding in neutron radiography and in nuclear reactors."
+      "text": "is, therefore, used sometimes for shielding in neutron radiography and in nuclear reactors."
     }
   ],
   "icon": "gregtech:meta_item_1:10024"

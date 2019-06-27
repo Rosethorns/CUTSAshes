@@ -3,17 +3,20 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot_oxide:0",
-      "text": "Abbreviation: ThO$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Thorium_dioxide)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Thorium Oxide",
+      "abbreviation": "ThO",
+      "link": "https://en.wikipedia.org/wiki/Thorium_dioxide",
+      "source": "Wikipedia",
+      "ingot": "nuclearcraft:ingot_oxide:0"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Thorium)Thorium$(/l) dioxide (ThO2), also called $(l:materials/Thorium)thorium$(/l)(IV) oxide, is a crystalline solid, often white or yellow in color. Also known as thoria, it is produced mainly as a by-product of lanthanide and uranium production. Thorianite is the name of the mineralogical form of $(l:materials/Thorium)thorium$(/l) dioxide. It is moderately rare and crystallizes in an isometric system. The melting point of $(l:materials/Thorium)thorium$(/l) oxide is 3300 °C - the highest of all known oxides. Only a few "
+      "text": "$(l:materials/Thorium)Thorium$(/l) dioxide (ThO2), also called $(l:materials/Thorium)thorium$(/l)(IV) oxide, is a crystalline solid, often white or yellow in color. Also known as thoria, it is produced mainly as a by-product of lanthanide and uranium production. Thorianite is the name of the mineralogical form of $(l:materials/Thorium)thorium$(/l) dioxide. It is moderately rare and crystallizes in an isometric system. The melting point of $(l:materials/Thorium)thorium$(/l) oxide is 3300 °C - the highest of all known oxides. Only a few elements (including "
     },
     {
       "type": "text",
-      "text": "elements (including $(l:materials/Tungsten)tungsten$(/l) and $(l:materials/Carbon)carbon$(/l)) and a few compounds (including $(l:materials/Tantalum)tantalum$(/l) carbide) have higher melting points. All $(l:materials/Thorium)thorium$(/l) compounds are radioactive because there are no stable isotopes of $(l:materials/Thorium)thorium$(/l)."
+      "text": "$(l:materials/Tungsten)tungsten$(/l) and $(l:materials/Carbon)carbon$(/l)) and a few compounds (including $(l:materials/Tantalum)tantalum$(/l) carbide) have higher melting points. All $(l:materials/Thorium)thorium$(/l) compounds are radioactive because there are no stable isotopes of $(l:materials/Thorium)thorium$(/l)."
     }
   ],
   "icon": "nuclearcraft:ingot_oxide:0"

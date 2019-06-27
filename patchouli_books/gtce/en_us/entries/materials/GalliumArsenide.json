@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10410",
-      "text": "Abbreviation: AsGa$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Gallium_arsenide)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Gallium Arsenide",
+      "abbreviation": "AsGa",
+      "link": "https://en.wikipedia.org/wiki/Gallium_arsenide",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10410",
+      "plate": "gregtech:meta_item_1:12410"
     },
     {
       "type": "text",

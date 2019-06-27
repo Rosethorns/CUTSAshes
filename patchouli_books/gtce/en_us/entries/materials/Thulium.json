@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10070",
-      "text": "Abbreviation: Tm$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Thulium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Thulium",
+      "abbreviation": "Tm",
+      "link": "https://en.wikipedia.org/wiki/Thulium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10070",
+      "plate": "gregtech:meta_item_1:12070"
     },
     {
       "type": "text",
@@ -17,11 +21,11 @@
     },
     {
       "type": "text",
-      "text": "Thulium is the second-least abundant of the lanthanides, after radioactively unstable $(l:materials/Promethium)promethium$(/l) which is only found in trace quantities on Earth. It is an easily workable metal with a bright silvery-gray luster. It is fairly soft and slowly tarnishes in air. Despite its high price and rarity, thulium is used as the radiation source in portable X-ray devices, and in some solid-state lasers. It has no "
+      "text": "Thulium is the second-least abundant of the lanthanides, after radioactively unstable $(l:materials/Promethium)promethium$(/l) which is only found in trace quantities on Earth. It is an easily workable metal with a bright silvery-gray luster. It is fairly soft and slowly tarnishes in air. Despite its high price and rarity, thulium is used as the radiation source in portable X-ray devices, and in some solid-state lasers. It has no significant biological role "
     },
     {
       "type": "text",
-      "text": "significant biological role and is not particularly toxic."
+      "text": "and is not particularly toxic."
     }
   ],
   "icon": "gregtech:meta_item_1:10070"

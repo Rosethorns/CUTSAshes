@@ -3,17 +3,20 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot:10",
-      "text": "Abbreviation: Zr$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Zirconium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Zirconium",
+      "abbreviation": "Zr",
+      "link": "https://en.wikipedia.org/wiki/Zirconium",
+      "source": "Wikipedia",
+      "ingot": "nuclearcraft:ingot:10"
     },
     {
       "type": "text",
-      "text": "Zirconium is a chemical element with the symbol Zr and atomic number 40. The name zirconium is taken from the name of the mineral zircon (the word is related to Persian zargun (zircon;zar-gun, \"gold-like\" or \"as $(l:materials/Gold)gold$(/l)\")), the most important source of zirconium. It is a lustrous, grey-white, strong transition metal that closely resembles hafnium and, to a lesser extent, $(l:materials/Titanium)titanium$(/l). Zirconium is mainly used as a refractory and opacifier, "
+      "text": "Zirconium is a chemical element with the symbol Zr and atomic number 40. The name zirconium is taken from the name of the mineral zircon (the word is related to Persian zargun (zircon;zar-gun, \"gold-like\" or \"as $(l:materials/Gold)gold$(/l)\")), the most important source of zirconium. It is a lustrous, grey-white, strong transition metal that closely resembles hafnium and, to a lesser extent, $(l:materials/Titanium)titanium$(/l). Zirconium is mainly used as a refractory and opacifier, although small amounts are "
     },
     {
       "type": "text",
-      "text": "although small amounts are used as an alloying agent for its strong resistance to corrosion. Zirconium forms a variety of inorganic and organometallic compounds such as zirconium dioxide and zirconocene dichloride, respectively. Five isotopes occur naturally, three of which are stable."
+      "text": "used as an alloying agent for its strong resistance to corrosion. Zirconium forms a variety of inorganic and organometallic compounds such as zirconium dioxide and zirconocene dichloride, respectively. Five isotopes occur naturally, three of which are stable."
     }
   ],
   "icon": "nuclearcraft:ingot:10"

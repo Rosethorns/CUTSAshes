@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10192",
-      "text": "Abbreviation: Ult$(p)Chemical Makeup: Co5Cr2NiMo$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Haynes_International)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Ultimet",
+      "abbreviation": "Ult",
+      "link": "https://en.wikipedia.org/wiki/Haynes_International",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10192",
+      "gear": "gregtech:meta_item_2:26192",
+      "plate": "gregtech:meta_item_1:12192"
     },
     {
       "type": "text",

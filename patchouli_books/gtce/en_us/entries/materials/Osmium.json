@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10047",
-      "text": "Abbreviation: Os$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Osmium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Osmium",
+      "abbreviation": "Os",
+      "link": "https://en.wikipedia.org/wiki/Osmium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10047",
+      "gear": "gregtech:meta_item_2:26047",
+      "plate": "gregtech:meta_item_1:12047"
     },
     {
       "type": "text",

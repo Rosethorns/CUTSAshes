@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10228",
-      "text": "Abbreviation: CuAu$(p)Chemical Makeup: CuAu4$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Colored_gold#Rose,_red,_and_pink_gold)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Rose Gold",
+      "abbreviation": "CuAu",
+      "link": "https://en.wikipedia.org/wiki/Colored_gold#Rose,_red,_and_pink_gold",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10228",
+      "gear": "gregtech:meta_item_2:26228",
+      "plate": "gregtech:meta_item_1:12228"
     },
     {
       "type": "text",

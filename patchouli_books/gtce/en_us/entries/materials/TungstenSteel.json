@@ -3,21 +3,26 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10235",
-      "text": "Abbreviation: TStl$(p)Chemical Makeup: FeW$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Tungsten_steel)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Tungsten Steel",
+      "abbreviation": "TStl",
+      "link": "https://en.wikipedia.org/wiki/Tungsten_steel",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10235",
+      "gear": "gregtech:meta_item_2:26235",
+      "plate": "gregtech:meta_item_1:12235"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Tungsten)Tungsten$(/l) $(l:materials/Steel)steel$(/l) is any $(l:materials/Steel)steel$(/l) that has $(l:materials/Tungsten)tungsten$(/l) as its alloying element with characteristics derived mostly from the presence of this element (as opposed to any other element in the alloy). Common alloys have between 2% and 18% $(l:materials/Tungsten)tungsten$(/l) by weight along with small amounts of $(l:materials/Molybdenum)molybdenum$(/l) and $(l:materials/Vanadium)vanadium$(/l) which together create an alloy with exceptional heat, corrosion, and wear resistance. $(l:materials/Tungsten)Tungsten$(/l) is one of the oldest elements "
+      "text": "$(l:materials/Tungsten)Tungsten$(/l) $(l:materials/Steel)steel$(/l) is any $(l:materials/Steel)steel$(/l) that has $(l:materials/Tungsten)tungsten$(/l) as its alloying element with characteristics derived mostly from the presence of this element (as opposed to any other element in the alloy). Common alloys have between 2% and 18% $(l:materials/Tungsten)tungsten$(/l) by weight along with small amounts of $(l:materials/Molybdenum)molybdenum$(/l) and $(l:materials/Vanadium)vanadium$(/l) which together create an alloy with exceptional heat, corrosion, and wear resistance. $(l:materials/Tungsten)Tungsten$(/l) is one of the oldest elements used for alloying $(l:materials/Steel)steel$(/l). It "
     },
     {
       "type": "text",
-      "text": "used for alloying $(l:materials/Steel)steel$(/l). It forms a very hard carbide and $(l:materials/Iron)iron$(/l) tungstite. High $(l:materials/Tungsten)tungsten$(/l) content in the alloy, however, tends to cause brittleness and makes it subject to fracturing rather than bending. The SAE designation for all $(l:materials/Tungsten)tungsten$(/l) steels consist of four numbers beginning with the number 7, in the format 7XXX.$(p)Tungsten $(l:materials/Steel)steel$(/l) is used for manufacturing micro-drill bits, high-durability self-"
+      "text": "forms a very hard carbide and $(l:materials/Iron)iron$(/l) tungstite. High $(l:materials/Tungsten)tungsten$(/l) content in the alloy, however, tends to cause brittleness and makes it subject to fracturing rather than bending. The SAE designation for all $(l:materials/Tungsten)tungsten$(/l) steels consist of four numbers beginning with the number 7, in the format 7XXX.$(p)Tungsten $(l:materials/Steel)steel$(/l) is used for manufacturing micro-drill bits, high-durability self-sharpening rotary cutting blades, and rocket engine "
     },
     {
       "type": "text",
-      "text": "sharpening rotary cutting blades, and rocket engine nozzles, among many other applications."
+      "text": "nozzles, among many other applications."
     }
   ],
   "icon": "gregtech:meta_item_1:10235"

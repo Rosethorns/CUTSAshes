@@ -3,29 +3,34 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10016",
-      "text": "Abbreviation: Cr$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Chromium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Chrome",
+      "abbreviation": "Cr",
+      "link": "https://en.wikipedia.org/wiki/Chromium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10016",
+      "gear": "gregtech:meta_item_2:26016",
+      "plate": "gregtech:meta_item_1:12016"
     },
     {
       "type": "text",
-      "text": "Chromium is a chemical element with the symbol Cr and atomic number 24. It is the first element in group 6. It is a steely-grey, lustrous, hard and brittle transition metal. Chromium is also the main additive in $(l:materials/StainlessSteel)stainless $(l:materials/Steel)steel$(/l)$(/l), to which it adds anti-corrosive properties. Chromium is also highly valued as a metal that is able to be highly polished while resisting tarnishing. Polished chromium reflects almost 70% of the visible "
+      "text": "Chromium is a chemical element with the symbol Cr and atomic number 24. It is the first element in group 6. It is a steely-grey, lustrous, hard and brittle transition metal. Chromium is also the main additive in $(l:materials/StainlessSteel)stainless $(l:materials/Steel)steel$(/l)$(/l), to which it adds anti-corrosive properties. Chromium is also highly valued as a metal that is able to be highly polished while resisting tarnishing. Polished chromium reflects almost 70% of the visible spectrum, with "
     },
     {
       "type": "text",
-      "text": "spectrum, with almost 90% of infrared light being reflected. The name of the element is derived from the Greek word χρῶμα, chrōma, meaning color, because many chromium compounds are intensely colored.$(p)Ferrochromium alloy is commercially produced from chromite by silicothermic or aluminothermic reactions and chromium metal by roasting and leaching processes followed by reduction with "
+      "text": "almost 90% of infrared light being reflected. The name of the element is derived from the Greek word χρῶμα, chrōma, meaning color, because many chromium compounds are intensely colored.$(p)Ferrochromium alloy is commercially produced from chromite by silicothermic or aluminothermic reactions and chromium metal by roasting and leaching processes followed by reduction with $(l:materials/Carbon)carbon$(/l) and then $(l:materials/Aluminium)aluminium$(/l). Chromium metal is "
     },
     {
       "type": "text",
-      "text": "$(l:materials/Carbon)carbon$(/l) and then $(l:materials/Aluminium)aluminium$(/l). Chromium metal is of high value for its high corrosion resistance and hardness. A major development in $(l:materials/Steel)steel$(/l) production was the discovery that $(l:materials/Steel)steel$(/l) could be made highly resistant to corrosion and discoloration by adding metallic chromium to form $(l:materials/StainlessSteel)stainless $(l:materials/Steel)steel$(/l)$(/l). $(l:materials/StainlessSteel)Stainless $(l:materials/Steel)steel$(/l)$(/l) and chrome plating (electroplating with chromium) together comprise 85% of the commercial use."
+      "text": "of high value for its high corrosion resistance and hardness. A major development in $(l:materials/Steel)steel$(/l) production was the discovery that $(l:materials/Steel)steel$(/l) could be made highly resistant to corrosion and discoloration by adding metallic chromium to form $(l:materials/StainlessSteel)stainless $(l:materials/Steel)steel$(/l)$(/l). $(l:materials/StainlessSteel)Stainless $(l:materials/Steel)steel$(/l)$(/l) and chrome plating (electroplating with chromium) together comprise 85% of the commercial use.$(p)In the United States, trivalent chromium (Cr(III)) "
     },
     {
       "type": "text",
-      "text": "In the United States, trivalent chromium (Cr(III)) ion is considered an essential nutrient in humans for insulin, sugar and lipid metabolism. However, in 2014, the European Food Safety Authority, acting for the European Union, concluded that there was not sufficient evidence for chromium to be recognized as essential.$(p)While chromium metal and Cr(III) ions are not considered toxic, hexavalent "
+      "text": "ion is considered an essential nutrient in humans for insulin, sugar and lipid metabolism. However, in 2014, the European Food Safety Authority, acting for the European Union, concluded that there was not sufficient evidence for chromium to be recognized as essential.$(p)While chromium metal and Cr(III) ions are not considered toxic, hexavalent chromium (Cr(VI)) is both toxic and carcinogenic. "
     },
     {
       "type": "text",
-      "text": "chromium (Cr(VI)) is both toxic and carcinogenic. Abandoned chromium production sites often require environmental cleanup."
+      "text": "Abandoned chromium production sites often require environmental cleanup."
     }
   ],
   "icon": "gregtech:meta_item_1:10016"

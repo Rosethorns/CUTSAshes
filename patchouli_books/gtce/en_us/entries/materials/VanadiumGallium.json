@@ -3,21 +3,25 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10195",
-      "text": "Abbreviation: V3Ga$(p)Chemical Makeup: V3Ga$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Vanadium%E2%80%93gallium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Vanadium-Gallium",
+      "abbreviation": "V3Ga",
+      "link": "https://en.wikipedia.org/wiki/Vanadium%E2%80%93gallium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10195",
+      "plate": "gregtech:meta_item_1:12195"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Vanadium)Vanadium$(/l)-$(l:materials/Gallium)gallium$(/l) (V3Ga) is a superconducting alloy of $(l:materials/Vanadium)vanadium$(/l) and $(l:materials/Gallium)gallium$(/l). It is often used for the high field insert coils of superconducting electromagnets.$(p)Vanadium–gallium tape is used in superconducting magnets (magnetic fields of 17.5 teslas or 175,000 gauss). The structure of the superconducting A15 phase of V3Ga is similar to that of the more common Nb3Sn and "
+      "text": "$(l:materials/Vanadium)Vanadium$(/l)-$(l:materials/Gallium)gallium$(/l) (V3Ga) is a superconducting alloy of $(l:materials/Vanadium)vanadium$(/l) and $(l:materials/Gallium)gallium$(/l). It is often used for the high field insert coils of superconducting electromagnets.$(p)Vanadium–gallium tape is used in superconducting magnets (magnetic fields of 17.5 teslas or 175,000 gauss). The structure of the superconducting A15 phase of V3Ga is similar to that of the more common Nb3Sn and Nb3Ti."
     },
     {
       "type": "text",
-      "text": "Nb3Ti.In conditions where the magnetic field is higher than 8 Tesla and the temperature is higher than 4.2 Kelvin, Nb3Sn and V3Ga see use. The main property of V3Ga that makes it so useful is that it can be used in magnetic fields up to about 18 Tesla, while Nb3Sn can only be used in fields up to about 15 Tesla.$(p)The high field characteristics can be improved by doping with high-"
+      "text": "In conditions where the magnetic field is higher than 8 Tesla and the temperature is higher than 4.2 Kelvin, Nb3Sn and V3Ga see use. The main property of V3Ga that makes it so useful is that it can be used in magnetic fields up to about 18 Tesla, while Nb3Sn can only be used in fields up to about 15 Tesla.$(p)The high field characteristics can be improved by doping with high-Z elements such as Nb, Ta, Sn, "
     },
     {
       "type": "text",
-      "text": "Z elements such as Nb, Ta, Sn, Pt and Pb"
+      "text": "Pt and Pb"
     }
   ],
   "icon": "gregtech:meta_item_1:10195"

@@ -3,21 +3,22 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10043",
-      "text": "Abbreviation: Ds$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Darmstadtium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Darmstadtium",
+      "abbreviation": "Ds",
+      "link": "https://en.wikipedia.org/wiki/Darmstadtium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10043",
+      "gear": "gregtech:meta_item_2:26043",
+      "plate": "gregtech:meta_item_1:12043"
     },
     {
       "type": "text",
-      "text": "Darmstadtium is a synthetic chemical element with the symbol Ds and atomic number 110. It is an extremely radioactive synthetic element. The most stable known isotope, darmstadtium-281, has a half-life of approximately 12.7 seconds. Darmstadtium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research near the city of Darmstadt, Germany, after which it was named."
+      "text": "Darmstadtium is a synthetic chemical element with the symbol Ds and atomic number 110. It is an extremely radioactive synthetic element. The most stable known isotope, darmstadtium-281, has a half-life of approximately 12.7 seconds. Darmstadtium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research near the city of Darmstadt, Germany, after which it was named.$(p)In the periodic table, it "
     },
     {
       "type": "text",
-      "text": "In the periodic table, it is a d-block transactinide element. It is a member of the 7th period and is placed in the group 10 elements, although no chemical experiments have yet been carried out to confirm that it behaves as the heavier homologue to $(l:materials/Platinum)platinum$(/l) in group 10 as the eighth member of the 6d series of transition metals. Darmstadtium is calculated to have similar properties to its lighter homologues, "
-    },
-    {
-      "type": "text",
-      "text": "$(l:materials/Nickel)nickel$(/l), $(l:materials/Palladium)palladium$(/l), and $(l:materials/Platinum)platinum$(/l)."
+      "text": "is a d-block transactinide element. It is a member of the 7th period and is placed in the group 10 elements, although no chemical experiments have yet been carried out to confirm that it behaves as the heavier homologue to $(l:materials/Platinum)platinum$(/l) in group 10 as the eighth member of the 6d series of transition metals. Darmstadtium is calculated to have similar properties to its lighter homologues, $(l:materials/Nickel)nickel$(/l), $(l:materials/Palladium)palladium$(/l), and $(l:materials/Platinum)platinum$(/l)."
     }
   ],
   "icon": "gregtech:meta_item_1:10043"

@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot:7",
-      "text": "Abbreviation: Mg$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Magnesium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Magnesium",
+      "abbreviation": "Mg",
+      "link": "https://en.wikipedia.org/wiki/Magnesium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10038"
     },
     {
       "type": "text",
@@ -13,16 +16,16 @@
     },
     {
       "type": "text",
-      "text": "universe. It is produced in large, aging stars from the sequential addition of three helium nuclei to a $(l:materials/Carbon)carbon$(/l) nucleus. When such stars explode as supernovas, much of the magnesium is expelled into the interstellar medium where it may recycle into new star systems. Magnesium is the eighth most abundant element in the Earth's crust and the fourth most common element in the Earth (after $(l:materials/Iron)iron$(/l), oxygen and $(l:materials/Silicon)silicon$(/l)), making up 13% of the planet's "
+      "text": "universe. It is produced in large, aging stars from the sequential addition of three helium nuclei to a $(l:materials/Carbon)carbon$(/l) nucleus. When such stars explode as supernovas, much of the magnesium is expelled into the interstellar medium where it may recycle into new star systems. Magnesium is the eighth most abundant element in the Earth's crust and the fourth most common element in the Earth (after $(l:materials/Iron)iron$(/l), oxygen and $(l:materials/Silicon)silicon$(/l)), making up 13% of the planet's mass and a large "
     },
     {
       "type": "text",
-      "text": "mass and a large fraction of the planet's mantle. It is the third most abundant element dissolved in seawater, after $(l:materials/Sodium)sodium$(/l) and chlorine.$(p)Magnesium occurs naturally only in combination with other elements, where it invariably has a +2 oxidation state. The free element (metal) can be produced artificially, and is highly reactive (though in the atmosphere, it is soon coated in a thin layer of oxide that "
+      "text": "fraction of the planet's mantle. It is the third most abundant element dissolved in seawater, after $(l:materials/Sodium)sodium$(/l) and chlorine.$(p)Magnesium occurs naturally only in combination with other elements, where it invariably has a +2 oxidation state. The free element (metal) can be produced artificially, and is highly reactive (though in the atmosphere, it is soon coated in a thin layer of oxide that partly inhibits reactivity - "
     },
     {
       "type": "text",
-      "text": "partly inhibits reactivity - see passivation). The free metal burns with a characteristic brilliant-white light. The metal is now obtained mainly by electrolysis of magnesium salts obtained from brine, and is used primarily as a component in $(l:materials/Aluminium)aluminium$(/l)-magnesium alloys, sometimes called $(l:materials/Magnalium)magnalium$(/l) or magnelium. Magnesium is less dense than $(l:materials/Aluminium)aluminium$(/l), and the alloy is prized for its combination of lightness and strength."
+      "text": "see passivation). The free metal burns with a characteristic brilliant-white light. The metal is now obtained mainly by electrolysis of magnesium salts obtained from brine, and is used primarily as a component in $(l:materials/Aluminium)aluminium$(/l)-magnesium alloys, sometimes called $(l:materials/Magnalium)magnalium$(/l) or magnelium. Magnesium is less dense than $(l:materials/Aluminium)aluminium$(/l), and the alloy is prized for its combination of lightness and strength."
     }
   ],
-  "icon": "nuclearcraft:ingot:7"
+  "icon": "gregtech:meta_item_1:10038"
 }

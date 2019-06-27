@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10152",
-      "text": "Abbreviation: Rub$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Natural_rubber)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Rubber",
+      "abbreviation": "Rub",
+      "link": "https://en.wikipedia.org/wiki/Natural_rubber",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10152",
+      "gear": "gregtech:meta_item_2:26152",
+      "plate": "gregtech:meta_item_1:12152"
     },
     {
       "type": "text",
@@ -13,11 +18,11 @@
     },
     {
       "type": "text",
-      "text": "of the latex from the rubber tree or others. The latex is a sticky, milky colloid drawn off by making incisions in the bark and collecting the fluid in vessels in a process called \"tapping\". The latex then is refined into rubber ready for commercial processing. In major areas, latex is allowed to coagulate in the collection cup. The coagulated lumps are collected and processed into dry forms for marketing."
+      "text": "of the latex from the rubber tree or others. The latex is a sticky, milky colloid drawn off by making incisions in the bark and collecting the fluid in vessels in a process called \"tapping\". The latex then is refined into rubber ready for commercial processing. In major areas, latex is allowed to coagulate in the collection cup. The coagulated lumps are collected and processed into dry forms for marketing.$(p)Natural rubber is used "
     },
     {
       "type": "text",
-      "text": "Natural rubber is used extensively in many applications and products, either alone or in combination with other materials. In most of its useful forms, it has a large stretch ratio and high resilience, and is extremely waterproof."
+      "text": "extensively in many applications and products, either alone or in combination with other materials. In most of its useful forms, it has a large stretch ratio and high resilience, and is extremely waterproof."
     }
   ],
   "icon": "gregtech:meta_item_1:10152"

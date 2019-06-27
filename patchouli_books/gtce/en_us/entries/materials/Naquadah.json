@@ -3,17 +3,21 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10307",
-      "text": "Source: Stargate$(p)Abbreviation: Nq$(p)Further Reading: $(l:https://stargate.fandom.com/wiki/Naquadah)Stargate Wiki$(/l)"
+      "type": "material_overview",
+      "title": "Naquadah",
+      "abbreviation": "Nq",
+      "link": "https://stargate.fandom.com/wiki/Naquadah",
+      "source": "Stargate",
+      "ingot": "gregtech:meta_item_1:10307",
+      "plate": "gregtech:meta_item_1:12307"
     },
     {
       "type": "text",
-      "text": "Naquadah is a rare, super-dense mineral used by a wide number of different races. Its most basic use is as a weapon: Naquadah greatly amplifies energy, making it extremely potent if paired with explosives. Due to its unique properties, Naquadah forms the basis for many advanced technologies; the Stargates themselves are composed almost entirely of Naquadah. Naquadah is also present in the bloodstream of the Goa'uld, which allows "
+      "text": "Naquadah is a rare, super-dense mineral used by a wide number of different races. Its most basic use is as a weapon: Naquadah greatly amplifies energy, making it extremely potent if paired with explosives. Due to its unique properties, Naquadah forms the basis for many advanced technologies; the Stargates themselves are composed almost entirely of Naquadah. Naquadah is also present in the bloodstream of the Goa'uld, which allows them to control "
     },
     {
       "type": "text",
-      "text": "them to control their technologies and sense the presence of other symbiotes. The Goa'uld have Naquadah mining operations on many planets; its refined form, weapons-grade Naquadah, is extremely valuable and often used as currency. Weapons-grade Naquadah is so dense that two Jaffa are required to lift a quantity the size of a couple of common housing bricks, making it at least as dense as $(l:materials/Gold)gold$(/l)."
+      "text": "their technologies and sense the presence of other symbiotes. The Goa'uld have Naquadah mining operations on many planets; its refined form, weapons-grade Naquadah, is extremely valuable and often used as currency. Weapons-grade Naquadah is so dense that two Jaffa are required to lift a quantity the size of a couple of common housing bricks, making it at least as dense as $(l:materials/Gold)gold$(/l)."
     }
   ],
   "icon": "gregtech:meta_item_1:10307"

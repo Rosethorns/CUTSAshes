@@ -3,17 +3,20 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot_oxide:3",
-      "text": "Abbreviation: MnO2$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Manganese_dioxide)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Manganese Dioxide",
+      "abbreviation": "MnO2",
+      "link": "https://en.wikipedia.org/wiki/Manganese_dioxide",
+      "source": "Wikipedia",
+      "ingot": "nuclearcraft:ingot_oxide:3"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Manganese)Manganese$(/l)(IV) oxide is the inorganic compound with the formula MnO2. This blackish or brown solid occurs naturally as the mineral pyrolusite, which is the main ore of $(l:materials/Manganese)manganese$(/l) and a component of $(l:materials/Manganese)manganese$(/l) nodules. The principal use for MnO2 is for dry-cell batteries, such as the alkaline battery and the $(l:materials/Zinc)zinc$(/l)-$(l:materials/Carbon)carbon$(/l) battery. MnO2 is also used as a pigment and as a precursor to other $(l:materials/Manganese)manganese$(/l) compounds, such as KMnO4. It "
+      "text": "$(l:materials/Manganese)Manganese$(/l)(IV) oxide is the inorganic compound with the formula MnO2. This blackish or brown solid occurs naturally as the mineral pyrolusite, which is the main ore of $(l:materials/Manganese)manganese$(/l) and a component of $(l:materials/Manganese)manganese$(/l) nodules. The principal use for MnO2 is for dry-cell batteries, such as the alkaline battery and the $(l:materials/Zinc)zinc$(/l)-$(l:materials/Carbon)carbon$(/l) battery. MnO2 is also used as a pigment and as a precursor to other $(l:materials/Manganese)manganese$(/l) compounds, such as KMnO4. It is used as a reagent in "
     },
     {
       "type": "text",
-      "text": "is used as a reagent in organic synthesis, for example, for the oxidation of allylic alcohols. MnO2 in the α polymorph can incorporate a variety of atoms (as well as water molecules) in the \"tunnels\" or \"channels\" between the $(l:materials/Manganese)manganese$(/l) oxide octahedra. There is considerable interest in alpha-MnO2 as a possible cathode for $(l:materials/Lithium)lithium$(/l) ion batteries."
+      "text": "organic synthesis, for example, for the oxidation of allylic alcohols. MnO2 in the α polymorph can incorporate a variety of atoms (as well as water molecules) in the \"tunnels\" or \"channels\" between the $(l:materials/Manganese)manganese$(/l) oxide octahedra. There is considerable interest in alpha-MnO2 as a possible cathode for $(l:materials/Lithium)lithium$(/l) ion batteries."
     }
   ],
   "icon": "nuclearcraft:ingot_oxide:3"

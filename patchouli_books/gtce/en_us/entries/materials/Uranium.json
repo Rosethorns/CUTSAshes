@@ -3,30 +3,34 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot:4",
-      "text": "Abbreviation: U238$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Uranium-238)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Uranium-238",
+      "abbreviation": "U238",
+      "link": "https://en.wikipedia.org/wiki/Uranium-238",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10075",
+      "plate": "gregtech:meta_item_1:12075"
     },
     {
       "type": "text",
-      "text": "Uranium-238 (238U or U-238) is the most common isotope of uranium found in nature, with a relative abundance of 99%. Unlike $(l:materials/Uranium235)uranium-235$(/l), it is non-fissile, which means it cannot sustain a chain reaction in a thermal-neutron reactor. However, it is fissionable by fast neutrons, and is fertile, meaning it can be transmuted to fissile plutonium-239. 238U cannot support a chain reaction because inelastic scattering reduces neutron energy below "
+      "text": "Uranium-238 (238U or U-238) is the most common isotope of uranium found in nature, with a relative abundance of 99%. Unlike $(l:materials/Uranium235)uranium-235$(/l), it is non-fissile, which means it cannot sustain a chain reaction in a thermal-neutron reactor. However, it is fissionable by fast neutrons, and is fertile, meaning it can be transmuted to fissile plutonium-239. 238U cannot support a chain reaction because inelastic scattering reduces neutron energy below the range where "
     },
     {
       "type": "text",
-      "text": "the range where fast fission of one or more next-generation nuclei is probable. Doppler broadening of U-238's neutron absorption resonances, increasing absorption as fuel temperature increases, is also an essential negative feedback mechanism for reactor control.$(p)Around 99.286% of natural uranium's mass is uranium-238, which has a half-life of 1.41×1017 seconds (4.468×109 "
+      "text": "fast fission of one or more next-generation nuclei is probable. Doppler broadening of U-238's neutron absorption resonances, increasing absorption as fuel temperature increases, is also an essential negative feedback mechanism for reactor control.$(p)Around 99.286% of natural uranium's mass is uranium-238, which has a half-life of 1.41×1017 seconds (4.468×109 years, or 4.468 billion years). Due to its natural abundance and "
     },
     {
       "type": "text",
-      "text": "years, or 4.468 billion years). Due to its natural abundance and half-life relative to other radioactive elements, 238U produces ~40% of the radioactive heat produced within the Earth. 238U decay contributes 6 electron anti-neutrinos per decay (1 per beta decay), resulting in a large detectable geoneutrino signal when decays occur within the Earth. The decay of 238U to daughter isotopes is extensively used in "
+      "text": "half-life relative to other radioactive elements, 238U produces ~40% of the radioactive heat produced within the Earth. 238U decay contributes 6 electron anti-neutrinos per decay (1 per beta decay), resulting in a large detectable geoneutrino signal when decays occur within the Earth. The decay of 238U to daughter isotopes is extensively used in radiometric dating, particularly for material older than ~ 1 million years."
     },
     {
       "type": "text",
-      "text": "radiometric dating, particularly for material older than ~ 1 million years.$(p)Depleted uranium has an even higher concentration of the 238U isotope, and even low-enriched uranium (LEU), while having a higher proportion of the $(l:materials/Uranium235)uranium-235$(/l) isotope (in comparison to depleted uranium), is still mostly 238U. Reprocessed uranium is also mainly 238U, with about as much $(l:materials/Uranium235)uranium-235$(/l) as natural uranium, a "
+      "text": "Depleted uranium has an even higher concentration of the 238U isotope, and even low-enriched uranium (LEU), while having a higher proportion of the $(l:materials/Uranium235)uranium-235$(/l) isotope (in comparison to depleted uranium), is still mostly 238U. Reprocessed uranium is also mainly 238U, with about as much $(l:materials/Uranium235)uranium-235$(/l) as natural uranium, a comparable proportion of uranium-236, and much smaller amounts of other isotopes of uranium such as uranium-234, uranium-233, and "
     },
     {
       "type": "text",
-      "text": "comparable proportion of uranium-236, and much smaller amounts of other isotopes of uranium such as uranium-234, uranium-233, and uranium-232."
+      "text": "uranium-232."
     }
   ],
-  "icon": "nuclearcraft:ingot:4"
+  "icon": "gregtech:meta_item_1:10075"
 }

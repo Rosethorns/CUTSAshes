@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10133",
-      "text": "Abbreviation: Nich$(p)Chemical Makeup: Ni4Cr$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Nichrome)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Nichrome",
+      "abbreviation": "Nich",
+      "link": "https://en.wikipedia.org/wiki/Nichrome",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10133",
+      "plate": "gregtech:meta_item_1:12133"
     },
     {
       "type": "text",

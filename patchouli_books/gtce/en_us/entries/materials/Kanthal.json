@@ -3,21 +3,25 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10127",
-      "text": "Abbreviation: Kan$(p)Chemical Makeup: FeAlCr$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Kanthal_(alloy))Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Kanthal",
+      "abbreviation": "Kan",
+      "link": "https://en.wikipedia.org/wiki/Kanthal_(alloy)",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10127",
+      "plate": "gregtech:meta_item_1:12127"
     },
     {
       "type": "text",
-      "text": "Kanthal is the trademark for a family of $(l:materials/Iron)iron$(/l)-chromium-$(l:materials/Aluminium)aluminium$(/l) (FeCrAl) alloys used in a wide range of resistance and high-temperature applications. Kanthal FeCrAl alloys consist of mainly $(l:materials/Iron)iron$(/l), chromium (20-30%) and $(l:materials/Aluminium)aluminium$(/l) (4–7.5 %). The first Kanthal FeCrAl alloy was developed by Hans von Kantzow in Hallstahammar, Sweden. The alloys are known for their ability to withstand high temperatures and having intermediate "
+      "text": "Kanthal is the trademark for a family of $(l:materials/Iron)iron$(/l)-chromium-$(l:materials/Aluminium)aluminium$(/l) (FeCrAl) alloys used in a wide range of resistance and high-temperature applications. Kanthal FeCrAl alloys consist of mainly $(l:materials/Iron)iron$(/l), chromium (20-30%) and $(l:materials/Aluminium)aluminium$(/l) (4–7.5 %). The first Kanthal FeCrAl alloy was developed by Hans von Kantzow in Hallstahammar, Sweden. The alloys are known for their ability to withstand high temperatures and having intermediate electric "
     },
     {
       "type": "text",
-      "text": "electric resistance. As such, it is frequently used in heating elements. The trademark Kanthal is owned by Sandvik Intellectual Property AB.$(p)Kanthal is used in heating elements due to its flexibility, durability and tensile strength. Its uses are widespread, for example in toasters, home and industrial heaters, kilns and diffusion heaters (used in the making of crystalline "
+      "text": "resistance. As such, it is frequently used in heating elements. The trademark Kanthal is owned by Sandvik Intellectual Property AB.$(p)Kanthal is used in heating elements due to its flexibility, durability and tensile strength. Its uses are widespread, for example in toasters, home and industrial heaters, kilns and diffusion heaters (used in the making of crystalline $(l:materials/Silicon)silicon$(/l))."
     },
     {
       "type": "text",
-      "text": "$(l:materials/Silicon)silicon$(/l)).Recently, Kanthal has been used for heating coils in electronic cigarettes. Unlike alternative types of metal such as $(l:materials/Nichrome)Nichrome$(/l), Kanthal is durable enough to withstand the temperatures needed, but flexible and cheap enough to be practical.$(p)Kanthal comes in standardised gauging, with higher numbers being thinner and lower being thicker."
+      "text": "Recently, Kanthal has been used for heating coils in electronic cigarettes. Unlike alternative types of metal such as $(l:materials/Nichrome)Nichrome$(/l), Kanthal is durable enough to withstand the temperatures needed, but flexible and cheap enough to be practical.$(p)Kanthal comes in standardised gauging, with higher numbers being thinner and lower being thicker."
     }
   ],
   "icon": "gregtech:meta_item_1:10127"

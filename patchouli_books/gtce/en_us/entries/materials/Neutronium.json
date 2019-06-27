@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10972",
-      "text": "Abbreviation: Nt$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Neutronium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Neutronium",
+      "abbreviation": "Nt",
+      "link": "https://en.wikipedia.org/wiki/Neutronium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10972",
+      "gear": "gregtech:meta_item_2:26972",
+      "plate": "gregtech:meta_item_1:12972"
     },
     {
       "type": "text",

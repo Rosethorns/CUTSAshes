@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10126",
-      "text": "Abbreviation: Inv$(p)Chemical Makeup: Fe2Ni$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Invar)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Invar",
+      "abbreviation": "Inv",
+      "link": "https://en.wikipedia.org/wiki/Invar",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10126",
+      "gear": "gregtech:meta_item_2:26126",
+      "plate": "gregtech:meta_item_1:12126"
     },
     {
       "type": "text",

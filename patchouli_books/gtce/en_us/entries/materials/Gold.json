@@ -3,25 +3,30 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "minecraft:gold_ingot:0",
-      "text": "Abbreviation: Au$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Gold)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Gold",
+      "abbreviation": "Au",
+      "link": "https://en.wikipedia.org/wiki/Gold",
+      "source": "Wikipedia",
+      "ingot": "minecraft:gold_ingot:0",
+      "gear": "gregtech:meta_item_2:26026",
+      "plate": "gregtech:meta_item_1:12026"
     },
     {
       "type": "text",
-      "text": "Gold is a chemical element with the symbol Au (from Latin: aurum) and atomic number 79, making it one of the higher atomic number elements that occur naturally. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element. It is one of the least reactive chemical elements and is solid under standard conditions. Gold "
+      "text": "Gold is a chemical element with the symbol Au (from Latin: aurum) and atomic number 79, making it one of the higher atomic number elements that occur naturally. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element. It is one of the least reactive chemical elements and is solid under standard conditions. Gold often occurs in free elemental "
     },
     {
       "type": "text",
-      "text": "often occurs in free elemental (native) form, as nuggets or grains, in rocks, in veins, and in alluvial deposits. It occurs in a solid solution series with the native element $(l:materials/Silver)silver$(/l) (as $(l:materials/Electrum)electrum$(/l)) and also naturally alloyed with $(l:materials/Copper)copper$(/l) and $(l:materials/Palladium)palladium$(/l). Less commonly, it occurs in minerals as gold compounds, often with $(l:materials/Tellurium)tellurium$(/l) (gold tellurides).$(p)Gold is resistant to most acids, though it does "
+      "text": "(native) form, as nuggets or grains, in rocks, in veins, and in alluvial deposits. It occurs in a solid solution series with the native element $(l:materials/Silver)silver$(/l) (as $(l:materials/Electrum)electrum$(/l)) and also naturally alloyed with $(l:materials/Copper)copper$(/l) and $(l:materials/Palladium)palladium$(/l). Less commonly, it occurs in minerals as gold compounds, often with $(l:materials/Tellurium)tellurium$(/l) (gold tellurides).$(p)Gold is resistant to most acids, though it does dissolve in aqua regia, a mixture of nitric acid and hydrochloric "
     },
     {
       "type": "text",
-      "text": "dissolve in aqua regia, a mixture of nitric acid and hydrochloric acid, which forms a soluble tetrachloroaurate anion. Gold is insoluble in nitric acid, which dissolves $(l:materials/Silver)silver$(/l) and base metals, a property that has long been used to refine gold and to confirm the presence of gold in metallic objects, giving rise to the term acid test. Gold also dissolves in alkaline solutions of cyanide, which are used in mining and "
+      "text": "acid, which forms a soluble tetrachloroaurate anion. Gold is insoluble in nitric acid, which dissolves $(l:materials/Silver)silver$(/l) and base metals, a property that has long been used to refine gold and to confirm the presence of gold in metallic objects, giving rise to the term acid test. Gold also dissolves in alkaline solutions of cyanide, which are used in mining and electroplating. Gold dissolves in mercury, forming amalgam alloys, but this is not a "
     },
     {
       "type": "text",
-      "text": "electroplating. Gold dissolves in mercury, forming amalgam alloys, but this is not a chemical reaction."
+      "text": "chemical reaction."
     }
   ],
   "icon": "minecraft:gold_ingot:0"

@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10020",
-      "text": "Abbreviation: Dy$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Dysprosium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Dysprosium",
+      "abbreviation": "Dy",
+      "link": "https://en.wikipedia.org/wiki/Dysprosium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10020"
     },
     {
       "type": "text",
@@ -13,11 +16,11 @@
     },
     {
       "type": "text",
-      "text": "mile Lecoq de Boisbaudran, but it was not isolated in pure form until the development of ion exchange techniques in the 1950s. Dysprosium has relatively few applications where it cannot be replaced by other chemical elements. It is used for its high thermal neutron absorption cross-section in making control rods in nuclear reactors, for its high magnetic susceptibility in data storage applications, and as a component of "
+      "text": "mile Lecoq de Boisbaudran, but it was not isolated in pure form until the development of ion exchange techniques in the 1950s. Dysprosium has relatively few applications where it cannot be replaced by other chemical elements. It is used for its high thermal neutron absorption cross-section in making control rods in nuclear reactors, for its high magnetic susceptibility in data storage applications, and as a component of Terfenol-D (a magnetostrictive material)"
     },
     {
       "type": "text",
-      "text": "Terfenol-D (a magnetostrictive material). Soluble dysprosium salts are mildly toxic, while the insoluble salts are considered non-toxic."
+      "text": ". Soluble dysprosium salts are mildly toxic, while the insoluble salts are considered non-toxic."
     }
   ],
   "icon": "gregtech:meta_item_1:10020"

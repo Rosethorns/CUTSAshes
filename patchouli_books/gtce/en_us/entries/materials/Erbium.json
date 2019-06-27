@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10021",
-      "text": "Abbreviation: Er$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Erbium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Erbium",
+      "abbreviation": "Er",
+      "link": "https://en.wikipedia.org/wiki/Erbium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10021",
+      "plate": "gregtech:meta_item_1:12021"
     },
     {
       "type": "text",
@@ -13,15 +17,15 @@
     },
     {
       "type": "text",
-      "text": "ions, which have optical fluorescent properties particularly useful in certain laser applications. Erbium-doped glasses or crystals can be used as optical amplification media, where Er3+ ions are optically pumped at around 980 or 1480 nm and then radiate light at 1530 nm in stimulated emission. This process results in an unusually mechanically simple laser optical amplifier for signals transmitted by fiber optics. "
+      "text": "ions, which have optical fluorescent properties particularly useful in certain laser applications. Erbium-doped glasses or crystals can be used as optical amplification media, where Er3+ ions are optically pumped at around 980 or 1480 nm and then radiate light at 1530 nm in stimulated emission. This process results in an unusually mechanically simple laser optical amplifier for signals transmitted by fiber optics. The 1550 nm wavelength "
     },
     {
       "type": "text",
-      "text": "The 1550 nm wavelength is especially important for optical communications because standard single mode optical fibers have minimal loss at this particular wavelength.$(p)In addition to optical fiber amplifier-lasers, a large variety of medical applications (i.e. dermatology, dentistry) rely on the erbium ion's 2940 nm emission (see Er:YAG laser) when lit at another "
+      "text": "is especially important for optical communications because standard single mode optical fibers have minimal loss at this particular wavelength.$(p)In addition to optical fiber amplifier-lasers, a large variety of medical applications (i.e. dermatology, dentistry) rely on the erbium ion's 2940 nm emission (see Er:YAG laser) when lit at another wavelength, which is highly absorbed in water in tissues, making its effect very "
     },
     {
       "type": "text",
-      "text": "wavelength, which is highly absorbed in water in tissues, making its effect very superficial. Such shallow tissue deposition of laser energy is helpful in laser surgery, and for the efficient production of steam which produces enamel ablation by common types of dental laser."
+      "text": "superficial. Such shallow tissue deposition of laser energy is helpful in laser surgery, and for the efficient production of steam which produces enamel ablation by common types of dental laser."
     }
   ],
   "icon": "gregtech:meta_item_1:10021"

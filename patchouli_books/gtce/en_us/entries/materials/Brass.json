@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "thaumcraft:ingot:2",
-      "text": "Abbreviation: Br$(p)Chemical Makeup: ZnCu3$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Brass)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Brass",
+      "abbreviation": "Br",
+      "link": "https://en.wikipedia.org/wiki/Brass",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10094",
+      "gear": "gregtech:meta_item_2:26094",
+      "plate": "gregtech:meta_item_1:12094"
     },
     {
       "type": "text",
@@ -17,12 +22,12 @@
     },
     {
       "type": "text",
-      "text": "locks, gears, bearings, doorknobs, ammunition casings and valves; for plumbing and electrical applications; and extensively in brass musical instruments such as horns and bells where a combination of high workability (historically with hand tools) and durability is desired. It is also used in zippers. Brass is often used in situations in which it is important that sparks not be struck, such as in fittings and tools used near flammable "
+      "text": "locks, gears, bearings, doorknobs, ammunition casings and valves; for plumbing and electrical applications; and extensively in brass musical instruments such as horns and bells where a combination of high workability (historically with hand tools) and durability is desired. It is also used in zippers. Brass is often used in situations in which it is important that sparks not be struck, such as in fittings and tools used near flammable or explosive "
     },
     {
       "type": "text",
-      "text": "or explosive materials."
+      "text": "materials."
     }
   ],
-  "icon": "thaumcraft:ingot:2"
+  "icon": "gregtech:meta_item_1:10094"
 }
