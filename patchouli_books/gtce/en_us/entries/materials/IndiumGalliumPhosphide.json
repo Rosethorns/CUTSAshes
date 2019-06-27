@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10421",
-      "text": "Abbreviation: IGP$(p)Chemical Makeup: InGaP$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Indium_gallium_phosphide)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Indium Gallium Phosphide",
+      "abbreviation": "IGP",
+      "link": "https://en.wikipedia.org/wiki/Indium_gallium_phosphide",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10421",
+      "plate": "gregtech:meta_item_1:12421"
     },
     {
       "type": "text",

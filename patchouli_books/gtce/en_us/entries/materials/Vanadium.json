@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10077",
-      "text": "Abbreviation: V$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Vanadium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Vanadium",
+      "abbreviation": "V",
+      "link": "https://en.wikipedia.org/wiki/Vanadium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10077",
+      "plate": "gregtech:meta_item_1:12077"
     },
     {
       "type": "text",
@@ -13,19 +17,19 @@
     },
     {
       "type": "text",
-      "text": "analyzing a new $(l:materials/Lead)lead$(/l)-bearing mineral he called \"brown $(l:materials/Lead)lead$(/l)\", and presumed its qualities were due to the presence of a new element, which he named erythronium (derived from greek word for \"red\") since upon heating most of the salts turned red. Four years later, he was (erroneously) convinced by other scientists that erythronium was identical to chromium. Chlorides of vanadium were generated in 1830 by Nils Gabriel Sefström who thereby "
+      "text": "analyzing a new $(l:materials/Lead)lead$(/l)-bearing mineral he called \"brown $(l:materials/Lead)lead$(/l)\", and presumed its qualities were due to the presence of a new element, which he named erythronium (derived from greek word for \"red\") since upon heating most of the salts turned red. Four years later, he was (erroneously) convinced by other scientists that erythronium was identical to chromium. Chlorides of vanadium were generated in 1830 by Nils Gabriel Sefström who thereby proved that a new "
     },
     {
       "type": "text",
-      "text": "proved that a new element was involved, which he named \"vanadium\" after the Scandinavian goddess of beauty and fertility, Vanadís (Freyja). Both names were attributed to the wide range of colors found in vanadium compounds. Del Rio's $(l:materials/Lead)lead$(/l) mineral was later renamed vanadinite for its vanadium content. In 1867 Henry Enfield Roscoe obtained the pure element.$(p)Vanadium occurs naturally "
+      "text": "element was involved, which he named \"vanadium\" after the Scandinavian goddess of beauty and fertility, Vanadís (Freyja). Both names were attributed to the wide range of colors found in vanadium compounds. Del Rio's $(l:materials/Lead)lead$(/l) mineral was later renamed vanadinite for its vanadium content. In 1867 Henry Enfield Roscoe obtained the pure element.$(p)Vanadium occurs naturally in about 65 minerals and in fossil fuel deposits. It is "
     },
     {
       "type": "text",
-      "text": "in about 65 minerals and in fossil fuel deposits. It is produced in China and Russia from $(l:materials/Steel)steel$(/l) smelter slag. Other countries produce it either from magnetite directly, flue dust of heavy oil, or as a byproduct of uranium mining. It is mainly used to produce specialty $(l:materials/Steel)steel$(/l) alloys such as high-speed tool steels. The most important industrial vanadium compound, vanadium pentoxide, is used as a catalyst for the production of sulfuric acid. "
+      "text": "produced in China and Russia from $(l:materials/Steel)steel$(/l) smelter slag. Other countries produce it either from magnetite directly, flue dust of heavy oil, or as a byproduct of uranium mining. It is mainly used to produce specialty $(l:materials/Steel)steel$(/l) alloys such as high-speed tool steels. The most important industrial vanadium compound, vanadium pentoxide, is used as a catalyst for the production of sulfuric acid. The vanadium redox battery for energy storage may be an important "
     },
     {
       "type": "text",
-      "text": "The vanadium redox battery for energy storage may be an important application in the future."
+      "text": "application in the future."
     }
   ],
   "icon": "gregtech:meta_item_1:10077"

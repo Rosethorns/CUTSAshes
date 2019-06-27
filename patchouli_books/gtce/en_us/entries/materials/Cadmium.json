@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10013",
-      "text": "Abbreviation: Cd$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Cadmium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Cadmium",
+      "abbreviation": "Cd",
+      "link": "https://en.wikipedia.org/wiki/Cadmium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10013"
     },
     {
       "type": "text",
@@ -17,11 +20,11 @@
     },
     {
       "type": "text",
-      "text": "production. Cadmium was used for a long time as a corrosion-resistant plating on $(l:materials/Steel)steel$(/l), and cadmium compounds are used as red, orange and yellow pigments, to color glass, and to stabilize plastic. Cadmium use is generally decreasing because it is toxic (it is specifically listed in the European Restriction of Hazardous Substances) and $(l:materials/Nickel)nickel$(/l)-cadmium batteries have been replaced with $(l:materials/Nickel)nickel$(/l)-metal hydride and $(l:materials/Lithium)lithium$(/l)-ion "
+      "text": "production. Cadmium was used for a long time as a corrosion-resistant plating on $(l:materials/Steel)steel$(/l), and cadmium compounds are used as red, orange and yellow pigments, to color glass, and to stabilize plastic. Cadmium use is generally decreasing because it is toxic (it is specifically listed in the European Restriction of Hazardous Substances) and $(l:materials/Nickel)nickel$(/l)-cadmium batteries have been replaced with $(l:materials/Nickel)nickel$(/l)-metal hydride and $(l:materials/Lithium)lithium$(/l)-ion batteries. One of its few new "
     },
     {
       "type": "text",
-      "text": "batteries. One of its few new uses is cadmium telluride solar panels.$(p)Although cadmium has no known biological function in higher organisms, a cadmium-dependent carbonic anhydrase has been found in marine diatoms."
+      "text": "uses is cadmium telluride solar panels.$(p)Although cadmium has no known biological function in higher organisms, a cadmium-dependent carbonic anhydrase has been found in marine diatoms."
     }
   ],
   "icon": "gregtech:meta_item_1:10013"

@@ -3,30 +3,35 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot:2",
-      "text": "Abbreviation: Pb$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Lead)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Lead",
+      "abbreviation": "Pb",
+      "link": "https://en.wikipedia.org/wiki/Lead",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10035",
+      "gear": "gregtech:meta_item_2:26035",
+      "plate": "gregtech:meta_item_1:12035"
     },
     {
       "type": "text",
-      "text": "Lead is a chemical element with the symbol Pb (from the Latin plumbum) and atomic number 82. It is a heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point. When freshly cut, lead is silvery with a hint of blue; it tarnishes to a dull gray color when exposed to air. Lead has the highest atomic number of any stable element and three of its isotopes are endpoints of "
+      "text": "Lead is a chemical element with the symbol Pb (from the Latin plumbum) and atomic number 82. It is a heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point. When freshly cut, lead is silvery with a hint of blue; it tarnishes to a dull gray color when exposed to air. Lead has the highest atomic number of any stable element and three of its isotopes are endpoints of major nuclear "
     },
     {
       "type": "text",
-      "text": "major nuclear decay chains of heavier elements.$(p)Lead is a relatively unreactive post-transition metal. Its weak metallic character is illustrated by its amphoteric nature; lead and lead oxides react with acids and bases, and it tends to form covalent bonds. Compounds of lead are usually found in the +2 oxidation state rather than the +4 state common with lighter members of the $(l:materials/Carbon)carbon$(/l) group. "
+      "text": "decay chains of heavier elements.$(p)Lead is a relatively unreactive post-transition metal. Its weak metallic character is illustrated by its amphoteric nature; lead and lead oxides react with acids and bases, and it tends to form covalent bonds. Compounds of lead are usually found in the +2 oxidation state rather than the +4 state common with lighter members of the $(l:materials/Carbon)carbon$(/l) group. Exceptions "
     },
     {
       "type": "text",
-      "text": "Exceptions are mostly limited to organolead compounds. Like the lighter members of the group, lead tends to bond with itself; it can form chains and polyhedral structures.$(p)Lead is easily extracted from its ores; prehistoric people in Western Asia knew of it. Galena, a principal ore of lead, often bears $(l:materials/Silver)silver$(/l), interest in which helped initiate widespread extraction and use of lead in "
+      "text": "are mostly limited to organolead compounds. Like the lighter members of the group, lead tends to bond with itself; it can form chains and polyhedral structures.$(p)Lead is easily extracted from its ores; prehistoric people in Western Asia knew of it. Galena, a principal ore of lead, often bears $(l:materials/Silver)silver$(/l), interest in which helped initiate widespread extraction and use of lead in ancient Rome. Lead production declined "
     },
     {
       "type": "text",
-      "text": "ancient Rome. Lead production declined after the fall of Rome and did not reach comparable levels until the Industrial Revolution. In 2014, the annual global production of lead was about ten million tonnes, over half of which was from recycling. Lead's high density, low melting point, ductility and relative inertness to oxidation make it useful. These properties, combined with its relative abundance and low cost, resulted in its "
+      "text": "after the fall of Rome and did not reach comparable levels until the Industrial Revolution. In 2014, the annual global production of lead was about ten million tonnes, over half of which was from recycling. Lead's high density, low melting point, ductility and relative inertness to oxidation make it useful. These properties, combined with its relative abundance and low cost, resulted in its extensive use in construction, plumbing, "
     },
     {
       "type": "text",
-      "text": "extensive use in construction, plumbing, batteries, bullets and shot, weights, solders, pewters, fusible alloys, white paints, leaded gasoline, and radiation shielding."
+      "text": "batteries, bullets and shot, weights, solders, pewters, fusible alloys, white paints, leaded gasoline, and radiation shielding."
     }
   ],
-  "icon": "nuclearcraft:ingot:2"
+  "icon": "gregtech:meta_item_1:10035"
 }

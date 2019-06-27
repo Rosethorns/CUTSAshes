@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10310",
-      "text": "Source: Stargate$(p)Abbreviation: Nqr$(p)Further Reading: $(l:https://stargate.fandom.com/wiki/Naquadria)Stargate Wiki$(/l)"
+      "type": "material_overview",
+      "title": "Naquadria",
+      "abbreviation": "Nqr",
+      "link": "https://stargate.fandom.com/wiki/Naquadria",
+      "source": "Stargate",
+      "ingot": "gregtech:meta_item_1:10310",
+      "plate": "gregtech:meta_item_1:12310"
     },
     {
       "type": "text",

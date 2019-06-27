@@ -3,17 +3,20 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:alloy:13",
-      "text": "Abbreviation: SiC$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Silicon_carbide)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Silicon Carbide",
+      "abbreviation": "SiC",
+      "link": "https://en.wikipedia.org/wiki/Silicon_carbide",
+      "source": "Wikipedia",
+      "ingot": "nuclearcraft:alloy:13"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Silicon)Silicon$(/l) carbide (SiC), also known as carborundum, is a semiconductor containing $(l:materials/Silicon)silicon$(/l) and $(l:materials/Carbon)carbon$(/l). It occurs in nature as the extremely rare mineral moissanite. Synthetic SiC powder has been mass-produced since 1893 for use as an abrasive. Grains of $(l:materials/Silicon)silicon$(/l) carbide can be bonded together by sintering to form very hard ceramics that are widely used in applications requiring high endurance, such as car brakes, car clutches and ceramic plates "
+      "text": "$(l:materials/Silicon)Silicon$(/l) carbide (SiC), also known as carborundum, is a semiconductor containing $(l:materials/Silicon)silicon$(/l) and $(l:materials/Carbon)carbon$(/l). It occurs in nature as the extremely rare mineral moissanite. Synthetic SiC powder has been mass-produced since 1893 for use as an abrasive. Grains of $(l:materials/Silicon)silicon$(/l) carbide can be bonded together by sintering to form very hard ceramics that are widely used in applications requiring high endurance, such as car brakes, car clutches and ceramic plates in "
     },
     {
       "type": "text",
-      "text": "in bulletproof vests. Electronic applications of $(l:materials/Silicon)silicon$(/l) carbide such as light-emitting diodes (LEDs) and detectors in early radios were first demonstrated around 1907. SiC is used in semiconductor electronics devices that operate at high temperatures or high voltages, or both. Large single crystals of $(l:materials/Silicon)silicon$(/l) carbide can be grown by the Lely method and they can be cut into gems known as synthetic moissanite."
+      "text": "bulletproof vests. Electronic applications of $(l:materials/Silicon)silicon$(/l) carbide such as light-emitting diodes (LEDs) and detectors in early radios were first demonstrated around 1907. SiC is used in semiconductor electronics devices that operate at high temperatures or high voltages, or both. Large single crystals of $(l:materials/Silicon)silicon$(/l) carbide can be grown by the Lely method and they can be cut into gems known as synthetic moissanite."
     }
   ],
   "icon": "nuclearcraft:alloy:13"

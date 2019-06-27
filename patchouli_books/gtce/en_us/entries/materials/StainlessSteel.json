@@ -3,17 +3,22 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10183",
-      "text": "Abbreviation: SStl$(p)Chemical Makeup: Fe6CrMnNi$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Stainless_steel)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Stainless Steel",
+      "abbreviation": "SStl",
+      "link": "https://en.wikipedia.org/wiki/Stainless_steel",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10183",
+      "gear": "gregtech:meta_item_2:26183",
+      "plate": "gregtech:meta_item_1:12183"
     },
     {
       "type": "text",
-      "text": "In metallurgy, stainless $(l:materials/Steel)steel$(/l), also known as inox $(l:materials/Steel)steel$(/l) or inox from French inoxydable (inoxidizable), is a $(l:materials/Steel)steel$(/l) alloy, with a minimum of 10.5% chromium content by mass and a maximum of 1.2% $(l:materials/Carbon)carbon$(/l) by mass.$(p)Stainless steels are most notable for their corrosion resistance, which increases with increasing chromium content. Additions of $(l:materials/Molybdenum)molybdenum$(/l) increase corrosion resistance in reducing acids "
+      "text": "In metallurgy, stainless $(l:materials/Steel)steel$(/l), also known as inox $(l:materials/Steel)steel$(/l) or inox from French inoxydable (inoxidizable), is a $(l:materials/Steel)steel$(/l) alloy, with a minimum of 10.5% chromium content by mass and a maximum of 1.2% $(l:materials/Carbon)carbon$(/l) by mass.$(p)Stainless steels are most notable for their corrosion resistance, which increases with increasing chromium content. Additions of $(l:materials/Molybdenum)molybdenum$(/l) increase corrosion resistance in reducing acids and against pitting attack in "
     },
     {
       "type": "text",
-      "text": "and against pitting attack in chloride solutions. Thus, there are numerous grades of stainless $(l:materials/Steel)steel$(/l) with varying chromium and $(l:materials/Molybdenum)molybdenum$(/l) contents to suit the environment the alloy must endure. Stainless $(l:materials/Steel)steel$(/l)'s resistance to corrosion and staining, low maintenance, and familiar luster make it an ideal material for many applications where both the strength of $(l:materials/Steel)steel$(/l) and corrosion resistance are required."
+      "text": "chloride solutions. Thus, there are numerous grades of stainless $(l:materials/Steel)steel$(/l) with varying chromium and $(l:materials/Molybdenum)molybdenum$(/l) contents to suit the environment the alloy must endure. Stainless $(l:materials/Steel)steel$(/l)'s resistance to corrosion and staining, low maintenance, and familiar luster make it an ideal material for many applications where both the strength of $(l:materials/Steel)steel$(/l) and corrosion resistance are required."
     },
     {
       "type": "text",

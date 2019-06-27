@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10234",
-      "text": "Abbreviation: DaSt$(p)Chemical Makeup: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Damascus_steel)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Damascus Steel",
+      "abbreviation": "DaSt",
+      "link": "https://en.wikipedia.org/wiki/Damascus_steel",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10234",
+      "plate": "gregtech:meta_item_1:12234"
     },
     {
       "type": "text",

@@ -3,25 +3,29 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10067",
-      "text": "Abbreviation: Te$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Tellurium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Tellurium",
+      "abbreviation": "Te",
+      "link": "https://en.wikipedia.org/wiki/Tellurium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10067",
+      "plate": "gregtech:meta_item_1:12067"
     },
     {
       "type": "text",
-      "text": "Tellurium is a chemical element with the symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, $(l:materials/Silver)silver$(/l)-white metalloid. Tellurium is chemically related to selenium and sulfur, all three of which are chalcogens. It is occasionally found in native form as elemental crystals. Tellurium is far more common in the Universe as a whole than on Earth. Its extreme rarity in the Earth's crust, comparable to that of "
+      "text": "Tellurium is a chemical element with the symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, $(l:materials/Silver)silver$(/l)-white metalloid. Tellurium is chemically related to selenium and sulfur, all three of which are chalcogens. It is occasionally found in native form as elemental crystals. Tellurium is far more common in the Universe as a whole than on Earth. Its extreme rarity in the Earth's crust, comparable to that of $(l:materials/Platinum)platinum$(/l), is due "
     },
     {
       "type": "text",
-      "text": "$(l:materials/Platinum)platinum$(/l), is due partly its formation of a volatile hydride that caused tellurium to be lost to space as a gas during the hot nebular formation of Earth, and partly to tellurium’s low affinity for oxygen that causes it to bind preferentially to other chalcophiles in dense minerals that sink into the core.$(p)Tellurium-bearing compounds were first "
+      "text": "partly its formation of a volatile hydride that caused tellurium to be lost to space as a gas during the hot nebular formation of Earth, and partly to tellurium’s low affinity for oxygen that causes it to bind preferentially to other chalcophiles in dense minerals that sink into the core.$(p)Tellurium-bearing compounds were first discovered in 1782 in a $(l:materials/Gold)gold$(/l) mine in Kleinschlatten, "
     },
     {
       "type": "text",
-      "text": "discovered in 1782 in a $(l:materials/Gold)gold$(/l) mine in Kleinschlatten, Transylvania (now Zlatna, Romania) by Austrian mineralogist Franz-Joseph Müller von Reichenstein, although it was Martin Heinrich Klaproth who named the new element in 1798 after the Latin word for \"earth\", tellus. $(l:materials/Gold)Gold$(/l) telluride minerals are the most notable natural $(l:materials/Gold)gold$(/l) compounds. However, they are not a commercially significant source of tellurium itself, "
+      "text": "Transylvania (now Zlatna, Romania) by Austrian mineralogist Franz-Joseph Müller von Reichenstein, although it was Martin Heinrich Klaproth who named the new element in 1798 after the Latin word for \"earth\", tellus. $(l:materials/Gold)Gold$(/l) telluride minerals are the most notable natural $(l:materials/Gold)gold$(/l) compounds. However, they are not a commercially significant source of tellurium itself, which is normally extracted as a by-product of $(l:materials/Copper)copper$(/l) and "
     },
     {
       "type": "text",
-      "text": "which is normally extracted as a by-product of $(l:materials/Copper)copper$(/l) and $(l:materials/Lead)lead$(/l) production.$(p)Commercially, the primary use of tellurium is $(l:materials/Copper)copper$(/l) (Tellurium $(l:materials/Copper)Copper$(/l)) and $(l:materials/Steel)steel$(/l) alloys, where it improves machinability. Applications in CdTe solar panels and $(l:materials/Cadmium)Cadmium$(/l) telluride semiconductors also consume a considerable portion of tellurium production. Tellurium is considered a technology-critical element."
+      "text": "$(l:materials/Lead)lead$(/l) production.Commercially, the primary use of tellurium is $(l:materials/Copper)copper$(/l) (Tellurium $(l:materials/Copper)Copper$(/l)) and $(l:materials/Steel)steel$(/l) alloys, where it improves machinability. Applications in CdTe solar panels and $(l:materials/Cadmium)Cadmium$(/l) telluride semiconductors also consume a considerable portion of tellurium production. Tellurium is considered a technology-critical element."
     }
   ],
   "icon": "gregtech:meta_item_1:10067"

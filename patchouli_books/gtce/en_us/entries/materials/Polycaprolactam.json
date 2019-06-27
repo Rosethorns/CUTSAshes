@@ -3,17 +3,21 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10144",
-      "text": "Abbreviation: PCL$(p)Chemical Makeup: C6H11NO$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Nylon_6)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Polycaprolactam",
+      "abbreviation": "PCL",
+      "link": "https://en.wikipedia.org/wiki/Nylon_6",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10144",
+      "plate": "gregtech:meta_item_1:12144"
     },
     {
       "type": "text",
-      "text": "Nylon 6 or polycaprolactam is a polymer developed by Paul Schlack at IG Farben to reproduce the properties of nylon 6,6 without violating the patent on its production. (Around the same time, Kohei Hoshino at Toray also succeeded in synthesizing nylon 6.) It is a semicrystalline polyamide. Unlike most other nylons, nylon 6 is not a condensation polymer, but instead is formed by ring-opening polymerization; this makes it "
+      "text": "Nylon 6 or polycaprolactam is a polymer developed by Paul Schlack at IG Farben to reproduce the properties of nylon 6,6 without violating the patent on its production. (Around the same time, Kohei Hoshino at Toray also succeeded in synthesizing nylon 6.) It is a semicrystalline polyamide. Unlike most other nylons, nylon 6 is not a condensation polymer, but instead is formed by ring-opening polymerization; this makes it a special case "
     },
     {
       "type": "text",
-      "text": "a special case in the comparison between condensation and addition polymers. Its competition with nylon 6,6 and the example it set have also shaped the economics of the synthetic fiber industry. It is sold under numerous trade names including Perlon (Germany), Dederon (former East Germany), Nylatron, Capron, Ultramid, Akulon, Kapron (former Soviet Union and satellite states), and Durethan."
+      "text": "in the comparison between condensation and addition polymers. Its competition with nylon 6,6 and the example it set have also shaped the economics of the synthetic fiber industry. It is sold under numerous trade names including Perlon (Germany), Dederon (former East Germany), Nylatron, Capron, Ultramid, Akulon, Kapron (former Soviet Union and satellite states), and Durethan."
     }
   ],
   "icon": "gregtech:meta_item_1:10144"

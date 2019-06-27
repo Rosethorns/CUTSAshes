@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10087",
-      "text": "Abbreviation: ACu$(p)Chemical Makeup: Cu$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Annealing_(metallurgy))Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Annealed Copper",
+      "abbreviation": "ACu",
+      "link": "https://en.wikipedia.org/wiki/Annealing_(metallurgy)",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10087",
+      "gear": "gregtech:meta_item_2:26087",
+      "plate": "gregtech:meta_item_1:12087"
     },
     {
       "type": "text",
@@ -13,15 +18,15 @@
     },
     {
       "type": "text",
-      "text": "In annealing, atoms migrate in the crystal lattice and the number of dislocations decreases, leading to a change in ductility and hardness. As the material cools it recrystallizes. For many alloys, including $(l:materials/Carbon)carbon$(/l) $(l:materials/Steel)steel$(/l), the crystal grain size and phase composition, which ultimately determine the material properties, are dependent on the heating rate and cooling rate. Hot working or cold working after the "
+      "text": "In annealing, atoms migrate in the crystal lattice and the number of dislocations decreases, leading to a change in ductility and hardness. As the material cools it recrystallizes. For many alloys, including $(l:materials/Carbon)carbon$(/l) $(l:materials/Steel)steel$(/l), the crystal grain size and phase composition, which ultimately determine the material properties, are dependent on the heating rate and cooling rate. Hot working or cold working after the annealing process alter the "
     },
     {
       "type": "text",
-      "text": "annealing process alter the metal structure, so further heat treatments may be used to achieve the properties required. With knowledge of the composition and phase diagram, heat treatment can be used to adjust from harder and more brittle to softer and more ductile.$(p)In the cases of $(l:materials/Copper)copper$(/l), $(l:materials/Steel)steel$(/l), $(l:materials/Silver)silver$(/l), and $(l:materials/Brass)brass$(/l), this process is performed by heating the material (generally until glowing) for "
+      "text": "metal structure, so further heat treatments may be used to achieve the properties required. With knowledge of the composition and phase diagram, heat treatment can be used to adjust from harder and more brittle to softer and more ductile.$(p)In the cases of $(l:materials/Copper)copper$(/l), $(l:materials/Steel)steel$(/l), $(l:materials/Silver)silver$(/l), and $(l:materials/Brass)brass$(/l), this process is performed by heating the material (generally until glowing) for a while and then slowly letting "
     },
     {
       "type": "text",
-      "text": "a while and then slowly letting it cool to room temperature in still air. $(l:materials/Copper)Copper$(/l), $(l:materials/Silver)silver$(/l) and $(l:materials/Brass)brass$(/l) can be cooled slowly in air, or quickly by quenching in water, unlike ferrous metals, such as $(l:materials/Steel)steel$(/l), which must be cooled slowly to anneal. In this fashion, the metal is softened and prepared for further work such as shaping, stamping, or forming."
+      "text": "it cool to room temperature in still air. $(l:materials/Copper)Copper$(/l), $(l:materials/Silver)silver$(/l) and $(l:materials/Brass)brass$(/l) can be cooled slowly in air, or quickly by quenching in water, unlike ferrous metals, such as $(l:materials/Steel)steel$(/l), which must be cooled slowly to anneal. In this fashion, the metal is softened and prepared for further work such as shaping, stamping, or forming."
     }
   ],
   "icon": "gregtech:meta_item_1:10087"

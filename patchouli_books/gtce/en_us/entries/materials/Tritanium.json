@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10311",
-      "text": "Source: Star Trek$(p)Abbreviation: Tr$(p)Further Reading: $(l:https://memory-alpha.fandom.com/wiki/Tritanium)Star Trek Wiki$(/l)"
+      "type": "material_overview",
+      "title": "Tritanium",
+      "abbreviation": "Tr",
+      "link": "https://memory-alpha.fandom.com/wiki/Tritanium",
+      "source": "Star Trek",
+      "ingot": "gregtech:meta_item_1:10311",
+      "plate": "gregtech:meta_item_1:12311"
     },
     {
       "type": "text",

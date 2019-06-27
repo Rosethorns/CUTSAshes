@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "immersiveengineering:metal:6",
-      "text": "Abbreviation: Con$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Constantan)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Constantan",
+      "abbreviation": "Con",
+      "link": "https://en.wikipedia.org/wiki/Constantan",
+      "source": "Wikipedia",
+      "ingot": "immersiveengineering:metal:6",
+      "plate": "immersiveengineering:metal:36"
     },
     {
       "type": "text",

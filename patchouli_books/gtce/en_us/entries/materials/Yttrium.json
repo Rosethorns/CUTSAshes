@@ -3,9 +3,13 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10078",
-      "text": "Abbreviation: Y$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Yttrium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Yttrium",
+      "abbreviation": "Y",
+      "link": "https://en.wikipedia.org/wiki/Yttrium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10078",
+      "plate": "gregtech:meta_item_1:12078"
     },
     {
       "type": "text",
@@ -13,11 +17,11 @@
     },
     {
       "type": "text",
-      "text": "In 1787, Carl Axel Arrhenius found a new mineral near Ytterby in Sweden and named it ytterbite, after the village. Johan Gadolin discovered yttrium's oxide in Arrhenius' sample in 1789, and Anders Gustaf Ekeberg named the new oxide yttria. Elemental yttrium was first isolated in 1828 by Friedrich Wöhler.$(p)The most important uses of yttrium are LEDs and phosphors, particularly the "
+      "text": "In 1787, Carl Axel Arrhenius found a new mineral near Ytterby in Sweden and named it ytterbite, after the village. Johan Gadolin discovered yttrium's oxide in Arrhenius' sample in 1789, and Anders Gustaf Ekeberg named the new oxide yttria. Elemental yttrium was first isolated in 1828 by Friedrich Wöhler.$(p)The most important uses of yttrium are LEDs and phosphors, particularly the red "
     },
     {
       "type": "text",
-      "text": "red phosphors in television set cathode ray tube (CRT) displays. Yttrium is also used in the production of electrodes, electrolytes, electronic filters, lasers, superconductors, various medical applications, and tracing various materials to enhance their properties."
+      "text": "phosphors in television set cathode ray tube (CRT) displays. Yttrium is also used in the production of electrodes, electrolytes, electronic filters, lasers, superconductors, various medical applications, and tracing various materials to enhance their properties."
     }
   ],
   "icon": "gregtech:meta_item_1:10078"

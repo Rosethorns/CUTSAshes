@@ -3,33 +3,37 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10079",
-      "text": "Abbreviation: Zn$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Zinc)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Zinc",
+      "abbreviation": "Zn",
+      "link": "https://en.wikipedia.org/wiki/Zinc",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10079",
+      "plate": "gregtech:meta_item_1:12079"
     },
     {
       "type": "text",
-      "text": "Zinc is a chemical element with the symbol Zn and atomic number 30. Zinc is a slightly brittle metal at room temperature and has a blue-silvery appearance when oxidation is removed. It is the first element in group 12 of the periodic table. In some respects zinc is chemically similar to $(l:materials/Magnesium)magnesium$(/l): both elements exhibit only one normal oxidation state (+2), and the Zn2+ and Mg2+ ions are of similar size. Zinc is the "
+      "text": "Zinc is a chemical element with the symbol Zn and atomic number 30. Zinc is a slightly brittle metal at room temperature and has a blue-silvery appearance when oxidation is removed. It is the first element in group 12 of the periodic table. In some respects zinc is chemically similar to $(l:materials/Magnesium)magnesium$(/l): both elements exhibit only one normal oxidation state (+2), and the Zn2+ and Mg2+ ions are of similar size. Zinc is the 24th most abundant element in "
     },
     {
       "type": "text",
-      "text": "24th most abundant element in Earth's crust and has five stable isotopes. The most common zinc ore is sphalerite (zinc blende), a zinc sulfide mineral. The largest workable lodes are in Australia, Asia, and the United States. Zinc is refined by froth flotation of the ore, roasting, and final extraction using electricity (electrowinning).$(p)Brass, an alloy of $(l:materials/Copper)copper$(/l) and zinc in various proportions, was used as "
+      "text": "Earth's crust and has five stable isotopes. The most common zinc ore is sphalerite (zinc blende), a zinc sulfide mineral. The largest workable lodes are in Australia, Asia, and the United States. Zinc is refined by froth flotation of the ore, roasting, and final extraction using electricity (electrowinning).$(p)Brass, an alloy of $(l:materials/Copper)copper$(/l) and zinc in various proportions, was used as early as the third millennium BC in "
     },
     {
       "type": "text",
-      "text": "early as the third millennium BC in the Aegean, Iraq, the United Arab Emirates, Kalmykia, Turkmenistan and Georgia, and the second millennium BC in West India, Uzbekistan, Iran, Syria, Iraq, and Israel/Palestine. Zinc metal was not produced on a large scale until the 12th century in India, though it was known to the ancient Romans and Greeks. The mines of Rajasthan have given definite evidence of zinc production going back to the "
+      "text": "the Aegean, Iraq, the United Arab Emirates, Kalmykia, Turkmenistan and Georgia, and the second millennium BC in West India, Uzbekistan, Iran, Syria, Iraq, and Israel/Palestine. Zinc metal was not produced on a large scale until the 12th century in India, though it was known to the ancient Romans and Greeks. The mines of Rajasthan have given definite evidence of zinc production going back to the 6th century BC. To date, the oldest evidence of pure "
     },
     {
       "type": "text",
-      "text": "6th century BC. To date, the oldest evidence of pure zinc comes from Zawar, in Rajasthan, as early as the 9th century AD when a distillation process was employed to make pure zinc. Alchemists burned zinc in air to form what they called \"philosopher's wool\" or \"white snow\".$(p)The element was probably named by the alchemist Paracelsus after the German word Zinke (prong, tooth). "
+      "text": "zinc comes from Zawar, in Rajasthan, as early as the 9th century AD when a distillation process was employed to make pure zinc. Alchemists burned zinc in air to form what they called \"philosopher's wool\" or \"white snow\".$(p)The element was probably named by the alchemist Paracelsus after the German word Zinke (prong, tooth). German chemist Andreas Sigismund Marggraf is credited with discovering pure metallic "
     },
     {
       "type": "text",
-      "text": "German chemist Andreas Sigismund Marggraf is credited with discovering pure metallic zinc in 1746. Work by Luigi Galvani and Alessandro Volta uncovered the electrochemical properties of zinc by 1800. Corrosion-resistant zinc plating of $(l:materials/Iron)iron$(/l) (hot-dip galvanizing) is the major application for zinc. Other applications are in electrical batteries, small non-structural castings, and alloys such as $(l:materials/Brass)brass$(/l). A "
+      "text": "zinc in 1746. Work by Luigi Galvani and Alessandro Volta uncovered the electrochemical properties of zinc by 1800. Corrosion-resistant zinc plating of $(l:materials/Iron)iron$(/l) (hot-dip galvanizing) is the major application for zinc. Other applications are in electrical batteries, small non-structural castings, and alloys such as $(l:materials/Brass)brass$(/l). A variety of zinc compounds are commonly used, such as zinc carbonate and zinc gluconate (as dietary supplements), zinc "
     },
     {
       "type": "text",
-      "text": "variety of zinc compounds are commonly used, such as zinc carbonate and zinc gluconate (as dietary supplements), zinc chloride (in deodorants), zinc pyrithione (anti-dandruff shampoos), zinc sulfide (in luminescent paints), and dimethylzinc or diethylzinc in the organic laboratory."
+      "text": "chloride (in deodorants), zinc pyrithione (anti-dandruff shampoos), zinc sulfide (in luminescent paints), and dimethylzinc or diethylzinc in the organic laboratory."
     }
   ],
   "icon": "gregtech:meta_item_1:10079"

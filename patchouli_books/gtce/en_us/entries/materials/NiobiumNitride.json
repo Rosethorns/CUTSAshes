@@ -3,17 +3,21 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10134",
-      "text": "Abbreviation: NbN$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Niobium_nitride)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Niobium Nitride",
+      "abbreviation": "NbN",
+      "link": "https://en.wikipedia.org/wiki/Niobium_nitride",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10134",
+      "plate": "gregtech:meta_item_1:12134"
     },
     {
       "type": "text",
-      "text": "$(l:materials/Niobium)Niobium$(/l) nitride is a compound of $(l:materials/Niobium)niobium$(/l) and nitrogen (nitride) with the chemical formula NbN. At low temperatures (about 16 K) NbN, $(l:materials/Niobium)niobium$(/l) nitride becomes a superconductor, and is used in detectors for infrared light.$(p)Niobium nitride's main use is as a superconductor. Detectors based on it can detect a single photon in the 1-10 micrometer section of the infrared spectrum, which "
+      "text": "$(l:materials/Niobium)Niobium$(/l) nitride is a compound of $(l:materials/Niobium)niobium$(/l) and nitrogen (nitride) with the chemical formula NbN. At low temperatures (about 16 K) NbN, $(l:materials/Niobium)niobium$(/l) nitride becomes a superconductor, and is used in detectors for infrared light.$(p)Niobium nitride's main use is as a superconductor. Detectors based on it can detect a single photon in the 1-10 micrometer section of the infrared spectrum, which is important for astronomy and "
     },
     {
       "type": "text",
-      "text": "is important for astronomy and telecommunications. It can detect changes up to 25 gigahertz.$(p)Niobium nitride is also used in absorbing anti-reflective coatings."
+      "text": "telecommunications. It can detect changes up to 25 gigahertz.$(p)Niobium nitride is also used in absorbing anti-reflective coatings."
     }
   ],
   "icon": "gregtech:meta_item_1:10134"

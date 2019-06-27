@@ -3,29 +3,30 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10049",
-      "text": "Abbreviation: Pd$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Palladium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Palladium",
+      "abbreviation": "Pd",
+      "link": "https://en.wikipedia.org/wiki/Palladium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10049",
+      "gear": "gregtech:meta_item_2:26049",
+      "plate": "gregtech:meta_item_1:12049"
     },
     {
       "type": "text",
-      "text": "Palladium is a chemical element with the symbol Pd and atomic number 46. It is a rare and lustrous silvery-white metal discovered in 1803 by William Hyde Wollaston. He named it after the asteroid Pallas, which was itself named after the epithet of the Greek goddess Athena, acquired by her when she slew Pallas. Palladium, $(l:materials/Platinum)platinum$(/l), rhodium, ruthenium, $(l:materials/Iridium)iridium$(/l) and $(l:materials/Osmium)osmium$(/l) form a group of elements referred to as the $(l:materials/Platinum)platinum$(/l) group metals ("
+      "text": "Palladium is a chemical element with the symbol Pd and atomic number 46. It is a rare and lustrous silvery-white metal discovered in 1803 by William Hyde Wollaston. He named it after the asteroid Pallas, which was itself named after the epithet of the Greek goddess Athena, acquired by her when she slew Pallas. Palladium, $(l:materials/Platinum)platinum$(/l), rhodium, ruthenium, $(l:materials/Iridium)iridium$(/l) and $(l:materials/Osmium)osmium$(/l) form a group of elements referred to as the $(l:materials/Platinum)platinum$(/l) group metals (PGMs). These "
     },
     {
       "type": "text",
-      "text": "PGMs). These have similar chemical properties, but palladium has the lowest melting point and is the least dense of them.$(p)More than half the supply of palladium and its congener $(l:materials/Platinum)platinum$(/l) is used in catalytic converters, which convert as much as 90% of the harmful gases in automobile exhaust (hydrocarbons, $(l:materials/Carbon)carbon$(/l) monoxide, and nitrogen dioxide) into less noxious substances (nitrogen, $(l:materials/Carbon)carbon$(/l) dioxide and "
+      "text": "have similar chemical properties, but palladium has the lowest melting point and is the least dense of them.$(p)More than half the supply of palladium and its congener $(l:materials/Platinum)platinum$(/l) is used in catalytic converters, which convert as much as 90% of the harmful gases in automobile exhaust (hydrocarbons, $(l:materials/Carbon)carbon$(/l) monoxide, and nitrogen dioxide) into less noxious substances (nitrogen, $(l:materials/Carbon)carbon$(/l) dioxide and water vapor). Palladium is "
     },
     {
       "type": "text",
-      "text": "water vapor). Palladium is also used in electronics, dentistry, medicine, hydrogen purification, chemical applications, groundwater treatment, and jewelry. Palladium is a key component of fuel cells, which react hydrogen with oxygen to produce electricity, heat, and water.$(p)Ore deposits of palladium and other PGMs are rare. The most extensive deposits have been found in the norite belt "
+      "text": "also used in electronics, dentistry, medicine, hydrogen purification, chemical applications, groundwater treatment, and jewelry. Palladium is a key component of fuel cells, which react hydrogen with oxygen to produce electricity, heat, and water.$(p)Ore deposits of palladium and other PGMs are rare. The most extensive deposits have been found in the norite belt of the Bushveld Igneous "
     },
     {
       "type": "text",
-      "text": "of the Bushveld Igneous Complex covering the Transvaal Basin in South Africa; the Stillwater Complex in Montana, United States; the Sudbury Basin and Thunder Bay District of Ontario, Canada; the Norilsk Complex in Russia and most recently, the northern part of the Visayas islands in the Philippines. Recycling is also a source, mostly from scrapped catalytic converters. The numerous applications and limited supply sources "
-    },
-    {
-      "type": "text",
-      "text": "result in considerable investment interest."
+      "text": "Complex covering the Transvaal Basin in South Africa; the Stillwater Complex in Montana, United States; the Sudbury Basin and Thunder Bay District of Ontario, Canada; the Norilsk Complex in Russia and most recently, the northern part of the Visayas islands in the Philippines. Recycling is also a source, mostly from scrapped catalytic converters. The numerous applications and limited supply sources result in considerable investment interest."
     }
   ],
   "icon": "gregtech:meta_item_1:10049"

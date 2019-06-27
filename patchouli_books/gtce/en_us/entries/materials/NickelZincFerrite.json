@@ -3,17 +3,21 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "gregtech:meta_item_1:10424",
-      "text": "Abbreviation: NZF$(p)Chemical Makeup: NiZnFe4O$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Ferrite_(magnet))Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Nickel-Zinc Ferrite",
+      "abbreviation": "NZF",
+      "link": "https://en.wikipedia.org/wiki/Ferrite_(magnet)",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10424",
+      "plate": "gregtech:meta_item_1:12424"
     },
     {
       "type": "text",
-      "text": "Ferrites that are used in transformer or electromagnetic cores contain $(l:materials/Nickel)nickel$(/l), $(l:materials/Zinc)zinc$(/l), and/or $(l:materials/Manganese)manganese$(/l) compounds. They have a low coercivity and are called soft ferrites. The low coercivity means the material's magnetization can easily reverse direction without dissipating much energy (hysteresis losses), while the material's high resistivity prevents eddy currents in the core, another source of energy loss. Because of their "
+      "text": "Ferrites that are used in transformer or electromagnetic cores contain $(l:materials/Nickel)nickel$(/l), $(l:materials/Zinc)zinc$(/l), and/or $(l:materials/Manganese)manganese$(/l) compounds. They have a low coercivity and are called soft ferrites. The low coercivity means the material's magnetization can easily reverse direction without dissipating much energy (hysteresis losses), while the material's high resistivity prevents eddy currents in the core, another source of energy loss. Because of their comparatively low "
     },
     {
       "type": "text",
-      "text": "comparatively low losses at high frequencies, they are extensively used in the cores of RF transformers and inductors in applications such as switched-mode power supplies and loopstick antennas used in AM radios."
+      "text": "losses at high frequencies, they are extensively used in the cores of RF transformers and inductors in applications such as switched-mode power supplies and loopstick antennas used in AM radios."
     }
   ],
   "icon": "gregtech:meta_item_1:10424"

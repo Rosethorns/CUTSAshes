@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "minecraft:iron_ingot:0",
-      "text": "Abbreviation: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Iron)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Iron",
+      "abbreviation": "Fe",
+      "link": "https://en.wikipedia.org/wiki/Iron",
+      "source": "Wikipedia",
+      "ingot": "minecraft:iron_ingot:0",
+      "gear": "gregtech:meta_item_2:26033",
+      "plate": "gregtech:meta_item_1:12033"
     },
     {
       "type": "text",
@@ -13,11 +18,11 @@
     },
     {
       "type": "text",
-      "text": "Iron ores are quite abundant, but extracting usable metal from them requires kilns or furnaces capable of reaching 1500 °C or higher, about 500 °C higher than what is enough to smelt $(l:materials/Copper)copper$(/l). Humans started to dominate that process in Eurasia only about 2000 BCE, and iron began to displace $(l:materials/Copper)copper$(/l) alloys for tools and weapons, in some regions, only around 1200 BCE. That event is considered the transition from the $(l:materials/Bronze)Bronze$(/l) Age to the Iron Age. Iron "
+      "text": "Iron ores are quite abundant, but extracting usable metal from them requires kilns or furnaces capable of reaching 1500 °C or higher, about 500 °C higher than what is enough to smelt $(l:materials/Copper)copper$(/l). Humans started to dominate that process in Eurasia only about 2000 BCE, and iron began to displace $(l:materials/Copper)copper$(/l) alloys for tools and weapons, in some regions, only around 1200 BCE. That event is considered the transition from the $(l:materials/Bronze)Bronze$(/l) Age to the Iron Age. Iron alloys, "
     },
     {
       "type": "text",
-      "text": "alloys, such as $(l:materials/Steel)steel$(/l), inox, and special steels are now by far the most common industrial metals, because of their mechanical properties and their low cost."
+      "text": "such as $(l:materials/Steel)steel$(/l), inox, and special steels are now by far the most common industrial metals, because of their mechanical properties and their low cost."
     }
   ],
   "icon": "minecraft:iron_ingot:0"

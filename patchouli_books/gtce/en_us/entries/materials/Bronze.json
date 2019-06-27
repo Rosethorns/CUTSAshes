@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "forestry:ingot_bronze:0",
-      "text": "Abbreviation: Bz$(p)Chemical Makeup: SnCu3$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Bronze)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Bronze",
+      "abbreviation": "Bz",
+      "link": "https://en.wikipedia.org/wiki/Bronze",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10095",
+      "gear": "gregtech:meta_item_2:26095",
+      "plate": "gregtech:meta_item_1:12095"
     },
     {
       "type": "text",
@@ -13,12 +18,12 @@
     },
     {
       "type": "text",
-      "text": "The archeological period in which bronze was the hardest metal in widespread use is known as the Bronze Age. The beginning of the Bronze Age in India and western Eurasia is conventionally dated to the mid-4th millennium BC, and to the early 2nd millennium BC in China; everywhere it gradually spread across regions. The Bronze Age was followed by the $(l:materials/Iron)Iron$(/l) Age starting from about 1300 BC and reaching most of Eurasia "
+      "text": "The archeological period in which bronze was the hardest metal in widespread use is known as the Bronze Age. The beginning of the Bronze Age in India and western Eurasia is conventionally dated to the mid-4th millennium BC, and to the early 2nd millennium BC in China; everywhere it gradually spread across regions. The Bronze Age was followed by the $(l:materials/Iron)Iron$(/l) Age starting from about 1300 BC and reaching most of Eurasia by about 500 BC, "
     },
     {
       "type": "text",
-      "text": "by about 500 BC, although bronze continued to be much more widely used than it is in modern times."
+      "text": "although bronze continued to be much more widely used than it is in modern times."
     }
   ],
-  "icon": "forestry:ingot_bronze:0"
+  "icon": "gregtech:meta_item_1:10095"
 }

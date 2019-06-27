@@ -3,9 +3,12 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot_oxide:1",
-      "text": "Abbreviation: UO$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Uranium_dioxide)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Uranium Oxide",
+      "abbreviation": "UO",
+      "link": "https://en.wikipedia.org/wiki/Uranium_dioxide",
+      "source": "Wikipedia",
+      "ingot": "nuclearcraft:ingot_oxide:1"
     },
     {
       "type": "text",

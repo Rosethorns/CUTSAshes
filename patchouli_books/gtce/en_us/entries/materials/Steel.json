@@ -3,9 +3,14 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:alloy:5",
-      "text": "Abbreviation: Stl$(p)Chemical Makeup: Fe$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Steel)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Steel",
+      "abbreviation": "Stl",
+      "link": "https://en.wikipedia.org/wiki/Steel",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10184",
+      "gear": "gregtech:meta_item_2:26184",
+      "plate": "gregtech:meta_item_1:12184"
     },
     {
       "type": "text",
@@ -20,5 +25,5 @@
       "text": "properties.In pure $(l:materials/Iron)iron$(/l), the crystal structure has relatively little resistance to the $(l:materials/Iron)iron$(/l) atoms slipping past one another, and so pure $(l:materials/Iron)iron$(/l) is quite ductile, or soft and easily formed. In steel, small amounts of $(l:materials/Carbon)carbon$(/l), other elements, and inclusions within the $(l:materials/Iron)iron$(/l) act as hardening agents that prevent the movement of dislocations that are common in the crystal lattices of $(l:materials/Iron)iron$(/l) atoms."
     }
   ],
-  "icon": "nuclearcraft:alloy:5"
+  "icon": "gregtech:meta_item_1:10184"
 }

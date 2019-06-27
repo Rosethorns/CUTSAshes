@@ -3,30 +3,34 @@
   "category": "materials",
   "pages": [
     {
-      "type": "spotlight",
-      "item": "nuclearcraft:ingot:6",
-      "text": "Abbreviation: Li$(p)Further Reading: $(l:https://en.wikipedia.org/wiki/Lithium)Wikipedia$(/l)"
+      "type": "material_overview",
+      "title": "Lithium",
+      "abbreviation": "Li",
+      "link": "https://en.wikipedia.org/wiki/Lithium",
+      "source": "Wikipedia",
+      "ingot": "gregtech:meta_item_1:10036",
+      "plate": "gregtech:meta_item_1:12036"
     },
     {
       "type": "text",
-      "text": "Lithium (from Greek lithos, lit. 'stone') is a chemical element with the symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element. Like all alkali metals, lithium is highly reactive and flammable, and is stored in mineral oil. When cut, it exhibits a metallic luster, but moist air corrodes it quickly to a dull silvery gray, then black "
+      "text": "Lithium (from Greek lithos, lit. 'stone') is a chemical element with the symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element. Like all alkali metals, lithium is highly reactive and flammable, and is stored in mineral oil. When cut, it exhibits a metallic luster, but moist air corrodes it quickly to a dull silvery gray, then black tarnish. It never occurs "
     },
     {
       "type": "text",
-      "text": "tarnish. It never occurs freely in nature, but only in (usually ionic) compounds, such as pegmatitic minerals, which were once the main source of lithium. Due to its solubility as an ion, it is present in ocean water and is commonly obtained from brines. Lithium metal is isolated electrolytically from a mixture of lithium chloride and $(l:materials/Potassium)potassium$(/l) chloride.$(p)The nucleus of the lithium atom verges on "
+      "text": "freely in nature, but only in (usually ionic) compounds, such as pegmatitic minerals, which were once the main source of lithium. Due to its solubility as an ion, it is present in ocean water and is commonly obtained from brines. Lithium metal is isolated electrolytically from a mixture of lithium chloride and $(l:materials/Potassium)potassium$(/l) chloride.$(p)The nucleus of the lithium atom verges on instability, since the two stable lithium "
     },
     {
       "type": "text",
-      "text": "instability, since the two stable lithium isotopes found in nature have among the lowest binding energies per nucleon of all stable nuclides. Because of its relative nuclear instability, lithium is less common in the solar system than 25 of the first 32 chemical elements even though its nuclei are very light: it is an exception to the trend that heavier nuclei are less common. For related reasons, lithium has important uses in "
+      "text": "isotopes found in nature have among the lowest binding energies per nucleon of all stable nuclides. Because of its relative nuclear instability, lithium is less common in the solar system than 25 of the first 32 chemical elements even though its nuclei are very light: it is an exception to the trend that heavier nuclei are less common. For related reasons, lithium has important uses in nuclear physics. The transmutation of lithium atoms "
     },
     {
       "type": "text",
-      "text": "nuclear physics. The transmutation of lithium atoms to helium in 1932 was the first fully man-made nuclear reaction, and lithium deuteride serves as a fusion fuel in staged thermonuclear weapons.$(p)Lithium and its compounds have several industrial applications, including heat-resistant glass and ceramics, lithium grease lubricants, flux additives for $(l:materials/Iron)iron$(/l), $(l:materials/Steel)steel$(/l) and $(l:materials/Aluminium)aluminium$(/l) "
+      "text": "to helium in 1932 was the first fully man-made nuclear reaction, and lithium deuteride serves as a fusion fuel in staged thermonuclear weapons.$(p)Lithium and its compounds have several industrial applications, including heat-resistant glass and ceramics, lithium grease lubricants, flux additives for $(l:materials/Iron)iron$(/l), $(l:materials/Steel)steel$(/l) and $(l:materials/Aluminium)aluminium$(/l) production, lithium batteries, and lithium-ion batteries. These uses "
     },
     {
       "type": "text",
-      "text": "production, lithium batteries, and lithium-ion batteries. These uses consume more than three quarters of lithium production."
+      "text": "consume more than three quarters of lithium production."
     }
   ],
-  "icon": "nuclearcraft:ingot:6"
+  "icon": "gregtech:meta_item_1:10036"
 }
