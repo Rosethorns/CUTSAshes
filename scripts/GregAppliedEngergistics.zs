@@ -512,7 +512,8 @@ mixer.recipeBuilder()
 
 //Quartz Fiber Wire
 extruder.recipeBuilder()
-	.inputs([<contenttweaker:plate_nether_certus_mix>,<gregtech:meta_item_1:32356>])
+	.inputs(<contenttweaker:plate_nether_certus_mix>)
+	.notConsumable(<gregtech:meta_item_1:32356>)
 	.outputs(<contenttweaker:wire_quartz_fiber> * 6)
 	.duration(160)
 	.EUt(96)
@@ -526,3 +527,84 @@ wiremill.recipeBuilder()
 	.duration(80)
 	.EUt(8)
 	.buildAndRegister();
+
+//ME Export Bus
+recipes.remove(<appliedenergistics2:part:260>);
+recipes.addShaped(<appliedenergistics2:part:260>,
+		[[<gregtech:meta_item_1:12183>,<appliedenergistics2:material:43>,<gregtech:meta_item_1:12183>],
+		[null,<gregtech:meta_item_1:32642>,null]]
+	);
+
+//ME Fluid Annihilation Plane
+recipes.remove(<appliedenergistics2:part:302>);
+recipes.addShaped(<appliedenergistics2:part:302>,
+		[[<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>],
+		[<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
+		[<gregtech:meta_item_1:12183>,<appliedenergistics2:material:44>,<gregtech:meta_item_1:12183>]]
+	);
+
+//ME Fluid Export Bus
+recipes.remove(<appliedenergistics2:part:261>);
+recipes.addShaped(<appliedenergistics2:part:261>,
+		[[<gregtech:meta_item_1:12183>,<appliedenergistics2:material:43>,<gregtech:meta_item_1:12183>],
+		[<ore:dyeBlue>,<gregtech:meta_item_1:32642>,<ore:dyeBlue>]]
+	);
+
+//ME Fluid Formation Plane
+recipes.remove(<appliedenergistics2:part:321>);
+recipes.addShaped(<appliedenergistics2:part:321>,
+		[[<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>],
+		[<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
+		[<gregtech:meta_item_1:12183>,<appliedenergistics2:material:43>,<gregtech:meta_item_1:12183>]]
+	);
+
+//ME Fluid Import Bus
+recipes.remove(<appliedenergistics2:part:241>);
+recipes.addShaped(<appliedenergistics2:part:241>,
+		[[<ore:dyeBlue>,<appliedenergistics2:material:44>,<ore:dyeBlue>],
+		[<gregtech:meta_item_1:12183>,<gregtech:meta_item_1:32642>,<gregtech:meta_item_1:12183>]]
+	);
+
+//ME Fluid Storage Bus
+recipes.remove(<appliedenergistics2:part:221>);
+recipes.addShaped(<appliedenergistics2:part:221>,
+		[[<gregtech:meta_item_1:32642>,<appliedenergistics2:part:441> | <appliedenergistics2:fluid_interface>],
+		[<gregtech:meta_item_1:32602>,<ore:dyeBlue>]]
+	);
+
+//ME Formation Plane
+recipes.remove(<appliedenergistics2:part:320>);
+recipes.addShaped(<appliedenergistics2:part:320>,
+		[[<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>],
+		[<gregtech:meta_item_1:12183>,<appliedenergistics2:material:43>,<gregtech:meta_item_1:12183>]]
+	);
+
+//ME Import Bus
+recipes.remove(<appliedenergistics2:part:240>);
+recipes.addShaped(<appliedenergistics2:part:240>,
+		[[null,<appliedenergistics2:material:44>,null],
+		[<gregtech:meta_item_1:12183>,<gregtech:meta_item_1:32642>,<gregtech:meta_item_1:12183>]]
+	);
+
+//P2P Tunnel - ME
+recipes.remove(<appliedenergistics2:part:460>);
+recipes.addShaped(<appliedenergistics2:part:460>,
+		[[null,<gregtech:meta_item_1:12183>,null],
+		[<gregtech:meta_item_1:12183>,<appliedenergistics2:material:24>,<gregtech:meta_item_1:12183>],
+		[<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>,<contenttweaker:plate_fluix>]]
+	);
+
+//Illuminated Panel
+recipes.remove(<appliedenergistics2:part:180>);
+recipes.addShaped(<appliedenergistics2:part:180>,
+		[[null,<minecraft:glowstone_dust>,<appliedenergistics2:quartz_glass>],
+		[<gregtech:meta_item_1:12183>,<gregtech:meta_item_2:32488>,<appliedenergistics2:quartz_glass>],
+		[null,<minecraft:glowstone_dust>,<appliedenergistics2:quartz_glass>]]
+	);
+
+//ME Storage Bus
+recipes.remove(<appliedenergistics2:part:220>);
+recipes.addShaped(<appliedenergistics2:part:220>,
+		[[<gregtech:meta_item_1:32642>,<appliedenergistics2:part:441> | <appliedenergistics2:fluid_interface>],
+		[<gregtech:meta_item_1:32602>]]
+	);
