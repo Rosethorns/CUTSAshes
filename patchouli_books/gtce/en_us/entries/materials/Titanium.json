@@ -18,7 +18,7 @@
     },
     {
       "type": "text",
-      "text": "occurs within a number of mineral deposits, principally rutile and ilmenite, which are widely distributed in the Earth's crust and lithosphere, and it is found in almost all living things, water bodies, rocks, and soils. The metal is extracted from its principal mineral ores by the Kroll and Hunter processes. The most common compound, titanium dioxide, is a popular photocatalyst and is used in the manufacture of white pigments. Other compounds "
+      "text": "occurs within a number of mineral deposits, principally $(l:ores/Rutile)rutile$(/l) and $(l:ores/Ilmenite)ilmenite$(/l), which are widely distributed in the Earth's crust and lithosphere, and it is found in almost all living things, water bodies, rocks, and soils. The metal is extracted from its principal mineral ores by the Kroll and Hunter processes. The most common compound, titanium dioxide, is a popular photocatalyst and is used in the manufacture of white pigments. Other compounds "
     },
     {
       "type": "text",

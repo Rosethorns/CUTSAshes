@@ -1,0 +1,59 @@
+{
+  "name": "Graphite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Graphite",
+      "abbreviation": "Gpht",
+      "link": "https://en.wikipedia.org/wiki/Graphite",
+      "source": "Wikipedia",
+      "scan": "$(#535353)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_graphite_0:0",
+      "crushed": "gregtech:meta_item_1:5204",
+      "dust": "gregtech:meta_item_1:2204"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreGraphite",
+      "output1_p1": "ore:ingotGraphite",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreGraphite",
+      "output1_p2": "ore:crushedGraphite",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustCarbon",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreGraphite",
+      "output1_p1": "forge:bucketfilled{FluidName: graphite, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreGraphite",
+      "output1_p2": "ore:crushedGraphite"
+    },
+    {
+      "type": "text",
+      "text": "Graphite, archaically referred to as plumbago, is a crystalline form of the element $(l:materials/Carbon)carbon$(/l) with its atoms arranged in a hexagonal structure. It occurs naturally in this form and is the most stable form of $(l:materials/Carbon)carbon$(/l) under standard conditions. Under high pressures and temperatures it converts to $(l:ores/Diamond)diamond$(/l). Graphite is used in pencils and lubricants. Its high conductivity makes it useful in electronic products such as electrodes, batteries, "
+    },
+    {
+      "type": "text",
+      "text": "and solar panels."
+    }
+  ],
+  "icon": "gregtech:ore_graphite_0:0"
+}

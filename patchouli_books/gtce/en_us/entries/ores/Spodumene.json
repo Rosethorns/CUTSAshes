@@ -1,0 +1,51 @@
+{
+  "name": "Spodumene",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Spodumene",
+      "abbreviation": "Spod",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#AB9999)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_spodumene_0:0",
+      "crushed": "gregtech:meta_item_1:5272",
+      "dust": "gregtech:meta_item_1:2272"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreSpodumene",
+      "output1_p1": "ore:dustSpodumene",
+      "outputAmount1_p1": "2",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreSpodumene",
+      "output1_p2": "ore:crushedSpodumene",
+      "outputAmount1_p2": "4",
+      "output2_p2": "ore:dustAluminium",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreSpodumene",
+      "output1_p1": "ore:crushedSpodumene",
+      "outputAmount1_p1": "2"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_spodumene_0:0"
+}

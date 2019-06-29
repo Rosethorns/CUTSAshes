@@ -1,0 +1,92 @@
+{
+  "name": "Silver",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Silver",
+      "abbreviation": "Ag",
+      "link": "https://en.wikipedia.org/wiki/Silver",
+      "source": "Wikipedia",
+      "scan": "$(#7E7E92)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_silver_0:0",
+      "crushed": "gregtech:meta_item_1:5062",
+      "dust": "gregtech:meta_item_1:2062"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreSilver",
+      "output1_p1": "ore:ingotSilver",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreSilver",
+      "output1_p2": "ore:crushedSilver",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustLead",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreSilver",
+      "output1_p1": "forge:bucketfilled{FluidName: silver, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreSilver",
+      "output1_p2": "ore:crushedSilver"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Crusher (IE)",
+      "machine_p1": "immersiveengineering:metal_decoration0:4",
+      "processLink_p1": "processes/Crusher (IE)",
+      "input1_p1": "ore:oreSilver",
+      "output1_p1": "ore:dustSilver",
+      "outputAmount1_p1": "2",
+      "output2_p1": "ore:dustLead",
+      "outputChance2_p1": "10",
+      "title_p2": "Arc Furnace (IE)",
+      "machine_p2": "immersiveengineering:metal_decoration0:5",
+      "processLink_p2": "processes/Arc Furnace (IE)",
+      "input1_p2": "ore:oreSilver",
+      "output1_p2": "ore:ingotSilver",
+      "outputAmount1_p2": "2"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Hammer (IE)",
+      "machine_p1": "immersiveengineering:tool:0",
+      "processLink_p1": "processes/Hammer (IE)",
+      "input1_p1": "ore:oreSilver",
+      "output1_p1": "ore:dustSilver"
+    },
+    {
+      "type": "text",
+      "text": "Silver is a chemical element with the symbol Ag (from the Latin argentum, derived from the Proto-Indo-European h₂erǵ: \"shiny\" or \"white\") and atomic number 47. A soft, white, lustrous transition metal, it exhibits the highest electrical conductivity, thermal conductivity, and reflectivity of any metal. The metal is found in the Earth's crust in the pure, free elemental form (\"native silver\"), as an alloy with $(l:materials/Gold)gold$(/l) and other metals, and in minerals "
+    },
+    {
+      "type": "text",
+      "text": "such as argentite and chlorargyrite. Most silver is produced as a byproduct of $(l:materials/Copper)copper$(/l), $(l:materials/Gold)gold$(/l), $(l:materials/Lead)lead$(/l), and $(l:materials/Zinc)zinc$(/l) refining.$(p)Silver has long been valued as a precious metal. Silver metal is used in many bullion coins, sometimes alongside $(l:materials/Gold)gold$(/l): while it is more abundant than $(l:materials/Gold)gold$(/l), it is much less abundant as a native metal. Its purity is typically measured on a per-mille basis; a 94%-pure alloy is described "
+    },
+    {
+      "type": "text",
+      "text": "as \"0.940 fine\". As one of the seven metals of antiquity, silver has had an enduring role in most human cultures.$(p)Other than in currency and as an investment medium (coins and bullion), silver is used in solar panels, water filtration, jewellery, ornaments, high-value tableware and utensils (hence the term silverware), in electrical contacts and conductors, in specialized mirrors, window coatings, in "
+    },
+    {
+      "type": "text",
+      "text": "catalysis of chemical reactions, as a colorant in stained glass and in specialised confectionery. Its compounds are used in photographic and X-ray film. Dilute solutions of silver nitrate and other silver compounds are used as disinfectants and microbiocides (oligodynamic effect), added to bandages and wound-dressings, catheters, and other medical instruments."
+    }
+  ],
+  "icon": "gregtech:ore_silver_0:0"
+}

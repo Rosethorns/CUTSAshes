@@ -1,0 +1,67 @@
+{
+  "name": "Nether Quartz",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Nether Quartz",
+      "abbreviation": "NQtz",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#6F6565)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_nether_quartz_0:0",
+      "crushed": "gregtech:meta_item_1:5201",
+      "dust": "gregtech:meta_item_1:2201"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreNetherQuartz",
+      "output1_p1": "ore:gemNetherQuartz",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreNetherQuartz",
+      "output1_p2": "ore:crushedNetherQuartz",
+      "outputAmount1_p2": "4",
+      "output2_p2": "ore:dustNetherrack",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreNetherQuartz",
+      "output1_p1": "forge:bucketfilled{FluidName: nether_quartz, Amount: 1000}",
+      "outputAmount1_p1": "1665mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreNetherQuartz",
+      "output1_p2": "ore:crushedNetherQuartz",
+      "outputAmount1_p2": "2"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Crusher (IE)",
+      "machine_p1": "immersiveengineering:metal_decoration0:4",
+      "processLink_p1": "processes/Crusher (IE)",
+      "input1_p1": "ore:oreNetherQuartz",
+      "output1_p1": "ore:gemNetherQuartz",
+      "outputAmount1_p1": "3",
+      "output2_p1": "ore:dustSulfur",
+      "outputChance2_p1": "15"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_nether_quartz_0:0"
+}

@@ -1,0 +1,49 @@
+{
+    "components": [
+        {
+            "type": "header",
+            "text": "#title",
+            "x": -1,
+            "y": -1,
+            "centered": true
+        },
+        {
+            "type": "separator",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "item",
+            "item": "#item1",
+            "framed": true,
+            "x": 50,
+            "y": 20,
+            "guard": "#item1->exists"
+        },
+        {
+            "type": "item",
+            "item": "#item2",
+            "framed": true,
+            "x": 20,
+            "y": 20,
+            "guard": "#item2->exists"
+
+        },
+        {
+            "type": "item",
+            "item": "#item3",
+            "framed": true,
+            "x": 80,
+            "y": 20,
+            "guard": "#item3->exists"
+
+        },
+        {
+            "type": "text",
+            "text": "Further Reading: $(l:#link#)#source#$(/l)",
+            "x": 5,
+            "y": 131,
+            "guard": "#link->exists"
+        }
+    ]
+}

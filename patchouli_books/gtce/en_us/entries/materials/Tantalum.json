@@ -17,7 +17,7 @@
     },
     {
       "type": "text",
-      "text": "substitute for $(l:materials/Platinum)platinum$(/l). Its main use today is in tantalum capacitors in electronic equipment such as mobile phones, DVD players, video game systems and computers. Tantalum, always together with the chemically similar $(l:materials/Niobium)niobium$(/l), occurs in the mineral groups tantalite, columbite and coltan (a mix of columbite and tantalite, though not recognised as a separate mineral species).  Tantalum is considered a technology-critical element."
+      "text": "substitute for $(l:materials/Platinum)platinum$(/l). Its main use today is in tantalum capacitors in electronic equipment such as mobile phones, DVD players, video game systems and computers. Tantalum, always together with the chemically similar $(l:materials/Niobium)niobium$(/l), occurs in the mineral groups $(l:ores/Tantalite)tantalite$(/l), columbite and coltan (a mix of columbite and $(l:ores/Tantalite)tantalite$(/l), though not recognised as a separate mineral species).  Tantalum is considered a technology-critical element."
     }
   ],
   "icon": "gregtech:meta_item_1:10066"

@@ -1,0 +1,41 @@
+{
+  "name": "Enriched Naquadah",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Enriched Naquadah",
+      "abbreviation": "NqEn",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#242424)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_naquadah_enriched_0:0",
+      "crushed": "gregtech:meta_item_1:5309",
+      "dust": "gregtech:meta_item_1:2309"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Macerator",
+      "machine_p1": "gregtech:machine:60",
+      "processLink_p1": "processes/Macerator",
+      "input1_p1": "ore:oreNaquadahEnriched",
+      "output1_p1": "ore:crushedNaquadahEnriched",
+      "outputAmount1_p1": "2",
+      "output2_p1": "ore:dustNaquadah",
+      "outputChance2_p1": "14",
+      "output3_p1": "ore:dustStone",
+      "outputChance3_p1": "67",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreNaquadahEnriched",
+      "output1_p2": "ore:crushedNaquadahEnriched"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_naquadah_enriched_0:0"
+}

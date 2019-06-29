@@ -16,7 +16,7 @@
     },
     {
       "type": "text",
-      "text": "calcium carbonate, found in limestone and the fossilised remnants of early sea life; gypsum, anhydrite, fluorite, and apatite are also sources of calcium. The name derives from Latin calx \"lime\", which was obtained from heating limestone.$(p)Some calcium compounds were known to the ancients, though their chemistry was unknown until the seventeenth century. Pure calcium was isolated in 1808 via "
+      "text": "calcium carbonate, found in limestone and the fossilised remnants of early sea life; gypsum, anhydrite, fluorite, and $(l:ores/Apatite)apatite$(/l) are also sources of calcium. The name derives from Latin calx \"lime\", which was obtained from heating limestone.$(p)Some calcium compounds were known to the ancients, though their chemistry was unknown until the seventeenth century. Pure calcium was isolated in 1808 via "
     },
     {
       "type": "text",

@@ -1,0 +1,67 @@
+{
+  "name": "Cobalt",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Cobalt",
+      "abbreviation": "Co",
+      "link": "https://en.wikipedia.org/wiki/Cobalt",
+      "source": "Wikipedia",
+      "scan": "$(#2C2CCC)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_cobalt_0:0",
+      "crushed": "gregtech:meta_item_1:5017",
+      "dust": "gregtech:meta_item_1:2017"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreCobalt",
+      "output1_p1": "ore:ingotCobalt",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreCobalt",
+      "output1_p2": "ore:crushedCobalt",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustCobaltite",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreCobalt",
+      "output1_p1": "forge:bucketfilled{FluidName: cobalt, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreCobalt",
+      "output1_p2": "ore:crushedCobalt"
+    },
+    {
+      "type": "text",
+      "text": "Cobalt is a chemical element with the symbol Co and atomic number 27. Like $(l:materials/Nickel)nickel$(/l), cobalt is found in the Earth's crust only in chemically combined form, save for small deposits found in alloys of natural meteoric $(l:materials/Iron)iron$(/l). The free element, produced by reductive smelting, is a hard, lustrous, $(l:materials/Silver)silver$(/l)-gray metal.$(p)Cobalt-based blue pigments (cobalt blue) have been used since ancient times for jewelry and paints, and to "
+    },
+    {
+      "type": "text",
+      "text": "impart a distinctive blue tint to glass, but the color was later thought by alchemists  to be due to the known metal $(l:materials/Bismuth)bismuth$(/l). Miners had long used the name kobold ore (German for goblin ore) for some of the blue-pigment producing minerals; they were so named because they were poor in known metals, and gave poisonous arsenic-containing fumes when smelted. In 1735, such ores were found to be reducible to a new metal (the first discovered since ancient "
+    },
+    {
+      "type": "text",
+      "text": "times), and this was ultimately named for the kobold.$(p)Cobalt is primarily used in the manufacture of magnetic, wear-resistant and high-strength alloys. The compounds cobalt silicate and cobalt(II) aluminate (CoAl2O4, cobalt blue) give a distinctive deep blue color to glass, ceramics, inks, paints and varnishes. Cobalt occurs naturally as only one stable isotope, cobalt-59. Cobalt-60 is a "
+    },
+    {
+      "type": "text",
+      "text": "commercially important radioisotope, used as a radioactive tracer and for the production of high energy gamma rays."
+    }
+  ],
+  "icon": "gregtech:ore_cobalt_0:0"
+}

@@ -26,7 +26,7 @@
     },
     {
       "type": "text",
-      "text": "miner mythology, Nickel (similar to Old Nick), who personified the fact that $(l:materials/Copper)copper$(/l)-nickel ores resisted refinement into $(l:materials/Copper)copper$(/l). An economically important source of nickel is the $(l:materials/Iron)iron$(/l) ore limonite, which often contains 1–2% nickel. Nickel's other important ore minerals include pentlandite and a mixture of Ni-rich natural silicates known as garnierite. Major production sites include the Sudbury region in Canada (which is thought to be of "
+      "text": "miner mythology, Nickel (similar to Old Nick), who personified the fact that $(l:materials/Copper)copper$(/l)-nickel ores resisted refinement into $(l:materials/Copper)copper$(/l). An economically important source of nickel is the $(l:materials/Iron)iron$(/l) ore limonite, which often contains 1–2% nickel. Nickel's other important ore minerals include $(l:ores/Pentlandite)pentlandite$(/l) and a mixture of Ni-rich natural silicates known as $(l:ores/Garnierite)garnierite$(/l). Major production sites include the Sudbury region in Canada (which is thought to be of "
     },
     {
       "type": "text",

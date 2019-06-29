@@ -1,0 +1,71 @@
+{
+  "name": "Platinum",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Platinum",
+      "abbreviation": "Pt",
+      "link": "https://en.wikipedia.org/wiki/Platinum",
+      "source": "Wikipedia",
+      "scan": "$(#9F9F5F)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_platinum_0:0",
+      "crushed": "gregtech:meta_item_1:5051",
+      "dust": "gregtech:meta_item_1:2051"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:orePlatinum",
+      "output1_p1": "ore:ingotPlatinum",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:orePlatinum",
+      "output1_p2": "ore:crushedPlatinum",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustNickel",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:orePlatinum",
+      "output1_p1": "forge:bucketfilled{FluidName: platinum, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:orePlatinum",
+      "output1_p2": "ore:crushedPlatinum"
+    },
+    {
+      "type": "text",
+      "text": "Platinum is a chemical element with the symbol Pt and atomic number 78. It is a dense, malleable, ductile, highly unreactive, precious, silverish-white transition metal. Its name is derived from the Spanish term platino, meaning \"little $(l:materials/Silver)silver$(/l)\".$(p)Platinum is a member of the platinum group of elements and group 10 of the periodic table of elements. It has six naturally occurring isotopes. It is one of the rarer "
+    },
+    {
+      "type": "text",
+      "text": "elements in Earth's crust, with an average abundance of approximately 5 μg/kg. It occurs in some $(l:materials/Nickel)nickel$(/l) and $(l:materials/Copper)copper$(/l) ores along with some native deposits, mostly in South Africa, which accounts for 80% of the world production. Because of its scarcity in Earth's crust, only a few hundred tonnes are produced annually, and given its important uses, it is highly valuable and is a major precious metal commodity."
+    },
+    {
+      "type": "text",
+      "text": "Platinum is one of the least reactive metals. It has remarkable resistance to corrosion, even at high temperatures, and is therefore considered a noble metal. Consequently, platinum is often found chemically uncombined as native platinum. Because it occurs naturally in the alluvial sands of various rivers, it was first used by pre-Columbian South American natives to produce artifacts. It was referenced in European writings as early as 16th "
+    },
+    {
+      "type": "text",
+      "text": "century, but it was not until Antonio de Ulloa published a report on a new metal of Colombian origin in 1748 that it began to be investigated by scientists.$(p)Platinum is used in catalytic converters, laboratory equipment, electrical contacts and electrodes, platinum resistance thermometers, dentistry equipment, and jewelry. Being a heavy metal, it leads to health problems "
+    },
+    {
+      "type": "text",
+      "text": "upon exposure to its salts; but due to its corrosion resistance, metallic platinum has not been linked to adverse health effects. Compounds containing platinum, such as cisplatin, oxaliplatin and carboplatin, are applied in chemotherapy against certain types of cancer."
+    }
+  ],
+  "icon": "gregtech:ore_platinum_0:0"
+}

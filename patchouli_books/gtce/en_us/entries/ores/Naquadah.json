@@ -1,0 +1,54 @@
+{
+  "name": "Naquadah",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Naquadah",
+      "abbreviation": "Nq",
+      "link": "https://stargate.fandom.com/wiki/Naquadah",
+      "source": "Stargate",
+      "scan": "$(#1B1B1B)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_naquadah_0:0",
+      "crushed": "gregtech:meta_item_1:5307",
+      "dust": "gregtech:meta_item_1:2307"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Macerator",
+      "machine_p1": "gregtech:machine:60",
+      "processLink_p1": "processes/Macerator",
+      "input1_p1": "ore:oreNaquadah",
+      "output1_p1": "ore:crushedNaquadah",
+      "outputAmount1_p1": "2",
+      "output2_p1": "ore:dustNaquadahEnriched",
+      "outputChance2_p1": "14",
+      "output3_p1": "ore:dustStone",
+      "outputChance3_p1": "67",
+      "title_p2": "Fluid Extractor",
+      "machine_p2": "gregtech:machine:300",
+      "processLink_p2": "processes/Fluid Extractor",
+      "input1_p2": "ore:oreNaquadah",
+      "output1_p2": "forge:bucketfilled{FluidName: naquadah, Amount: 1000}",
+      "outputAmount1_p2": "360mb"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreNaquadah",
+      "output1_p1": "ore:crushedNaquadah"
+    },
+    {
+      "type": "text",
+      "text": "Naquadah is a rare, super-dense mineral used by a wide number of different races. Its most basic use is as a weapon: Naquadah greatly amplifies energy, making it extremely potent if paired with explosives. Due to its unique properties, Naquadah forms the basis for many advanced technologies; the Stargates themselves are composed almost entirely of Naquadah. Naquadah is also present in the bloodstream of the Goa'uld, which allows them to control "
+    },
+    {
+      "type": "text",
+      "text": "their technologies and sense the presence of other symbiotes. The Goa'uld have Naquadah mining operations on many planets; its refined form, weapons-grade Naquadah, is extremely valuable and often used as currency. Weapons-grade Naquadah is so dense that two Jaffa are required to lift a quantity the size of a couple of common housing bricks, making it at least as dense as $(l:materials/Gold)gold$(/l)."
+    }
+  ],
+  "icon": "gregtech:ore_naquadah_0:0"
+}

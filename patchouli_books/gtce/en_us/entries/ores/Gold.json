@@ -1,0 +1,78 @@
+{
+  "name": "Gold",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Gold",
+      "abbreviation": "Au",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#F9F9C5)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_gold_0:0",
+      "crushed": "gregtech:meta_item_1:5026",
+      "dust": "gregtech:meta_item_1:2026"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreGold",
+      "output1_p1": "ore:ingotGold",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreGold",
+      "output1_p2": "ore:crushedGold",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustCopper",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreGold",
+      "output1_p1": "forge:bucketfilled{FluidName: gold, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreGold",
+      "output1_p2": "ore:crushedGold"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Crusher (IE)",
+      "machine_p1": "immersiveengineering:metal_decoration0:4",
+      "processLink_p1": "processes/Crusher (IE)",
+      "input1_p1": "ore:oreGold",
+      "output1_p1": "ore:dustGold",
+      "outputAmount1_p1": "2",
+      "title_p2": "Arc Furnace (IE)",
+      "machine_p2": "immersiveengineering:metal_decoration0:5",
+      "processLink_p2": "processes/Arc Furnace (IE)",
+      "input1_p2": "ore:oreGold",
+      "output1_p2": "ore:ingotGold",
+      "outputAmount1_p2": "2"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Hammer (IE)",
+      "machine_p1": "immersiveengineering:tool:0",
+      "processLink_p1": "processes/Hammer (IE)",
+      "input1_p1": "ore:oreGold",
+      "output1_p1": "ore:dustGold"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_gold_0:0"
+}

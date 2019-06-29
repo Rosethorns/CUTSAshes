@@ -1,0 +1,59 @@
+{
+    "include": [
+        {
+            "template": "ore_processing_base",
+            "as": "process1",
+            "using": {
+                "title": "#title_p1",
+                "processLink": "#processLink_p1",
+                "machine": "#machine_p1",
+                "input1": "#input1_p1",
+                "input2": "#input2_p1",
+                "input3": "#input3_p1",
+                "input4": "#input4_p1",
+                "input5": "#input5_p1",
+                "input6": "#input6_p1",
+                "output1": "#output1_p1",
+                "output2": "#output2_p1",
+                "output3": "#output3_p1",
+                "output4": "#output4_p1",
+                "output5": "#output5_p1",
+                "output6": "#output6_p1",
+                "outputChance1": "#outputChance1_p1",
+                "outputChance2": "#outputChance2_p1",
+                "outputChance3": "#outputChance3_p1",
+                "outputChance4": "#outputChance4_p1",
+                "outputChance5": "#outputChance5_p1",
+                "outputChance6": "#outputChance6_p1"
+            }
+        },
+        {
+            "template": "ore_processing_base",
+            "as": "process2",
+            "using": {
+                "title": "#title_p2",
+                "processLink": "#processLink_p2",
+                "machine": "#machine_p2",
+                "input1": "#input1_p2",
+                "input2": "#input2_p2",
+                "input3": "#input3_p2",
+                "input4": "#input4_p2",
+                "input5": "#input5_p2",
+                "input6": "#input6_p2",
+                "output1": "#output1_p2",
+                "output2": "#output2_p2",
+                "output3": "#output3_p2",
+                "output4": "#output4_p2",
+                "output5": "#output5_p2",
+                "output6": "#output6_p2",
+                "outputChance1": "#outputChance1_p2",
+                "outputChance2": "#outputChance2_p2",
+                "outputChance3": "#outputChance3_p2",
+                "outputChance4": "#outputChance4_p2",
+                "outputChance5": "#outputChance5_p2",
+                "outputChance6": "#outputChance6_p2"
+            },
+            "y": 80
+        }
+    ]
+}

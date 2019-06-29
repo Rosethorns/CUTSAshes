@@ -1,0 +1,50 @@
+{
+  "name": "Aluminium",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Aluminium",
+      "abbreviation": "Al",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#73AEAE)█$() Common",
+      "precautions": "",
+      "ore": "gregtech:ore_aluminium_0:0",
+      "crushed": "gregtech:meta_item_1:5001",
+      "dust": "gregtech:meta_item_1:2001"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Macerator",
+      "machine_p1": "gregtech:machine:60",
+      "processLink_p1": "processes/Macerator",
+      "input1_p1": "ore:oreAluminium",
+      "output1_p1": "ore:crushedAluminium",
+      "outputAmount1_p1": "2",
+      "output2_p1": "ore:dustBauxite",
+      "outputChance2_p1": "14",
+      "output3_p1": "ore:dustStone",
+      "outputChance3_p1": "67",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreAluminium",
+      "output1_p2": "ore:crushedAluminium"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Arc Furnace (IE)",
+      "machine_p1": "immersiveengineering:metal_decoration0:5",
+      "processLink_p1": "processes/Arc Furnace (IE)",
+      "input1_p1": "ore:oreAluminium",
+      "output1_p1": "ore:ingotAluminium",
+      "outputAmount1_p1": "2"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_aluminium_0:0"
+}

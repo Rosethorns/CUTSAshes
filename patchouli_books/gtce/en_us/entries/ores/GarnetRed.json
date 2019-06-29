@@ -1,0 +1,51 @@
+{
+  "name": "Red Garnet",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Red Garnet",
+      "abbreviation": "RGrn",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#5A2525)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_garnet_red_0:0",
+      "crushed": "gregtech:meta_item_1:5243",
+      "dust": "gregtech:meta_item_1:2243"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreGarnetRed",
+      "output1_p1": "ore:gemGarnetRed",
+      "outputAmount1_p1": "4",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreGarnetRed",
+      "output1_p2": "ore:crushedGarnetRed",
+      "outputAmount1_p2": "8",
+      "output2_p2": "ore:dustSpessartine",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreGarnetRed",
+      "output1_p1": "ore:crushedGarnetRed",
+      "outputAmount1_p1": "4"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_garnet_red_0:0"
+}

@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "Cupronickel or $(l:materials/Copper)copper$(/l)-$(l:materials/Nickel)nickel$(/l) (CuNi) is an alloy of $(l:materials/Copper)copper$(/l) that contains $(l:materials/Nickel)nickel$(/l) and strengthening elements, such as $(l:materials/Iron)iron$(/l) and $(l:materials/Manganese)manganese$(/l). The $(l:materials/Copper)copper$(/l) contents typically varies from 60 to 90 percent. (Monel metal is a $(l:materials/Nickel)nickel$(/l)-$(l:materials/Copper)copper$(/l) alloy that contains a minimum of 52 percent $(l:materials/Nickel)nickel$(/l).)$(p)Despite its high $(l:materials/Copper)copper$(/l) content, cupronickel is $(l:materials/Silver)silver$(/l) in colour. Cupronickel is highly resistant to corrosion by salt water, and is "
+      "text": "Cupronickel or $(l:materials/Copper)copper$(/l)-$(l:materials/Nickel)nickel$(/l) (CuNi) is an alloy of $(l:materials/Copper)copper$(/l) that contains $(l:materials/Nickel)nickel$(/l) and strengthening elements, such as $(l:materials/Iron)iron$(/l) and $(l:materials/Manganese)manganese$(/l). The $(l:materials/Copper)copper$(/l) contents typically varies from 60 to 90 percent. (Monel metal is a $(l:materials/Nickel)nickel$(/l)-$(l:materials/Copper)copper$(/l) alloy that contains a minimum of 52 percent $(l:materials/Nickel)nickel$(/l).)$(p)Despite its high $(l:materials/Copper)copper$(/l) content, cupronickel is $(l:materials/Silver)silver$(/l) in colour. Cupronickel is highly resistant to corrosion by $(l:ores/Salt)salt$(/l) water, and is "
     },
     {
       "type": "text",

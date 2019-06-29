@@ -1,0 +1,88 @@
+{
+  "name": "Iron",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Iron",
+      "abbreviation": "Fe",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#999999)█$() Common",
+      "precautions": "",
+      "ore": "gregtech:ore_iron_0:0",
+      "crushed": "gregtech:meta_item_1:5033",
+      "dust": "gregtech:meta_item_1:2033"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreIron",
+      "output1_p1": "ore:ingotIron",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreIron",
+      "output1_p2": "ore:crushedIron",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustNickel",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreIron",
+      "output1_p1": "forge:bucketfilled{FluidName: iron, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreIron",
+      "output1_p2": "ore:crushedIron"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Blast Furnace",
+      "machine_p1": "gregtech:machine:511",
+      "processLink_p1": "processes/Blast Furnace",
+      "input1_p1": "ore:oreIron",
+      "input2_p1": "ore:dustCalcite",
+      "output1_p1": "ore:ingotIron",
+      "outputAmount1_p1": "3",
+      "output2_p1": "ore:dustSmallDarkAsh",
+      "title_p2": "Crusher (IE)",
+      "machine_p2": "immersiveengineering:metal_decoration0:4",
+      "processLink_p2": "processes/Crusher (IE)",
+      "input1_p2": "ore:oreIron",
+      "output1_p2": "ore:dustIron",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustNickel",
+      "outputChance2_p2": "10"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Arc Furnace (IE)",
+      "machine_p1": "immersiveengineering:metal_decoration0:5",
+      "processLink_p1": "processes/Arc Furnace (IE)",
+      "input1_p1": "ore:oreIron",
+      "output1_p1": "ore:ingotIron",
+      "outputAmount1_p1": "2",
+      "title_p2": "Hammer (IE)",
+      "machine_p2": "immersiveengineering:tool:0",
+      "processLink_p2": "processes/Hammer (IE)",
+      "input1_p2": "ore:oreIron",
+      "output1_p2": "ore:dustIron"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_iron_0:0"
+}

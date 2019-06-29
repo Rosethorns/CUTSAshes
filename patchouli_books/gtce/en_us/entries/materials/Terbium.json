@@ -13,11 +13,11 @@
     },
     {
       "type": "text",
-      "text": "Terbium is a chemical element with the symbol Tb and atomic number 65. It is a silvery-white, rare earth metal that is malleable, ductile, and soft enough to be cut with a knife. The ninth member of the lanthanide series, terbium is a fairly electropositive metal that reacts with water, evolving hydrogen gas. Terbium is never found in nature as a free element, but it is contained in many minerals, including cerite, gadolinite, monazite, xenotime, and "
+      "text": "Terbium is a chemical element with the symbol Tb and atomic number 65. It is a silvery-white, rare earth metal that is malleable, ductile, and soft enough to be cut with a knife. The ninth member of the lanthanide series, terbium is a fairly electropositive metal that reacts with water, evolving hydrogen gas. Terbium is never found in nature as a free element, but it is contained in many minerals, including cerite, gadolinite, $(l:ores/Monazite)monazite$(/l), xenotime, and "
     },
     {
       "type": "text",
-      "text": "euxenite.Swedish chemist Carl Gustaf Mosander discovered terbium as a chemical element in 1843. He detected it as an impurity in $(l:materials/Yttrium)yttrium$(/l) oxide, Y2O3. $(l:materials/Yttrium)Yttrium$(/l) and terbium are named after the village of Ytterby in Sweden. Terbium was not isolated in pure form until the advent of ion exchange techniques.$(p)Terbium is used to dope $(l:materials/Calcium)calcium$(/l) fluoride, $(l:materials/Calcium)calcium$(/l) tungstate and $(l:materials/Strontium)strontium$(/l) molybdate, materials that are "
+      "text": "euxenite.Swedish chemist Carl Gustaf Mosander discovered terbium as a chemical element in 1843. He detected it as an impurity in $(l:materials/Yttrium)yttrium$(/l) oxide, Y2O3. $(l:materials/Yttrium)Yttrium$(/l) and terbium are named after the village of Ytterby in Sweden. Terbium was not isolated in pure form until the advent of ion exchange techniques.$(p)Terbium is used to dope $(l:materials/Calcium)calcium$(/l) fluoride, $(l:materials/Calcium)calcium$(/l) $(l:ores/Tungstate)tungstate$(/l) and $(l:materials/Strontium)strontium$(/l) molybdate, materials that are "
     },
     {
       "type": "text",

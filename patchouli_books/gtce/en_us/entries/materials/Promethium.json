@@ -25,15 +25,15 @@
     },
     {
       "type": "text",
-      "text": "the fission products of uranium fuel irradiated in a $(l:materials/Graphite)graphite$(/l) reactor. The discoverers proposed the name \"prometheum\" (the spelling was subsequently changed), derived from Prometheus, the Titan in Greek mythology who stole fire from Mount Olympus and brought it down to humans, to symbolize \"both the daring and the possible misuse of mankind's intellect\". However, a sample of the metal was made only in 1963."
+      "text": "the fission products of $(l:ores/Uranium)uranium$(/l) fuel irradiated in a $(l:materials/Graphite)graphite$(/l) reactor. The discoverers proposed the name \"prometheum\" (the spelling was subsequently changed), derived from Prometheus, the Titan in Greek mythology who stole fire from Mount Olympus and brought it down to humans, to symbolize \"both the daring and the possible misuse of mankind's intellect\". However, a sample of the metal was made only in 1963."
     },
     {
       "type": "text",
-      "text": "There are two possible sources for natural promethium: rare decays of natural $(l:materials/Europium)europium$(/l)-151 (producing promethium-147) and uranium (various isotopes). Practical applications exist only for chemical compounds of promethium-147, which are used in luminous paint, atomic batteries and thickness-measurement devices, even though promethium-145 is the most stable promethium isotope. Because natural promethium is exceedingly scarce, it is "
+      "text": "There are two possible sources for natural promethium: rare decays of natural $(l:materials/Europium)europium$(/l)-151 (producing promethium-147) and $(l:ores/Uranium)uranium$(/l) (various isotopes). Practical applications exist only for chemical compounds of promethium-147, which are used in luminous paint, atomic batteries and thickness-measurement devices, even though promethium-145 is the most stable promethium isotope. Because natural promethium is exceedingly scarce, it is "
     },
     {
       "type": "text",
-      "text": "typically synthesized by bombarding $(l:materials/Uranium235)uranium-235$(/l) (enriched uranium) with thermal neutrons to produce promethium-147 as a fission product."
+      "text": "typically synthesized by bombarding $(l:materials/Uranium235)uranium-235$(/l) (enriched $(l:ores/Uranium)uranium$(/l)) with thermal neutrons to produce promethium-147 as a fission product."
     }
   ],
   "icon": "gregtech:meta_item_1:10056"

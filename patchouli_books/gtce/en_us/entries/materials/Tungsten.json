@@ -14,11 +14,11 @@
     },
     {
       "type": "text",
-      "text": "Tungsten, or wolfram, is a chemical element with the symbol W and atomic number 74. The name tungsten comes from the former Swedish name for the tungstate mineral scheelite, tung sten or \"heavy stone\". Tungsten is a rare metal found naturally on Earth almost exclusively combined with other elements in chemical compounds rather than alone. It was identified as a new element in 1781 and first isolated as a metal in 1783. Its important ores include "
+      "text": "Tungsten, or wolfram, is a chemical element with the symbol W and atomic number 74. The name tungsten comes from the former Swedish name for the $(l:ores/Tungstate)tungstate$(/l) mineral $(l:ores/Scheelite)scheelite$(/l), tung sten or \"heavy stone\". Tungsten is a rare metal found naturally on Earth almost exclusively combined with other elements in chemical compounds rather than alone. It was identified as a new element in 1781 and first isolated as a metal in 1783. Its important ores include "
     },
     {
       "type": "text",
-      "text": "wolframite and scheelite.The free element is remarkable for its robustness, especially the fact that it has the highest melting point of all the elements discovered, melting at 3422 °C (6192 °F, 3695 K). It also has the highest boiling point, at 5930 °C (10706 °F, 6203 K). Its density is 19.3 times that of water, comparable to that of uranium and $(l:materials/Gold)gold$(/l), and much higher (about 1.7 times) than that of $(l:materials/Lead)lead$(/l). Polycrystalline tungsten is an intrinsically brittle "
+      "text": "wolframite and $(l:ores/Scheelite)scheelite$(/l).The free element is remarkable for its robustness, especially the fact that it has the highest melting point of all the elements discovered, melting at 3422 °C (6192 °F, 3695 K). It also has the highest boiling point, at 5930 °C (10706 °F, 6203 K). Its density is 19.3 times that of water, comparable to that of $(l:ores/Uranium)uranium$(/l) and $(l:materials/Gold)gold$(/l), and much higher (about 1.7 times) than that of $(l:materials/Lead)lead$(/l). Polycrystalline tungsten is an intrinsically brittle "
     },
     {
       "type": "text",

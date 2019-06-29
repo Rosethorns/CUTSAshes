@@ -1,0 +1,50 @@
+{
+  "name": "Chalcopyrite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Chalcopyrite",
+      "abbreviation": "Ccop",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#554015)█$() Common",
+      "precautions": "",
+      "ore": "gregtech:ore_chalcopyrite_0:0",
+      "crushed": "gregtech:meta_item_1:5100",
+      "dust": "gregtech:meta_item_1:2100"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreChalcopyrite",
+      "output1_p1": "ore:ingotCopper",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreChalcopyrite",
+      "output1_p2": "ore:crushedChalcopyrite",
+      "outputAmount1_p2": "8",
+      "output2_p2": "ore:dustPyrite",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreChalcopyrite",
+      "output1_p1": "ore:crushedChalcopyrite",
+      "outputAmount1_p1": "4"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_chalcopyrite_0:0"
+}

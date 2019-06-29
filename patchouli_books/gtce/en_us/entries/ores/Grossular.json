@@ -1,0 +1,51 @@
+{
+  "name": "Grossular",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Grossular",
+      "abbreviation": "Gros",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#F57E00)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_grossular_0:0",
+      "crushed": "gregtech:meta_item_1:5118",
+      "dust": "gregtech:meta_item_1:2118"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreGrossular",
+      "output1_p1": "ore:dustGrossular",
+      "outputAmount1_p1": "6",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreGrossular",
+      "output1_p2": "ore:crushedGrossular",
+      "outputAmount1_p2": "12",
+      "output2_p2": "ore:dustGarnetYellow",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreGrossular",
+      "output1_p1": "ore:crushedGrossular",
+      "outputAmount1_p1": "6"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_grossular_0:0"
+}

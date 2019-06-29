@@ -16,7 +16,7 @@
     },
     {
       "type": "text",
-      "text": "are barite (now called baryte) (barium sulfate, BaSO4) and witherite (barium carbonate, BaCO3), both insoluble in water. The name barium originates from the alchemical derivative \"baryta\", from Greek barys, meaning \"heavy.\" Baric is the adjectival form of barium. Barium was identified as a new element in 1774, but not reduced to a metal until 1808 with the advent of electrolysis.$(p)Barium has few industrial "
+      "text": "are $(l:ores/Barite)barite$(/l) (now called baryte) (barium sulfate, BaSO4) and witherite (barium carbonate, BaCO3), both insoluble in water. The name barium originates from the alchemical derivative \"baryta\", from Greek barys, meaning \"heavy.\" Baric is the adjectival form of barium. Barium was identified as a new element in 1774, but not reduced to a metal until 1808 with the advent of electrolysis.$(p)Barium has few industrial "
     },
     {
       "type": "text",

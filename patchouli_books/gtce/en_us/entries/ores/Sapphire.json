@@ -1,0 +1,55 @@
+{
+  "name": "Sapphire",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Sapphire",
+      "abbreviation": "Sph",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#5858AA)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_sapphire_0:0",
+      "crushed": "gregtech:meta_item_1:5157",
+      "dust": "gregtech:meta_item_1:2157"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreSapphire",
+      "output1_p1": "ore:gemSapphire",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreSapphire",
+      "output1_p2": "ore:crushedSapphire",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustAluminium",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreSapphire",
+      "output1_p1": "ore:crushedSapphire",
+      "title_p2": "Crusher (IE)",
+      "machine_p2": "immersiveengineering:metal_decoration0:4",
+      "processLink_p2": "processes/Crusher (IE)",
+      "input1_p2": "ore:oreSapphire",
+      "output1_p2": "ore:gemSapphire",
+      "outputAmount1_p2": "2"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_sapphire_0:0"
+}
