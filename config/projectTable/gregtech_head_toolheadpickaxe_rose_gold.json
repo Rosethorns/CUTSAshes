@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 1228
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateRoseGold",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotRoseGold",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolFile",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolHardHammer",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    }
+  ]
+}

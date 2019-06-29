@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32750
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateSilicon",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "paneGlass",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "cableGtSingleCopper",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitBasic",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "plateAluminium",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

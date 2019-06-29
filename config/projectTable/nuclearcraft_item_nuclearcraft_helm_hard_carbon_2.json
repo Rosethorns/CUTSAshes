@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:helm_hard_carbon",
+      "Count": 1,
+      "tag": {
+        "ncRadiationResistance": 0.1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "nuclearcraft:helm_hard_carbon",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "nuclearcraft:rad_shielding",
+      "Count": 1,
+      "Damage": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

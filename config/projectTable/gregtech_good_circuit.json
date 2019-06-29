@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 32489
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "cableGtSingleRedAlloy",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 4,
+      "Damage": 32487,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "plateSteel",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 32451,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

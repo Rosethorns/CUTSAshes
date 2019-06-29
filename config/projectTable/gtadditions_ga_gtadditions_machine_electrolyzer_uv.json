@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 2083
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "wireGtSingleOsmium",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gtadditions:ga_transparent_casing",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 508,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitSuperconductor",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "wireGtQuadrupleNaquadahAlloy",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

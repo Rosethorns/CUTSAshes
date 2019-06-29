@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:heat_exchanger_frame",
+      "Count": 4
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotSteel",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "nuclearcraft:heat_exchanger_wall",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:geiger_counter",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotSteel",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotFerroboron",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotCopper",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustRedstone",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "bioplastic",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

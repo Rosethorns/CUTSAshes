@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:rtg_americium",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateAdvanced",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotGraphite",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotAmericium241",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

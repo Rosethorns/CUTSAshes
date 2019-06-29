@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:frame_iron",
+      "Count": 4
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateIron",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "stickIron",
+      "Count": 5,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolWrench",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    }
+  ]
+}

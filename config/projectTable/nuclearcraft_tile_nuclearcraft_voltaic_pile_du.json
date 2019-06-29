@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:voltaic_pile_du",
+      "Count": 1,
+      "tag": {
+        "maxTransfer": 1280000,
+        "capacity": 25600000,
+        "energy": 0
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateDU",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotMagnesium",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "nuclearcraft:voltaic_pile_advanced",
+      "Count": 3,
+      "tag": {
+        "maxTransfer": 320000,
+        "capacity": 6400000,
+        "energy": 0
+      },
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotCopper",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

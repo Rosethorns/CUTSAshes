@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 2086
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32636,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "cableGtSingleNaquadah",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "wireGtOctalSuperconductor",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 507,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "stickVanadiumGallium",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitUltimate",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

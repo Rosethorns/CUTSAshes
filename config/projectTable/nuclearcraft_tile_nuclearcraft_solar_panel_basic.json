@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:solar_panel_basic",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "dustGraphite",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustQuartz",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "minecraft:heavy_weighted_pressure_plate",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "gemLapis",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "solenoidCopper",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

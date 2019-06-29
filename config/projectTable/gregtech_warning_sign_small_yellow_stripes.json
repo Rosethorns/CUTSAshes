@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:warning_sign",
+      "Count": 1,
+      "Damage": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "dyeYellow",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:metal_casing",
+      "Count": 1,
+      "Damage": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dyeBlack",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

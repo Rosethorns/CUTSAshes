@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:solar_panel_du",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateDU",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustGraphite",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "nuclearcraft:solar_panel_advanced",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "solenoidMagnesiumDiboride",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

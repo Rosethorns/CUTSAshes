@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 331
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "cableGtSingleCopper",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32641,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitGood",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 502,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingAnvil",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

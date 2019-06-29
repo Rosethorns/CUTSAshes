@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gtadditions:ga_meta_item",
+      "Count": 1,
+      "Damage": 142
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "craftingToolHardHammer",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "plateEpoxid",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolBendingCylinder",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    }
+  ]
+}

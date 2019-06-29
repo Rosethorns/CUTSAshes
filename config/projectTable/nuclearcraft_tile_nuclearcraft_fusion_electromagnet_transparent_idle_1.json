@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:fusion_electromagnet_transparent_idle",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "nuclearcraft:fusion_electromagnet_idle",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "blockGlass",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:lithium",
+      "Count": 1,
+      "Damage": 2
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "nuggetLithium7",
+      "Count": 9,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

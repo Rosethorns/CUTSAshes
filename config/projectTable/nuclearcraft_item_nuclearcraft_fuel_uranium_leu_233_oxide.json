@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:fuel_uranium",
+      "Count": 1,
+      "Damage": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotUranium233Oxide",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotUranium238",
+      "Count": 8,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

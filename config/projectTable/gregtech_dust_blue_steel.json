@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 8,
+      "Damage": 2233
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "dustRoseGold",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustBrass",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustSteel",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustBlackSteel",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

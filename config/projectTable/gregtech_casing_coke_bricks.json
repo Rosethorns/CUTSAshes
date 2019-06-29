@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:metal_casing",
+      "Count": 1,
+      "Damage": 8
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 4,
+      "Damage": 32016,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

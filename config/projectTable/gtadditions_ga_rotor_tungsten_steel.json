@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 18235
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gtadditions:ga_meta_item",
+      "Count": 4,
+      "Damage": 235,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolHardHammer",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 17235,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 18235,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolFile",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolScrewdriver",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    }
+  ]
+}

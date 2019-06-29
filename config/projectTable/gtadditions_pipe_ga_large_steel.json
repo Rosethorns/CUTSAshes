@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:fluid_pipe",
+      "Count": 1,
+      "Damage": 3184
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gtadditions:ga_meta_item",
+      "Count": 6,
+      "Damage": 184,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolHardHammer",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolBendingCylinder",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolWrench",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    }
+  ]
+}
