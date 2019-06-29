@@ -17,11 +17,11 @@
     },
     {
       "type": "text",
-      "text": "sixth most abundant element in the Earth's crust and exists in numerous minerals such as feldspars, sodalite, and rock salt (NaCl). Many salts of sodium are highly water-soluble: sodium ions have been leached by the action of water from the Earth's minerals over eons, and thus sodium and chlorine are the most common dissolved elements by weight in the oceans.$(p)Sodium was first isolated by Humphry Davy in 1807 by the "
+      "text": "sixth most abundant element in the Earth's crust and exists in numerous minerals such as feldspars, $(l:ores/Sodalite)sodalite$(/l), and rock $(l:ores/Salt)salt$(/l) (NaCl). Many salts of sodium are highly water-soluble: sodium ions have been leached by the action of water from the Earth's minerals over eons, and thus sodium and chlorine are the most common dissolved elements by weight in the oceans.$(p)Sodium was first isolated by Humphry Davy in 1807 by the "
     },
     {
       "type": "text",
-      "text": "electrolysis of sodium hydroxide. Among many other useful sodium compounds, sodium hydroxide (lye) is used in soap manufacture, and sodium chloride (edible salt) is a de-icing agent and a nutrient for animals including humans."
+      "text": "electrolysis of sodium hydroxide. Among many other useful sodium compounds, sodium hydroxide (lye) is used in soap manufacture, and sodium chloride (edible $(l:ores/Salt)salt$(/l)) is a de-icing agent and a nutrient for animals including humans."
     }
   ],
   "icon": "gregtech:meta_item_1:10063"

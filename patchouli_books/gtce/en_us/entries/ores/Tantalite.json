@@ -1,0 +1,51 @@
+{
+  "name": "Tantalite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Tantalite",
+      "abbreviation": "Tntl",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#824824)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_tantalite_0:0",
+      "crushed": "gregtech:meta_item_1:5224",
+      "dust": "gregtech:meta_item_1:2224"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreTantalite",
+      "output1_p1": "ore:dustTantalite",
+      "outputAmount1_p1": "2",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreTantalite",
+      "output1_p2": "ore:crushedTantalite",
+      "outputAmount1_p2": "4",
+      "output2_p2": "ore:dustManganese",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreTantalite",
+      "output1_p1": "ore:crushedTantalite",
+      "outputAmount1_p1": "2"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_tantalite_0:0"
+}

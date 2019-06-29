@@ -1,0 +1,50 @@
+{
+  "name": "Iridium",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Iridium",
+      "abbreviation": "Ir",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#9696D2)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_iridium_0:0",
+      "crushed": "gregtech:meta_item_1:5032",
+      "dust": "gregtech:meta_item_1:2032"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Macerator",
+      "machine_p1": "gregtech:machine:60",
+      "processLink_p1": "processes/Macerator",
+      "input1_p1": "ore:oreIridium",
+      "output1_p1": "ore:crushedIridium",
+      "outputAmount1_p1": "2",
+      "output2_p1": "ore:dustPlatinum",
+      "outputChance2_p1": "14",
+      "output3_p1": "ore:dustStone",
+      "outputChance3_p1": "67",
+      "title_p2": "Fluid Extractor",
+      "machine_p2": "gregtech:machine:300",
+      "processLink_p2": "processes/Fluid Extractor",
+      "input1_p2": "ore:oreIridium",
+      "output1_p2": "forge:bucketfilled{FluidName: iridium, Amount: 1000}",
+      "outputAmount1_p2": "360mb"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreIridium",
+      "output1_p1": "ore:crushedIridium"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_iridium_0:0"
+}

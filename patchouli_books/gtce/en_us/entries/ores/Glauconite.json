@@ -1,0 +1,49 @@
+{
+  "name": "Glauconite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Glauconite",
+      "abbreviation": "Glcn",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#75A236)█$() Common",
+      "precautions": "",
+      "ore": "gregtech:ore_glauconite_0:0",
+      "crushed": "gregtech:meta_item_1:5275",
+      "dust": "gregtech:meta_item_1:2275"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreGlauconite",
+      "output1_p1": "ore:dustGlauconite",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreGlauconite",
+      "output1_p2": "ore:crushedGlauconite",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustSodium",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreGlauconite",
+      "output1_p1": "ore:crushedGlauconite"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_glauconite_0:0"
+}

@@ -17,7 +17,7 @@
     },
     {
       "type": "text",
-      "text": "element in nature, but as gallium(III) compounds in trace amounts in $(l:materials/Zinc)zinc$(/l) ores and in bauxite. Elemental gallium is a liquid at temperatures greater than 29.76 °C (85.57 °F), above room temperature, but below the normal human body temperature of 37 °C (99 °F). Hence, the metal will melt in a person's hands.$(p)The melting point of gallium is used as a temperature reference point. Gallium alloys are used in "
+      "text": "element in nature, but as gallium(III) compounds in trace amounts in $(l:materials/Zinc)zinc$(/l) ores and in $(l:ores/Bauxite)bauxite$(/l). Elemental gallium is a liquid at temperatures greater than 29.76 °C (85.57 °F), above room temperature, but below the normal human body temperature of 37 °C (99 °F). Hence, the metal will melt in a person's hands.$(p)The melting point of gallium is used as a temperature reference point. Gallium alloys are used in "
     },
     {
       "type": "text",

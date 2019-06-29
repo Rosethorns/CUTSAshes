@@ -12,7 +12,7 @@
     },
     {
       "type": "text",
-      "text": "Uranium dioxide or uranium(IV) oxide (UO2), also known as urania or uranous oxide, is an oxide of uranium, and is a black, radioactive, crystalline powder that naturally occurs in the mineral uraninite. It is used in nuclear fuel rods in nuclear reactors. A mixture of uranium and plutonium dioxides is used as MOX fuel. Prior to 1960, it was used as yellow and black color in ceramic glazes and glass."
+      "text": "$(l:ores/Uranium)Uranium$(/l) dioxide or $(l:ores/Uranium)uranium$(/l)(IV) oxide (UO2), also known as urania or uranous oxide, is an oxide of $(l:ores/Uranium)uranium$(/l), and is a black, radioactive, crystalline powder that naturally occurs in the mineral $(l:ores/Uraninite)uraninite$(/l). It is used in nuclear fuel rods in nuclear reactors. A mixture of $(l:ores/Uranium)uranium$(/l) and plutonium dioxides is used as MOX fuel. Prior to 1960, it was used as yellow and black color in ceramic glazes and glass."
     }
   ],
   "icon": "nuclearcraft:ingot_oxide:1"

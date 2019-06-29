@@ -16,7 +16,7 @@
     },
     {
       "type": "text",
-      "text": " Cerium has no biological role and is not very toxic.$(p)Despite always occurring in combination with the other rare-earth elements in minerals such as those of the monazite and bastnäsite groups, cerium is easy to extract from its ores, as it can be distinguished among the lanthanides by its unique ability to be oxidized to the +4 state. It is the most common of the lanthanides, followed by $(l:materials/Neodymium)neodymium$(/l), $(l:materials/Lanthanum)lanthanum$(/l), and "
+      "text": " Cerium has no biological role and is not very toxic.$(p)Despite always occurring in combination with the other rare-earth elements in minerals such as those of the $(l:ores/Monazite)monazite$(/l) and bastnäsite groups, cerium is easy to extract from its ores, as it can be distinguished among the lanthanides by its unique ability to be oxidized to the +4 state. It is the most common of the lanthanides, followed by $(l:materials/Neodymium)neodymium$(/l), $(l:materials/Lanthanum)lanthanum$(/l), and "
     },
     {
       "type": "text",
@@ -24,7 +24,7 @@
     },
     {
       "type": "text",
-      "text": "Today, cerium and its compounds have a variety of uses: for example, cerium(IV) oxide is used to polish glass and is an important part of catalytic converters. Cerium metal is used in ferrocerium lighters for its pyrophoric properties. Cerium-doped YAG phosphor is used in conjunction with blue light-emitting diodes to produce white light in most commercial white LED light sources."
+      "text": "Today, cerium and its compounds have a variety of uses: for example, cerium(IV) oxide is used to polish glass and is an important part of catalytic converters. Cerium metal is used in ferrocerium lighters for its pyrophoric properties. Cerium-doped YAG $(l:ores/Phosphor)phosphor$(/l) is used in conjunction with blue light-emitting diodes to produce white light in most commercial white LED light sources."
     }
   ],
   "icon": "gregtech:meta_item_1:10014"

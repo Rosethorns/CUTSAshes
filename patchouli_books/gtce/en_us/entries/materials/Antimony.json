@@ -14,11 +14,11 @@
     },
     {
       "type": "text",
-      "text": "Antimony is a chemical element with the symbol Sb (from Latin: stibium) and atomic number 51. A lustrous gray metalloid, it is found in nature mainly as the sulfide mineral stibnite (Sb2S3). Antimony compounds have been known since ancient times and were powdered for use as medicine and cosmetics, often known by the Arabic name, kohl. Metallic antimony was also known, but it was erroneously identified as $(l:materials/Lead)lead$(/l) upon its discovery. The earliest known description of "
+      "text": "Antimony is a chemical element with the symbol Sb (from Latin: stibium) and atomic number 51. A lustrous gray metalloid, it is found in nature mainly as the sulfide mineral $(l:ores/Stibnite)stibnite$(/l) (Sb2S3). Antimony compounds have been known since ancient times and were powdered for use as medicine and cosmetics, often known by the Arabic name, kohl. Metallic antimony was also known, but it was erroneously identified as $(l:materials/Lead)lead$(/l) upon its discovery. The earliest known description of "
     },
     {
       "type": "text",
-      "text": "the metal in the West was written in 1540 by Vannoccio Biringuccio.$(p)For some time, China has been the largest producer of antimony and its compounds, with most production coming from the Xikuangshan Mine in Hunan. The industrial methods for refining antimony are roasting and reduction with $(l:materials/Carbon)carbon$(/l) or direct reduction of stibnite with $(l:materials/Iron)iron$(/l).$(p)The largest applications "
+      "text": "the metal in the West was written in 1540 by Vannoccio Biringuccio.$(p)For some time, China has been the largest producer of antimony and its compounds, with most production coming from the Xikuangshan Mine in Hunan. The industrial methods for refining antimony are roasting and reduction with $(l:materials/Carbon)carbon$(/l) or direct reduction of $(l:ores/Stibnite)stibnite$(/l) with $(l:materials/Iron)iron$(/l).$(p)The largest applications "
     },
     {
       "type": "text",

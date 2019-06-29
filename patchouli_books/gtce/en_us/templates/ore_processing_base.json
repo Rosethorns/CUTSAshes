@@ -1,0 +1,280 @@
+{
+    "components": [
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-io-grid.png",
+            "x": 1,
+            "width": 128,
+            "height": 128,
+            "texture_width": 128,
+            "texture_height": 128
+        },
+        {
+            "type": "header",
+            "text": "#title",
+            "x": 0,
+            "y": 0,
+            "centered": false,
+            "guard": "#title->exists"
+        },
+        {
+            "type": "text",
+            "text": "$(l:#processLink#)Process$(/l)",
+            "x": 0,
+            "y": 10,
+            "guard": "#processLink->exists"
+        },
+        {
+            "type": "item",
+            "item": "#machine",
+            "framed": false,
+            "x": 101,
+            "y": 0,
+            "guard": "#machine->exists"
+        },
+        {
+            "type": "item",
+            "item": "#input1",
+            "framed": false,
+            "x": 1,
+            "y": 22,
+            "guard": "#input1->exists"
+        },
+        {
+            "type": "item",
+            "item": "#input2",
+            "framed": false,
+            "x": 18,
+            "y": 22,
+            "guard": "#input2->exists"
+
+        },
+        {
+            "type": "item",
+            "item": "#input3",
+            "framed": false,
+            "x": 35,
+            "y": 22,
+            "guard": "#input3->exists"
+        },
+        {
+            "type": "item",
+            "item": "#input4",
+            "framed": false,
+            "x": 1,
+            "y": 40,
+            "guard": "#input4->exists"
+        },
+        {
+            "type": "item",
+            "item": "#input5",
+            "framed": false,
+            "x": 18,
+            "y": 40,
+            "guard": "#input5->exists"
+
+        },
+        {
+            "type": "item",
+            "item": "#input6",
+            "framed": false,
+            "x": 35,
+            "y": 40,
+            "guard": "#input6->exists"
+        },
+        {
+            "type": "item",
+            "item": "#output1",
+            "framed": false,
+            "x": 66,
+            "y": 22,
+            "guard": "#output1->exists"
+        },
+        {
+            "type": "item",
+            "item": "#output2",
+            "framed": false,
+            "x": 83,
+            "y": 22,
+            "guard": "#output2->exists"
+        },
+        {
+            "type": "item",
+            "item": "#output3",
+            "framed": false,
+            "x": 100,
+            "y": 22,
+            "guard": "#output3->exists"
+        },
+        {
+            "type": "item",
+            "item": "#output4",
+            "framed": false,
+            "x": 66,
+            "y": 40,
+            "guard": "#output4->exists"
+        },
+        {
+            "type": "item",
+            "item": "#output5",
+            "framed": false,
+            "x": 83,
+            "y": 40,
+            "guard": "#output5->exists"
+        },
+        {
+            "type": "item",
+            "item": "#output6",
+            "framed": false,
+            "x": 100,
+            "y": 40,
+            "guard": "#output6->exists"
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 1,
+            "y": 22,
+            "guard": "#input1->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 18,
+            "y": 22,
+            "guard": "#input2->exists->inv",
+            "scale": 0.5
+
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 35,
+            "y": 22,
+            "guard": "#input3->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 1,
+            "y": 40,
+            "guard": "#input4->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 18,
+            "y": 40,
+            "guard": "#input5->exists->inv",
+            "scale": 0.5
+
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 35,
+            "y": 40,
+            "guard": "#input6->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 66,
+            "y": 22,
+            "guard": "#output1->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 83,
+            "y": 22,
+            "guard": "#output2->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 100,
+            "y": 22,
+            "guard": "#output3->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 66,
+            "y": 40,
+            "guard": "#output4->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 83,
+            "y": 40,
+            "guard": "#output5->exists->inv",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 100,
+            "y": 40,
+            "guard": "#output6->exists->inv",
+            "scale": 0.5
+        }
+    ]
+}

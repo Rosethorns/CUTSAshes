@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "Tritanium was an ore known to be 21.4 times as hard as diamond. It was found, among other places, on the planet Argus X. (TOS: \"Obsession\") The ability to melt tritanium was beyond Federation weapons technology in 2364. (TNG: \"The Arsenal of Freedom\")"
+      "text": "Tritanium was an ore known to be 21.4 times as hard as $(l:ores/Diamond)diamond$(/l). It was found, among other places, on the planet Argus X. (TOS: \"Obsession\") The ability to melt tritanium was beyond Federation weapons technology in 2364. (TNG: \"The Arsenal of Freedom\")"
     }
   ],
   "icon": "gregtech:meta_item_1:10311"

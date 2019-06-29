@@ -1,0 +1,49 @@
+{
+  "name": "Calcite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Calcite",
+      "abbreviation": "Clct",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#A0A0A0)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_calcite_0:0",
+      "crushed": "gregtech:meta_item_1:5097",
+      "dust": "gregtech:meta_item_1:2097"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreCalcite",
+      "output1_p1": "ore:dustCalcite",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreCalcite",
+      "output1_p2": "ore:crushedCalcite",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustAndradite",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreCalcite",
+      "output1_p1": "ore:crushedCalcite"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_calcite_0:0"
+}

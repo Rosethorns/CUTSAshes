@@ -17,11 +17,11 @@
     },
     {
       "type": "text",
-      "text": "All known thorium isotopes are unstable. The most stable isotope, 232Th, has a half-life of 14.05 billion years, or about the age of the universe; it decays very slowly via alpha decay, starting a decay chain named the thorium series that ends at stable 208Pb. In the universe, thorium, $(l:materials/Bismuth)bismuth$(/l), and uranium are the only three radioactive elements that still occur naturally in large quantities as primordial elements. It is estimated to "
+      "text": "All known thorium isotopes are unstable. The most stable isotope, 232Th, has a half-life of 14.05 billion years, or about the age of the universe; it decays very slowly via alpha decay, starting a decay chain named the thorium series that ends at stable 208Pb. In the universe, thorium, $(l:materials/Bismuth)bismuth$(/l), and $(l:ores/Uranium)uranium$(/l) are the only three radioactive elements that still occur naturally in large quantities as primordial elements. It is estimated to "
     },
     {
       "type": "text",
-      "text": "be over three times as abundant as uranium in the Earth's crust, and is chiefly refined from monazite sands as a by-product of extracting rare-earth metals.$(p)Thorium was discovered in 1829 by the Norwegian amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jacob Berzelius, who named it after Thor, the Norse god of thunder. Its first applications were developed in the late 19th "
+      "text": "be over three times as abundant as $(l:ores/Uranium)uranium$(/l) in the Earth's crust, and is chiefly refined from $(l:ores/Monazite)monazite$(/l) sands as a by-product of extracting rare-earth metals.$(p)Thorium was discovered in 1829 by the Norwegian amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jacob Berzelius, who named it after Thor, the Norse god of thunder. Its first applications were developed in the late 19th "
     },
     {
       "type": "text",
@@ -29,7 +29,7 @@
     },
     {
       "type": "text",
-      "text": "and scientific instrumentation, and as the light source in gas mantles, but these uses have become marginal. It has been suggested as a replacement for uranium as nuclear fuel in nuclear reactors, and several thorium reactors have been built."
+      "text": "and scientific instrumentation, and as the light source in gas mantles, but these uses have become marginal. It has been suggested as a replacement for $(l:ores/Uranium)uranium$(/l) as nuclear fuel in nuclear reactors, and several thorium reactors have been built."
     }
   ],
   "icon": "gregtech:meta_item_1:10069"

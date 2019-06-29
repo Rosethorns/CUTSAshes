@@ -20,7 +20,7 @@
     },
     {
       "type": "text",
-      "text": "together with $(l:materials/Cerium)cerium$(/l) and the other rare earth elements. Lanthanum was first found by the Swedish chemist Carl Gustav Mosander in 1839 as an impurity in $(l:materials/Cerium)cerium$(/l) nitrate - hence the name lanthanum, from the Ancient Greek λανθάνειν (lanthanein), meaning \"to lie hidden\". Although it is classified as a rare earth element, lanthanum is the 28th most abundant element in the Earth's crust, almost three times as abundant as $(l:materials/Lead)lead$(/l). In minerals such as monazite and "
+      "text": "together with $(l:materials/Cerium)cerium$(/l) and the other rare earth elements. Lanthanum was first found by the Swedish chemist Carl Gustav Mosander in 1839 as an impurity in $(l:materials/Cerium)cerium$(/l) nitrate - hence the name lanthanum, from the Ancient Greek λανθάνειν (lanthanein), meaning \"to lie hidden\". Although it is classified as a rare earth element, lanthanum is the 28th most abundant element in the Earth's crust, almost three times as abundant as $(l:materials/Lead)lead$(/l). In minerals such as $(l:ores/Monazite)monazite$(/l) and "
     },
     {
       "type": "text",
@@ -28,7 +28,7 @@
     },
     {
       "type": "text",
-      "text": " scintillators, GTAW electrodes, and other things. Lanthanum carbonate is used as a phosphate binder in cases of renal failure."
+      "text": " scintillators, GTAW electrodes, and other things. Lanthanum carbonate is used as a $(l:ores/Phosphate)phosphate$(/l) binder in cases of renal failure."
     }
   ],
   "icon": "gregtech:meta_item_1:10034"

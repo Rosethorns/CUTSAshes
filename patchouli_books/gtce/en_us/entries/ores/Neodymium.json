@@ -1,0 +1,50 @@
+{
+  "name": "Neodymium",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Neodymium",
+      "abbreviation": "Nd",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#6B6B6B)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_neodymium_0:0",
+      "crushed": "gregtech:meta_item_1:5042",
+      "dust": "gregtech:meta_item_1:2042"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Macerator",
+      "machine_p1": "gregtech:machine:60",
+      "processLink_p1": "processes/Macerator",
+      "input1_p1": "ore:oreNeodymium",
+      "output1_p1": "ore:crushedNeodymium",
+      "outputAmount1_p1": "2",
+      "output2_p1": "ore:dustMonazite",
+      "outputChance2_p1": "14",
+      "output3_p1": "ore:dustStone",
+      "outputChance3_p1": "67",
+      "title_p2": "Fluid Extractor",
+      "machine_p2": "gregtech:machine:300",
+      "processLink_p2": "processes/Fluid Extractor",
+      "input1_p2": "ore:oreNeodymium",
+      "output1_p2": "forge:bucketfilled{FluidName: neodymium, Amount: 1000}",
+      "outputAmount1_p2": "360mb"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreNeodymium",
+      "output1_p1": "ore:crushedNeodymium"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_neodymium_0:0"
+}

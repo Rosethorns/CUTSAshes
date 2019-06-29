@@ -1,0 +1,58 @@
+{
+  "name": "Magnetite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Magnetite",
+      "abbreviation": "Mgnt",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#101010)█$() Common",
+      "precautions": "",
+      "ore": "gregtech:ore_magnetite_0:0",
+      "crushed": "gregtech:meta_item_1:5131",
+      "dust": "gregtech:meta_item_1:2131"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreMagnetite",
+      "output1_p1": "ore:ingotIron",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreMagnetite",
+      "output1_p2": "ore:crushedMagnetite",
+      "outputAmount1_p2": "4",
+      "output2_p2": "ore:dustIron",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreMagnetite",
+      "output1_p1": "ore:crushedMagnetite",
+      "outputAmount1_p1": "3",
+      "title_p2": "Blast Furnace",
+      "machine_p2": "gregtech:machine:511",
+      "processLink_p2": "processes/Blast Furnace",
+      "input1_p2": "ore:oreMagnetite",
+      "input2_p2": "ore:dustCalcite",
+      "output1_p2": "ore:ingotIron",
+      "outputAmount1_p2": "3",
+      "output2_p2": "ore:dustSmallDarkAsh"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_magnetite_0:0"
+}

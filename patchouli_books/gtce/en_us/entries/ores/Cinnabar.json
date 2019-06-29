@@ -1,0 +1,49 @@
+{
+  "name": "Cinnabar",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Cinnabar",
+      "abbreviation": "Cinn",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#BE0000)█$() Common",
+      "precautions": "",
+      "ore": "gregtech:ore_cinnabar_0:0",
+      "crushed": "gregtech:meta_item_1:5103",
+      "dust": "gregtech:meta_item_1:2103"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreCinnabar",
+      "output1_p1": "ore:gemCinnabar",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreCinnabar",
+      "output1_p2": "ore:crushedCinnabar",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustRedstone",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreCinnabar",
+      "output1_p1": "ore:crushedCinnabar"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_cinnabar_0:0"
+}

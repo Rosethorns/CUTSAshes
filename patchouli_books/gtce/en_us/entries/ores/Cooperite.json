@@ -1,0 +1,23 @@
+{
+  "name": "Cooperite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Cooperite",
+      "abbreviation": "Coop",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#AEAEAE)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_cooperite_0:0",
+      "crushed": "gregtech:meta_item_1:5108",
+      "dust": "gregtech:meta_item_1:2108"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_cooperite_0:0"
+}

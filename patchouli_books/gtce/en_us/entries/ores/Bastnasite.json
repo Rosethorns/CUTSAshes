@@ -1,0 +1,51 @@
+{
+  "name": "Bastnasite",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Bastnasite",
+      "abbreviation": "Nb",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#C06D2D)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_bastnasite_0:0",
+      "crushed": "gregtech:meta_item_1:5270",
+      "dust": "gregtech:meta_item_1:2270"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreBastnasite",
+      "output1_p1": "ore:dustBastnasite",
+      "outputAmount1_p1": "2",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreBastnasite",
+      "output1_p2": "ore:crushedBastnasite",
+      "outputAmount1_p2": "4",
+      "output2_p2": "ore:dustNeodymium",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Forge Hammer",
+      "machine_p1": "gregtech:machine:330",
+      "processLink_p1": "processes/Forge Hammer",
+      "input1_p1": "ore:oreBastnasite",
+      "output1_p1": "ore:crushedBastnasite",
+      "outputAmount1_p1": "2"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_bastnasite_0:0"
+}

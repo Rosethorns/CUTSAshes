@@ -1,0 +1,55 @@
+{
+  "name": "Beryllium",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Beryllium",
+      "abbreviation": "Be",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#5AA25A)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_beryllium_0:0",
+      "crushed": "gregtech:meta_item_1:5007",
+      "dust": "gregtech:meta_item_1:2007"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreBeryllium",
+      "output1_p1": "ore:ingotBeryllium",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreBeryllium",
+      "output1_p2": "ore:crushedBeryllium",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustEmerald",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreBeryllium",
+      "output1_p1": "forge:bucketfilled{FluidName: beryllium, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreBeryllium",
+      "output1_p2": "ore:crushedBeryllium"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_beryllium_0:0"
+}

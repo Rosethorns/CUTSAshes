@@ -1,43 +1,19 @@
 {
+    "include": [
+        {
+            "template": "base_overview",
+            "as": "base",
+            "using": {
+                "title": "#title",
+                "source": "#source",
+                "link": "#link",
+                "item1": "#ingot",
+                "item2": "#plate",
+                "item3": "#gear"
+            }
+        }
+    ],
     "components": [
-        {
-            "type": "header",
-            "text": "#title",
-            "x": -1,
-            "y": -1,
-            "centered": true
-        },
-        {
-            "type": "separator",
-            "x": -1,
-            "y": -1
-        },
-        {
-            "type": "item",
-            "item": "#ingot",
-            "framed": true,
-            "x": 50,
-            "y": 20,
-            "guard": "#ingot->exists"
-        },
-        {
-            "type": "item",
-            "item": "#plate",
-            "framed": true,
-            "x": 20,
-            "y": 20,
-            "guard": "#plate->exists"
-
-        },
-        {
-            "type": "item",
-            "item": "#gear",
-            "framed": true,
-            "x": 80,
-            "y": 20,
-            "guard": "#gear->exists"
-
-        },
         {
             "type": "text",
             "text": "Abbreviation: #abbreviation#",
@@ -51,13 +27,6 @@
             "x": 5,
             "y": 59,
             "guard": "#chemical->exists"
-        },
-        {
-            "type": "text",
-            "text": "Further Reading: $(l:#link#)#source#$(/l)",
-            "x": 5,
-            "y": 131,
-            "guard": "#link->exists"
         }
     ]
 }

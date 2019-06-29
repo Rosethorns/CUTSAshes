@@ -1,0 +1,94 @@
+{
+  "name": "Lithium",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Lithium",
+      "abbreviation": "Li",
+      "link": "https://en.wikipedia.org/wiki/Lithium",
+      "source": "Wikipedia",
+      "scan": "$(#494949)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_lithium_0:0",
+      "crushed": "gregtech:meta_item_1:5036",
+      "dust": "gregtech:meta_item_1:2036"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreLithium",
+      "output1_p1": "ore:ingotLithium",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreLithium",
+      "output1_p2": "ore:crushedLithium",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustLithium",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreLithium",
+      "output1_p1": "forge:bucketfilled{FluidName: lithium, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreLithium",
+      "output1_p2": "ore:crushedLithium"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Crusher (IE)",
+      "machine_p1": "immersiveengineering:metal_decoration0:4",
+      "processLink_p1": "processes/Crusher (IE)",
+      "input1_p1": "ore:oreLithium",
+      "output1_p1": "ore:dustLithium",
+      "outputAmount1_p1": "2",
+      "title_p2": "Arc Furnace (IE)",
+      "machine_p2": "immersiveengineering:metal_decoration0:5",
+      "processLink_p2": "processes/Arc Furnace (IE)",
+      "input1_p2": "ore:oreLithium",
+      "output1_p2": "ore:ingotLithium",
+      "outputAmount1_p2": "2"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Hammer (IE)",
+      "machine_p1": "immersiveengineering:tool:0",
+      "processLink_p1": "processes/Hammer (IE)",
+      "input1_p1": "ore:oreLithium",
+      "output1_p1": "ore:dustLithium"
+    },
+    {
+      "type": "text",
+      "text": "Lithium (from Greek lithos, lit. 'stone') is a chemical element with the symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element. Like all alkali metals, lithium is highly reactive and flammable, and is stored in mineral oil. When cut, it exhibits a metallic luster, but moist air corrodes it quickly to a dull silvery gray, then black tarnish. It never occurs "
+    },
+    {
+      "type": "text",
+      "text": "freely in nature, but only in (usually ionic) compounds, such as pegmatitic minerals, which were once the main source of lithium. Due to its solubility as an ion, it is present in ocean water and is commonly obtained from brines. Lithium metal is isolated electrolytically from a mixture of lithium chloride and $(l:materials/Potassium)potassium$(/l) chloride.$(p)The nucleus of the lithium atom verges on instability, since the two stable lithium "
+    },
+    {
+      "type": "text",
+      "text": "isotopes found in nature have among the lowest binding energies per nucleon of all stable nuclides. Because of its relative nuclear instability, lithium is less common in the solar system than 25 of the first 32 chemical elements even though its nuclei are very light: it is an exception to the trend that heavier nuclei are less common. For related reasons, lithium has important uses in nuclear physics. The transmutation of lithium atoms "
+    },
+    {
+      "type": "text",
+      "text": "to helium in 1932 was the first fully man-made nuclear reaction, and lithium deuteride serves as a fusion fuel in staged thermonuclear weapons.$(p)Lithium and its compounds have several industrial applications, including heat-resistant glass and ceramics, lithium grease lubricants, flux additives for $(l:materials/Iron)iron$(/l), $(l:materials/Steel)steel$(/l) and $(l:materials/Aluminium)aluminium$(/l) production, lithium batteries, and lithium-ion batteries. These uses "
+    },
+    {
+      "type": "text",
+      "text": "consume more than three quarters of lithium production."
+    }
+  ],
+  "icon": "gregtech:ore_lithium_0:0"
+}

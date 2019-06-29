@@ -17,7 +17,7 @@
     },
     {
       "type": "text",
-      "text": "beryllium include beryl (aquamarine, emerald) and chrysoberyl. As a free element it is a $(l:materials/Steel)steel$(/l)-gray, strong, lightweight and brittle alkaline earth metal.$(p)In structural applications, the combination of high flexural rigidity, thermal stability, thermal conductivity and low density (1.85 times that of water) make beryllium metal a desirable aerospace material for aircraft components, missiles, "
+      "text": "beryllium include beryl (aquamarine, $(l:ores/Emerald)emerald$(/l)) and chrysoberyl. As a free element it is a $(l:materials/Steel)steel$(/l)-gray, strong, lightweight and brittle alkaline earth metal.$(p)In structural applications, the combination of high flexural rigidity, thermal stability, thermal conductivity and low density (1.85 times that of water) make beryllium metal a desirable aerospace material for aircraft components, missiles, "
     },
     {
       "type": "text",

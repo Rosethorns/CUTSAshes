@@ -22,7 +22,7 @@
     },
     {
       "type": "text",
-      "text": "are mostly limited to organolead compounds. Like the lighter members of the group, lead tends to bond with itself; it can form chains and polyhedral structures.$(p)Lead is easily extracted from its ores; prehistoric people in Western Asia knew of it. Galena, a principal ore of lead, often bears $(l:materials/Silver)silver$(/l), interest in which helped initiate widespread extraction and use of lead in ancient Rome. Lead production declined "
+      "text": "are mostly limited to organolead compounds. Like the lighter members of the group, lead tends to bond with itself; it can form chains and polyhedral structures.$(p)Lead is easily extracted from its ores; prehistoric people in Western Asia knew of it. $(l:ores/Galena)Galena$(/l), a principal ore of lead, often bears $(l:materials/Silver)silver$(/l), interest in which helped initiate widespread extraction and use of lead in ancient Rome. Lead production declined "
     },
     {
       "type": "text",

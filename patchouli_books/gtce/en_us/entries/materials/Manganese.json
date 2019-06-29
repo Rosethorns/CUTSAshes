@@ -13,11 +13,11 @@
     },
     {
       "type": "text",
-      "text": "Manganese is a chemical element with the symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in minerals in combination with $(l:materials/Iron)iron$(/l). Manganese is a transition metal with important industrial alloy uses, particularly in stainless steels.$(p)Historically, manganese is named for pyrolusite and other black minerals from the region of Magnesia in Greece, which "
+      "text": "Manganese is a chemical element with the symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in minerals in combination with $(l:materials/Iron)iron$(/l). Manganese is a transition metal with important industrial alloy uses, particularly in stainless steels.$(p)Historically, manganese is named for $(l:ores/Pyrolusite)pyrolusite$(/l) and other black minerals from the region of Magnesia in Greece, which "
     },
     {
       "type": "text",
-      "text": "also gave its name to $(l:materials/Magnesium)magnesium$(/l) and the $(l:materials/Iron)iron$(/l) ore magnetite. By the mid-18th century, Swedish-German chemist Carl Wilhelm Scheele had used pyrolusite to produce chlorine. Scheele and others were aware that pyrolusite (now known to be $(l:materials/ManganeseDioxide)manganese dioxide$(/l)) contained a new element, but they were unable to isolate it. Johan Gottlieb Gahn was the first to isolate an impure sample of manganese metal in 1774, which he did by reducing the dioxide with "
+      "text": "also gave its name to $(l:materials/Magnesium)magnesium$(/l) and the $(l:materials/Iron)iron$(/l) ore $(l:ores/Magnetite)magnetite$(/l). By the mid-18th century, Swedish-German chemist Carl Wilhelm Scheele had used $(l:ores/Pyrolusite)pyrolusite$(/l) to produce chlorine. Scheele and others were aware that $(l:ores/Pyrolusite)pyrolusite$(/l) (now known to be $(l:materials/ManganeseDioxide)manganese dioxide$(/l)) contained a new element, but they were unable to isolate it. Johan Gottlieb Gahn was the first to isolate an impure sample of manganese metal in 1774, which he did by reducing the dioxide with "
     },
     {
       "type": "text",

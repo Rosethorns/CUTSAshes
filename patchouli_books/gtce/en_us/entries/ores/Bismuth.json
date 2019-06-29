@@ -1,0 +1,55 @@
+{
+  "name": "Bismuth",
+  "category": "ores",
+  "pages": [
+    {
+      "type": "ore_overview",
+      "title": "Bismuth",
+      "abbreviation": "Bi",
+      "link": "",
+      "source": "Wikipedia",
+      "scan": "$(#6CADAD)█$() Rare",
+      "precautions": "",
+      "ore": "gregtech:ore_bismuth_0:0",
+      "crushed": "gregtech:meta_item_1:5008",
+      "dust": "gregtech:meta_item_1:2008"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Smelter",
+      "machine_p1": "minecraft:furnace",
+      "processLink_p1": "processes/Smelter",
+      "input1_p1": "ore:oreBismuth",
+      "output1_p1": "ore:ingotBismuth",
+      "title_p2": "Macerator",
+      "machine_p2": "gregtech:machine:60",
+      "processLink_p2": "processes/Macerator",
+      "input1_p2": "ore:oreBismuth",
+      "output1_p2": "ore:crushedBismuth",
+      "outputAmount1_p2": "2",
+      "output2_p2": "ore:dustBismuth",
+      "outputChance2_p2": "14",
+      "output3_p2": "ore:dustStone",
+      "outputChance3_p2": "67"
+    },
+    {
+      "type": "ore_processing",
+      "title_p1": "Fluid Extractor",
+      "machine_p1": "gregtech:machine:300",
+      "processLink_p1": "processes/Fluid Extractor",
+      "input1_p1": "ore:oreBismuth",
+      "output1_p1": "forge:bucketfilled{FluidName: bismuth, Amount: 1000}",
+      "outputAmount1_p1": "360mb",
+      "title_p2": "Forge Hammer",
+      "machine_p2": "gregtech:machine:330",
+      "processLink_p2": "processes/Forge Hammer",
+      "input1_p2": "ore:oreBismuth",
+      "output1_p2": "ore:crushedBismuth"
+    },
+    {
+      "type": "text",
+      "text": "TBD"
+    }
+  ],
+  "icon": "gregtech:ore_bismuth_0:0"
+}

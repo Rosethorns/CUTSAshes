@@ -1,0 +1,37 @@
+{
+    "include": [
+        {
+            "template": "base_overview",
+            "as": "base",
+            "using": {
+                "title": "#title",
+                "source": "#source",
+                "link": "#link",
+                "item1": "#crushed",
+                "item2": "#ore",
+                "item3": "#dust"
+            }
+        }
+    ],
+    "components": [
+        {
+            "type": "text",
+            "text": "Abbreviation: #abbreviation#",
+            "x": 5,
+            "y": 50
+        },
+        {
+            "type": "text",
+            "text": "Scanning: #scan#",
+            "x": 5,
+            "y": 59
+        },
+        {
+            "type": "text",
+            "text": "Precautions:$(br)#precautions#",
+            "x": 5,
+            "y": 68,
+            "guard": "#precautions->exists"
+        }
+    ]
+}

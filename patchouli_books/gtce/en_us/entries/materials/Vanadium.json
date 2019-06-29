@@ -25,7 +25,7 @@
     },
     {
       "type": "text",
-      "text": "produced in China and Russia from $(l:materials/Steel)steel$(/l) smelter slag. Other countries produce it either from magnetite directly, flue dust of heavy oil, or as a byproduct of uranium mining. It is mainly used to produce specialty $(l:materials/Steel)steel$(/l) alloys such as high-speed tool steels. The most important industrial vanadium compound, vanadium pentoxide, is used as a catalyst for the production of sulfuric acid. The vanadium redox battery for energy storage may be an important "
+      "text": "produced in China and Russia from $(l:materials/Steel)steel$(/l) smelter slag. Other countries produce it either from $(l:ores/Magnetite)magnetite$(/l) directly, flue dust of heavy oil, or as a byproduct of $(l:ores/Uranium)uranium$(/l) mining. It is mainly used to produce specialty $(l:materials/Steel)steel$(/l) alloys such as high-speed tool steels. The most important industrial vanadium compound, vanadium pentoxide, is used as a catalyst for the production of sulfuric acid. The vanadium redox battery for energy storage may be an important "
     },
     {
       "type": "text",
