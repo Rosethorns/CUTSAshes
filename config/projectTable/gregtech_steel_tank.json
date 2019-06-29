@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 813
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateSteel",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "blockGlass",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

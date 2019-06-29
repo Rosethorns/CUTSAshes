@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 7
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "pipeSmallBronze",
+      "Count": 6,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingPiston",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:machine_casing",
+      "Count": 1,
+      "Damage": 10,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "minecraft:glass",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

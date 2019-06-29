@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 32575,
+      "tag": {
+        "MaxCharge": 1800000
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "screwTungstenSteel",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "gearSmallTungstenSteel",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32602,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "plateTungstenSteel",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32537,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

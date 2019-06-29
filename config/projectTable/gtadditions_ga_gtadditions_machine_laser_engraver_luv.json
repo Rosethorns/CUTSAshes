@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 2157
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 2,
+      "Damage": 32645,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32685,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitMaster",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 506,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "cableGtSingleNiobiumTitanium",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

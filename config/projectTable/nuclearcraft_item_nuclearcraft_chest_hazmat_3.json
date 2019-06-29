@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:chest_hazmat",
+      "Count": 1,
+      "tag": {
+        "ncRadiationResistance": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "nuclearcraft:chest_hazmat",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "nuclearcraft:rad_shielding",
+      "Count": 1,
+      "Damage": 2,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

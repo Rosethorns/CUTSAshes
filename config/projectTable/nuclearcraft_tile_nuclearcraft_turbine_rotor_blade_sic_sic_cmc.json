@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:turbine_rotor_blade_sic_sic_cmc",
+      "Count": 4
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotSiCSiCCMC",
+      "Count": 6,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotHSLASteel",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

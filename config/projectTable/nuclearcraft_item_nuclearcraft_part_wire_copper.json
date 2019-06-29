@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:part",
+      "Count": 2,
+      "Damage": 4
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotCopper",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotIron",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

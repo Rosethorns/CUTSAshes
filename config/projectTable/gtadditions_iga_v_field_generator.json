@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32674
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:cable",
+      "Count": 4,
+      "Damage": 4047,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitElite",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32725,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

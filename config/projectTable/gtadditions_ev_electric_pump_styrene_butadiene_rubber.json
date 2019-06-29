@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32613
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 17183,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 18183,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 2,
+      "Damage": 18398,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolScrewdriver",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:fluid_pipe",
+      "Count": 1,
+      "Damage": 2072,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolWrench",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32603,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:cable",
+      "Count": 1,
+      "Damage": 5001,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

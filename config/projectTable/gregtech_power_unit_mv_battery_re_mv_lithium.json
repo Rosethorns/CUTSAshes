@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 32574,
+      "tag": {
+        "MaxCharge": 400000
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "screwTitanium",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "gearSmallTitanium",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32601,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "plateTitanium",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32528,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

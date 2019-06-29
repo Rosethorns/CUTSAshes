@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:nitrogen_collector_dense",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "nuclearcraft:nitrogen_collector_compact",
+      "Count": 8,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotGold",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

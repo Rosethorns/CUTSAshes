@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 519
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "circuitExtreme",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "gearStainlessSteel",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 504,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:fluid_pipe",
+      "Count": 2,
+      "Damage": 3183,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

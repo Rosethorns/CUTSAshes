@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine_casing",
+      "Count": 1,
+      "Damage": 11
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateBronze",
+      "Count": 5,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "craftingToolHardHammer",
+      "Count": 0,
+      "tool": true,
+      "durabilityCost": 1
+    },
+    {
+      "id": "minecraft:brick_block",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

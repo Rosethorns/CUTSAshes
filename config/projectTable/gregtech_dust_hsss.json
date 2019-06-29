@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 9,
+      "Damage": 2304
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "dustHssg",
+      "Count": 6,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustIridium",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "dustOsmium",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

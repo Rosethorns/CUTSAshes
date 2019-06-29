@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:multiblock_casing",
+      "Count": 3,
+      "Damage": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "minecraft:iron_bars",
+      "Count": 6,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "rotorSteel",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "frameGtSteel",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32601,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

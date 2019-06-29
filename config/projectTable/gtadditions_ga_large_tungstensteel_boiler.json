@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 524
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "cableGtSingleAluminium",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitMaster",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:metal_casing",
+      "Count": 1,
+      "Damage": 7,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

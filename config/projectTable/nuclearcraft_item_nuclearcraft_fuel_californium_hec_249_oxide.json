@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:fuel_californium",
+      "Count": 1,
+      "Damage": 3
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotCalifornium249Oxide",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotCalifornium252",
+      "Count": 5,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

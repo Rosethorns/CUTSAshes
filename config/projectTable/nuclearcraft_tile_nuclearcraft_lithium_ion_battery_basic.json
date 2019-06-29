@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:lithium_ion_battery_basic",
+      "Count": 1,
+      "tag": {
+        "maxTransfer": 1600000,
+        "capacity": 32000000,
+        "energy": 0
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateElite",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "nuclearcraft:lithium_ion_cell",
+      "Count": 4,
+      "tag": {
+        "maxTransfer": 400000,
+        "capacity": 8000000,
+        "energy": 0
+      },
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "solenoidMagnesiumDiboride",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

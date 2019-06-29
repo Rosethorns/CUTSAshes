@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 32213
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "plateLazurite",
+      "Count": 6,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitAdvanced",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 1,
+      "Damage": 32212,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

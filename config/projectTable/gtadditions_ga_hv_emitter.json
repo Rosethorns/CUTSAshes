@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32682
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 4,
+      "Damage": 14016,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitAdvanced",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:cable",
+      "Count": 2,
+      "Damage": 5026,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "minecraft:emerald",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

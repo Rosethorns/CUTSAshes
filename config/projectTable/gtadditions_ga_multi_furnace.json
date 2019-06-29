@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 516
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "minecraft:furnace",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "circuitAdvanced",
+      "Count": 3,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "id": "gregtech:metal_casing",
+      "Count": 1,
+      "Damage": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "cableGtSingleAnnealedCopper",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

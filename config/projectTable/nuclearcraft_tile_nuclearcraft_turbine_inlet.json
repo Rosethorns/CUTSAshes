@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:turbine_inlet",
+      "Count": 4
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotHSLASteel",
+      "Count": 5,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotTough",
+      "Count": 2,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "steelFrame",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "servo",
+      "Count": 1,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}

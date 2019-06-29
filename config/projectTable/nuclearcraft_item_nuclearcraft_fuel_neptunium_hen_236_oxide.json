@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/04156961c15aae03d32c3deeba340d2ad6021636/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:fuel_neptunium",
+      "Count": 1,
+      "Damage": 3
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "ingotNeptunium236Oxide",
+      "Count": 4,
+      "tool": false,
+      "durabilityCost": 1
+    },
+    {
+      "oredict": "ingotNeptunium237",
+      "Count": 5,
+      "tool": false,
+      "durabilityCost": 1
+    }
+  ]
+}
