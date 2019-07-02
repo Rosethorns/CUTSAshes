@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Barite",
       "abbreviation": "Brte",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Baryte",
       "source": "Wikipedia",
       "scan": "$(#676767)█$() Rare",
       "precautions": "",
@@ -15,21 +15,96 @@
       "dust": "gregtech:meta_item_1:2286"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreBarite",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedBarite",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedBarite",
+      "tier1_macerator_2": "ore:dustBarite",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustBarite",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedBarite",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyBarite",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureBarite",
+      "tier2_crushed_macerator_2": "ore:dustBarite",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureBarite",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureBarite",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedBarite",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyBarite",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedBarite",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyBarite",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureBarite",
+      "tier3_purified_macerator_2": "ore:dustBarite",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureBarite",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureBarite",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustBarite",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyBarite",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustBarite",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustBarite",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustBarite",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyBarite",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustBarite",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyBarite",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreBarite",
       "output1_p1": "ore:dustBarite",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreBarite",
       "output1_p2": "ore:crushedBarite",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustBarite",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -38,11 +113,24 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreBarite",
-      "output1_p1": "ore:crushedBarite"
+      "output1_p1": "ore:crushedBarite",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Baryte or barite is a mineral consisting of $(l:materials/Barium)barium$(/l) sulfate (BaSO4). Baryte is generally white or colorless, and is the main source of $(l:materials/Barium)barium$(/l). The baryte group consists of baryte, celestine ($(l:materials/Strontium)strontium$(/l) sulfate), anglesite ($(l:materials/Lead)lead$(/l) sulfate), and anhydrite ($(l:materials/Calcium)calcium$(/l) sulfate). Baryte and celestine form a solid solution (Ba,Sr)SO4.$(p)The radiating form, sometimes referred to as Bologna Stone, attained some "
+    },
+    {
+      "type": "text",
+      "text": "notoriety among alchemists for the phosphorescent specimens found in the 17th century near Bologna by Vincenzo Casciarolo.$(p)The American Petroleum Institute specification API 13/ISO 13500, which governs baryte for drilling purposes, does not refer to any specific mineral, but rather a material that meets that specification. In practice, however, this is usually the mineral baryte.$(p)The term \"primary barytes\" "
+    },
+    {
+      "type": "text",
+      "text": "refers to the first marketable product, which includes crude baryte (run of mine) and the products of simple beneficiation methods, such as washing, jigging, heavy media separation, tabling, flotation. Most crude baryte requires some upgrading to minimum purity or density. Baryte that is used as an aggregate in a \"heavy\" cement is crushed and screened to a uniform size. Most baryte is ground to a small, uniform size before it is used as a filler or "
+    },
+    {
+      "type": "text",
+      "text": "extender, an addition to industrial products, in the production of $(l:materials/Barium)barium$(/l) chemicals or a weighting agent in petroleum well drilling mud."
     }
   ],
   "icon": "gregtech:ore_barite_0:0"

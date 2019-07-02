@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Spessartine",
       "abbreviation": "Spss",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Spessartine",
       "source": "Wikipedia",
       "scan": "$(#5A2E2E)█$() Rare",
       "precautions": "",
@@ -15,22 +15,96 @@
       "dust": "gregtech:meta_item_1:2181"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreSpessartine",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedSpessartine",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedSpessartine",
+      "tier1_macerator_2": "ore:dustGarnetRed",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustSpessartine",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedSpessartine",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyGarnetRed",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureSpessartine",
+      "tier2_crushed_macerator_2": "ore:dustGarnetRed",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureSpessartine",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureSpessartine",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedSpessartine",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyGarnetRed",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedSpessartine",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyManganese",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureSpessartine",
+      "tier3_purified_macerator_2": "ore:dustManganese",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureSpessartine",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureSpessartine",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustSpessartine",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyManganese",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustSpessartine",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustSpessartine",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustSpessartine",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyManganese",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustSpessartine",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyManganese",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreSpessartine",
       "output1_p1": "ore:dustSpessartine",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreSpessartine",
       "output1_p2": "ore:crushedSpessartine",
-      "outputAmount1_p2": "4",
+      "outputAmount1_p2": 4,
       "output2_p2": "ore:dustGarnetRed",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +114,23 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreSpessartine",
       "output1_p1": "ore:crushedSpessartine",
-      "outputAmount1_p1": "2"
+      "outputAmount1_p1": 2
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Spessartine, sometimes mistakenly referred to as spessartite, is a nesosilicate, $(l:materials/Manganese)manganese$(/l) $(l:materials/Aluminium)aluminium$(/l) garnet species, Mn2+3Al2(SiO4)3. The mineral spessartine should not be confused with a type of igneous rock (a lamprophyre) called spessartite.$(p)Spessartine's name is a derivative of Spessart in Bavaria, Germany, the type locality of the mineral. It occurs most often in granite pegmatite and allied rock "
+    },
+    {
+      "type": "text",
+      "text": "types and in certain low-grade metamorphic phyllites. Sources include Australia, Myanmar, India, Afghanistan, Israel, Madagascar, Namibia, Nigeria, Mozambique, Tanzania and the United States. Spessartine of an orange-yellow has been called Mandarin garnet and is found in Madagascar. Violet-red spessartines are found in rhyolites in Colorado and Maine. In Madagascar, spessartines are exploited either in their bedrock or in alluvium. The orange garnets "
+    },
+    {
+      "type": "text",
+      "text": "result from $(l:materials/Sodium)sodium$(/l)-rich pegmatites. Spessartines are found in bedrock in the highlands in the Sahatany valley. Those in alluvium are generally found in southern Madagascar or in the Maevatanana region.$(p)Spessartine forms a solid solution series with the garnet species $(l:ores/Almandine)almandine$(/l). Well-formed crystals from this series, varying in color from very dark-red to bright yellow-orange, were found in Latinka, "
+    },
+    {
+      "type": "text",
+      "text": "Rhodope Mountains, Kardzhali Province, Bulgaria. Spessartine, like the other garnets, always occurs as a blend with other species. Gems with high spessartine content tend toward a light orange hue, while $(l:ores/Almandine)almandine$(/l) prevalence induces red or brownish hues."
     }
   ],
   "icon": "gregtech:ore_spessartine_0:0"

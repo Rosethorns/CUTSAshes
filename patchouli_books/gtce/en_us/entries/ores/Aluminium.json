@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Aluminium",
       "abbreviation": "Al",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Aluminium",
       "source": "Wikipedia",
       "scan": "$(#73AEAE)█$() Common",
       "precautions": "",
@@ -15,22 +15,95 @@
       "dust": "gregtech:meta_item_1:2001"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreAluminium",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedAluminium",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedAluminium",
+      "tier1_macerator_2": "ore:dustBauxite",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedAluminium",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyBauxite",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureAluminium",
+      "tier2_crushed_macerator_2": "ore:dustBauxite",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureAluminium",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureAluminium",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedAluminium",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyBauxite",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedAluminium",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyBauxite",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureAluminium",
+      "tier3_purified_macerator_2": "ore:dustBauxite",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureAluminium",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureAluminium",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustAluminium",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyBauxite",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustAluminium",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustAluminium",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustAluminium",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyBauxite",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustAluminium",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyBauxite",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Macerator",
       "machine_p1": "gregtech:machine:60",
       "processLink_p1": "processes/Macerator",
       "input1_p1": "ore:oreAluminium",
       "output1_p1": "ore:crushedAluminium",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "output2_p1": "ore:dustBauxite",
+      "outputAmount2_p1": 1,
       "outputChance2_p1": "14",
       "output3_p1": "ore:dustStone",
+      "outputAmount3_p1": 1,
       "outputChance3_p1": "67",
       "title_p2": "Forge Hammer",
       "machine_p2": "gregtech:machine:330",
       "processLink_p2": "processes/Forge Hammer",
       "input1_p2": "ore:oreAluminium",
-      "output1_p2": "ore:crushedAluminium"
+      "output1_p2": "ore:crushedAluminium",
+      "outputAmount1_p2": 1
     },
     {
       "type": "ore_processing",
@@ -39,11 +112,19 @@
       "processLink_p1": "processes/Arc Furnace (IE)",
       "input1_p1": "ore:oreAluminium",
       "output1_p1": "ore:ingotAluminium",
-      "outputAmount1_p1": "2"
+      "outputAmount1_p1": 2
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Aluminium (aluminum in American and Canadian English) is a chemical element with the symbol Al and atomic number 13. It is a silvery-white, soft, non-magnetic and ductile metal in the $(l:materials/Boron)boron$(/l) group. By mass, aluminium makes up about 8% of the Earth's crust; it is the third most abundant element after oxygen and $(l:materials/Silicon)silicon$(/l) and the most abundant metal in the crust, though it is less common in the mantle below. The chief ore of aluminium is $(l:ores/Bauxite)bauxite$(/l). Aluminium metal is so "
+    },
+    {
+      "type": "text",
+      "text": "chemically reactive that native specimens are rare and limited to extreme reducing environments. Instead, it is found combined in over 270 different minerals.$(p)Aluminium is remarkable for its low density and its ability to resist corrosion through the phenomenon of passivation. Aluminium and its alloys are vital to the aerospace industry and important in transportation and building industries, such "
+    },
+    {
+      "type": "text",
+      "text": "as building facades and window frames. The oxides and sulfates are the most useful compounds of aluminium."
     }
   ],
   "icon": "gregtech:ore_aluminium_0:0"

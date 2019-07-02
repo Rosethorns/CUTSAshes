@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Salt",
       "abbreviation": "Salt",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Salt",
       "source": "Wikipedia",
       "scan": "$(#9B9B9B)█$() Common",
       "precautions": "",
@@ -15,22 +15,96 @@
       "dust": "gregtech:meta_item_1:2155"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreSalt",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedSalt",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedSalt",
+      "tier1_macerator_2": "ore:dustRockSalt",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustSalt",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedSalt",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyRockSalt",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureSalt",
+      "tier2_crushed_macerator_2": "ore:dustRockSalt",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureSalt",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureSalt",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedSalt",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyRockSalt",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedSalt",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyBorax",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureSalt",
+      "tier3_purified_macerator_2": "ore:dustBorax",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureSalt",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureSalt",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustSalt",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyBorax",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustSalt",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustSalt",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustSalt",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyBorax",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustSalt",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyBorax",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreSalt",
       "output1_p1": "ore:dustSalt",
-      "outputAmount1_p1": "3",
+      "outputAmount1_p1": 3,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreSalt",
       "output1_p2": "ore:crushedSalt",
-      "outputAmount1_p2": "6",
+      "outputAmount1_p2": 6,
       "output2_p2": "ore:dustRockSalt",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +114,35 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreSalt",
       "output1_p1": "ore:crushedSalt",
-      "outputAmount1_p1": "3"
+      "outputAmount1_p1": 3
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Salt is a mineral composed primarily of $(l:materials/Sodium)sodium$(/l) chloride (NaCl), a chemical compound belonging to the larger class of salts; salt in its natural form as a crystalline mineral is known as rock salt or halite. Salt is present in vast quantities in seawater, where it is the main mineral constituent. The open ocean has about 35 grams (1.2 oz) of solids per liter of sea water, a salinity of 3.5%.$(p)Salt is essential for life "
+    },
+    {
+      "type": "text",
+      "text": "in general, and saltiness is one of the basic human tastes. Salt is one of the oldest and most ubiquitous food seasonings, and salting is an important method of food preservation.$(p)Some of the earliest evidence of salt processing dates to around 6,000 BC, when people living in the area of present-day Romania boiled spring water to extract salts; a salt-works in China dates to approximately the same period. "
+    },
+    {
+      "type": "text",
+      "text": "Salt was also prized by the ancient Hebrews, the Greeks, the Romans, the Byzantines, the Hittites, Egyptians, and the Indians. Salt became an important article of trade and was transported by boat across the Mediterranean Sea, along specially built salt roads, and across the Sahara on camel caravans. The scarcity and universal need for salt have led nations to go to war over it and use it to raise tax revenues. Salt is used in religious ceremonies and has "
+    },
+    {
+      "type": "text",
+      "text": "other cultural and traditional significance.$(p)Salt is processed from salt mines, and by the evaporation of seawater (sea salt) and mineral-rich spring water in shallow pools. Its major industrial products are caustic soda and chlorine; salt is used in many industrial processes including the manufacture of $(l:materials/PolyvinylChloride)polyvinyl chloride$(/l), plastics, paper pulp and many other products. Of the annual global production "
+    },
+    {
+      "type": "text",
+      "text": "of around two hundred million tonnes of salt, about 6% is used for human consumption. Other uses include water conditioning processes, de-icing highways, and agricultural use. Edible salt is sold in forms such as sea salt and table salt which usually contains an anti-caking agent and may be iodised to prevent iodine deficiency. As well as its use in cooking and at the table, salt is present in many processed foods."
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Sodium)Sodium$(/l) is an essential nutrient for human health via its role as an electrolyte and osmotic solute. Excessive salt consumption may increase the risk of cardiovascular diseases, such as hypertension, in children and adults. Such health effects of salt have long been studied. Accordingly, numerous world health associations and experts in developed countries recommend reducing consumption of popular salty foods. The World Health Organization recommends "
+    },
+    {
+      "type": "text",
+      "text": "that adults should consume less than 2,000 mg of $(l:materials/Sodium)sodium$(/l), equivalent to 5 grams of salt per day."
     }
   ],
   "icon": "gregtech:ore_salt_0:0"

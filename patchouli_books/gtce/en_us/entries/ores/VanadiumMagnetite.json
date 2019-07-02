@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Vanadium-Magnetite",
       "abbreviation": "Vand",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Vanadium",
       "source": "Wikipedia",
       "scan": "$(#1F1F36)█$() Rare",
       "precautions": "",
@@ -15,21 +15,102 @@
       "dust": "gregtech:meta_item_1:2255"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreVanadiumMagnetite",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedVanadiumMagnetite",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedVanadiumMagnetite",
+      "tier1_macerator_2": "ore:dustMagnetite",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustVanadiumMagnetite",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedVanadiumMagnetite",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyMagnetite",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureVanadiumMagnetite",
+      "tier2_crushed_macerator_2": "ore:dustMagnetite",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureVanadiumMagnetite",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureVanadiumMagnetite",
+      "tier4_pureDust_electromagneticSeparator": "gregtech:machine:250",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedVanadiumMagnetite",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyMagnetite",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedVanadiumMagnetite",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyVanadium",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureVanadiumMagnetite",
+      "tier3_purified_macerator_2": "ore:dustVanadium",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureVanadiumMagnetite",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureVanadiumMagnetite",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustVanadiumMagnetite",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyVanadium",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustVanadiumMagnetite",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustVanadiumMagnetite",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_electromagneticSeparator": "gregtech:machine:250",
+      "tier4_pureDust_electromagneticSeparator_1": "ore:dustVanadiumMagnetite",
+      "tier4_pureDust_electromagneticSeparator_2": "ore:nuggetGold",
+      "tier4_pureDust_electromagneticSeparator_3": "ore:dustSmallGold",
+      "tier4_pureDust_electromagneticSeparator_voltage": "24",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustVanadiumMagnetite",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyVanadium",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustVanadiumMagnetite",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyVanadium",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreVanadiumMagnetite",
       "output1_p1": "ore:dustVanadiumMagnetite",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreVanadiumMagnetite",
       "output1_p2": "ore:crushedVanadiumMagnetite",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustMagnetite",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -38,11 +119,40 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreVanadiumMagnetite",
-      "output1_p1": "ore:crushedVanadiumMagnetite"
+      "output1_p1": "ore:crushedVanadiumMagnetite",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "$(l:materials/Vanadium)Vanadium$(/l) is a chemical element with the symbol V and atomic number 23. It is a hard, silvery-grey, ductile, malleable transition metal. The elemental metal is rarely found in nature, but once isolated artificially, the formation of an oxide layer (passivation) somewhat stabilizes the free metal against further oxidation.$(p)Andrés Manuel del Río discovered compounds of $(l:materials/Vanadium)vanadium$(/l) in 1801 in Mexico by "
+    },
+    {
+      "type": "text",
+      "text": "analyzing a new $(l:materials/Lead)lead$(/l)-bearing mineral he called \"brown $(l:materials/Lead)lead$(/l)\", and presumed its qualities were due to the presence of a new element, which he named erythronium (derived from the Greek word for \"red\", ἐρυθρόν, eruthrón) since upon heating most of the salts turned red. Four years later, he was (erroneously) convinced by other scientists that erythronium was identical to chromium. Chlorides of $(l:materials/Vanadium)vanadium$(/l) were generated in 1830 by Nils Gabriel Sefström "
+    },
+    {
+      "type": "text",
+      "text": "who thereby proved that a new element was involved, which he named \"vanadium\" after the Scandinavian goddess of beauty and fertility, Vanadís (Freyja). Both names were attributed to the wide range of colors found in $(l:materials/Vanadium)vanadium$(/l) compounds. Del Rio's $(l:materials/Lead)lead$(/l) mineral was later renamed vanadinite for its $(l:materials/Vanadium)vanadium$(/l) content. In 1867 Henry Enfield Roscoe obtained the pure element.$(p)Vanadium occurs naturally in about 65 minerals and in "
+    },
+    {
+      "type": "text",
+      "text": "fossil fuel deposits. It is produced in China and Russia from $(l:materials/Steel)steel$(/l) smelter slag. Other countries produce it either from $(l:ores/Magnetite)magnetite$(/l) directly, flue dust of heavy oil, or as a byproduct of $(l:ores/Uranium)uranium$(/l) mining. It is mainly used to produce specialty $(l:materials/Steel)steel$(/l) alloys such as high-speed tool steels. The most important industrial $(l:materials/Vanadium)vanadium$(/l) compound, $(l:materials/Vanadium)vanadium$(/l) pentoxide, is used as a catalyst for the production of sulfuric acid. The $(l:materials/Vanadium)vanadium$(/l) redox battery for energy "
+    },
+    {
+      "type": "text",
+      "text": "storage may be an important application in the future.$(p)Large amounts of $(l:materials/Vanadium)vanadium$(/l) ions are found in a few organisms, possibly as a toxin. The oxide and some other salts of $(l:materials/Vanadium)vanadium$(/l) have moderate toxicity. Particularly in the ocean, $(l:materials/Vanadium)vanadium$(/l) is used by some life forms as an active center of enzymes, such as the $(l:materials/Vanadium)vanadium$(/l) bromoperoxidase of some ocean algae."
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Vanadium)Vanadium$(/l) is the 20th most abundant element in the earth's crust; metallic $(l:materials/Vanadium)vanadium$(/l) is rare in nature (known as the mineral $(l:materials/Vanadium)vanadium$(/l), native $(l:materials/Vanadium)vanadium$(/l)), but $(l:materials/Vanadium)vanadium$(/l) compounds occur naturally in about 65 different minerals.$(p)At the beginning of the 20th century a large deposit of $(l:materials/Vanadium)vanadium$(/l) ore was discovered.[where?] For several years this patrónite (VS4) deposit was a economically significant source for $(l:materials/Vanadium)vanadium$(/l) ore. With "
+    },
+    {
+      "type": "text",
+      "text": "the production of radium in the 1910s and 1920s from carnotite (K2(UO2)2(VO4)2·3H2O) $(l:materials/Vanadium)vanadium$(/l) became available as a side product of radium and $(l:ores/Uranium)uranium$(/l) production. Vanadinite (Pb5(VO4)3Cl) and other $(l:materials/Vanadium)vanadium$(/l) bearing minerals are only mined in exceptional cases. With the rising demand, much of the world's $(l:materials/Vanadium)vanadium$(/l) production is now sourced from $(l:materials/Vanadium)vanadium$(/l)-bearing $(l:ores/Magnetite)magnetite$(/l) found in ultramafic gabbro bodies. If this titanomagnetite is used to "
+    },
+    {
+      "type": "text",
+      "text": "produce $(l:materials/Iron)iron$(/l), most of the $(l:materials/Vanadium)vanadium$(/l) goes to the slag, and is extracted from it."
     }
   ],
   "icon": "gregtech:ore_vanadium_magnetite_0:0"

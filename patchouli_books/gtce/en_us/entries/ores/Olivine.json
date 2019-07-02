@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Olivine",
       "abbreviation": "Olvn",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Olivine",
       "source": "Wikipedia",
       "scan": "$(#5AAA5A)█$() Rare",
       "precautions": "",
@@ -15,22 +15,105 @@
       "dust": "gregtech:meta_item_1:2212"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreOlivine",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedOlivine",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedOlivine",
+      "tier1_macerator_2": "ore:dustPyrope",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:gemOlivine",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedOlivine",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyPyrope",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureOlivine",
+      "tier2_crushed_macerator_2": "ore:dustPyrope",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureOlivine",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureOlivine",
+      "tier3_purified_sifter": "gregtech:machine:450",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedOlivine",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyPyrope",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedOlivine",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyMagnesium",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_sifter": "gregtech:machine:450",
+      "tier3_purified_sifter_1": "ore:gemExquisiteOlivine",
+      "tier3_purified_sifter_2": "ore:gemFlawlessOlivine",
+      "tier3_purified_sifter_3": "ore:gemOlivine",
+      "tier3_purified_sifter_4": "ore:gemFlawedOlivine",
+      "tier3_purified_sifter_5": "ore:gemChippedOlivine",
+      "tier3_purified_sifter_6": "ore:dustPureOlivine",
+      "tier3_purified_sifter_voltage": "16",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureOlivine",
+      "tier3_purified_macerator_2": "ore:dustMagnesium",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureOlivine",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureOlivine",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustOlivine",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyManganese",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustOlivine",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustOlivine",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustOlivine",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyMagnesium",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustOlivine",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyManganese",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreOlivine",
       "output1_p1": "ore:gemOlivine",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreOlivine",
       "output1_p2": "ore:crushedOlivine",
-      "outputAmount1_p2": "4",
+      "outputAmount1_p2": 4,
       "output2_p2": "ore:dustPyrope",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +123,31 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreOlivine",
       "output1_p1": "ore:crushedOlivine",
-      "outputAmount1_p1": "2"
+      "outputAmount1_p1": 2
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "The mineral olivine is a $(l:materials/Magnesium)magnesium$(/l) $(l:materials/Iron)iron$(/l) silicate with the formula (Mg2+, Fe2+)2SiO4. Thus it is a type of nesosilicate or orthosilicate. The primary component of the earth's upper mantle, it is a common mineral in Earth's subsurface but weathers quickly on the surface.$(p)The ratio of $(l:materials/Magnesium)magnesium$(/l) to $(l:materials/Iron)iron$(/l) varies between the two endmembers of the solid solution series: forsterite (Mg-endmember: Mg2SiO4) and "
+    },
+    {
+      "type": "text",
+      "text": "fayalite (Fe-endmember: Fe2SiO4). Compositions of olivine are commonly expressed as molar percentages of forsterite (Fo) and fayalite (Fa) (e.g., Fo70Fa30). Forsterite's melting temperature is unusually high at atmospheric pressure, almost 1,900 °C (3,450 °F), while fayalite's is much lower (about 1,200 °C [2,190 °F]). Melting temperature varies smoothly between the two endmembers, as do other properties. Olivine "
+    },
+    {
+      "type": "text",
+      "text": "incorporates only minor amounts of elements other than oxygen, $(l:materials/Silicon)silicon$(/l), $(l:materials/Magnesium)magnesium$(/l) and $(l:materials/Iron)iron$(/l). $(l:materials/Manganese)Manganese$(/l) and $(l:materials/Nickel)nickel$(/l) commonly are the additional elements present in highest concentrations.$(p)Olivine gives its name to the group of minerals with a related structure (the olivine group)—which includes tephroite (Mn2SiO4), monticellite (CaMgSiO4) and kirschsteinite (CaFeSiO4)."
+    },
+    {
+      "type": "text",
+      "text": "Olivine's crystal structure incorporates aspects of the orthorhombic P Bravais lattice, which arise from each silica (SiO4) unit being joined by metal divalent cations with each oxygen in SiO4 bound to 3 metal ions. It has a spinel-like structure similar to $(l:ores/Magnetite)magnetite$(/l) but uses one quadrivalent and two divalent cations M22+ M4+O4 instead of two trivalent and one divalent cations.$(p)Olivine gemstones are "
+    },
+    {
+      "type": "text",
+      "text": "called peridot and chrysolite.Olivine rock is usually harder than surrounding rock and stands out as distinct ridges in the terrain. These ridges are often dry with little soil. Drought resistant scots pine is one of few trees that thrive on olivine rock. Olivine pine forest is unique to Norway. It is rare and found on dry olivine ridges in the fjord districts of Sunnmøre and Nordfjord. Olivine rock is hard and base-rich. The habitat is endangered by "
+    },
+    {
+      "type": "text",
+      "text": "mining and road construction."
     }
   ],
   "icon": "gregtech:ore_olivine_0:0"

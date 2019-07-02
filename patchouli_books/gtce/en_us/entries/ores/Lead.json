@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Lead",
       "abbreviation": "Pb",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Lead",
       "source": "Wikipedia",
       "scan": "$(#493449)█$() Common",
       "precautions": "",
@@ -15,21 +15,105 @@
       "dust": "gregtech:meta_item_1:2035"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreLead",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedLead",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedLead",
+      "tier1_macerator_2": "ore:dustSilver",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:ingotLead",
+      "tier1_fluidExtractor": "gregtech:machine:300",
+      "tier1_fluidExtractor_1": "forge:bucketfilled{FluidName: lead, Amount: 1000}",
+      "tier1_fluidExtractor_voltage": "48",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedLead",
+      "tier2_crushed_oreWasher_2": "ore:dustTinySilver",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureLead",
+      "tier2_crushed_macerator_2": "ore:dustSilver",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureLead",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureLead",
+      "tier3_impureDust_smelter": "minecraft:furnace",
+      "tier4_pureDust_smelter": "minecraft:furnace",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedLead",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinySilver",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedLead",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinySulfur",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureLead",
+      "tier3_purified_macerator_2": "ore:dustSulfur",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureLead",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureLead",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier3_impureDust_smelter": "minecraft:furnace",
+      "tier3_impureDust_smelter_1": "ore:ingotLead",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustLead",
+      "tier4_centrifuged_macerator_2": "ore:dustTinySulfur",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustLead",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustLead",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_smelter": "minecraft:furnace",
+      "tier4_pureDust_smelter_1": "ore:ingotLead",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustLead",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinySulfur",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustLead",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinySulfur",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreLead",
       "output1_p1": "ore:ingotLead",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreLead",
       "output1_p2": "ore:crushedLead",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustSilver",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -39,12 +123,13 @@
       "processLink_p1": "processes/Fluid Extractor",
       "input1_p1": "ore:oreLead",
       "output1_p1": "forge:bucketfilled{FluidName: lead, Amount: 1000}",
-      "outputAmount1_p1": "360mb",
+      "outputAmount1_p1": "360",
       "title_p2": "Forge Hammer",
       "machine_p2": "gregtech:machine:330",
       "processLink_p2": "processes/Forge Hammer",
       "input1_p2": "ore:oreLead",
-      "output1_p2": "ore:crushedLead"
+      "output1_p2": "ore:crushedLead",
+      "outputAmount1_p2": 1
     },
     {
       "type": "ore_processing",
@@ -53,15 +138,16 @@
       "processLink_p1": "processes/Crusher (IE)",
       "input1_p1": "ore:oreLead",
       "output1_p1": "ore:dustLead",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "output2_p1": "ore:dustSilver",
+      "outputAmount2_p1": 1,
       "outputChance2_p1": "10",
       "title_p2": "Arc Furnace (IE)",
       "machine_p2": "immersiveengineering:metal_decoration0:5",
       "processLink_p2": "processes/Arc Furnace (IE)",
       "input1_p2": "ore:oreLead",
       "output1_p2": "ore:ingotLead",
-      "outputAmount1_p2": "2"
+      "outputAmount1_p2": 2
     },
     {
       "type": "ore_processing",
@@ -69,11 +155,28 @@
       "machine_p1": "immersiveengineering:tool:0",
       "processLink_p1": "processes/Hammer (IE)",
       "input1_p1": "ore:oreLead",
-      "output1_p1": "ore:dustLead"
+      "output1_p1": "ore:dustLead",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Lead is a chemical element with the symbol Pb (from the Latin plumbum) and atomic number 82. It is a heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point. When freshly cut, lead is silvery with a hint of blue; it tarnishes to a dull gray color when exposed to air. Lead has the highest atomic number of any stable element and three of its isotopes are endpoints of major nuclear "
+    },
+    {
+      "type": "text",
+      "text": "decay chains of heavier elements.$(p)Lead is a relatively unreactive post-transition metal. Its weak metallic character is illustrated by its amphoteric nature; lead and lead oxides react with acids and bases, and it tends to form covalent bonds. Compounds of lead are usually found in the +2 oxidation state rather than the +4 state common with lighter members of the $(l:materials/Carbon)carbon$(/l) group. Exceptions "
+    },
+    {
+      "type": "text",
+      "text": "are mostly limited to organolead compounds. Like the lighter members of the group, lead tends to bond with itself; it can form chains and polyhedral structures.$(p)Lead is easily extracted from its ores; prehistoric people in Western Asia knew of it. $(l:ores/Galena)Galena$(/l), a principal ore of lead, often bears $(l:materials/Silver)silver$(/l), interest in which helped initiate widespread extraction and use of lead in ancient Rome. Lead production declined "
+    },
+    {
+      "type": "text",
+      "text": "after the fall of Rome and did not reach comparable levels until the Industrial Revolution. In 2014, the annual global production of lead was about ten million tonnes, over half of which was from recycling. Lead's high density, low melting point, ductility and relative inertness to oxidation make it useful. These properties, combined with its relative abundance and low cost, resulted in its extensive use in construction, plumbing, "
+    },
+    {
+      "type": "text",
+      "text": "batteries, bullets and shot, weights, solders, pewters, fusible alloys, white paints, leaded gasoline, and radiation shielding."
     }
   ],
   "icon": "gregtech:ore_lead_0:0"

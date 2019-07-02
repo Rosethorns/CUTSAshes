@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Neodymium",
       "abbreviation": "Nd",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Neodymium",
       "source": "Wikipedia",
       "scan": "$(#6B6B6B)█$() Rare",
       "precautions": "",
@@ -15,23 +15,98 @@
       "dust": "gregtech:meta_item_1:2042"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreNeodymium",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedNeodymium",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedNeodymium",
+      "tier1_macerator_2": "ore:dustMonazite",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_fluidExtractor": "gregtech:machine:300",
+      "tier1_fluidExtractor_1": "forge:bucketfilled{FluidName: neodymium, Amount: 1000}",
+      "tier1_fluidExtractor_voltage": "48",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedNeodymium",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyMonazite",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureNeodymium",
+      "tier2_crushed_macerator_2": "ore:dustMonazite",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureNeodymium",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureNeodymium",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedNeodymium",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyMonazite",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedNeodymium",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyRareEarth",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureNeodymium",
+      "tier3_purified_macerator_2": "ore:dustRareEarth",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureNeodymium",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureNeodymium",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustNeodymium",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyRareEarth",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustNeodymium",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustNeodymium",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustNeodymium",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyRareEarth",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustNeodymium",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyRareEarth",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Macerator",
       "machine_p1": "gregtech:machine:60",
       "processLink_p1": "processes/Macerator",
       "input1_p1": "ore:oreNeodymium",
       "output1_p1": "ore:crushedNeodymium",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "output2_p1": "ore:dustMonazite",
+      "outputAmount2_p1": 1,
       "outputChance2_p1": "14",
       "output3_p1": "ore:dustStone",
+      "outputAmount3_p1": 1,
       "outputChance3_p1": "67",
       "title_p2": "Fluid Extractor",
       "machine_p2": "gregtech:machine:300",
       "processLink_p2": "processes/Fluid Extractor",
       "input1_p2": "ore:oreNeodymium",
       "output1_p2": "forge:bucketfilled{FluidName: neodymium, Amount: 1000}",
-      "outputAmount1_p2": "360mb"
+      "outputAmount1_p2": "360"
     },
     {
       "type": "ore_processing",
@@ -39,11 +114,32 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreNeodymium",
-      "output1_p1": "ore:crushedNeodymium"
+      "output1_p1": "ore:crushedNeodymium",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Neodymium is a chemical element with the symbol Nd and atomic number 60. Neodymium belongs to the lanthanide series and is a rare-earth element. It is a hard, slightly malleable silvery metal, that quickly tarnishes in air and moisture. When oxidized, neodymium reacts quickly to produce pink, purple/blue and yellow compounds in the +2, +3 and +4 oxidation state. Neodymium was discovered in 1885 by the Austrian chemist Carl Auer von "
+    },
+    {
+      "type": "text",
+      "text": "Welsbach. It is present in significant quantities in the ore minerals $(l:ores/Monazite)monazite$(/l) and bastnäsite. Neodymium is not found naturally in metallic form or unmixed with other lanthanides, and it is usually refined for general use. Although neodymium is classed as a rare-earth element, it is fairly common, no rarer than $(l:materials/Cobalt)cobalt$(/l), $(l:materials/Nickel)nickel$(/l), or $(l:materials/Copper)copper$(/l), and is widely distributed in the Earth's crust. Most of the world's commercial neodymium is mined in China."
+    },
+    {
+      "type": "text",
+      "text": "Neodymium compounds were first commercially used as glass dyes in 1927, and they remain a popular additive in glasses. The color of neodymium compounds is due to the Nd3+ ion and is often a reddish-purple but it changes with the type of lighting, due to the interaction of the sharp light absorption bands of neodymium with ambient light enriched with the sharp visible emission bands of mercury, trivalent $(l:materials/Europium)europium$(/l) or $(l:materials/Terbium)terbium$(/l). Some neodymium-doped "
+    },
+    {
+      "type": "text",
+      "text": "glasses are used in lasers that emit infrared with wavelengths between 1047 and 1062 nanometers. These have been used in extremely-high-power applications, such as experiments in inertial confinement fusion.$(p)Neodymium is also used with various other substrate crystals, such as $(l:materials/Yttrium)yttrium$(/l) $(l:materials/Aluminium)aluminium$(/l) garnet in the Nd:YAG laser. This laser usually emits infrared at a wavelength of about 1064 nanometers. The "
+    },
+    {
+      "type": "text",
+      "text": "Nd:YAG laser is one of the most commonly used solid-state lasers.$(p)Another important use of neodymium is as a component in the alloys used to make high-strength neodymium magnets—powerful permanent magnets. These magnets are widely used in such products as microphones, professional loudspeakers, in-ear headphones, high performance hobby DC electric motors, and computer hard disks, where low "
+    },
+    {
+      "type": "text",
+      "text": "magnet mass (or volume) or strong magnetic fields are required. Larger neodymium magnets are used in high-power-versus-weight electric motors (for example in hybrid cars) and generators (for example aircraft and wind turbine electric generators)."
     }
   ],
   "icon": "gregtech:ore_neodymium_0:0"

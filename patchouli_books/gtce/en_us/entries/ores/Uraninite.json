@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Uraninite",
       "abbreviation": "Urnt",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Uraninite",
       "source": "Wikipedia",
       "scan": "$(#1F1F1F)█$() Rare",
       "precautions": " - Radiation: $(#FCD116)96 pRads/t$()",
@@ -15,21 +15,96 @@
       "dust": "gregtech:meta_item_1:2193"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreUraninite",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedUraninite",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedUraninite",
+      "tier1_macerator_2": "ore:dustUranium",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustUraninite",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedUraninite",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyUranium",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureUraninite",
+      "tier2_crushed_macerator_2": "ore:dustUranium",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureUraninite",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureUraninite",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedUraninite",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyUranium",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedUraninite",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyThorium",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureUraninite",
+      "tier3_purified_macerator_2": "ore:dustThorium",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureUraninite",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureUraninite",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustUraninite",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyUranium",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustUraninite",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustUraninite",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustUraninite",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyThorium",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustUraninite",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyUranium",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreUraninite",
       "output1_p1": "ore:dustUraninite",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreUraninite",
       "output1_p2": "ore:crushedUraninite",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustUranium",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -38,11 +113,28 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreUraninite",
-      "output1_p1": "ore:crushedUraninite"
+      "output1_p1": "ore:crushedUraninite",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Uraninite, formerly $(l:ores/Pitchblende)pitchblende$(/l), is a radioactive, $(l:ores/Uranium)uranium$(/l)-rich mineral and ore with a chemical composition that is largely UO2, but due to oxidation the mineral typically contains variable proportions of U3O8. Additionally, due to radioactive decay, the ore also contains oxides of $(l:materials/Lead)lead$(/l) and trace amounts of helium. It may also contain $(l:materials/Thorium)thorium$(/l) and rare earth elements.$(p)Uraninite used to be known "
+    },
+    {
+      "type": "text",
+      "text": "as $(l:ores/Pitchblende)pitchblende$(/l) (from pitch, because of its black color, and blende, a term used by German miners to denote minerals whose density suggested metal content, but whose exploitation, at the time they were named, was either unknown or not economically feasible (from blenden meaning \"to deceive\"). The mineral has been known at least since the 15th century from $(l:materials/Silver)silver$(/l) mines in the Ore Mountains, on the German/Czech border. The type locality is "
+    },
+    {
+      "type": "text",
+      "text": "the historic mining and spa town known as Joachimsthal, the modern day Jáchymov, on the Czech side of the mountains, where F. E. Brückmann described the mineral in 1772. $(l:ores/Pitchblende)Pitchblende$(/l) from the Johanngeorgenstadt deposit in Germany was used by M. Klaproth in 1789 to discover the element $(l:ores/Uranium)uranium$(/l).$(p)All uraninite minerals contain a small amount of radium as a radioactive decay product of $(l:ores/Uranium)uranium$(/l). Marie "
+    },
+    {
+      "type": "text",
+      "text": "Curie used $(l:ores/Pitchblende)pitchblende$(/l), processing tons of it herself, as the source material for her isolation of radium in 1898.$(p)Uraninite also always contains small amounts of the $(l:materials/Lead)lead$(/l) isotopes 206Pb and 207Pb, the end products of the decay series of the $(l:ores/Uranium)uranium$(/l) isotopes 238U and 235U respectively. Small amounts of helium are also present in uraninite as a result of alpha decay. Helium was first found on Earth in uraninite after having been "
+    },
+    {
+      "type": "text",
+      "text": "discovered spectroscopically in the Sun's atmosphere. The extremely rare elements technetium and $(l:materials/Promethium)promethium$(/l) can be found in uraninite in very small quantities (about 200 pg/kg and 4 fg/kg respectively), produced by the spontaneous fission of $(l:materials/Uranium)uranium-238$(/l). Francium can also be found in uraninite at 1 francium atom for every 1 × 1018 $(l:ores/Uranium)uranium$(/l) atoms in the ore as a result from the decay of actinium."
     }
   ],
   "icon": "gregtech:ore_uraninite_0:0"

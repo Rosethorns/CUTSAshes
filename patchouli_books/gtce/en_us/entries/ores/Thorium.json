@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Thorium",
       "abbreviation": "Th",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Thorium",
       "source": "Wikipedia",
       "scan": "$(#002700)█$() Rare",
       "precautions": " - Radiation: $(#FCD116)375 nRads/t$()",
@@ -15,21 +15,105 @@
       "dust": "gregtech:meta_item_1:2069"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreThorium",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedThorium",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedThorium",
+      "tier1_macerator_2": "ore:dustUranium",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:ingotThorium",
+      "tier1_fluidExtractor": "gregtech:machine:300",
+      "tier1_fluidExtractor_1": "forge:bucketfilled{FluidName: thorium, Amount: 1000}",
+      "tier1_fluidExtractor_voltage": "48",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedThorium",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyUranium",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureThorium",
+      "tier2_crushed_macerator_2": "ore:dustUranium",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureThorium",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureThorium",
+      "tier3_impureDust_smelter": "minecraft:furnace",
+      "tier4_pureDust_smelter": "minecraft:furnace",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedThorium",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyUranium",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedThorium",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyLead",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureThorium",
+      "tier3_purified_macerator_2": "ore:dustLead",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureThorium",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureThorium",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier3_impureDust_smelter": "minecraft:furnace",
+      "tier3_impureDust_smelter_1": "ore:ingotThorium",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustThorium",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyLead",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustThorium",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustThorium",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_smelter": "minecraft:furnace",
+      "tier4_pureDust_smelter_1": "ore:ingotThorium",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustThorium",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyLead",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustThorium",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyLead",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreThorium",
       "output1_p1": "ore:ingotThorium",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreThorium",
       "output1_p2": "ore:crushedThorium",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustUranium",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -39,12 +123,13 @@
       "processLink_p1": "processes/Fluid Extractor",
       "input1_p1": "ore:oreThorium",
       "output1_p1": "forge:bucketfilled{FluidName: thorium, Amount: 1000}",
-      "outputAmount1_p1": "360mb",
+      "outputAmount1_p1": "360",
       "title_p2": "Forge Hammer",
       "machine_p2": "gregtech:machine:330",
       "processLink_p2": "processes/Forge Hammer",
       "input1_p2": "ore:oreThorium",
-      "output1_p2": "ore:crushedThorium"
+      "output1_p2": "ore:crushedThorium",
+      "outputAmount1_p2": 1
     },
     {
       "type": "ore_processing",
@@ -53,13 +138,13 @@
       "processLink_p1": "processes/Crusher (IE)",
       "input1_p1": "ore:oreThorium",
       "output1_p1": "ore:dustThorium",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Arc Furnace (IE)",
       "machine_p2": "immersiveengineering:metal_decoration0:5",
       "processLink_p2": "processes/Arc Furnace (IE)",
       "input1_p2": "ore:oreThorium",
       "output1_p2": "ore:ingotThorium",
-      "outputAmount1_p2": "2"
+      "outputAmount1_p2": 2
     },
     {
       "type": "ore_processing",
@@ -67,11 +152,28 @@
       "machine_p1": "immersiveengineering:tool:0",
       "processLink_p1": "processes/Hammer (IE)",
       "input1_p1": "ore:oreThorium",
-      "output1_p1": "ore:dustThorium"
+      "output1_p1": "ore:dustThorium",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Thorium is a weakly radioactive metallic chemical element with the symbol Th and atomic number 90. Thorium is silvery and tarnishes black when it is exposed to air, forming thorium dioxide; it is moderately hard, malleable, and has a high melting point. Thorium is an electropositive actinide whose chemistry is dominated by the +4 oxidation state; it is quite reactive and can ignite in air when finely divided."
+    },
+    {
+      "type": "text",
+      "text": "All known thorium isotopes are unstable. The most stable isotope, 232Th, has a half-life of 14.05 billion years, or about the age of the universe; it decays very slowly via alpha decay, starting a decay chain named the thorium series that ends at stable 208Pb. In the universe, thorium, $(l:materials/Bismuth)bismuth$(/l), and $(l:ores/Uranium)uranium$(/l) are the only three radioactive elements that still occur naturally in large quantities as primordial elements. It is estimated to "
+    },
+    {
+      "type": "text",
+      "text": "be over three times as abundant as $(l:ores/Uranium)uranium$(/l) in the Earth's crust, and is chiefly refined from $(l:ores/Monazite)monazite$(/l) sands as a by-product of extracting rare-earth metals.$(p)Thorium was discovered in 1829 by the Norwegian amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jacob Berzelius, who named it after Thor, the Norse god of thunder. Its first applications were developed in the late 19th "
+    },
+    {
+      "type": "text",
+      "text": "century. Thorium's radioactivity was widely acknowledged during the first decades of the 20th century. In the second half of the century, thorium was replaced in many uses due to concerns about its radioactivity.$(p)Thorium is still being used as an alloying element in TIG welding electrodes but is slowly being replaced in the field with different compositions. It was also material in high-end optics "
+    },
+    {
+      "type": "text",
+      "text": "and scientific instrumentation, and as the light source in gas mantles, but these uses have become marginal. It has been suggested as a replacement for $(l:ores/Uranium)uranium$(/l) as nuclear fuel in nuclear reactors, and several thorium reactors have been built."
     }
   ],
   "icon": "gregtech:ore_thorium_0:0"

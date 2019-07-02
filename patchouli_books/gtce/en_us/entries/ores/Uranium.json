@@ -1,12 +1,12 @@
 {
-  "name": "Uranium",
+  "name": "Uranium-238",
   "category": "ores",
   "pages": [
     {
       "type": "ore_overview",
-      "title": "Uranium",
+      "title": "Uranium-238",
       "abbreviation": "U238",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Uranium-238",
       "source": "Wikipedia",
       "scan": "$(#2DAE2D)█$() Rare",
       "precautions": " - Radiation: $(#FCD116)96 pRads/t$()",
@@ -15,21 +15,105 @@
       "dust": "gregtech:meta_item_1:2075"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreUranium",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedUranium",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedUranium",
+      "tier1_macerator_2": "ore:dustLead",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:ingotUranium",
+      "tier1_fluidExtractor": "gregtech:machine:300",
+      "tier1_fluidExtractor_1": "forge:bucketfilled{FluidName: uranium, Amount: 1000}",
+      "tier1_fluidExtractor_voltage": "48",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedUranium",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyLead",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureUranium",
+      "tier2_crushed_macerator_2": "ore:dustLead",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureUranium",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureUranium",
+      "tier3_impureDust_smelter": "minecraft:furnace",
+      "tier4_pureDust_smelter": "minecraft:furnace",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedUranium",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyLead",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedUranium",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyUranium",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureUranium",
+      "tier3_purified_macerator_2": "ore:dustUranium",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureUranium",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureUranium",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier3_impureDust_smelter": "minecraft:furnace",
+      "tier3_impureDust_smelter_1": "ore:ingotUranium",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustUranium",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyThorium",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustUranium",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustUranium",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_smelter": "minecraft:furnace",
+      "tier4_pureDust_smelter_1": "ore:ingotUranium",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustUranium",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyUranium",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustUranium",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyThorium",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreUranium",
       "output1_p1": "ore:ingotUranium",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreUranium",
       "output1_p2": "ore:crushedUranium",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustLead",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -39,12 +123,13 @@
       "processLink_p1": "processes/Fluid Extractor",
       "input1_p1": "ore:oreUranium",
       "output1_p1": "forge:bucketfilled{FluidName: uranium, Amount: 1000}",
-      "outputAmount1_p1": "360mb",
+      "outputAmount1_p1": "360",
       "title_p2": "Forge Hammer",
       "machine_p2": "gregtech:machine:330",
       "processLink_p2": "processes/Forge Hammer",
       "input1_p2": "ore:oreUranium",
-      "output1_p2": "ore:crushedUranium"
+      "output1_p2": "ore:crushedUranium",
+      "outputAmount1_p2": 1
     },
     {
       "type": "ore_processing",
@@ -53,15 +138,16 @@
       "processLink_p1": "processes/Crusher (IE)",
       "input1_p1": "ore:oreUranium",
       "output1_p1": "ore:dustUranium",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "output2_p1": "ore:dustLead",
+      "outputAmount2_p1": 1,
       "outputChance2_p1": "10",
       "title_p2": "Arc Furnace (IE)",
       "machine_p2": "immersiveengineering:metal_decoration0:5",
       "processLink_p2": "processes/Arc Furnace (IE)",
       "input1_p2": "ore:oreUranium",
       "output1_p2": "ore:ingotUranium",
-      "outputAmount1_p2": "2"
+      "outputAmount1_p2": 2
     },
     {
       "type": "ore_processing",
@@ -69,11 +155,28 @@
       "machine_p1": "immersiveengineering:tool:0",
       "processLink_p1": "processes/Hammer (IE)",
       "input1_p1": "ore:oreUranium",
-      "output1_p1": "ore:dustUranium"
+      "output1_p1": "ore:dustUranium",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Uranium-238 (238U or U-238) is the most common isotope of uranium found in nature, with a relative abundance of 99%. Unlike $(l:materials/Uranium235)uranium-235$(/l), it is non-fissile, which means it cannot sustain a chain reaction in a thermal-neutron reactor. However, it is fissionable by fast neutrons, and is fertile, meaning it can be transmuted to fissile plutonium-239. 238U cannot support a chain reaction because inelastic scattering reduces neutron energy below the range where "
+    },
+    {
+      "type": "text",
+      "text": "fast fission of one or more next-generation nuclei is probable. Doppler broadening of U-238's neutron absorption resonances, increasing absorption as fuel temperature increases, is also an essential negative feedback mechanism for reactor control.$(p)Around 99.286% of natural uranium's mass is uranium-238, which has a half-life of 1.41×1017 seconds (4.468×109 years, or 4.468 billion years). Due to its natural abundance and "
+    },
+    {
+      "type": "text",
+      "text": "half-life relative to other radioactive elements, 238U produces ~40% of the radioactive heat produced within the Earth. 238U decay contributes 6 electron anti-neutrinos per decay (1 per beta decay), resulting in a large detectable geoneutrino signal when decays occur within the Earth. The decay of 238U to daughter isotopes is extensively used in radiometric dating, particularly for material older than ~ 1 million years."
+    },
+    {
+      "type": "text",
+      "text": "Depleted uranium has an even higher concentration of the 238U isotope, and even low-enriched uranium (LEU), while having a higher proportion of the $(l:materials/Uranium235)uranium-235$(/l) isotope (in comparison to depleted uranium), is still mostly 238U. Reprocessed uranium is also mainly 238U, with about as much $(l:materials/Uranium235)uranium-235$(/l) as natural uranium, a comparable proportion of uranium-236, and much smaller amounts of other isotopes of uranium such as uranium-234, uranium-233, and "
+    },
+    {
+      "type": "text",
+      "text": "uranium-232."
     }
   ],
   "icon": "gregtech:ore_uranium_0:0"

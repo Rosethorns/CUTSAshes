@@ -1,0 +1,209 @@
+{
+    "components": [
+        {
+            "type": "item",
+            "item": "#tier3_purified_thermalCentrifuge",
+            "framed": false,
+            "x": 8,
+            "y": 17
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_sifter",
+            "framed": false,
+            "x": 8,
+            "y": 51
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_macerator",
+            "framed": false,
+            "x": 8,
+            "y": 68
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_forgeHammer",
+            "framed": false,
+            "x": 8,
+            "y": 85
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_hammer",
+            "framed": false,
+            "x": 8,
+            "y": 102
+        },
+        {
+            "type": "item",
+            "item": "#tier3_impureDust_smelter",
+            "framed": false,
+            "x": 8,
+            "y": 136
+        },
+
+
+
+        {
+            "type": "item",
+            "item": "#tier3_crushed_thermalCentrifuge_2",
+            "framed": false,
+            "x": 36,
+            "y": 0
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_thermalCentrifuge_1",
+            "framed": false,
+            "x": 36,
+            "y": 17
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_thermalCentrifuge_2",
+            "framed": false,
+            "x": 36,
+            "y": 34
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_sifter_1",
+            "framed": false,
+            "x": 36,
+            "y": 51
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_macerator_2",
+            "framed": false,
+            "x": 36,
+            "y": 68
+        },
+        {
+            "type": "item",
+            "item": "#tier3_purified_macerator_1",
+            "framed": false,
+            "x": 36,
+            "y": 85
+        },
+        {
+            "type": "item",
+            "item": "#tier3_impureDust_smelter_1",
+            "framed": false,
+            "x": 36,
+            "y": 136
+        },
+
+
+
+        {
+            "type": "item",
+            "item": "#tier4_centrifuged_macerator",
+            "framed": false,
+            "x": 64,
+            "y": 0
+        },
+        {
+            "type": "item",
+            "item": "#tier4_centrifuged_forgeHammer",
+            "framed": false,
+            "x": 64,
+            "y": 17
+        },
+        {
+            "type": "item",
+            "item": "#tier4_centrifuged_hammer",
+            "framed": false,
+            "x": 64,
+            "y": 34
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_electromagneticSeparator",
+            "framed": false,
+            "x": 64,
+            "y": 51
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_smelter",
+            "framed": false,
+            "x": 64,
+            "y": 68
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_centrifuge",
+            "framed": false,
+            "x": 64,
+            "y": 85
+        },
+        {
+            "type": "item",
+            "item": "#tier4_impureDust_centrifuge",
+            "framed": false,
+            "x": 64,
+            "y": 119
+        },
+
+
+
+        {
+            "type": "item",
+            "item": "#tier4_centrifuged_macerator_2",
+            "framed": false,
+            "x": 92,
+            "y": 0
+        },
+        {
+            "type": "item",
+            "item": "#tier4_centrifuged_forgeHammer_1",
+            "framed": false,
+            "x": 92,
+            "y": 17
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_electromagneticSeparator_3",
+            "framed": false,
+            "x": 92,
+            "y": 34
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_electromagneticSeparator_2",
+            "framed": false,
+            "x": 92,
+            "y": 51
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_smelter_1",
+            "framed": false,
+            "x": 92,
+            "y": 68
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_centrifuge_2",
+            "framed": false,
+            "x": 92,
+            "y": 85
+        },
+        {
+            "type": "item",
+            "item": "#tier4_pureDust_centrifuge_1",
+            "framed": false,
+            "x": 92,
+            "y": 102
+        },
+        {
+            "type": "item",
+            "item": "#tier4_impureDust_centrifuge_2",
+            "framed": false,
+            "x": 92,
+            "y": 119
+        }
+    ]
+}

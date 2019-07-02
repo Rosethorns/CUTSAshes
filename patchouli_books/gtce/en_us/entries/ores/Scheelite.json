@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Scheelite",
       "abbreviation": "Schl",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Scheelite",
       "source": "Wikipedia",
       "scan": "$(#AE7E12)█$() Rare",
       "precautions": "",
@@ -15,22 +15,96 @@
       "dust": "gregtech:meta_item_1:2158"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreScheelite",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedScheelite",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedScheelite",
+      "tier1_macerator_2": "ore:dustManganese",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustScheelite",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedScheelite",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyManganese",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureScheelite",
+      "tier2_crushed_macerator_2": "ore:dustManganese",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureScheelite",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureScheelite",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedScheelite",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyManganese",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedScheelite",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyMolybdenum",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureScheelite",
+      "tier3_purified_macerator_2": "ore:dustMolybdenum",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureScheelite",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureScheelite",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustScheelite",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyCalcium",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustScheelite",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustScheelite",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustScheelite",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyMolybdenum",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustScheelite",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyCalcium",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreScheelite",
       "output1_p1": "ore:dustScheelite",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreScheelite",
       "output1_p2": "ore:crushedScheelite",
-      "outputAmount1_p2": "4",
+      "outputAmount1_p2": 4,
       "output2_p2": "ore:dustManganese",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +114,27 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreScheelite",
       "output1_p1": "ore:crushedScheelite",
-      "outputAmount1_p1": "2"
+      "outputAmount1_p1": 2
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Scheelite is a $(l:materials/Calcium)calcium$(/l) $(l:ores/Tungstate)tungstate$(/l) mineral with the chemical formula CaWO4. It is an important ore of $(l:materials/Tungsten)tungsten$(/l) (wolfram). Well-formed crystals are sought by collectors and are occasionally fashioned into gemstones when suitably free of flaws. Scheelite has been synthesized using the Czochralski process; the material produced may be used to imitate $(l:ores/Diamond)diamond$(/l), as a scintillator, or as a solid-state lasing medium. It was also used in radium paint in "
+    },
+    {
+      "type": "text",
+      "text": "the same fashion as was $(l:materials/Zinc)zinc$(/l) sulphide, and Thomas Edison invented a fluoroscope with a $(l:materials/Calcium)calcium$(/l) $(l:ores/Tungstate)tungstate$(/l)-coated screen, making the images six times brighter than those with $(l:materials/Barium)barium$(/l) platinocyanide; the latter chemical allowed Röntgen to discover X-rays in early November 1895.$(p)Scheelite occurs in contact metamorphic skarns; in high-temperature hydrothermal veins and greisen; less commonly in granite pegmatites."
+    },
+    {
+      "type": "text",
+      "text": " Temperature and pressure of formation is between 200 and 500 °C and from 200 to 1,500 bars. Typical mineral association includes $(l:ores/Cassiterite)cassiterite$(/l), wolframite, $(l:ores/Topaz)topaz$(/l), fluorite, $(l:ores/Apatite)apatite$(/l), tourmaline, quartz, $(l:ores/Grossular)grossular$(/l)-andradite, diopside, vesuvianite and tremolite.$(p)Scheelite usually occurs in $(l:materials/Tin)tin$(/l)-bearing veins; and is sometimes found in association with $(l:materials/Gold)gold$(/l). Fine crystals have been obtained from Caldbeck "
+    },
+    {
+      "type": "text",
+      "text": "Fells in Cumbria, Zinnwald/Cínovec and Elbogen in Bohemia, Guttannen in Switzerland, the Riesengebirge in Silesia, Dragoon Mountains in Arizona and elsewhere. At Trumbull in Connecticut and Kimpu-san in Japan large crystals of scheelite completely altered to wolframite have been found: those from Japan have been called “reinite.” It was mined until 1990 at King Island, Australia, Glenorchy in Central Otago and Macraes Flat in North Otago and also at The "
+    },
+    {
+      "type": "text",
+      "text": "Golden Bar mine at Dead Horse Creek during World War 1 in Nelson, New Zealand. There is a high concentration of Scheelite in Northeast of Brazil, mainly in the Currais Novos mine in Rio Grande do Norte State."
     }
   ],
   "icon": "gregtech:ore_scheelite_0:0"

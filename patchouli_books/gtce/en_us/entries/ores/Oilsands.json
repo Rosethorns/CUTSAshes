@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Oilsands",
       "abbreviation": "Oil",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Oil_sands",
       "source": "Wikipedia",
       "scan": "$(#0A0A0A)█$() Rare",
       "precautions": "",
@@ -15,21 +15,96 @@
       "dust": "gregtech:meta_item_1:2324"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreOilsands",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedOilsands",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedOilsands",
+      "tier1_macerator_2": "ore:dustOilsands",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustOilsands",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedOilsands",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyOilsands",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureOilsands",
+      "tier2_crushed_macerator_2": "ore:dustOilsands",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureOilsands",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureOilsands",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedOilsands",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyOilsands",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedOilsands",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyOilsands",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureOilsands",
+      "tier3_purified_macerator_2": "ore:dustOilsands",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureOilsands",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureOilsands",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustOilsands",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyOilsands",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustOilsands",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustOilsands",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustOilsands",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyOilsands",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustOilsands",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyOilsands",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreOilsands",
       "output1_p1": "ore:dustOilsands",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreOilsands",
       "output1_p2": "ore:crushedOilsands",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustOilsands",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -38,11 +113,36 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreOilsands",
-      "output1_p1": "ore:crushedOilsands"
+      "output1_p1": "ore:crushedOilsands",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Oil sands, also known as tar sands or crude bitumen, or more technically bituminous sands, are a type of unconventional petroleum deposit. Oil sands are either loose sands or partially consolidated sandstone containing a naturally occurring mixture of sand, clay, and water, saturated with a dense and extremely viscous form of petroleum technically referred to as bitumen (or colloquially as tar due to its superficially "
+    },
+    {
+      "type": "text",
+      "text": "similar appearance).Natural bitumen deposits are reported in many countries, but in particular are found in extremely large quantities in Canada. Other large reserves are located in Kazakhstan, Russia, and Venezuela. The estimated worldwide deposits of oil are more than 2 trillion barrels (320 billion cubic metres); the estimates include deposits that have not been discovered. Proven reserves of bitumen contain approximately 100 billion "
+    },
+    {
+      "type": "text",
+      "text": "barrels, and total natural bitumen reserves are estimated at 249.67 Gbbl (39.694×109 m3) worldwide, of which 176.8 Gbbl (28.11×109 m3), or 70.8%, are in Alberta, Canada.$(p)The crude bitumen contained in the Canadian oil sands is described by the National Energy Board of Canada as \"a highly viscous mixture of hydrocarbons heavier than pentanes which, in its natural state, is not usually recoverable at a "
+    },
+    {
+      "type": "text",
+      "text": "commercial rate through a well because it is too thick to flow.\" Crude bitumen is a thick, sticky form of crude oil, so heavy and viscous (thick) that it will not flow unless heated or diluted with lighter hydrocarbons such as light crude oil or natural-gas condensate. At room temperature, it is much like cold molasses. The World Energy Council (WEC) defines natural bitumen as \"oil having a viscosity greater than 10,000 centipoise under reservoir "
+    },
+    {
+      "type": "text",
+      "text": "conditions and an API gravity of less than 10° API\". The Orinoco Belt in Venezuela is sometimes described as oil sands, but these deposits are non-bituminous, falling instead into the category of heavy or extra-heavy oil due to their lower viscosity. Natural bitumen and extra-heavy oil differ in the degree by which they have been degraded from the original conventional oils by bacteria. According to the WEC, extra-heavy oil has \"a gravity of "
+    },
+    {
+      "type": "text",
+      "text": "less than 10° API and a reservoir viscosity of no more than 10,000 centipoise\".$(p)Oil sands have only recently[when?] been considered to be part of the world's oil reserves, as historically high oil prices and new technology enabled profitable extraction and processing. Together with other so-called unconventional oil extraction practices, oil sands are implicated in the unburnable $(l:materials/Carbon)carbon$(/l) debate but "
+    },
+    {
+      "type": "text",
+      "text": "also contribute to energy security and counteract the international price cartel OPEC. According to a study ordered by the Government of Alberta, Canada, conducted by Jacobs Engineering Group, $(l:materials/Carbon)carbon$(/l) emissions from oil-sand crude are 12% higher than from conventional oil."
     }
   ],
   "icon": "gregtech:ore_oilsands_0:0"

@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Pyrope",
       "abbreviation": "Pyrp",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Pyrope",
       "source": "Wikipedia",
       "scan": "$(#82366C)█$() Rare",
       "precautions": "",
@@ -15,22 +15,96 @@
       "dust": "gregtech:meta_item_1:2150"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:orePyrope",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:dustPyrope",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedPyrope",
+      "tier1_macerator_2": "ore:dustGarnetRed",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustPyrope",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedPyrope",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyGarnetRed",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpurePyrope",
+      "tier2_crushed_macerator_2": "ore:dustGarnetRed",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpurePyrope",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpurePyrope",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedPyrope",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyGarnetRed",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedPyrope",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyMagnesium",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPurePyrope",
+      "tier3_purified_macerator_2": "ore:dustMagnesium",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPurePyrope",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPurePyrope",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustPyrope",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyMagnesium",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustPyrope",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustPyrope",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustPyrope",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyMagnesium",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustPyrope",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyMagnesium",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:orePyrope",
       "output1_p1": "ore:dustPyrope",
-      "outputAmount1_p1": "4",
+      "outputAmount1_p1": 4,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:orePyrope",
       "output1_p2": "ore:crushedPyrope",
-      "outputAmount1_p2": "8",
+      "outputAmount1_p2": 8,
       "output2_p2": "ore:dustGarnetRed",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +114,31 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:orePyrope",
       "output1_p1": "ore:dustPyrope",
-      "outputAmount1_p1": "4"
+      "outputAmount1_p1": 4
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "The mineral pyrope is a member of the garnet group. Pyrope is the only member of the garnet family to always display red colouration in natural samples, and it is from this characteristic that it gets its name: from the Greek for fire and eye. Despite being less common than most garnets, it is a widely used gemstone with numerous alternative names, some of which are misnomers. $(l:materials/Chrome)Chrome$(/l) pyrope, and Bohemian garnet are two alternative names, the usage "
+    },
+    {
+      "type": "text",
+      "text": "of the latter being discouraged by the Gemological Institute of America. Misnomers include Colorado $(l:ores/Ruby)ruby$(/l), Arizona $(l:ores/Ruby)ruby$(/l), California $(l:ores/Ruby)ruby$(/l), Rocky Mountain $(l:ores/Ruby)ruby$(/l), Elie $(l:ores/Ruby)Ruby$(/l), Bohemian carbuncle, and Cape $(l:ores/Ruby)ruby$(/l).$(p)The composition of pure pyrope is Mg3Al2(SiO4)3, although typically other elements are present in at least minor proportions—these other elements include Ca, Cr, Fe and Mn. Pyrope forms a "
+    },
+    {
+      "type": "text",
+      "text": "solid solution series with $(l:ores/Almandine)almandine$(/l) and $(l:ores/Spessartine)spessartine$(/l), which are collectively known as the pyralspite garnets (pyrope, $(l:ores/Almandine)almandine$(/l), $(l:ores/Spessartine)spessartine$(/l)). $(l:materials/Iron)Iron$(/l) and $(l:materials/Manganese)manganese$(/l) substitute for the $(l:materials/Magnesium)magnesium$(/l) in the pyrope structure. The resultant, mixed composition garnets are defined according to their pyrope-$(l:ores/Almandine)almandine$(/l) ratio. The semi-precious stone rhodolite is a garnet of ~70% pyrope composition.$(p)The origin of most pyrope "
+    },
+    {
+      "type": "text",
+      "text": "is in ultramafic rocks, typically peridotite from the Earth's mantle: these mantle-derived peridotites can be attributed both to igneous and metamorphic processes. Pyrope also occurs in ultrahigh-pressure (UHP) metamorphic rocks, as in the Dora-Maira massif in the western Alps. In that massif, nearly pure pyrope occurs in crystals to almost 12 cm in diameter; some of that pyrope has inclusions of coesite, and some has inclusions of enstatite and "
+    },
+    {
+      "type": "text",
+      "text": "sapphirine.Pyrope is common in peridotite xenoliths from kimberlite pipes, some of which are $(l:ores/Diamond)diamond$(/l)-bearing. Pyrope found in association with $(l:ores/Diamond)diamond$(/l) commonly has a Cr2O3 content of 3-8%, which imparts a distinctive violet to deep purple colouration (often with a greenish tinge) and because of this is often used as a kimberlite indicator mineral in areas where erosive activity makes pin pointing the origin of the pipe difficult. These varieties are "
+    },
+    {
+      "type": "text",
+      "text": "known as $(l:materials/Chrome)chrome$(/l)-pyrope, or G9/G10 garnets."
     }
   ],
   "icon": "gregtech:ore_pyrope_0:0"

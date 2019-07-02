@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Tennantite",
       "abbreviation": "Tenn",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Tennantite",
       "source": "Wikipedia",
       "scan": "$(#818181)█$() Common",
       "precautions": "",
@@ -15,22 +15,96 @@
       "dust": "gregtech:meta_item_1:2363"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreTennantite",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedTennantite",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedTennantite",
+      "tier1_macerator_2": "ore:dustIron",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustTennantite",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedTennantite",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyIron",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureTennantite",
+      "tier2_crushed_macerator_2": "ore:dustIron",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureTennantite",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureTennantite",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedTennantite",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyIron",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedTennantite",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyAntimony",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureTennantite",
+      "tier3_purified_macerator_2": "ore:dustAntimony",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureTennantite",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureTennantite",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustTennantite",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyZinc",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustTennantite",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustTennantite",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustTennantite",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyAntimony",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustTennantite",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyZinc",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreTennantite",
       "output1_p1": "ore:dustTennantite",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreTennantite",
       "output1_p2": "ore:crushedTennantite",
-      "outputAmount1_p2": "4",
+      "outputAmount1_p2": 4,
       "output2_p2": "ore:dustIron",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +114,23 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreTennantite",
       "output1_p1": "ore:crushedTennantite",
-      "outputAmount1_p1": "2"
+      "outputAmount1_p1": 2
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Tennantite is a $(l:materials/Copper)copper$(/l) arsenic sulfosalt mineral with an ideal formula Cu12As4S13. Due to variable substitution of the $(l:materials/Copper)copper$(/l) by $(l:materials/Iron)iron$(/l) and $(l:materials/Zinc)zinc$(/l) the formula is Cu6[Cu4(Fe,Zn)2]As4S13. It is gray-black, $(l:materials/Steel)steel$(/l)-gray, $(l:materials/Iron)iron$(/l)-gray or black in color. A closely related mineral, $(l:ores/Tetrahedrite)tetrahedrite$(/l) (Cu12Sb4S13) has $(l:materials/Antimony)antimony$(/l) substituting for arsenic and the two form a solid solution series. The two have very similar properties and is often difficult to distinguish "
+    },
+    {
+      "type": "text",
+      "text": "between tennantite and $(l:ores/Tetrahedrite)tetrahedrite$(/l). $(l:materials/Iron)Iron$(/l), $(l:materials/Zinc)zinc$(/l), and $(l:materials/Silver)silver$(/l) substitute up to about 15% for the $(l:materials/Copper)copper$(/l) site.$(p)The mineral was first described for an occurrence in Cornwall, England in 1819 and named after the English chemist Smithson Tennant (1761-1815).$(p)It is found in hydrothermal veins and contact metamorphic deposits in association with other Cu-Pb–"
+    },
+    {
+      "type": "text",
+      "text": "Zn–Ag sulfides and sulfosalts, $(l:ores/Pyrite)pyrite$(/l), $(l:ores/Calcite)calcite$(/l), dolomite, siderite, $(l:ores/Barite)barite$(/l), fluorite and quartz.$(p)The arsenic component of tennantite causes the metal smelted from the ore to be harder than that of pure $(l:materials/Copper)copper$(/l), because it is a $(l:materials/Copper)copper$(/l)-arsenic alloy. In the later 20th century it was found that arsenical coppers had been more widely used in antiquity than had been previously realised, and it has been "
+    },
+    {
+      "type": "text",
+      "text": "proposed that discoveries made by smelting ores like tennantite were significant steps in the progress towards the $(l:materials/Bronze)Bronze$(/l) Age."
     }
   ],
   "icon": "gregtech:ore_tennantite_0:0"
