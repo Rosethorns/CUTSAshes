@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Niobium",
       "abbreviation": "Nbim",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Niobium",
       "source": "Wikipedia",
       "scan": "$(#857899)█$() Rare",
       "precautions": "",
@@ -15,23 +15,98 @@
       "dust": "gregtech:meta_item_1:2045"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreNiobium",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedNiobium",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedNiobium",
+      "tier1_macerator_2": "ore:dustNiobium",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_fluidExtractor": "gregtech:machine:300",
+      "tier1_fluidExtractor_1": "forge:bucketfilled{FluidName: niobium, Amount: 1000}",
+      "tier1_fluidExtractor_voltage": "48",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedNiobium",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyNiobium",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureNiobium",
+      "tier2_crushed_macerator_2": "ore:dustNiobium",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureNiobium",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureNiobium",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedNiobium",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyNiobium",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedNiobium",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyNiobium",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureNiobium",
+      "tier3_purified_macerator_2": "ore:dustNiobium",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureNiobium",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureNiobium",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustNiobium",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyNiobium",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustNiobium",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustNiobium",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustNiobium",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyNiobium",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustNiobium",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyNiobium",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Macerator",
       "machine_p1": "gregtech:machine:60",
       "processLink_p1": "processes/Macerator",
       "input1_p1": "ore:oreNiobium",
       "output1_p1": "ore:crushedNiobium",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "output2_p1": "ore:dustNiobium",
+      "outputAmount2_p1": 1,
       "outputChance2_p1": "14",
       "output3_p1": "ore:dustStone",
+      "outputAmount3_p1": 1,
       "outputChance3_p1": "67",
       "title_p2": "Fluid Extractor",
       "machine_p2": "gregtech:machine:300",
       "processLink_p2": "processes/Fluid Extractor",
       "input1_p2": "ore:oreNiobium",
       "output1_p2": "forge:bucketfilled{FluidName: niobium, Amount: 1000}",
-      "outputAmount1_p2": "360mb"
+      "outputAmount1_p2": "360"
     },
     {
       "type": "ore_processing",
@@ -39,11 +114,32 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreNiobium",
-      "output1_p1": "ore:crushedNiobium"
+      "output1_p1": "ore:crushedNiobium",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Niobium, formerly known as columbium, is a chemical element with the symbol Nb (formerly Cb) and atomic number 41. Niobium is a light grey, crystalline, and ductile transition metal. Pure Niobium has a hardness similar to that of pure $(l:materials/Titanium)titanium$(/l), and it has similar ductility to $(l:materials/Iron)iron$(/l). Niobium oxidizes in the earth's atmosphere very slowly, hence its application in jewelry as a hypoallergenic alternative to $(l:materials/Nickel)nickel$(/l). Niobium is often found in the minerals "
+    },
+    {
+      "type": "text",
+      "text": "pyrochlore and columbite, hence the former name \"columbium\". Its name comes from Greek mythology, specifically Niobe, who was the daughter of Tantalus, the namesake of $(l:materials/Tantalum)tantalum$(/l). The name reflects the great similarity between the two elements in their physical and chemical properties, making them difficult to distinguish.$(p)The English chemist Charles Hatchett reported a new element similar to "
+    },
+    {
+      "type": "text",
+      "text": "$(l:materials/Tantalum)tantalum$(/l) in 1801 and named it columbium. In 1809, the English chemist William Hyde Wollaston wrongly concluded that $(l:materials/Tantalum)tantalum$(/l) and columbium were identical. The German chemist Heinrich Rose determined in 1846 that $(l:materials/Tantalum)tantalum$(/l) ores contain a second element, which he named niobium. In 1864 and 1865, a series of scientific findings clarified that niobium and columbium were the same element (as distinguished from $(l:materials/Tantalum)tantalum$(/l)), and for a century "
+    },
+    {
+      "type": "text",
+      "text": "both names were used interchangeably. Niobium was officially adopted as the name of the element in 1949, but the name columbium remains in current use in metallurgy in the United States.$(p)It was not until the early 20th century that niobium was first used commercially. Brazil is the leading producer of niobium and ferroniobium, an alloy of 60-70% niobium with $(l:materials/Iron)iron$(/l). Niobium is used mostly in alloys, the largest "
+    },
+    {
+      "type": "text",
+      "text": "part in special $(l:materials/Steel)steel$(/l) such as that used in gas pipelines. Although these alloys contain a maximum of 0.1%, the small percentage of niobium enhances the strength of the $(l:materials/Steel)steel$(/l). The temperature stability of niobium-containing superalloys is important for its use in jet and rocket engines.$(p)Niobium is used in various superconducting materials. These superconducting alloys, also containing $(l:materials/Titanium)titanium$(/l) and $(l:materials/Tin)tin$(/l), are widely used in the "
+    },
+    {
+      "type": "text",
+      "text": "superconducting magnets of MRI scanners. Other applications of niobium include welding, nuclear industries, electronics, optics, numismatics, and jewelry. In the last two applications, the low toxicity and iridescence produced by anodization are highly desired properties. Niobium is considered a technology-critical element."
     }
   ],
   "icon": "gregtech:ore_niobium_0:0"

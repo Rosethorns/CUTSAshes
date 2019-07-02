@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Sulfur",
       "abbreviation": "Slfr",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Sulfur",
       "source": "Wikipedia",
       "scan": "$(#E3E300)█$() Rare",
       "precautions": "",
@@ -15,21 +15,96 @@
       "dust": "gregtech:meta_item_1:2065"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreSulfur",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedSulfur",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedSulfur",
+      "tier1_macerator_2": "ore:dustSulfur",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustSulfur",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedSulfur",
+      "tier2_crushed_oreWasher_2": "ore:dustTinySulfur",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureSulfur",
+      "tier2_crushed_macerator_2": "ore:dustSulfur",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureSulfur",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureSulfur",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedSulfur",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinySulfur",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedSulfur",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinySulfur",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureSulfur",
+      "tier3_purified_macerator_2": "ore:dustSulfur",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureSulfur",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureSulfur",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustSulfur",
+      "tier4_centrifuged_macerator_2": "ore:dustTinySulfur",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustSulfur",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustSulfur",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustSulfur",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinySulfur",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustSulfur",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinySulfur",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreSulfur",
       "output1_p1": "ore:dustSulfur",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreSulfur",
       "output1_p2": "ore:crushedSulfur",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustSulfur",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -38,11 +113,28 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreSulfur",
-      "output1_p1": "ore:crushedSulfur"
+      "output1_p1": "ore:crushedSulfur",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Sulfur (also spelled sulphur) is a chemical element with the symbol S and atomic number 16. It is abundant, multivalent, and nonmetallic. Under normal conditions, sulfur atoms form cyclic octatomic molecules with a chemical formula S8. Elemental sulfur is a bright yellow, crystalline solid at room temperature.$(p)Sulfur is the tenth most common element by mass in the universe, and the fifth most common on Earth. Though "
+    },
+    {
+      "type": "text",
+      "text": "sometimes found in pure, native form, sulfur on Earth usually occurs as sulfide and sulfate minerals. Being abundant in native form, sulfur was known in ancient times, being mentioned for its uses in ancient India, ancient Greece, China, and Egypt. In the Bible, sulfur is called brimstone, which means \"burning stone\". Today, almost all elemental sulfur is produced as a byproduct of removing sulfur-containing contaminants from natural gas "
+    },
+    {
+      "type": "text",
+      "text": "and petroleum. The greatest commercial use of the element is the production of sulfuric acid for sulfate and $(l:ores/Phosphate)phosphate$(/l) fertilizers, and other chemical processes. The element sulfur is used in matches, insecticides, and fungicides. Many sulfur compounds are odoriferous, and the smells of odorized natural gas, skunk scent, grapefruit, and garlic are due to organosulfur compounds. Hydrogen sulfide gives the characteristic odor to rotting "
+    },
+    {
+      "type": "text",
+      "text": "eggs and other biological processes.$(p)Sulfur is an essential element for all life, but almost always in the form of organosulfur compounds or metal sulfides. Three amino acids (cysteine, cystine, and methionine) and two vitamins (biotin and thiamine) are organosulfur compounds. Many cofactors also contain sulfur, including glutathione, thioredoxin, and $(l:materials/Iron)iron$(/l)-sulfur proteins. Disulfides, S–S "
+    },
+    {
+      "type": "text",
+      "text": "bonds, confer mechanical strength and insolubility of the protein keratin, found in outer skin, hair, and feathers. Sulfur is one of the core chemical elements needed for biochemical functioning and is an elemental macronutrient for all living organisms."
     }
   ],
   "icon": "gregtech:ore_sulfur_0:0"

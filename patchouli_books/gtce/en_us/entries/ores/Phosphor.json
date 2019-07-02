@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Phosphor",
       "abbreviation": "Phos",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Phosphorus",
       "source": "Wikipedia",
       "scan": "$(#D5D500)█$() Rare",
       "precautions": "",
@@ -15,22 +15,96 @@
       "dust": "gregtech:meta_item_1:2239"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:orePhosphor",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedPhosphor",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedPhosphor",
+      "tier1_macerator_2": "ore:dustApatite",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustPhosphor",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedPhosphor",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyApatite",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpurePhosphor",
+      "tier2_crushed_macerator_2": "ore:dustApatite",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpurePhosphor",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpurePhosphor",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedPhosphor",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyApatite",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedPhosphor",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyPhosphate",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPurePhosphor",
+      "tier3_purified_macerator_2": "ore:dustPhosphate",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPurePhosphor",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPurePhosphor",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustPhosphor",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyPhosphate",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustPhosphor",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustPhosphor",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustPhosphor",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyPhosphate",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustPhosphor",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyPhosphate",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:orePhosphor",
       "output1_p1": "ore:dustPhosphor",
-      "outputAmount1_p1": "3",
+      "outputAmount1_p1": 3,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:orePhosphor",
       "output1_p2": "ore:crushedPhosphor",
-      "outputAmount1_p2": "6",
+      "outputAmount1_p2": 6,
       "output2_p2": "ore:dustApatite",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,11 +114,27 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:orePhosphor",
       "output1_p1": "ore:crushedPhosphor",
-      "outputAmount1_p1": "3"
+      "outputAmount1_p1": 3
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Phosphorus is a chemical element with the symbol P and atomic number 15. Elemental phosphorus exists in two major forms, white phosphorus and red phosphorus, but because it is highly reactive, phosphorus is never found as a free element on Earth. It has a concentration in the Earth's crust of about one gram per kilogram (compare $(l:materials/Copper)copper$(/l) at about 0.06 grams). With few exceptions, minerals containing phosphorus are in the maximally oxidized state "
+    },
+    {
+      "type": "text",
+      "text": "as inorganic $(l:ores/Phosphate)phosphate$(/l) rocks.Elemental phosphorus was first isolated (as white phosphorus) in 1669 and emitted a faint glow when exposed to oxygen - hence the name, taken from Greek mythology, meaning \"light-bearer\" (Latin Lucifer), referring to the \"Morning Star\", the planet Venus. The term \"phosphorescence\", meaning glow after illumination, derives from this property of phosphorus, although the word has since been used for a different physical process "
+    },
+    {
+      "type": "text",
+      "text": "that produces a glow. The glow of phosphorus is caused by oxidation of the white (but not red) phosphorus — a process now called chemiluminescence. Together with nitrogen, arsenic, $(l:materials/Antimony)antimony$(/l), and $(l:materials/Bismuth)bismuth$(/l), phosphorus is classified as a pnictogen.$(p)Phosphorus is essential for life. Phosphates (compounds containing the $(l:ores/Phosphate)phosphate$(/l) ion, PO43−) are a component of DNA, RNA, ATP, "
+    },
+    {
+      "type": "text",
+      "text": "and phospholipids. Elemental phosphorus was first isolated from human urine, and bone ash was an important early $(l:ores/Phosphate)phosphate$(/l) source. $(l:ores/Phosphate)Phosphate$(/l) mines contain fossils because $(l:ores/Phosphate)phosphate$(/l) is present in the fossilized deposits of animal remains and excreta. Low $(l:ores/Phosphate)phosphate$(/l) levels are an important limit to growth in some aquatic systems. The vast majority of phosphorus compounds mined are consumed as fertilisers. $(l:ores/Phosphate)Phosphate$(/l) is needed to replace the "
+    },
+    {
+      "type": "text",
+      "text": "phosphorus that plants remove from the soil, and its annual demand is rising nearly twice as fast as the growth of the human population. Other applications include organophosphorus compounds in detergents, pesticides, and nerve agents."
     }
   ],
   "icon": "gregtech:ore_phosphor_0:0"

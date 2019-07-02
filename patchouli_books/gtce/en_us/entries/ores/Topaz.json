@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Topaz",
       "abbreviation": "Tpz",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Topaz",
       "source": "Wikipedia",
       "scan": "$(#F5A200)█$() Rare",
       "precautions": "",
@@ -15,22 +15,105 @@
       "dust": "gregtech:meta_item_1:2190"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreTopaz",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedTopaz",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedTopaz",
+      "tier1_macerator_2": "ore:dustBlueTopaz",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:gemTopaz",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedTopaz",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyBlueTopaz",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureTopaz",
+      "tier2_crushed_macerator_2": "ore:dustBlueTopaz",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureTopaz",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureTopaz",
+      "tier3_purified_sifter": "gregtech:machine:450",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedTopaz",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyBlueTopaz",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedTopaz",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyBlueTopaz",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_sifter": "gregtech:machine:450",
+      "tier3_purified_sifter_1": "ore:gemExquisiteTopaz",
+      "tier3_purified_sifter_2": "ore:gemFlawlessTopaz",
+      "tier3_purified_sifter_3": "ore:gemTopaz",
+      "tier3_purified_sifter_4": "ore:gemFlawedTopaz",
+      "tier3_purified_sifter_5": "ore:gemChippedTopaz",
+      "tier3_purified_sifter_6": "ore:dustPureTopaz",
+      "tier3_purified_sifter_voltage": "16",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureTopaz",
+      "tier3_purified_macerator_2": "ore:dustBlueTopaz",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureTopaz",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureTopaz",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustTopaz",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyBlueTopaz",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustTopaz",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustTopaz",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustTopaz",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyBlueTopaz",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustTopaz",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyBlueTopaz",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreTopaz",
       "output1_p1": "ore:gemTopaz",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreTopaz",
       "output1_p2": "ore:crushedTopaz",
-      "outputAmount1_p2": "4",
+      "outputAmount1_p2": 4,
       "output2_p2": "ore:dustBlueTopaz",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -40,17 +123,41 @@
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreTopaz",
       "output1_p1": "ore:crushedTopaz",
-      "outputAmount1_p1": "2",
+      "outputAmount1_p1": 2,
       "title_p2": "Crusher (IE)",
       "machine_p2": "immersiveengineering:metal_decoration0:4",
       "processLink_p2": "processes/Crusher (IE)",
       "input1_p2": "ore:oreTopaz",
       "output1_p2": "ore:gemTopaz",
-      "outputAmount1_p2": "2"
+      "outputAmount1_p2": 2
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Topaz is a silicate mineral of $(l:materials/Aluminium)aluminium$(/l) and fluorine with the chemical formula Al2SiO4(F, OH)2. Topaz crystallizes in the orthorhombic system, and its crystals are mostly prismatic terminated by pyramidal and other faces. It is one of the hardest naturally occurring minerals (Mohs hardness of 8) and is the hardest of any silicate mineral. This hardness combined with its usual transparency and variety of colors means that it has "
+    },
+    {
+      "type": "text",
+      "text": "acquired wide use in jewellery as a cut gemstone as well as for intaglios and other gemstone carvings.$(p)Topaz in its natural state is a golden brown to yellow, a characteristic which means it is sometimes confused with the less valuable gemstone citrine. A variety of impurities and treatments may make topaz wine red, pale gray, reddish-orange, pale green, or pink (rare), and opaque to translucent/transparent. The pink and red "
+    },
+    {
+      "type": "text",
+      "text": "varieties come from chromium replacing $(l:materials/Aluminium)aluminium$(/l) in its crystalline structure.$(p)Orange topaz, also known as precious topaz, is the traditional November birthstone, the symbol of friendship, and the state gemstone of the US state of Utah.$(p)Imperial topaz is yellow, pink (rare, if natural) or pink-orange. Brazilian imperial topaz can often have "
+    },
+    {
+      "type": "text",
+      "text": "a bright yellow to deep golden brown hue, sometimes even violet. Many brown or pale topazes are treated to make them bright yellow, $(l:materials/Gold)gold$(/l), pink or violet colored. Some imperial topaz stones can fade on exposure to sunlight for an extended period of time.$(p)Blue topaz is the state gemstone of the US state of Texas. Naturally occurring $(l:ores/BlueTopaz)blue topaz$(/l) is quite rare. Typically, colorless, gray or pale yellow and blue material "
+    },
+    {
+      "type": "text",
+      "text": "is heat treated and irradiated to produce a more desired darker blue.$(p)Mystic topaz is colorless topaz which has been artificially coated via a vapor deposition process giving it a rainbow effect on its surface.$(p)Although very hard, topaz must be treated with greater care than some other minerals of similar hardness (such as corundum) because of a "
+    },
+    {
+      "type": "text",
+      "text": "weakness of atomic bonding of the stone's molecules along one or another axial plane (whereas diamonds, for example, are composed of $(l:materials/Carbon)carbon$(/l) atoms bonded to each other with equal strength along all of its planes). This gives topaz a tendency to fracture along such a cleavage plane if struck with sufficient force.$(p)Topaz has a relatively low index of refraction for a gemstone, and so stones with large facets or tables do not "
+    },
+    {
+      "type": "text",
+      "text": "sparkle as readily as stones cut from minerals with higher refractive indices, though quality colorless topaz sparkles and shows more \"life\" than similarly cut quartz. When given a typical \"brilliant\" cut, topaz may either show a sparkling table facet surrounded by dead-looking crown facets or a ring of sparkling crown facets with a dull well-like table."
     }
   ],
   "icon": "gregtech:ore_topaz_0:0"

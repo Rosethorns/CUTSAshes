@@ -6,7 +6,7 @@
       "type": "ore_overview",
       "title": "Talc",
       "abbreviation": "Talc",
-      "link": "",
+      "link": "https://en.wikipedia.org/wiki/Talc",
       "source": "Wikipedia",
       "scan": "$(#489048)█$() Rare",
       "precautions": "",
@@ -15,21 +15,96 @@
       "dust": "gregtech:meta_item_1:2294"
     },
     {
+      "type": "text",
+      "text": "This page coming soon"
+    },
+    {
+      "type": "ore_process_overview_left",
+      "input": "ore:oreTalc",
+      "tier1_forgeHammer": "gregtech:machine:330",
+      "tier1_forgeHammer_1": "ore:crushedTalc",
+      "tier1_forgeHammer_voltage": "6",
+      "tier1_macerator": "gregtech:machine:60",
+      "tier1_macerator_1": "ore:crushedTalc",
+      "tier1_macerator_2": "ore:dustTalc",
+      "tier1_macerator_3": "ore:dustStone",
+      "tier1_macerator_voltage": "12",
+      "tier1_smelter": "minecraft:furnace",
+      "tier1_smelter_1": "ore:dustTalc",
+      "tier2_crushed_oreWasher": "gregtech:machine:380",
+      "tier2_crushed_oreWasher_1": "ore:crushedPurifiedTalc",
+      "tier2_crushed_oreWasher_2": "ore:dustTinyTalc",
+      "tier2_crushed_oreWasher_3": "ore:dustStone",
+      "tier2_crushed_oreWasher_voltage": "16",
+      "tier2_crushed_macerator": "gregtech:machine:60",
+      "tier2_crushed_macerator_1": "ore:dustImpureTalc",
+      "tier2_crushed_macerator_2": "ore:dustTalc",
+      "tier2_crushed_macerator_voltage": "12",
+      "tier2_crushed_forgeHammer": "gregtech:machine:330",
+      "tier2_crushed_forgeHammer_1": "ore:dustImpureTalc",
+      "tier2_crushed_forgeHammer_voltage": "8",
+      "tier2_crushed_hammer": "ore:craftingToolHardHammer",
+      "tier2_crushed_hammer_1": "ore:dustImpureTalc",
+      "chemreactor_30v": false,
+      "chemreactor_150v": false
+    },
+    {
+      "type": "ore_process_overview_right",
+      "tier3_crushed_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_crushed_thermalCentrifuge_1": "ore:crushedCentrifugedTalc",
+      "tier3_crushed_thermalCentrifuge_2": "ore:dustTinyTalc",
+      "tier3_crushed_thermalCentrifuge_3": "ore:dustStone",
+      "tier3_crushed_thermalCentrifuge_voltage": "60",
+      "tier3_purified_thermalCentrifuge": "gregtech:machine:460",
+      "tier3_purified_thermalCentrifuge_1": "ore:crushedCentrifugedTalc",
+      "tier3_purified_thermalCentrifuge_2": "ore:dustTinyTalc",
+      "tier3_purified_thermalCentrifuge_voltage": "60",
+      "tier3_purified_macerator": "gregtech:machine:60",
+      "tier3_purified_macerator_1": "ore:dustPureTalc",
+      "tier3_purified_macerator_2": "ore:dustTalc",
+      "tier3_purified_macerator_voltage": "12",
+      "tier3_purified_hammer": "ore:craftingToolHardHammer",
+      "tier3_purified_hammer_1": "ore:dustPureTalc",
+      "tier3_purified_forgeHammer": "gregtech:machine:330",
+      "tier3_purified_forgeHammer_1": "ore:dustPureTalc",
+      "tier3_purified_forgeHammer_voltage": "8",
+      "tier4_centrifuged_macerator": "gregtech:machine:60",
+      "tier4_centrifuged_macerator_1": "ore:dustTalc",
+      "tier4_centrifuged_macerator_2": "ore:dustTinyTalc",
+      "tier4_centrifuged_macerator_voltage": "24",
+      "tier4_centrifuged_hammer": "ore:craftingToolHardHammer",
+      "tier4_centrifuged_hammer_1": "ore:dustTalc",
+      "tier4_centrifuged_forgeHammer": "gregtech:machine:330",
+      "tier4_centrifuged_forgeHammer_1": "ore:dustTalc",
+      "tier4_centrifuged_forgeHammer_voltage": "8",
+      "tier4_pureDust_centrifuge": "gregtech:machine:150",
+      "tier4_pureDust_centrifuge_1": "ore:dustTalc",
+      "tier4_pureDust_centrifuge_2": "ore:dustTinyTalc",
+      "tier4_pureDust_centrifuge_voltage": "5",
+      "tier4_impureDust_centrifuge": "gregtech:machine:150",
+      "tier4_impureDust_centrifuge_1": "ore:dustTalc",
+      "tier4_impureDust_centrifuge_2": "ore:dustTinyTalc",
+      "tier4_impureDust_centrifuge_voltage": "24"
+    },
+    {
       "type": "ore_processing",
       "title_p1": "Smelter",
       "machine_p1": "minecraft:furnace",
       "processLink_p1": "processes/Smelter",
       "input1_p1": "ore:oreTalc",
       "output1_p1": "ore:dustTalc",
+      "outputAmount1_p1": 1,
       "title_p2": "Macerator",
       "machine_p2": "gregtech:machine:60",
       "processLink_p2": "processes/Macerator",
       "input1_p2": "ore:oreTalc",
       "output1_p2": "ore:crushedTalc",
-      "outputAmount1_p2": "2",
+      "outputAmount1_p2": 2,
       "output2_p2": "ore:dustTalc",
+      "outputAmount2_p2": 1,
       "outputChance2_p2": "14",
       "output3_p2": "ore:dustStone",
+      "outputAmount3_p2": 1,
       "outputChance3_p2": "67"
     },
     {
@@ -38,11 +113,24 @@
       "machine_p1": "gregtech:machine:330",
       "processLink_p1": "processes/Forge Hammer",
       "input1_p1": "ore:oreTalc",
-      "output1_p1": "ore:crushedTalc"
+      "output1_p1": "ore:crushedTalc",
+      "outputAmount1_p1": 1
     },
     {
       "type": "text",
-      "text": "TBD"
+      "text": "Talc is a clay mineral composed of hydrated $(l:materials/Magnesium)magnesium$(/l) silicate with the chemical formula Mg3Si4O10(OH)2. Talc in powdered form, often in combination with corn starch, is widely used as baby powder. This mineral is used as a thickening agent and lubricant, is an ingredient in ceramics, paint and roofing material, and is also one of the main ingredients in many cosmetic products. It occurs as foliated to fibrous masses, and in an exceptionally rare "
+    },
+    {
+      "type": "text",
+      "text": "crystal form. It has a perfect basal cleavage, uneven flat fracture and it is foliated with a two dimensional platy form.$(p)The Mohs scale of mineral hardness is based on scratch hardness comparison, ranging from 1-10, a value of 10 being the hardest of minerals. Talc is the defining value 1 therefore the softest of minerals. Any mineral below a value of 2 on Mohs scale of mineral hardness can be "
+    },
+    {
+      "type": "text",
+      "text": "scratched by a fingernail. When scraped on a streak plate it produces a white streak, though this indicator is of little importance because most silicate minerals produce a white streak. Talc is translucent to opaque with colors ranging from whitish grey to green with a vitreous and pearly luster. Talc is not soluble in water, but is slightly soluble in dilute mineral acids.$(p)Soapstone is a well known "
+    },
+    {
+      "type": "text",
+      "text": "metamorphic rock composed predominantly of talc."
     }
   ],
   "icon": "gregtech:ore_talc_0:0"
