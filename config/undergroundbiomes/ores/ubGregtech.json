@@ -1,0 +1,1223 @@
+[
+  {
+    "internalOreName": "gregtech:ore_palladium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePalladium"
+    ],
+    "alphaOverlay": false,
+    "color": "#595A60",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cobalt_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCobalt"
+    ],
+    "alphaOverlay": false,
+    "color": "#2C2CCC",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_monazite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreMonazite"
+    ],
+    "alphaOverlay": false,
+    "color": "#3F593F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_lepidolite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreLepidolite"
+    ],
+    "alphaOverlay": false,
+    "color": "#E33BA4",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_grossular_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGrossular"
+    ],
+    "alphaOverlay": false,
+    "color": "#F57E00",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_nether_quartz_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreNetherQuartz"
+    ],
+    "alphaOverlay": false,
+    "color": "#6F6565",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tennantite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTennantite"
+    ],
+    "alphaOverlay": false,
+    "color": "#818181",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tin_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTin"
+    ],
+    "alphaOverlay": false,
+    "color": "#5F5F5F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_pyrolusite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePyrolusite"
+    ],
+    "alphaOverlay": false,
+    "color": "#878799",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cinnabar_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCinnabar"
+    ],
+    "alphaOverlay": false,
+    "color": "#BE0000",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_pyrope_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePyrope"
+    ],
+    "alphaOverlay": false,
+    "color": "#82366C",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_jasper_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreJasper"
+    ],
+    "alphaOverlay": false,
+    "color": "#F56565",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_phosphor_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePhosphor"
+    ],
+    "alphaOverlay": false,
+    "color": "#D5D500",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_lithium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreLithium"
+    ],
+    "alphaOverlay": false,
+    "color": "#494949",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_brown_limonite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBrownLimonite"
+    ],
+    "alphaOverlay": false,
+    "color": "#673500",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_bauxite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBauxite"
+    ],
+    "alphaOverlay": false,
+    "color": "#AE5A00",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_rock_salt_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreRockSalt"
+    ],
+    "alphaOverlay": false,
+    "color": "#756161",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_spodumene_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSpodumene"
+    ],
+    "alphaOverlay": false,
+    "color": "#AB9999",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cassiterite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCassiterite"
+    ],
+    "alphaOverlay": false,
+    "color": "#786464",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_enargite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreEnargite"
+    ],
+    "alphaOverlay": false,
+    "color": "#303030",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_uranium235_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreUranium235"
+    ],
+    "alphaOverlay": false,
+    "color": "#5CFF5C",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_ilmenite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreIlmenite"
+    ],
+    "alphaOverlay": false,
+    "color": "#3F312D",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_uraninite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreUraninite"
+    ],
+    "alphaOverlay": false,
+    "color": "#1F1F1F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_silver_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSilver"
+    ],
+    "alphaOverlay": false,
+    "color": "#7E7E92",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tanzanite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTanzanite"
+    ],
+    "alphaOverlay": false,
+    "color": "#5100F5",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_graphite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGraphite"
+    ],
+    "alphaOverlay": false,
+    "color": "#535353",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_sulfur_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSulfur"
+    ],
+    "alphaOverlay": false,
+    "color": "#E3E300",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_chromite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreChromite"
+    ],
+    "alphaOverlay": false,
+    "color": "#1F6215",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_sphalerite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSphalerite"
+    ],
+    "alphaOverlay": false,
+    "color": "#414141",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_iron_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreIron"
+    ],
+    "alphaOverlay": false,
+    "color": "#999999",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_rutile_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreRutile"
+    ],
+    "alphaOverlay": false,
+    "color": "#AA0B51",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_banded_iron_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBandedIron"
+    ],
+    "alphaOverlay": false,
+    "color": "#9D6262",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_garnierite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGarnierite"
+    ],
+    "alphaOverlay": false,
+    "color": "#2DAE3F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_coal_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCoal"
+    ],
+    "alphaOverlay": false,
+    "color": "#252525",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_blue_topaz_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBlueTopaz"
+    ],
+    "alphaOverlay": false,
+    "color": "#000088",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_calcite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCalcite"
+    ],
+    "alphaOverlay": false,
+    "color": "#A0A0A0",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_gold_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGold"
+    ],
+    "alphaOverlay": false,
+    "color": "#F9F9C5",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_platinum_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePlatinum"
+    ],
+    "alphaOverlay": false,
+    "color": "#9F9F5F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_chalcocite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreChalcocite"
+    ],
+    "alphaOverlay": false,
+    "color": "#2F2F2F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_lignite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreLignite"
+    ],
+    "alphaOverlay": false,
+    "color": "#5A3F3F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_iridium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreIridium"
+    ],
+    "alphaOverlay": false,
+    "color": "#9696D2",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_osmium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreOsmium"
+    ],
+    "alphaOverlay": false,
+    "color": "#5757D2",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tantalite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTantalite"
+    ],
+    "alphaOverlay": false,
+    "color": "#824824",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_bornite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBornite"
+    ],
+    "alphaOverlay": false,
+    "color": "#AD1600",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_neodymium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreNeodymium"
+    ],
+    "alphaOverlay": false,
+    "color": "#6B6B6B",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_magnetite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreMagnetite"
+    ],
+    "alphaOverlay": false,
+    "color": "#101010",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cooperite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCooperite"
+    ],
+    "alphaOverlay": false,
+    "color": "#AEAEAE",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_ruby_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreRuby"
+    ],
+    "alphaOverlay": false,
+    "color": "#EF5C5C",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_saltpeter_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSaltpeter"
+    ],
+    "alphaOverlay": false,
+    "color": "#C7C7C7",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_scheelite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreScheelite"
+    ],
+    "alphaOverlay": false,
+    "color": "#AE7E12",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_redstone_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreRedstone"
+    ],
+    "alphaOverlay": false,
+    "color": "#AE0000",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_magnesite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreMagnesite"
+    ],
+    "alphaOverlay": false,
+    "color": "#7E7E75",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_lazurite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreLazurite"
+    ],
+    "alphaOverlay": false,
+    "color": "#768DE4",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_vanadium_magnetite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreVanadiumMagnetite"
+    ],
+    "alphaOverlay": false,
+    "color": "#1F1F36",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_topaz_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTopaz"
+    ],
+    "alphaOverlay": false,
+    "color": "#F5A200",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tenorite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTenorite"
+    ],
+    "alphaOverlay": false,
+    "color": "#6F6F6F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_bastnasite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBastnasite"
+    ],
+    "alphaOverlay": false,
+    "color": "#C06D2D",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_niobium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreNiobium"
+    ],
+    "alphaOverlay": false,
+    "color": "#857899",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_sodalite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSodalite"
+    ],
+    "alphaOverlay": false,
+    "color": "#1717E3",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tetrahedrite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTetrahedrite"
+    ],
+    "alphaOverlay": false,
+    "color": "#AE1D00",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_opal_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreOpal"
+    ],
+    "alphaOverlay": false,
+    "color": "#0000AA",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_beryllium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBeryllium"
+    ],
+    "alphaOverlay": false,
+    "color": "#5AA25A",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_naquadah_enriched_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreNaquadahEnriched"
+    ],
+    "alphaOverlay": false,
+    "color": "#242424",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_lead_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreLead"
+    ],
+    "alphaOverlay": false,
+    "color": "#493449",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_phosphate_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePhosphate"
+    ],
+    "alphaOverlay": false,
+    "color": "#AEAE00",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cassiterite_sand_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCassiteriteSand"
+    ],
+    "alphaOverlay": false,
+    "color": "#E3E3E3",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_lapis_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreLapis"
+    ],
+    "alphaOverlay": false,
+    "color": "#4141B5",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_pentlandite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePentlandite"
+    ],
+    "alphaOverlay": false,
+    "color": "#B3A305",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_molybdenum_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreMolybdenum"
+    ],
+    "alphaOverlay": false,
+    "color": "#595974",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_emerald_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreEmerald"
+    ],
+    "alphaOverlay": false,
+    "color": "#65F565",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_galena_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGalena"
+    ],
+    "alphaOverlay": false,
+    "color": "#5A365A",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_vinteum_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreVinteum"
+    ],
+    "alphaOverlay": false,
+    "color": "#7EF5F5",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_quartzite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreQuartzite"
+    ],
+    "alphaOverlay": false,
+    "color": "#727D72",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_diamond_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreDiamond"
+    ],
+    "alphaOverlay": false,
+    "color": "#7A9C9C",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_almandine_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreAlmandine"
+    ],
+    "alphaOverlay": false,
+    "color": "#F50000",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_talc_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTalc"
+    ],
+    "alphaOverlay": false,
+    "color": "#489048",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_molybdenite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreMolybdenite"
+    ],
+    "alphaOverlay": false,
+    "color": "#080808",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_pyrite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePyrite"
+    ],
+    "alphaOverlay": false,
+    "color": "#876C24",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_thorium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreThorium"
+    ],
+    "alphaOverlay": false,
+    "color": "#002700",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_olivine_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreOlivine"
+    ],
+    "alphaOverlay": false,
+    "color": "#5AAA5A",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_apatite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreApatite"
+    ],
+    "alphaOverlay": false,
+    "color": "#AAAAAA",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_glauconite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGlauconite"
+    ],
+    "alphaOverlay": false,
+    "color": "#75A236",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_pitchblende_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePitchblende"
+    ],
+    "alphaOverlay": false,
+    "color": "#3B3E00",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_malachite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreMalachite"
+    ],
+    "alphaOverlay": false,
+    "color": "#045504",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_aluminium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreAluminium"
+    ],
+    "alphaOverlay": false,
+    "color": "#73AEAE",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_tungstate_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreTungstate"
+    ],
+    "alphaOverlay": false,
+    "color": "#3C3626",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_green_sapphire_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGreenSapphire"
+    ],
+    "alphaOverlay": false,
+    "color": "#58AA72",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_sapphire_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSapphire"
+    ],
+    "alphaOverlay": false,
+    "color": "#5858AA",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_uranium_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreUranium"
+    ],
+    "alphaOverlay": false,
+    "color": "#2DAE2D",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_nickel_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreNickel"
+    ],
+    "alphaOverlay": false,
+    "color": "#9999AE",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_chalcopyrite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreChalcopyrite"
+    ],
+    "alphaOverlay": false,
+    "color": "#554015",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_barite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBarite"
+    ],
+    "alphaOverlay": false,
+    "color": "#676767",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_amethyst_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreAmethyst"
+    ],
+    "alphaOverlay": false,
+    "color": "#AA2CAA",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_bentonite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBentonite"
+    ],
+    "alphaOverlay": false,
+    "color": "#D2D2D2",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_oilsands_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreOilsands"
+    ],
+    "alphaOverlay": false,
+    "color": "#0A0A0A",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_spessartine_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSpessartine"
+    ],
+    "alphaOverlay": false,
+    "color": "#5A2E2E",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_soapstone_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSoapstone"
+    ],
+    "alphaOverlay": false,
+    "color": "#324D32",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cobaltite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCobaltite"
+    ],
+    "alphaOverlay": false,
+    "color": "#4848AE",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_copper_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCopper"
+    ],
+    "alphaOverlay": false,
+    "color": "#B57800",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_powellite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "orePowellite"
+    ],
+    "alphaOverlay": false,
+    "color": "#676700",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_zinc_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreZinc"
+    ],
+    "alphaOverlay": false,
+    "color": "#666C4F",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_garnet_red_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGarnetRed"
+    ],
+    "alphaOverlay": false,
+    "color": "#5A2525",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_bismuth_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreBismuth"
+    ],
+    "alphaOverlay": false,
+    "color": "#6CADAD",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_wulfenite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreWulfenite"
+    ],
+    "alphaOverlay": false,
+    "color": "#674400",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_cuprite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCuprite"
+    ],
+    "alphaOverlay": false,
+    "color": "#970000",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_garnet_yellow_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreGarnetYellow"
+    ],
+    "alphaOverlay": false,
+    "color": "#AAAA46",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_naquadah_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreNaquadah"
+    ],
+    "alphaOverlay": false,
+    "color": "#1B1B1B",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_salt_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreSalt"
+    ],
+    "alphaOverlay": false,
+    "color": "#9B9B9B",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_yellow_limonite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreYellowLimonite"
+    ],
+    "alphaOverlay": false,
+    "color": "#D3CB93",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_certus_quartz_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreCertusQuartz"
+    ],
+    "alphaOverlay": false,
+    "color": "#BABABA",
+    "lightValue": -1
+  },
+  {
+    "internalOreName": "gregtech:ore_stibnite_0",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ore_contrast1",
+    "oreDirectories": [
+      "oreStibnite"
+    ],
+    "alphaOverlay": false,
+    "color": "#3F3F3F",
+    "lightValue": -1
+  }
+]
