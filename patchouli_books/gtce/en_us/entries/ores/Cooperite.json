@@ -15,8 +15,18 @@
       "dust": "gregtech:meta_item_1:2108"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Platinum Vein",
+      "yRange_p1": "35-50",
+      "ore1_p1": "gregtech:ore_cooperite_0:7",
+      "ore1Pct_p1": "45%",
+      "ore2_p1": "gregtech:ore_palladium_0:7",
+      "ore2Pct_p1": "35%",
+      "ore3_p1": "gregtech:ore_iridium_0:7",
+      "ore3Pct_p1": "20%",
+      "ore4None_p1": true,
+      "ore5None_p1": true,
+      "ore6None_p1": true
     },
     {
       "type": "ore_process_overview_left",

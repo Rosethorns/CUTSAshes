@@ -15,8 +15,29 @@
       "dust": "gregtech:meta_item_1:2198"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Molybdenum Vein",
+      "yRange_p1": "20-50",
+      "ore1_p1": "gregtech:ore_molybdenite_0:0",
+      "ore1Pct_p1": "40%",
+      "ore2_p1": "gregtech:ore_wulfenite_0:0",
+      "ore2Pct_p1": "40%",
+      "ore3_p1": "gregtech:ore_powellite_0:0",
+      "ore3Pct_p1": "20%",
+      "ore4None_p1": true,
+      "ore5None_p1": true,
+      "ore6None_p1": true,
+      "title_p2": "Molybdenum Vein",
+      "yRange_p2": "20-30",
+      "ore1_p2": "gregtech:ore_molybdenite_0:7",
+      "ore1Pct_p2": "40%",
+      "ore2_p2": "gregtech:ore_wulfenite_0:7",
+      "ore2Pct_p2": "40%",
+      "ore3_p2": "gregtech:ore_powellite_0:7",
+      "ore3Pct_p2": "20%",
+      "ore4None_p2": true,
+      "ore5None_p2": true,
+      "ore6None_p2": true
     },
     {
       "type": "ore_process_overview_left",

@@ -15,8 +15,29 @@
       "dust": "gregtech:meta_item_1:2188"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Tetrahedrite Vein",
+      "yRange_p1": "50-256",
+      "ore1_p1": "gregtech:ore_tetrahedrite_0:0",
+      "ore1Pct_p1": "60%",
+      "ore2_p1": "gregtech:ore_stibnite_0:0",
+      "ore2Pct_p1": "20%",
+      "ore3_p1": "gregtech:ore_copper_0:0",
+      "ore3Pct_p1": "20%",
+      "ore4None_p1": true,
+      "ore5None_p1": true,
+      "ore6None_p1": true,
+      "title_p2": "Tetrahedrite Vein",
+      "yRange_p2": "70-120",
+      "ore1_p2": "gregtech:ore_tetrahedrite_0:6",
+      "ore1Pct_p2": "60%",
+      "ore2_p2": "gregtech:ore_stibnite_0:6",
+      "ore2Pct_p2": "20%",
+      "ore3_p2": "gregtech:ore_copper_0:6",
+      "ore3Pct_p2": "20%",
+      "ore4None_p2": true,
+      "ore5None_p2": true,
+      "ore6None_p2": true
     },
     {
       "type": "ore_process_overview_left",

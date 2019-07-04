@@ -15,8 +15,19 @@
       "dust": "gregtech:meta_item_1:2202"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Quartz Vein",
+      "yRange_p1": "40-256",
+      "ore1_p1": "gregtech:ore_quartzite_0:0",
+      "ore1Pct_p1": "35%",
+      "ore2_p1": "gregtech:ore_tennantite_0:0",
+      "ore2Pct_p1": "23%",
+      "ore3_p1": "gregtech:ore_certus_quartz_0:0",
+      "ore3Pct_p1": "23%",
+      "ore4_p1": "gregtech:ore_barite_0:0",
+      "ore4Pct_p1": "19%",
+      "ore5None_p1": true,
+      "ore6None_p1": true
     },
     {
       "type": "ore_process_overview_left",

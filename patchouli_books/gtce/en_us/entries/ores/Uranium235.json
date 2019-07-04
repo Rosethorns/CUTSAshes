@@ -15,8 +15,7 @@
       "dust": "gregtech:meta_item_1:2076"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in"
     },
     {
       "type": "ore_process_overview_left",
