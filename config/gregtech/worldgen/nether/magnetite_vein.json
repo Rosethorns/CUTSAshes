@@ -20,174 +20,510 @@
           "weight": "60",
           "value": {
             "type": "state_match",
-            "default": "block:minecraft:magma",
+            "default": "ore:magnetite",
             "values": [
               {
-                "predicate": "ore_dict:stoneSedimentaryChert",
+                "predicate": "ore_dict:stoneIgneousRed_granite",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "chert"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryGreywacke",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "greywacke"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryDolomite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "dolomite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLignite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "lignite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentarySiltstone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "siltstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryShale",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "shale"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryChalk",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "chalk"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLimestone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_magnetite_0",
-                  "type": "limestone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMigmatite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "migmatite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicSoapstone",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "soapstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGreenschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "greenschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicBlueschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "blueschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "quartzite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMarble",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "marble"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicEclogite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "eclogite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGneiss",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0",
-                  "type": "gneiss"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousDacite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "dacite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousKomatiite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "komatiite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousBasalt",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "basalt"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousGabbro",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "gabbro"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousAndesite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "andesite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousRhyolite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "rhyolite"
+                  "block": "contenttweaker:sub_block_holder_44",
+                  "sub_block_number": 0
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousBlack_granite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "black_granite"
+                  "block": "contenttweaker:sub_block_holder_73",
+                  "sub_block_number": 14
                 }
               },
               {
-                "predicate": "ore_dict:stoneIgneousRed_granite",
+                "predicate": "ore_dict:stoneIgneousRhyolite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0",
-                  "type": "red_granite"
+                  "block": "contenttweaker:sub_block_holder_20",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_114",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_111",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_86",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_49",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_48",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_168",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_162",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_96",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_152",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_144",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_151",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_46",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_162",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_87",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_68",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_165",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_19",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_160",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_72",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_12",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_71",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_316",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_472",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_203",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_489",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_358",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_344",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_364",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_487",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_296",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_435",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_244",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_358",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_490",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_249",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_181",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_221",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_299",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_176",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_193",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_279",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_445",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_464",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_418",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_175",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_372",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_296",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_485",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_247",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_395",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_357",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_321",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_229",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_416",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_494",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_250",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_484",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_443",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_481",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_381",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_175",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_494",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_240",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_263",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_460",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_208",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_431",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_196",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_406",
+                  "sub_block_number": 10
                 }
               }
             ]
@@ -197,174 +533,510 @@
           "weight": "15",
           "value": {
             "type": "state_match",
-            "default": "block:minecraft:magma",
+            "default": "ore:iron",
             "values": [
               {
-                "predicate": "ore_dict:stoneSedimentaryChert",
+                "predicate": "ore_dict:stoneIgneousRed_granite",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "chert"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryGreywacke",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "greywacke"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryDolomite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "dolomite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLignite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "lignite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentarySiltstone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "siltstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryShale",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "shale"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryChalk",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "chalk"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLimestone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_iron_0",
-                  "type": "limestone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMigmatite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "migmatite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicSoapstone",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "soapstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGreenschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "greenschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicBlueschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "blueschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "quartzite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMarble",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "marble"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicEclogite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "eclogite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGneiss",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0",
-                  "type": "gneiss"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousDacite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "dacite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousKomatiite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "komatiite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousBasalt",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "basalt"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousGabbro",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "gabbro"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousAndesite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "andesite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousRhyolite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "rhyolite"
+                  "block": "contenttweaker:sub_block_holder_102",
+                  "sub_block_number": 12
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousBlack_granite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "black_granite"
+                  "block": "contenttweaker:sub_block_holder_108",
+                  "sub_block_number": 5
                 }
               },
               {
-                "predicate": "ore_dict:stoneIgneousRed_granite",
+                "predicate": "ore_dict:stoneIgneousRhyolite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_iron_0",
-                  "type": "red_granite"
+                  "block": "contenttweaker:sub_block_holder_63",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_92",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_162",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_95",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_60",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_9",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_31",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_166",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_44",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_136",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_34",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_127",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_43",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_169",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_72",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_127",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_2",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_112",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_40",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_54",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_156",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_125",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_497",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_466",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_195",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_231",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_488",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_214",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_391",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_185",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_427",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_288",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_389",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_326",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_444",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_406",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_253",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_209",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_479",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_334",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_403",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_212",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_271",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_449",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_467",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_483",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_305",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_392",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_294",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_391",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_184",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_222",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_414",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_486",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_450",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_177",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_281",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_227",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_440",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_292",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_328",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_175",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_379",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_470",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_368",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_411",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_310",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_322",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_198",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_337",
+                  "sub_block_number": 0
                 }
               }
             ]
@@ -374,174 +1046,510 @@
           "weight": "15",
           "value": {
             "type": "state_match",
-            "default": "block:minecraft:magma",
+            "default": "ore:vanadium_magnetite",
             "values": [
               {
-                "predicate": "ore_dict:stoneSedimentaryChert",
+                "predicate": "ore_dict:stoneIgneousRed_granite",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "chert"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryGreywacke",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "greywacke"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryDolomite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "dolomite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLignite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "lignite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentarySiltstone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "siltstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryShale",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "shale"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryChalk",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "chalk"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLimestone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "limestone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMigmatite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "migmatite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicSoapstone",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "soapstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGreenschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "greenschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicBlueschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "blueschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "quartzite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMarble",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "marble"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicEclogite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "eclogite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGneiss",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "gneiss"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousDacite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "dacite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousKomatiite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "komatiite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousBasalt",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "basalt"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousGabbro",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "gabbro"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousAndesite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "andesite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousRhyolite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "rhyolite"
+                  "block": "contenttweaker:sub_block_holder_86",
+                  "sub_block_number": 9
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousBlack_granite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "black_granite"
+                  "block": "contenttweaker:sub_block_holder_19",
+                  "sub_block_number": 12
                 }
               },
               {
-                "predicate": "ore_dict:stoneIgneousRed_granite",
+                "predicate": "ore_dict:stoneIgneousRhyolite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0",
-                  "type": "red_granite"
+                  "block": "contenttweaker:sub_block_holder_62",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_166",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_84",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_109",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_24",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_69",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_130",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_28",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_34",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_21",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_83",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_57",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_156",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_122",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_122",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_61",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_116",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_23",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_150",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_139",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_14",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_63",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_504",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_380",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_486",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_197",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_357",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_353",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_382",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_475",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_308",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_288",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_185",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_318",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_187",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_356",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_246",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_208",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_499",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_387",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_393",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_177",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_270",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_457",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_463",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_474",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_305",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_433",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_203",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_182",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_502",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_343",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_477",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_375",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_193",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_500",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_478",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_309",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_440",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_316",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_369",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_178",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_319",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_489",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_466",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_285",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_418",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_452",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_207",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_192",
+                  "sub_block_number": 14
                 }
               }
             ]
@@ -551,174 +1559,510 @@
           "weight": "10",
           "value": {
             "type": "state_match",
-            "default": "block:minecraft:magma",
+            "default": "ore:gold",
             "values": [
               {
-                "predicate": "ore_dict:stoneSedimentaryChert",
+                "predicate": "ore_dict:stoneIgneousRed_granite",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "chert"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryGreywacke",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "greywacke"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryDolomite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "dolomite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLignite",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "lignite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentarySiltstone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "siltstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryShale",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "shale"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryChalk",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "chalk"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneSedimentaryLimestone",
-                "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_gold_0",
-                  "type": "limestone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMigmatite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "migmatite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicSoapstone",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "soapstone"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGreenschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "greenschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicBlueschist",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "blueschist"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "quartzite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicMarble",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "marble"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicEclogite",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "eclogite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneMetamorphicGneiss",
-                "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0",
-                  "type": "gneiss"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousDacite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "dacite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousKomatiite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "komatiite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousBasalt",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "basalt"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousGabbro",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "gabbro"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousAndesite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "andesite"
-                }
-              },
-              {
-                "predicate": "ore_dict:stoneIgneousRhyolite",
-                "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "rhyolite"
+                  "block": "contenttweaker:sub_block_holder_69",
+                  "sub_block_number": 13
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousBlack_granite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "black_granite"
+                  "block": "contenttweaker:sub_block_holder_125",
+                  "sub_block_number": 7
                 }
               },
               {
-                "predicate": "ore_dict:stoneIgneousRed_granite",
+                "predicate": "ore_dict:stoneIgneousRhyolite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_gold_0",
-                  "type": "red_granite"
+                  "block": "contenttweaker:sub_block_holder_116",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_113",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_116",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_30",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_81",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_134",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_40",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_167",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_100",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_163",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_146",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_61",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_56",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_130",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_45",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_30",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_151",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_5",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_1",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_86",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_2",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_33",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_296",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_270",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_493",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_287",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_245",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_290",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_435",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_278",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_192",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_189",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_484",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_243",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_249",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_189",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_478",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_274",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_372",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_247",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_432",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_220",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_385",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_250",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_180",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:gravelSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_286",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRed_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_426",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBlack_granite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_430",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousRhyolite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_388",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousAndesite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_339",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousGabbro",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_245",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousBasalt",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_257",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousKomatiite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_325",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:sandIgneousDacite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_463",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGneiss",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_444",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicEclogite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_420",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMarble",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_387",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicQuartzite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_348",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicBlueschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_181",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicGreenschist",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_189",
+                  "sub_block_number": 0
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicSoapstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_178",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:sandMetamorphicMigmatite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_331",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLimestone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_449",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChalk",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_198",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryShale",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_173",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentarySiltstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_440",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryLignite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_274",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryDolomite",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_195",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryGreywacke",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_460",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "ore_dict:sandSedimentaryChert",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_205",
+                  "sub_block_number": 4
                 }
               }
             ]
