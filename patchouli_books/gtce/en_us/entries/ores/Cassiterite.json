@@ -15,8 +15,17 @@
       "dust": "gregtech:meta_item_1:2098"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Tin Vein",
+      "yRange_p1": "40-256",
+      "ore1_p1": "gregtech:ore_tin_0:0",
+      "ore1Pct_p1": "75%",
+      "ore2_p1": "gregtech:ore_cassiterite_0:0",
+      "ore2Pct_p1": "25%",
+      "ore3None_p1": true,
+      "ore4None_p1": true,
+      "ore5None_p1": true,
+      "ore6None_p1": true
     },
     {
       "type": "ore_process_overview_left",

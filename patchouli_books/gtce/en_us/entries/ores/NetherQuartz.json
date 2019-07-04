@@ -15,8 +15,16 @@
       "dust": "gregtech:meta_item_1:2201"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Netherquartz Vein",
+      "yRange_p1": "40-110",
+      "ore1_p1": "gregtech:ore_nether_quartz_0:6",
+      "ore1Pct_p1": "100%",
+      "ore2None_p1": true,
+      "ore3None_p1": true,
+      "ore4None_p1": true,
+      "ore5None_p1": true,
+      "ore6None_p1": true
     },
     {
       "type": "ore_process_overview_left",

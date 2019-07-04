@@ -1,0 +1,111 @@
+{
+    "include": [
+        {
+            "template": "ore_found_in_entry",
+            "as": "process1",
+            "using": {
+                "title": "#title_p1",
+                "yRange": "#yRange_p1",
+                "ore1": "#ore1_p1",
+                "ore2": "#ore2_p1",
+                "ore3": "#ore3_p1",
+                "ore4": "#ore4_p1",
+                "ore5": "#ore5_p1",
+                "ore6": "#ore6_p1",
+                "ore1Pct": "#ore1Pct_p1",
+                "ore2Pct": "#ore2Pct_p1",
+                "ore3Pct": "#ore3Pct_p1",
+                "ore4Pct": "#ore4Pct_p1",
+                "ore5Pct": "#ore5Pct_p1",
+                "ore6Pct": "#ore6Pct_p1",
+                "ore1None": "#ore1None_p1",
+                "ore2None": "#ore2None_p1",
+                "ore3None": "#ore3None_p1",
+                "ore4None": "#ore4None_p1",
+                "ore5None": "#ore5None_p1",
+                "ore6None": "#ore6None_p1"
+            }
+        },
+        {
+            "template": "ore_found_in_entry",
+            "as": "process2",
+            "y": 35,
+            "using": {
+                "title": "#title_p2",
+                "yRange": "#yRange_p2",
+                "ore1": "#ore1_p2",
+                "ore2": "#ore2_p2",
+                "ore3": "#ore3_p2",
+                "ore4": "#ore4_p2",
+                "ore5": "#ore5_p2",
+                "ore6": "#ore6_p2",
+                "ore1Pct": "#ore1Pct_p2",
+                "ore2Pct": "#ore2Pct_p2",
+                "ore3Pct": "#ore3Pct_p2",
+                "ore4Pct": "#ore4Pct_p2",
+                "ore5Pct": "#ore5Pct_p2",
+                "ore6Pct": "#ore6Pct_p2",
+                "ore1None": "#ore1None_p2",
+                "ore2None": "#ore2None_p2",
+                "ore3None": "#ore3None_p2",
+                "ore4None": "#ore4None_p2",
+                "ore5None": "#ore5None_p2",
+                "ore6None": "#ore6None_p2"
+            }
+        },
+        {
+            "template": "ore_found_in_entry",
+            "as": "process3",
+            "y": 70,
+            "using": {
+                "title": "#title_p3",
+                "yRange": "#yRange_p3",
+                "ore1": "#ore1_p3",
+                "ore2": "#ore2_p3",
+                "ore3": "#ore3_p3",
+                "ore4": "#ore4_p3",
+                "ore5": "#ore5_p3",
+                "ore6": "#ore6_p3",
+                "ore1Pct": "#ore1Pct_p3",
+                "ore2Pct": "#ore2Pct_p3",
+                "ore3Pct": "#ore3Pct_p3",
+                "ore4Pct": "#ore4Pct_p3",
+                "ore5Pct": "#ore5Pct_p3",
+                "ore6Pct": "#ore6Pct_p3",
+                "ore1None": "#ore1None_p3",
+                "ore2None": "#ore2None_p3",
+                "ore3None": "#ore3None_p3",
+                "ore4None": "#ore4None_p3",
+                "ore5None": "#ore5None_p3",
+                "ore6None": "#ore6None_p3"
+            }
+        },
+        {
+            "template": "ore_found_in_entry",
+            "as": "process4",
+            "y": 105,
+            "using": {
+                "title": "#title_p4",
+                "yRange": "#yRange_p4",
+                "ore1": "#ore1_p4",
+                "ore2": "#ore2_p4",
+                "ore3": "#ore3_p4",
+                "ore4": "#ore4_p4",
+                "ore5": "#ore5_p4",
+                "ore6": "#ore6_p4",
+                "ore1Pct": "#ore1Pct_p4",
+                "ore2Pct": "#ore2Pct_p4",
+                "ore3Pct": "#ore3Pct_p4",
+                "ore4Pct": "#ore4Pct_p4",
+                "ore5Pct": "#ore5Pct_p4",
+                "ore6Pct": "#ore6Pct_p4",
+                "ore1None": "#ore1None_p4",
+                "ore2None": "#ore2None_p4",
+                "ore3None": "#ore3None_p4",
+                "ore4None": "#ore4None_p4",
+                "ore5None": "#ore5None_p4",
+                "ore6None": "#ore6None_p4"
+            }
+        }
+    ]
+}

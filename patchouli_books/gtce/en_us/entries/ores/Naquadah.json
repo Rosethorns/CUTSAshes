@@ -15,8 +15,17 @@
       "dust": "gregtech:meta_item_1:2307"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Naquadah Vein",
+      "yRange_p1": "30-65",
+      "ore1_p1": "gregtech:ore_naquadah_0:7",
+      "ore1Pct_p1": "90%",
+      "ore2_p1": "gregtech:ore_naquadah_enriched_0:7",
+      "ore2Pct_p1": "10%",
+      "ore3None_p1": true,
+      "ore4None_p1": true,
+      "ore5None_p1": true,
+      "ore6None_p1": true
     },
     {
       "type": "ore_process_overview_left",

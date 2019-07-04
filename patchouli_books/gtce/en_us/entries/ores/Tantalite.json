@@ -15,8 +15,31 @@
       "dust": "gregtech:meta_item_1:2224"
     },
     {
-      "type": "text",
-      "text": "This page coming soon"
+      "type": "ore_found_in",
+      "title_p1": "Manganese Vein",
+      "yRange_p1": "20-50",
+      "ore1_p1": "gregtech:ore_pyrolusite_0:0",
+      "ore1Pct_p1": "30%",
+      "ore2_p1": "gregtech:ore_spessartine_0:0",
+      "ore2Pct_p1": "30%",
+      "ore3_p1": "gregtech:ore_grossular_0:0",
+      "ore3Pct_p1": "30%",
+      "ore4_p1": "gregtech:ore_tantalite_0:0",
+      "ore4Pct_p1": "10%",
+      "ore5None_p1": true,
+      "ore6None_p1": true,
+      "title_p2": "Manganese Vein",
+      "yRange_p2": "20-30",
+      "ore1_p2": "gregtech:ore_pyrolusite_0:7",
+      "ore1Pct_p2": "30%",
+      "ore2_p2": "gregtech:ore_spessartine_0:7",
+      "ore2Pct_p2": "30%",
+      "ore3_p2": "gregtech:ore_grossular_0:7",
+      "ore3Pct_p2": "30%",
+      "ore4_p2": "gregtech:ore_tantalite_0:7",
+      "ore4Pct_p2": "10%",
+      "ore5None_p2": true,
+      "ore6None_p2": true
     },
     {
       "type": "ore_process_overview_left",

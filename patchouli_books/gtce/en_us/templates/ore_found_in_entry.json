@@ -1,0 +1,187 @@
+{
+    "components": [
+        {
+            "type": "image",
+            "image": "patchouli:textures/found-in-grid.png",
+            "x": 0,
+            "width": 128,
+            "height": 128,
+            "texture_width": 128,
+            "texture_height": 128,
+            "guard": "#title->exists"
+        },
+        {
+            "type": "text",
+            "text": "#title",
+            "x": 0,
+            "y": 0,
+            "guard": "#title->exists"
+        },
+        {
+            "type": "text",
+            "text": "Y: #yRange#",
+            "x": 75,
+            "y": 0,
+            "guard": "#yRange->exists"
+        },
+        {
+            "type": "item",
+            "item": "#ore1",
+            "framed": false,
+            "x": 0,
+            "y": 10,
+            "guard": "#ore1->exists"
+        },
+        {
+            "type": "item",
+            "item": "#ore2",
+            "framed": false,
+            "x": 20,
+            "y": 10,
+            "guard": "#ore2->exists"
+
+        },
+        {
+            "type": "item",
+            "item": "#ore3",
+            "framed": false,
+            "x": 40,
+            "y": 10,
+            "guard": "#ore3->exists"
+        },
+        {
+            "type": "item",
+            "item": "#ore4",
+            "framed": false,
+            "x": 60,
+            "y": 10,
+            "guard": "#ore4->exists"
+        },
+        {
+            "type": "item",
+            "item": "#ore5",
+            "framed": false,
+            "x": 80,
+            "y": 10,
+            "guard": "#ore5->exists"
+        },
+        {
+            "type": "item",
+            "item": "#ore6",
+            "framed": false,
+            "x": 100,
+            "y": 10,
+            "guard": "#ore6->exists"
+        },
+
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 0,
+            "y": 10,
+            "guard": "#ore1None",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 20,
+            "y": 10,
+            "guard": "#ore2None",
+            "scale": 0.5
+
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 40,
+            "y": 10,
+            "guard": "#ore3None",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 60,
+            "y": 10,
+            "guard": "#ore4None",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 80,
+            "y": 10,
+            "guard": "#ore5None",
+            "scale": 0.5
+        },
+        {
+            "type": "image",
+            "image": "patchouli:textures/processing-none.png",
+            "width": 31,
+            "height": 31,
+            "texture_width": 32,
+            "texture_height": 32,
+            "x": 100,
+            "y": 10,
+            "guard": "#ore6None",
+            "scale": 0.5
+        },
+        {
+            "type": "text",
+            "text": "#ore1Pct",
+            "x": 3,
+            "y": 25
+        },
+        {
+            "type": "text",
+            "text": "#ore2Pct",
+            "x": 23,
+            "y": 25
+        },
+        {
+            "type": "text",
+            "text": "#ore3Pct",
+            "x": 43,
+            "y": 25
+        },
+        {
+            "type": "text",
+            "text": "#ore4Pct",
+            "x": 63,
+            "y": 25
+        },
+        {
+            "type": "text",
+            "text": "#ore5Pct",
+            "x": 83,
+            "y": 25
+        },
+        {
+            "type": "text",
+            "text": "#ore6Pct",
+            "x": 103,
+            "y": 25
+        }
+    ]
+}
