@@ -1,23 +1,24 @@
 {
   "weight": 90,
-  "priority": 100,
-  "density": 1.0,
+  "density": 1,
+  "max_height": 256,
   "min_height": 10,
-  "count_as_vein": false,
-
   "generator": {
     "type": "sphere",
-    "radius": [10, 20]
+    "radius": [
+      10,
+      20
+    ]
   },
   "filler": {
-    "type": "ignore_bedrock",
+    "type": "simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
-          "weight": 100,
+          "weight": "100",
           "value": {
-            "block": "gregtech:granite",
+            "value": "gregtech:granite",
             "variant": "black_granite",
             "chiseling_variant": "normal"
           }
