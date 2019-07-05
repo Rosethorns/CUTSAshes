@@ -48,6 +48,29 @@ const stoneClasses = {
     "sedimentary": ["limestone", "chalk", "shale", "siltstone", "lignite", "dolomite", "greywacke", "chert"]
 };
 
+const additionalOre = [
+    {
+        "predicate": "block:quark:elder_prismarine",
+        "variant": "quark:elder_prismarine"
+    },
+    {
+        "predicate": "block:earthworks:block_slate_green",
+        "variant": "earthworks:block_slate_green"
+    },
+    {
+        "predicate": "block:earthworks:block_slate",
+        "variant": "earthworks:block_slate"
+    },
+    {
+        "predicate": "block:earthworks:block_slate_purple",
+        "variant": "earthworks:block_slate_purple"
+    },
+    {
+        "predicate": "block:rustic:slate",
+        "variant": "rustic:slate"
+    }
+]
+
 // Mutate dim filler first:
 _.each(dims, (dim) => {
     const totalWeight = _.sum(_.values(dim.filler));
@@ -140,6 +163,32 @@ function genUndergroundBiomesDefs(ores) {
     fs.writeFileSync('ubGregtech.json', JSON.stringify(ubdefs, null, 2));
 }
 
+/**
+ * Adds ore variant to GTCE oregen structure
+ * @param {string} oreName The ore to add
+ * @param {string} idx The texture variant
+ * @param {string} variety Anything to append to the texture string
+ * @param {string} block The object to add it to
+ * @param {string} predicate The block predicate to use
+ * @param {string} mod Optional mod identifier
+ */
+function addOreVariant(oreName, idx, variety, block, predicate, mod) {
+    const mapping = contentTweaker.getGregtechOreMapping(oreName, idx, variety, mod);
+
+    if (!mapping) {
+        console.warn(`Missing Content Tweaker mapping for ${oreName} in ${idx}${variety}.`);
+        return;
+    }
+
+    block.value.values.push({
+        'predicate': predicate,
+        'value': {
+            'block': `contenttweaker:sub_block_holder_${mapping.block}`,
+            'sub_block_number': mapping.sub
+        }
+    });    
+}
+
 function genGregtechOregen() {
     _.each(oreNodes, (node) => {
         let output = _.cloneDeep(node);
@@ -186,16 +235,17 @@ function genGregtechOregen() {
                         _.each({'stone': null, 'gravel': 'gravel', 'sand': 'sand'}, (variety, dict) => {
                             _.each(stoneClasses, (types, stone) => {
                                 _.each(types, (idx) => {
-                                    const mapping = contentTweaker.getGregtechOreMapping(oreName, idx, variety);
-                                    block.value.values.push({
-                                        'predicate': `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(idx)}`,
-                                        'value': {
-                                            'block': `contenttweaker:sub_block_holder_${mapping.block}`,
-                                            'sub_block_number': mapping.sub
-                                        }
-                                    });
+                                    addOreVariant(
+                                        oreName, idx, variety, block, 
+                                        `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(idx)}`
+                                    );
                                 });
                             });
+                        });
+
+                        _.each(additionalOre, (ore) => {
+                            const [mod,variant] = ore.variant.split(':');
+                            addOreVariant(oreName, variant, '', block, ore.predicate, mod);
                         });
 
                         return block;
@@ -205,7 +255,7 @@ function genGregtechOregen() {
             },
         };
 
-        fs.writeFileSync(`worldgen/${node.dimension}/${node.name}.json`, JSON.stringify(output, null, 2));
+        fs.writeFileSync(`../config/gregtech/worldgen/${node.dimension}/${node.name}.json`, JSON.stringify(output, null, 2));
     });
 }
 
@@ -221,7 +271,7 @@ function genZenScripts() {
         });
     });
 
-    fs.writeFileSync(`scripts/GregtechUndergroundBiomesCompat.zs`, script);
+    fs.writeFileSync(`../scripts/GregtechUndergroundBiomesCompat.zs`, script);
 
     genPostOreScripts();
 }
@@ -260,7 +310,7 @@ function genPostOreScripts() {
                     });
                 });
 
-                fs.writeFileSync(`scripts/GregtechUndergroundBiomesJei${_.startCase(variety)}.zs`,
+                fs.writeFileSync(`../scripts/GregtechOreHidingJei${_.startCase(variety)}.zs`,
                     script.header + blocks.join(',\n') + script.footer
                 );
             });
@@ -275,5 +325,6 @@ module.exports = {
     genGregtechOregen: genGregtechOregen,
     genZenScripts: genZenScripts,
     genPostOreScripts: genPostOreScripts,
-    stoneClasses: stoneClasses
+    stoneClasses: stoneClasses,
+    additionalOre: additionalOre
 }

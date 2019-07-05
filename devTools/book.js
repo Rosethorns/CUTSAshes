@@ -111,7 +111,7 @@ function create() {
             entryDecorators[section](data, id);
             generateCrossRefs(id, data);
 
-            fs.writeFileSync(`./patchouli/${section}/${id}.json`, JSON.stringify(data, null, 2));
+            fs.writeFileSync(`../patchouli_books/gtce/en_us/entries/${section}/${id}.json`, JSON.stringify(data, null, 2));
         });
     });
 }

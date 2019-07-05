@@ -525,6 +525,41 @@
                   "block": "contenttweaker:sub_block_holder_341",
                   "sub_block_number": 4
                 }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_510",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_519",
+                  "sub_block_number": 1
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_521",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_534",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_524",
+                  "sub_block_number": 13
+                }
               }
             ]
           }
@@ -1038,6 +1073,41 @@
                   "block": "contenttweaker:sub_block_holder_385",
                   "sub_block_number": 7
                 }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_525",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_526",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_522",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_512",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_509",
+                  "sub_block_number": 9
+                }
               }
             ]
           }
@@ -1550,6 +1620,41 @@
                 "value": {
                   "block": "contenttweaker:sub_block_holder_486",
                   "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_509",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_508",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_511",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_534",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_524",
+                  "sub_block_number": 11
                 }
               }
             ]

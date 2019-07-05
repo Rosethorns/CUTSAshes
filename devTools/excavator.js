@@ -72,6 +72,7 @@ _.each(dims, (dim) => {
 });
 
 Promise.all([
+    // TODO: This needs to migrate to using oregen scripts
     new Promise((resolve) => {
         _.each(dims, (data, dir) => {
             const files = fs.readdirSync(`./worldgen/${dir}/`);
@@ -162,7 +163,7 @@ Promise.all([
         .value();
 
     _.each(oresByDim, (data, idx) => {
-        fs.writeFileSync(`./excavatorOut/Excavator${_.upperFirst(idx)}.zs`, _.flatMap([
+        fs.writeFileSync(`../scripts/Excavator${_.upperFirst(idx)}.zs`, _.flatMap([
             ['import crafttweaker.oredict.IOreDictEntry;','\n','// Ore dicts'],
             data.ores,
             ['\n', '// Filler ore dicts'],

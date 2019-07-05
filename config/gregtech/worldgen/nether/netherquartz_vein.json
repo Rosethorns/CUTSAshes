@@ -524,6 +524,41 @@
                   "block": "contenttweaker:sub_block_holder_195",
                   "sub_block_number": 7
                 }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_506",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_508",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_538",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_529",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_519",
+                  "sub_block_number": 14
+                }
               }
             ]
           }
