@@ -22,3 +22,7 @@
 /config/AppliedEnergistics2/VersionChecker.cfg
 /config/tellme/**
 /resources/contenttweaker/blockstates/materials/**
+
+# Include dev tools
+!/devTools/
+!/devTools/**
