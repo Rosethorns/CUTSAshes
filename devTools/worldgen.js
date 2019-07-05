@@ -276,6 +276,27 @@ function genZenScripts() {
     genPostOreScripts();
 }
 
+/**
+ * Adds ore variant to GTCE oregen structure
+ * @param {string} oreName The ore to add
+ * @param {string} idx The texture variant
+ * @param {string} variety Anything to append to the texture string
+ * @param {array} blocks The list of blocks to hide
+ * @param {string} mod Optional mod identifier
+ */
+function hideOreBlockInJei(oreName, idx, variety, blocks, mod) {
+    const mapping = contentTweaker.getGregtechOreMapping(oreName, idx, variety, mod);
+
+    if (!mapping) {
+        console.warn(`Missing Content Tweaker mapping for ${oreName} in ${idx}${variety}.`);
+        return;
+    }
+
+    blocks.push(
+        `    <contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}>`
+    );
+}
+
 function genPostOreScripts() {
     const script = {
         'header': 'import crafttweaker.item.IItemStack;\nvar ores = [\n',
@@ -294,14 +315,17 @@ function genPostOreScripts() {
                 _.each(ores, (ore) => {
                     if(!ore.Ore) return;
 
+                    blocks.push(`    // ------- ${ore.Ore} -------`);
                     _.each(stoneClasses, (types) => {
                         _.each(types, (idx) => {
-                            const mapping = contentTweaker.getGregtechOreMapping(ore.Ore, idx, variety);
-                            blocks.push( 
-                                `    <contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}>`
-                            );
+                            hideOreBlockInJei(ore.Ore, idx, variety, blocks);
                         });
                     });
+
+                    _.each(additionalOre, (extra) => {
+                        const [mod, variant] = extra.variant.split(':');
+                        hideOreBlockInJei(ore.Ore, variant, '', blocks, mod);
+                    })
 
                     _.each(_.range(1,14), (idx) => {
                         blocks.push( 
