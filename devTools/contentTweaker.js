@@ -8,7 +8,7 @@ let cachedOres;
 function parse() {
     return Promise.all([
         new Promise((resolve, reject) => {
-            fs.readFile('saved_sub_blocks_contenttweaker.json', (err, data) => {
+            fs.readFile('../config/acronym/saved/saved_sub_blocks_contenttweaker.json', (err, data) => {
                 if (err) {
                     console.log(`Unable to read ${saved_sub_blocks_contenttweaker.json}`, err);
                     reject(err);
@@ -32,12 +32,13 @@ function parse() {
     });
 }
 
-function getGregtechOreMapping(oreName, stoneName, variety) {
+function getGregtechOreMapping(oreName, stoneName, variety, mod) {
     variety = variety ? '_' + variety : '';
+    mod = mod || 'undergroundbiomes';
 
     let name = _.snakeCase(_.find(cachedOres, (o) => o.Ore === oreName).Names.split(',')[0].replace(/-/m,'')).replace(/_(?=[0-9])/,'');
 
-    return mappings[`${name}_ore_undergroundbiomes_${stoneName}${variety}`];
+    return mappings[`${name}_ore_${mod}_${stoneName}${variety}`];
 }
 
 module.exports = {

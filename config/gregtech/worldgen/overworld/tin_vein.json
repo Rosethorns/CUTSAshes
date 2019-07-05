@@ -525,6 +525,41 @@
                   "block": "contenttweaker:sub_block_holder_486",
                   "sub_block_number": 13
                 }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_537",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_523",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_508",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_519",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_513",
+                  "sub_block_number": 15
+                }
               }
             ]
           }
@@ -1036,6 +1071,41 @@
                 "predicate": "ore_dict:sandSedimentaryChert",
                 "value": {
                   "block": "contenttweaker:sub_block_holder_312",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_539",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_511",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_516",
+                  "sub_block_number": 3
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_517",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_507",
                   "sub_block_number": 13
                 }
               }

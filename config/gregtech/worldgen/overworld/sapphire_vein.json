@@ -524,6 +524,41 @@
                   "block": "contenttweaker:sub_block_holder_188",
                   "sub_block_number": 5
                 }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_516",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_507",
+                  "sub_block_number": 15
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_528",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_525",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_508",
+                  "sub_block_number": 9
+                }
               }
             ]
           }
@@ -1035,6 +1070,41 @@
                 "predicate": "ore_dict:sandSedimentaryChert",
                 "value": {
                   "block": "contenttweaker:sub_block_holder_427",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_516",
+                  "sub_block_number": 9
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_530",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_527",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_515",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_535",
                   "sub_block_number": 2
                 }
               }
@@ -1550,6 +1620,41 @@
                   "block": "contenttweaker:sub_block_holder_369",
                   "sub_block_number": 3
                 }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_531",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_538",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_514",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_513",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_511",
+                  "sub_block_number": 9
+                }
               }
             ]
           }
@@ -2062,6 +2167,41 @@
                 "value": {
                   "block": "contenttweaker:sub_block_holder_342",
                   "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_513",
+                  "sub_block_number": 5
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_527",
+                  "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_508",
+                  "sub_block_number": 12
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_510",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_517",
+                  "sub_block_number": 13
                 }
               }
             ]

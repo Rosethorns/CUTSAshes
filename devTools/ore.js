@@ -473,16 +473,21 @@ function parse(file) {
             _.each(names, (n) => book.crossReference.ores[n] = row.Ore);
         };
 
-        const stoneVariants = _.flatMap(worldgen.stoneClasses, (types) => 
-            _.flatMap(types, (t) => [
-                `undergroundbiomes:${t}`,
-                `undergroundbiomes:${t}_sand`,
-                `undergroundbiomes:${t}_gravel`
-            ])
-        ).join(',');
+        const stoneVariants = _
+            .chain(worldgen.stoneClasses)
+            .flatMap((types) => 
+                _.flatMap(types, (t) => [
+                    `undergroundbiomes:${t}`,
+                    `undergroundbiomes:${t}_sand`,
+                    `undergroundbiomes:${t}_gravel`
+                ])
+            )
+            .union(_.map(worldgen.additionalOre, (t) => t.variant))
+            .join(',')
+            .value();
 
         fs.writeFileSync(
-            `scripts/ContentTweakerGregtechOreMaterials.zs`,
+            `../scripts/ContentTweakerGregtechOreMaterials.zs`,
             _.flatten(
                 [
                     '#priorty 9999',

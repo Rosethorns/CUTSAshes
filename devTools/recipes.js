@@ -160,7 +160,7 @@ function extractGregtechRecycling(res) {
 
         // Produce the scrap portions:
         r.displayName = items[r.output] || 'Random parts';
-        fs.writeFileSync(`./scrap/${r.tablename}.json`, JSON.stringify(table, null, 2));
+        fs.writeFileSync(`../config/scrap/${r.tablename}.json`, JSON.stringify(table, null, 2));
     });
     zenscript += `val tablenames = ["${_.map(res, (r) => r.tablename).join('", "')}"] as string[];\n` +
         `val names = ["${_.map(res, (r) => r.displayName).join('", "')}"] as string[];\n` +
@@ -171,7 +171,7 @@ function extractGregtechRecycling(res) {
         `       [item, <immersiveengineering:tool:0>.reuse()]);\n` +
         // Using IE hammer because CT gets along _so great_ with GTCE tools https://github.com/CraftTweaker/CraftTweaker/issues/723
         `}`;
-    fs.writeFileSync('GregtechRecycling.zs', zenscript);
+    fs.writeFileSync('../scripts/GregtechRecycling.zs', zenscript);
 }
 
 /**
