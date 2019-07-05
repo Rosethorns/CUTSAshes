@@ -31,7 +31,7 @@ recipes.remove(<appliedenergistics2:material:5>);
 Inscriber.removeRecipe(<appliedenergistics2:material:20>);
 Inscriber.removeRecipe(<appliedenergistics2:material:19>);
 
-
+//Hide from JEI
 mods.jei.JEI.hide(<appliedenergistics2:grindstone>);
 mods.jei.JEI.hide(<appliedenergistics2:crank>);
 mods.jei.JEI.hide(<appliedenergistics2:vibration_chamber>);
