@@ -33,3 +33,6 @@ plateNetherQuartz.register();
 
 var wireQuartzFiber = VanillaFactory.createItem("wire_quartz_fiber");
 wireQuartzFiber.register();
+
+var plateToughAlloy = VanillaFactory.createItem("plate_tough_alloy");
+plateToughAlloy.register();
