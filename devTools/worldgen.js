@@ -5,6 +5,7 @@ const _ = require('lodash');
 const oreDictionary = require('./oreDictionary');
 const contentTweaker = require('./contentTweaker');
 const oreParser = require('./oreParser');
+const util = require('./util');
 
 const dims = {
     'nether': {
@@ -80,6 +81,8 @@ const additionalOre = [
         "variant": "quark:fire_stone"
     }
 ]
+
+const items = [];
 
 // Mutate dim filler first:
 _.each(dims, (dim) => {
@@ -158,6 +161,18 @@ function parse() {
                     })
                 })
                 .on('end', () => resolve(oreNodes));
+        }),
+        new Promise((resolve) => {
+            fs
+                .createReadStream('items.csv')
+                .pipe(csv())
+                .on('data', (data) => {
+                    // Get display names for everything:
+                    items[`${data["Registry name"]}:${data["Meta/dmg"]}`] = data["Display name"];
+                })
+                .on('end', () => {
+                    resolve();
+                });
         })
     ]
     );
@@ -247,7 +262,9 @@ function genGregtechOregen() {
                             }
                         }
 
-                        const oreName = _.upperFirst(_.camelCase(f.ore.substr(4)));
+                        let oreName = f.ore;
+                        if (oreName.startsWith("ore:")) oreName = util.pascalCase(oreName.substr(4));
+                        else if(oreName.startsWith("ore_dict:")) oreName = util.pascalCase(oreName.substr(12));
 
                         let oreItem = oreDictionary.resolveOredict(`ore${oreName}`);
                         if (!oreItem) {
@@ -354,8 +371,12 @@ function genPostOreScripts() {
                     })
 
                     _.each(_.range(1,14), (idx) => {
+                        let itemId = `gregtech:ore_${_.snakeCase(ore.Ore).replace(/_(?=[0-9])/,'')}_0:${idx}`;
+
+                        if (!items[itemId]) return;
+
                         blocks.push( 
-                            `    <gregtech:ore_${_.snakeCase(ore.Ore).replace(/_(?=[0-9])/,'')}_0:${idx}>`
+                            `    <${itemId}>`
                         );
                     });
                 });
