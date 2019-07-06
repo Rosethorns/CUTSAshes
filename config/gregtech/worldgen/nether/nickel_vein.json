@@ -11,6 +11,26 @@
       9
     ]
   },
+  "generation_predicate": [
+    "ore_dict:stone",
+    "ore_dict:gravel",
+    "ore_dict:sand",
+    "ore_dict:sandstone",
+    "block:undergroundbiomes:igneous_stone",
+    "block:undergroundbiomes:metamorphic_stone",
+    "block:undergroundbiomes:sedimentary_stone",
+    "block:undergroundbiomes:igneous_gravel",
+    "block:undergroundbiomes:metamorphic_gravel",
+    "block:undergroundbiomes:sedimentary_gravel",
+    "block:undergroundbiomes:igneous_sand",
+    "block:undergroundbiomes:metamorphic_sand",
+    "block:undergroundbiomes:sedimentary_sand",
+    "block:quark:elder_prismarine",
+    "block:earthworks:block_slate_green",
+    "block:earthworks:block_slate",
+    "block:earthworks:block_slate_purple",
+    "block:rustic:slate"
+  ],
   "filler": {
     "type": "simple",
     "value": {

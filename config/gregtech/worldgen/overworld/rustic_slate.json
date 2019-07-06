@@ -1,0 +1,39 @@
+{
+    "priority": 1000,
+    "weight": 90,
+    "density": 1,
+    "max_height": 256,
+    "min_height": 10,
+    "generator": {
+      "type": "plate",
+      "length": {
+          "min": 5,
+          "max": 30
+      },
+      "depth": {
+          "min": 5,
+          "max": 30
+      },
+      "height": {
+          "min": 2,
+          "max": 10
+      }
+    },
+    "generation_predicate": [
+      "block:undergroundbiomes:igneous_stone",
+      "block:undergroundbiomes:metamorphic_stone",
+      "block:undergroundbiomes:sedimentary_stone"
+    ],
+    "filler": {
+      "type": "simple",
+      "value": {
+        "type": "weight_random",
+        "values": [
+          {
+            "weight": "100",
+            "value": "block:rustic:slate"
+          }
+        ]
+      }
+    }
+  }
