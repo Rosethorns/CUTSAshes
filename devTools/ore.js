@@ -228,7 +228,6 @@ function parseCentrifuged() {
 }
 
 function parse(file) {
-    let output = [];
     let scannable = '';
 
     const pathmap = {
@@ -311,7 +310,6 @@ function parse(file) {
             return _.sortBy(node, (n) => n.weight + dimAdjusts[n.dimension]).reverse();
         });
 
-        let oreIdx = 0;
         for (row of rawOres) {
             if(!row.Ore) continue;
             ores.push(row);
@@ -336,141 +334,9 @@ function parse(file) {
             const name = _.first(names);
 
             // Add the book entry:
-            const entry = {
-                "name": name,
-                "category": "ores",
-                "pages": [
-                    {
-                        "type": "ore_overview",
-                        "title": name,
-                        "abbreviation": row.Symbol,
-                        "link": row.Link,
-                        "source": row.Source || 'Wikipedia',
-                        "scan": `$(#${row.Color.substr(2)})█$() ${row.Rarity}`
-                    },
-                    {
-                        "type": "ore_found_in"
-                    }
-                ]
-            };
-
-            entry.pages[0].precautions = listPrecautions(row).join('$(br)');
-
-            // Prep the list of ore veins:
-            let entryIdx = 1;
-            _
-                .chain(worldgenNodesByOre[row.Ore])
-                .take(4)
-                .each((node) => {
-                    const oreNodeEntry = {};
-                    oreNodeEntry[`title_p${entryIdx}`] = _.startCase(node.name);
-
-                    oreNodeEntry[`yRange_p${entryIdx}`] = 
-                        (node.max_height && node.min_height)
-                            ? `${node.min_height}-${node.max_height}`
-                            : node.max_height
-                                ? `Below ${node.max_height}`
-                                : `Above ${node.min_height}`
-
-                    const dimOre = 
-                        node.dimension === 'end' 
-                            ? 7
-                            : node.dimension === 'nether'
-                                ? 6
-                                : 0;
-                    const weightTotal = _.sumBy(node.filler, (n) => n.weight);
-                    for (oreIdx = 0; oreIdx < 6; oreIdx++) {
-                        if (!node.filler[oreIdx]) {
-                            oreNodeEntry[`ore${oreIdx+1}None_p${entryIdx}`] = true;
-                            continue;
-                        }
-
-                        oreNodeEntry[`ore${oreIdx+1}_p${entryIdx}`] = `gregtech:ore_${node.filler[oreIdx].ore}_0:${dimOre}`;
-                        oreNodeEntry[`ore${oreIdx+1}Pct_p${entryIdx}`] = `${_.round((node.filler[oreIdx].weight/weightTotal)*100)}%`;
-                    }
-
-                    _.merge(entry.pages[1], oreNodeEntry);
-                    entryIdx++;
-                })
-                .commit();
-
-            // List out the various processes:
-            _.each(pathmap, (dict, path) => {
-                const subprocess = path === '' ? row : _.get(row, path);
-
-                subprocess.processes = [];
-                _.each(processors, (p, idx) => {
-                    if (!subprocess[idx]) return;
-
-                    const process = {
-                        'title': idx,
-                        'machine': p.machine,
-                        'processLink': `processes/${idx}`
-                    };
-
-                    subprocess[_.camelCase(idx)]
-                        = subprocess.processes[_.camelCase(idx)]
-                        = _.defaults(process, p.processor(subprocess[idx], row.Ore, dict+row.Ore));
-                });
-            });
-
-            const leftPage = {
-                "type": "ore_process_overview_left",
-                "input": `ore:ore${row.Ore}`
-            };
-
-            const rightPage = {
-                "type": "ore_process_overview_right"
+            if (!row["Hide Entry"]) {
+                generateBookEntry(row, name, worldgenNodesByOre, pathmap, names);
             }
-
-            const extraKeys = {
-                '_fluid': ['fluid[0]', 'inputFluid[0]'],
-                '_outputFluid': ['outputFluid[0]'],
-                '_input': ['extraInputs[0]']
-            }
-
-            _.each(tiers, (machines, tier) => {
-                const page = tier <= 2 ? leftPage : rightPage;
-
-                _.each(machines, (machine) => {
-                    const data = _.get(row, machine);
-                    if (!data) return;
-
-                    const keyBase = `tier${tier}_${machine.replace('.','_')}`;
-                    page[keyBase] = data.machine;
-
-                    // Add all the outputs:
-                    _.each(data.outputs, (o, i) => page[`${keyBase}_${i+1}`] = stringifyItem(o));
-                    if (data.voltage) page[`${keyBase}_voltage`] = data.voltage;
-
-                    // Add in extra keys:
-                    _.each(extraKeys, (keys, suffix) => {
-                        const item = _.find(keys, (k) => _.get(data, k));
-                        if (!item) return;
-                        page[`${keyBase}${suffix}`] = stringifyItem(_.get(data, item));
-                    });
-                });
-            });
-
-            // Copy these keys specifically for the background:
-            _.each([
-                'tier3_purified_sifter',
-                'tier3_impureDust_smelter',
-                'tier4_pureDust_electromagneticSeparator',
-                'tier4_pureDust_smelter'
-            ], (k) => leftPage[k] = rightPage[k]);
-
-            leftPage[`chemreactor_30v`] = leftPage['tier1_purified_chemicalReactor_voltage'] == '30'
-            leftPage[`chemreactor_150v`] = leftPage['tier1_purified_chemicalReactor_voltage'] == '150'
-
-            entry.pages.push(leftPage);
-            entry.pages.push(rightPage);
-
-            buildProcessPages( _.values(row.processes), row, entry);
-            book.paginateDescription(row.Desc || 'TBD', entry);
-
-            book.ores[row.Ore] = entry;
-            _.each(names, (n) => book.crossReference.ores[n] = row.Ore);
         };
 
         const stoneVariants = _
@@ -550,3 +416,145 @@ function parse(file) {
 module.exports = {
     parse: parse
 };
+
+/**
+ * Deals with the heavy lifting of generating the book
+ * @param {object} row The row to process
+ * @param {string} name Ore name
+ * @param {object} worldgenNodesByOre List of worldgen ores
+ * @param {object} pathmap The process map
+ * @param {array} names Split list of names for the ore
+ */
+function generateBookEntry(row, name, worldgenNodesByOre, pathmap, names) {
+    const entry = {
+        "name": name,
+        "category": "ores",
+        "pages": [
+            {
+                "type": "ore_overview",
+                "title": name,
+                "abbreviation": row.Symbol,
+                "link": row.Link,
+                "source": row.Source || 'Wikipedia',
+                "scan": `$(#${row.Color.substr(2)})█$() ${row.Rarity}`
+            },
+            {
+                "type": "ore_found_in"
+            }
+        ]
+    };
+
+    entry.pages[0].precautions = listPrecautions(row).join('$(br)');
+
+    // Prep the list of ore veins:
+    let entryIdx = 1;
+    _
+        .chain(worldgenNodesByOre[row.Ore])
+        .take(4)
+        .each((node) => {
+            const oreNodeEntry = {};
+            oreNodeEntry[`title_p${entryIdx}`] = _.startCase(node.name);
+            oreNodeEntry[`yRange_p${entryIdx}`] =
+                (node.max_height && node.min_height)
+                    ? `${node.min_height}-${node.max_height}`
+                    : node.max_height
+                        ? `Below ${node.max_height}`
+                        : `Above ${node.min_height}`;
+
+            const dimOre = node.dimension === 'end'
+                ? 7
+                : node.dimension === 'nether'
+                    ? 6
+                    : 0;
+
+            const weightTotal = _.sumBy(node.filler, (n) => n.weight);
+            for (let oreIdx = 0; oreIdx < 6; oreIdx++) {
+                if (!node.filler[oreIdx]) {
+                    oreNodeEntry[`ore${oreIdx + 1}None_p${entryIdx}`] = true;
+                    continue;
+                }
+                oreNodeEntry[`ore${oreIdx + 1}_p${entryIdx}`] = `gregtech:ore_${node.filler[oreIdx].ore}_0:${dimOre}`;
+                oreNodeEntry[`ore${oreIdx + 1}Pct_p${entryIdx}`] = `${_.round((node.filler[oreIdx].weight / weightTotal) * 100)}%`;
+            }
+
+            _.merge(entry.pages[1], oreNodeEntry);
+            entryIdx++;
+        })
+        .commit();
+
+    // List out the various processes:
+    _.each(pathmap, (dict, path) => {
+        const subprocess = path === '' ? row : _.get(row, path);
+        subprocess.processes = [];
+        _.each(processors, (p, idx) => {
+            if (!subprocess[idx])
+                return;
+            const process = {
+                'title': idx,
+                'machine': p.machine,
+                'processLink': `processes/${idx}`
+            };
+            subprocess[_.camelCase(idx)]
+                = subprocess.processes[_.camelCase(idx)]
+                = _.defaults(process, p.processor(subprocess[idx], row.Ore, dict + row.Ore));
+        });
+    });
+
+    const leftPage = {
+        "type": "ore_process_overview_left",
+        "input": `ore:ore${row.Ore}`
+    };
+    const rightPage = {
+        "type": "ore_process_overview_right"
+    };
+
+    const extraKeys = {
+        '_fluid': ['fluid[0]', 'inputFluid[0]'],
+        '_outputFluid': ['outputFluid[0]'],
+        '_input': ['extraInputs[0]']
+    };
+
+    _.each(tiers, (machines, tier) => {
+        const page = tier <= 2 ? leftPage : rightPage;
+        _.each(machines, (machine) => {
+            const data = _.get(row, machine);
+            if (!data)
+                return;
+            const keyBase = `tier${tier}_${machine.replace('.', '_')}`;
+            page[keyBase] = data.machine;
+            // Add all the outputs:
+            _.each(data.outputs, (o, i) => page[`${keyBase}_${i + 1}`] = stringifyItem(o));
+            if (data.voltage)
+                page[`${keyBase}_voltage`] = data.voltage;
+            // Add in extra keys:
+            _.each(extraKeys, (keys, suffix) => {
+                const item = _.find(keys, (k) => _.get(data, k));
+                if (!item)
+                    return;
+                page[`${keyBase}${suffix}`] = stringifyItem(_.get(data, item));
+            });
+        });
+    });
+
+    // Copy these keys specifically for the background:
+    _.each([
+        'tier3_purified_sifter',
+        'tier3_impureDust_smelter',
+        'tier4_pureDust_electromagneticSeparator',
+        'tier4_pureDust_smelter'
+    ], (k) => leftPage[k] = rightPage[k]);
+
+    leftPage[`chemreactor_30v`] = leftPage['tier1_purified_chemicalReactor_voltage'] == '30';
+    leftPage[`chemreactor_150v`] = leftPage['tier1_purified_chemicalReactor_voltage'] == '150';
+
+    entry.pages.push(leftPage);
+    entry.pages.push(rightPage);
+
+    buildProcessPages(_.values(row.processes), row, entry);
+
+    book.paginateDescription(row.Desc || 'TBD', entry);
+    book.ores[row.Ore] = entry;
+
+    _.each(names, (n) => book.crossReference.ores[n] = row.Ore);
+}
+
