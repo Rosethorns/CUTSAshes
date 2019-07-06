@@ -118,7 +118,8 @@ global OREDEFS as Material[string] = {
     "Salt": MaterialSystem.getMaterialBuilder().setName("Salt").setColor(10197915).build(),
     "YellowLimonite": MaterialSystem.getMaterialBuilder().setName("Yellow Limonite").setColor(13880211).build(),
     "CertusQuartz": MaterialSystem.getMaterialBuilder().setName("Certus Quartz").setColor(12237498).build(),
-    "Stibnite": MaterialSystem.getMaterialBuilder().setName("Stibnite").setColor(4144959).build()
+    "Stibnite": MaterialSystem.getMaterialBuilder().setName("Stibnite").setColor(4144959).build(),
+    "Amber": MaterialSystem.getMaterialBuilder().setName("Amber").setColor(16750866).build()
 };
 
 function addMaterialOre (mat as Material, key as string) {

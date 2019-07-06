@@ -339,6 +339,7 @@ function parse(file) {
             }
         };
 
+        // Create the new ConT ores
         const stoneVariants = _
             .chain(worldgen.stoneClasses)
             .flatMap((types) => 
@@ -398,11 +399,6 @@ function parse(file) {
                     '}'
                 ]
             ).join('\n')
-        );
-
-        fs.writeFileSync(
-            'contentTweaker_lang.txt',
-            _.map(conTweaker, (v, k) => `tile.contenttweaker.${k}.name=${v.name}`).join('\n')
         );
 
         return {
