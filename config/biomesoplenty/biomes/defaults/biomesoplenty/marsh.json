@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 5.0,
-  "variationAbove": 3.0,
+  "variationBelow": 5,
+  "variationAbove": 3,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -18,7 +18,7 @@
       "variant": "loamy"
     }
   },
-  "averageHeight": 62.0,
+  "averageHeight": 62,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -64,7 +64,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 20.0,
+      "amountPerChunk": 20,
       "enable": true,
       "generators": {}
     },
@@ -77,7 +77,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 10.0,
+      "amountPerChunk": 10,
       "enable": true
     },
     "roots": {
@@ -88,7 +88,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "lakes": {
@@ -120,9 +120,9 @@
           "variant": "malachite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "water_reeds": {
       "with": {

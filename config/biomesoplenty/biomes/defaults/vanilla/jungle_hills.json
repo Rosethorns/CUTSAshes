@@ -51,7 +51,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 5,
       "enable": true,
       "generators": {}
     },
@@ -63,9 +63,9 @@
           "variant": "topaz"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "roots": {
       "with": {
@@ -75,7 +75,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "sprouts": {

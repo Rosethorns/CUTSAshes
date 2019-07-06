@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 6.0,
-  "variationAbove": 3.0,
+  "variationBelow": 6,
+  "variationAbove": 3,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -18,7 +18,7 @@
       "variant": "loamy"
     }
   },
-  "averageHeight": 63.0,
+  "averageHeight": 63,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -88,7 +88,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "malachite": {
@@ -99,9 +99,9 @@
           "variant": "malachite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "mud": {
       "with": {
@@ -111,7 +111,7 @@
         }
       },
       "maxRadius": 7,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 8,
       "enable": true
     },
     "trees": {
@@ -137,7 +137,7 @@
           "variant": "mud"
         }
       },
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true,
       "splotchSize": 12
     },

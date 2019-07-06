@@ -2,10 +2,10 @@
   "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 10.0,
-  "variationAbove": 20.0,
+  "variationBelow": 10,
+  "variationAbove": 20,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 64.0,
+  "averageHeight": 64,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -86,11 +86,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 10.0,
+      "amountPerChunk": 10,
       "enable": true,
       "generators": {}
     },
@@ -117,7 +117,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 6,
       "enable": true,
       "generators": {}
     },
@@ -149,9 +149,9 @@
           "variant": "topaz"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "tiny_lily": {
       "with": {

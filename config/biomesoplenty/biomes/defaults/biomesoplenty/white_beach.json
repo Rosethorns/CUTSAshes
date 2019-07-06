@@ -2,10 +2,10 @@
   "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": 507391,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": false,
-  "variationBelow": 1.0,
-  "variationAbove": 1.0,
+  "variationBelow": 1,
+  "variationAbove": 1,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -17,7 +17,7 @@
     "block": "biomesoplenty:white_sand",
     "properties": {}
   },
-  "averageHeight": 64.0,
+  "averageHeight": 64,
   "topBlock": {
     "block": "biomesoplenty:white_sand",
     "properties": {}
@@ -56,7 +56,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     }
   },

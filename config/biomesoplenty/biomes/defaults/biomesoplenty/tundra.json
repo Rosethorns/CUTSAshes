@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 5.0,
-  "variationAbove": 10.0,
+  "variationBelow": 5,
+  "variationAbove": 10,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "silty"
     }
   },
-  "averageHeight": 64.0,
+  "averageHeight": 64,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -49,7 +49,7 @@
         "properties": {}
       },
       "maxRadius": 7,
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "enable": true
     },
     "miners_delight": {
@@ -97,7 +97,7 @@
       "amountPerChunk": 0.15,
       "enable": true,
       "radiusFalloff": 0.5,
-      "innerRadius": 1.0
+      "innerRadius": 1
     },
     "roots": {
       "with": {
@@ -107,7 +107,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "lakes": {
@@ -132,7 +132,7 @@
       }
     },
     "trees": {
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true,
       "generators": {}
     },
@@ -155,9 +155,9 @@
           "variant": "tanzanite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {

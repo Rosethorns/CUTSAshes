@@ -13,7 +13,7 @@
     "properties": {}
   },
   "fogColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "roofTopBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
@@ -40,7 +40,7 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 6,
       "enable": true,
       "grassBorderWith": {
         "block": "minecraft:grass",
@@ -58,7 +58,7 @@
         }
       },
       "generationAttempts": 16,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",

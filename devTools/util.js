@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const oredicts = require('./oreDictionary').oredicts;
+const fs = require('fs');
 
 function createColorblindConfig(name, symbol, dict) {
     const item = {
@@ -26,8 +26,17 @@ const metricConvs = {
     'p': Math.pow(10,-12)
 };
 
+function getFilesIn(dir) {
+    return new Promise((resolve, reject) => {
+        fs.readdir(dir, (err, files) => {
+            err && reject(err) || resolve(files);
+          });
+    });
+}
+
 module.exports = {
     createColorblindConfig: createColorblindConfig,
     metricConvs: metricConvs,
-    pascalCase: (input) => _.upperFirst(_.camelCase(input))
+    pascalCase: (input) => _.upperFirst(_.camelCase(input)),
+    getFilesIn: getFilesIn
 };

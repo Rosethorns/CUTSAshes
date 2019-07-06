@@ -3,8 +3,8 @@
   "skyColor": -1,
   "fogDensity": 0.5,
   "hasBiomeEssence": true,
-  "variationBelow": 1.0,
-  "variationAbove": 5.0,
+  "variationBelow": 1,
+  "variationAbove": 5,
   "seaFloorBlock": {
     "block": "biomesoplenty:dried_sand",
     "properties": {}
@@ -13,7 +13,7 @@
     "block": "biomesoplenty:dried_sand",
     "properties": {}
   },
-  "averageHeight": 66.0,
+  "averageHeight": 66,
   "topBlock": {
     "block": "biomesoplenty:dried_sand",
     "properties": {}
@@ -57,7 +57,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true
     },
     "poison_lakes": {
@@ -84,7 +84,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "lakes": {
@@ -129,9 +129,9 @@
           "variant": "ruby"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {

@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "biomesoplenty:origin_beach",
   "skyColor": 8441086,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 6.0,
-  "variationAbove": 25.0,
+  "variationBelow": 6,
+  "variationAbove": 25,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 64.0,
+  "averageHeight": 64,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -67,7 +67,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "trees": {
@@ -79,11 +79,11 @@
           "variant": "oak"
         }
       },
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 5,
       "maxHeight": 8,
       "enable": true,
       "updateNeighbours": false,
-      "hangingChance": 0.0,
+      "hangingChance": 0,
       "leavesState": {
         "block": "biomesoplenty:leaves_2",
         "properties": {

@@ -388,6 +388,67 @@ function genPostOreScripts() {
         });
 }
 
+function updateBiomeDefs() {
+    const configRoot = "../config/biomesoplenty/biomes/defaults";
+    const generators = {
+        // Gems:
+        "ruby": {'enable': false},
+        "amber": {'enable': false},
+        "tanzanite": {'enable': false},
+        "peridot": {'enable': false},
+        "topaz": {'enable': false},
+        "sapphire": {'enable': false},
+        "malachite": {'enable': false},
+        "ruby": {'enable': false},
+
+        // Hazards:
+        "poison_lakes": {},
+        "poison_ivy": {},
+        "quicksand": (biome, name) => (name.startsWith('desert') ? {'enable': false} : {}),
+        "thorns": {},
+        "bramble": {},
+
+        // Features:
+        "barley": {'enable': false},
+        "berry_bushes": {'enable': false},
+        "biome_essence": {'enable': false},
+        "blue_milk_caps": {},
+        "bushes": {},
+        "cattail": {},
+        "flax": {},
+    };
+
+    return Promise.all([
+        util.getFilesIn(`${configRoot}/vanilla`),
+        util.getFilesIn(`${configRoot}/biomesoplenty`)
+    ]).then(([vanilla, bop]) => {
+        const configs = {
+            'vanilla': vanilla,
+            'biomesoplenty': bop
+        };
+
+        _.each(configs, (files, dir) => {
+            _.each(files, (file) => {
+                let fileName = `${configRoot}/${dir}/${file}`;
+                const biomeDef = JSON.parse(fs.readFileSync(fileName));
+
+                _.each(biomeDef.generators, (gen, name) => {
+                    if (!generators[name]) return;
+
+                    _.merge(gen,
+                        _.isFunction(generators[name])
+                            ? generators[name](biomeDef, file)
+                            : generators[name]
+                    );
+                });
+
+                console.log(`Updating biome definition for ${dir} biome: ${file}...`);
+                fs.writeFileSync(fileName, JSON.stringify(biomeDef, null, 2));
+            })
+        });
+    });
+}
+
 module.exports = {
     dimensionConfig: dims,
     parse: parse,
@@ -397,5 +458,6 @@ module.exports = {
     genZenScripts: genZenScripts,
     genPostOreScripts: genPostOreScripts,
     stoneClasses: stoneClasses,
-    additionalOre: additionalOre
+    additionalOre: additionalOre,
+    updateBiomeDefs: updateBiomeDefs
 }

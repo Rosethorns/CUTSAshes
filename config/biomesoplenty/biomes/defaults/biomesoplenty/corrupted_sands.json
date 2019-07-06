@@ -13,7 +13,7 @@
     "properties": {}
   },
   "fogColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "roofTopBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
@@ -41,7 +41,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true
     },
     "dead_grass": {
@@ -52,7 +52,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 5,
       "enable": true
     },
     "bramble": {
@@ -68,7 +68,7 @@
         }
       },
       "generationAttempts": 128,
-      "amountPerChunk": 40.0,
+      "amountPerChunk": 40,
       "maxHeight": 6,
       "enable": true,
       "minLength": 15,

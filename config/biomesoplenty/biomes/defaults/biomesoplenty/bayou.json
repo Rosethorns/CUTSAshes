@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 6.0,
-  "variationAbove": 3.0,
+  "variationBelow": 6,
+  "variationAbove": 3,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -18,7 +18,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 62.0,
+  "averageHeight": 62,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -48,7 +48,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 6,
       "enable": true
     },
     "miners_delight": {
@@ -70,7 +70,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 2,
       "enable": true
     },
     "brown_mushrooms": {
@@ -91,7 +91,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "roots": {
@@ -102,7 +102,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "malachite": {
@@ -113,12 +113,12 @@
           "variant": "malachite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "trees": {
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 8,
       "enable": true,
       "generators": {}
     },
@@ -175,13 +175,13 @@
         }
       },
       "generationAttempts": 24,
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "maxHeight": 3,
       "enable": true,
       "randomDirection": false
     },
     "grass": {
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 2,
       "enable": true,
       "generators": {}
     },
@@ -214,7 +214,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 8,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",
@@ -252,7 +252,7 @@
         }
       },
       "maxRadius": 3,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true
     },
     "flat_mushroom": {

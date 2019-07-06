@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 50.0,
-  "variationAbove": 50.0,
+  "variationBelow": 50,
+  "variationAbove": 50,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -16,7 +16,7 @@
     "block": "biomesoplenty:ash_block",
     "properties": {}
   },
-  "averageHeight": 120.0,
+  "averageHeight": 120,
   "topBlock": {
     "block": "biomesoplenty:ash_block",
     "properties": {}
@@ -71,7 +71,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "lava_flows": {
@@ -93,9 +93,9 @@
           "variant": "ruby"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {}

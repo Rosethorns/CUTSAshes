@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": false,
-  "variationBelow": 4.0,
-  "variationAbove": 10.0,
+  "variationBelow": 4,
+  "variationAbove": 10,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 70.0,
+  "averageHeight": 70,
   "topBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -86,7 +86,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true,
       "generators": {}
     },
@@ -98,9 +98,9 @@
           "variant": "amber"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "roots": {
       "with": {
@@ -110,7 +110,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "sprouts": {
@@ -134,7 +134,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 8,
       "enable": true,
       "generators": {}
     }
