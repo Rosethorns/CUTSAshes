@@ -104,6 +104,21 @@ function parse() {
                             "type": data.generator_type,
                             "radius": JSON.parse(data.generator_radius)
                         },
+                        "generation_predicate": _.union([
+                            "ore_dict:stone",
+                            "ore_dict:gravel",
+                            "ore_dict:sand",
+                            "ore_dict:sandstone",
+                            "block:undergroundbiomes:igneous_stone",
+                            "block:undergroundbiomes:metamorphic_stone",
+                            "block:undergroundbiomes:sedimentary_stone",
+                            "block:undergroundbiomes:igneous_gravel",
+                            "block:undergroundbiomes:metamorphic_gravel",
+                            "block:undergroundbiomes:sedimentary_gravel",
+                            "block:undergroundbiomes:igneous_sand",
+                            "block:undergroundbiomes:metamorphic_sand",
+                            "block:undergroundbiomes:sedimentary_sand"
+                        ], _.map(additionalOre, (o) => o.predicate)),
                         "filler": _
                             .chain(data.filler)
                             .split(',')
