@@ -19,3 +19,11 @@ Crucible.registerRecipe(
     <ore:oreCinnabar>,
     [<aspect:metallum> * 5, <aspect:ordo> * 5]
 );
+
+
+
+/*
+*   Amber ore
+*/
+furnace.remove(<thaumcraft:amber>);
+furnace.addRecipe(<thaumcraft:amber>, <ore:oreAmber>, 1.0);
