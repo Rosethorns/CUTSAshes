@@ -2287,5 +2287,8 @@
         }
       ]
     }
-  }
+  },
+  "dimension_filter": [
+    "name:the_end"
+  ]
 }

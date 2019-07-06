@@ -601,5 +601,8 @@
         }
       ]
     }
-  }
+  },
+  "dimension_filter": [
+    "is_nether"
+  ]
 }

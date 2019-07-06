@@ -16,7 +16,8 @@ const dims = {
             'minecraft:gravel': 7,
             'minecraft:glowstone': 1,
             'minecraft:magma': 2
-        }
+        },
+        'predicate': ["is_nether"]
     },
     'overworld': {
         'id': 0,
@@ -38,7 +39,8 @@ const dims = {
         'meta': 7,
         'filler': {
             'minecraft:end_stone': 100
-        }
+        },
+        'predicate': ["name:the_end"]
     }
 };
 
@@ -220,6 +222,7 @@ function genGregtechOregen() {
 
         // This will blow things up otherwise:
         if (output.surface_stone_material === '') delete output.surface_stone_material;
+        if (dims[node.dimension].predicate) output.dimension_filter = dims[node.dimension].predicate;
 
         output.filler = {
             "type": "simple",
