@@ -1,22 +1,22 @@
 {
     "priority": 1000,
-    "weight": 90,
+    "weight": 2500,
     "density": 1,
     "max_height": 256,
     "min_height": 10,
     "generator": {
       "type": "plate",
       "length": {
-          "min": 5,
-          "max": 30
+          "min": 10,
+          "max": 50
       },
       "depth": {
-          "min": 5,
-          "max": 30
+        "min": 15,
+        "max": 80
       },
       "height": {
-          "min": 2,
-          "max": 10
+          "min": 5,
+          "max": 12
       }
     },
     "generation_predicate": [
