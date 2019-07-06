@@ -68,6 +68,14 @@ const additionalOre = [
     {
         "predicate": "block:rustic:slate",
         "variant": "rustic:slate"
+    },
+    {
+        "predicate": "ore_dict:stonePermafrost",
+        "variant": "quark:icy_stone"
+    },
+    {
+        "predicate": "ore_dict:stoneBrimstone",
+        "variant": "quark:fire_stone"
     }
 ]
 
