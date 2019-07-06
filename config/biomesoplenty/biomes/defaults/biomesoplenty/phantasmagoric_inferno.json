@@ -13,7 +13,7 @@
     "properties": {}
   },
   "fogColor": -1,
-  "fogDensity": 1,
+  "fogDensity": 1.0,
   "roofTopBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
@@ -49,7 +49,7 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true,
       "grassBorderWith": {
         "block": "minecraft:grass",

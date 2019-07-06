@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1,
+  "fogDensity": 1.0,
   "hasBiomeEssence": false,
-  "variationBelow": 15,
-  "variationAbove": 30,
+  "variationBelow": 15.0,
+  "variationAbove": 30.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -19,7 +19,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 100,
+  "averageHeight": 100.0,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -80,7 +80,7 @@
         "block": "minecraft:emerald_ore",
         "properties": {}
       },
-      "amountPerChunk": 12,
+      "amountPerChunk": 12.0,
       "maxHeight": 32,
       "enable": true
     },
@@ -92,11 +92,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 3,
+      "amountPerChunk": 3.0,
       "enable": true,
       "generators": {}
     },
@@ -117,7 +117,7 @@
         "properties": {}
       },
       "maxRadius": 7,
-      "amountPerChunk": 6,
+      "amountPerChunk": 6.0,
       "enable": true
     },
     "flax": {
@@ -153,7 +153,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
-      "enable": false
+      "enable": true
     },
     "lakes": {
       "liquid": {

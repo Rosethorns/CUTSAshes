@@ -21,7 +21,7 @@
         }
       },
       "generationAttempts": 96,
-      "amountPerChunk": 6,
+      "amountPerChunk": 6.0,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",
@@ -50,7 +50,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true
     }
   }

@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1,
+  "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 10,
-  "variationAbove": 10,
+  "variationBelow": 10.0,
+  "variationAbove": 10.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -19,7 +19,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 64,
+  "averageHeight": 64.0,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -113,11 +113,11 @@
         }
       },
       "foliageHeight": 4,
-      "amountPerChunk": 3,
+      "amountPerChunk": 3.0,
       "maxHeight": 17,
       "enable": true,
       "updateNeighbours": false,
-      "foliageDensity": 1,
+      "foliageDensity": 1.0,
       "leavesState": {
         "block": "minecraft:leaves",
         "properties": {
@@ -146,7 +146,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "sacred_oak_trees": {
@@ -163,7 +163,7 @@
       "maxHeight": 40,
       "enable": true,
       "updateNeighbours": false,
-      "foliageDensity": 2,
+      "foliageDensity": 2.0,
       "leavesState": {
         "block": "biomesoplenty:leaves_3",
         "properties": {
@@ -228,9 +228,9 @@
           "variant": "topaz"
         }
       },
-      "amountPerChunk": 12,
+      "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": false
+      "enable": true
     },
     "tiny_lily": {
       "with": {
