@@ -3,8 +3,8 @@
   "skyColor": 3687520,
   "fogDensity": 0.175,
   "hasBiomeEssence": true,
-  "variationBelow": 5.0,
-  "variationAbove": 10.0,
+  "variationBelow": 5,
+  "variationAbove": 10,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -19,7 +19,7 @@
       "variant": "loamy"
     }
   },
-  "averageHeight": 66.0,
+  "averageHeight": 66,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -132,7 +132,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "malachite": {
@@ -143,12 +143,12 @@
           "variant": "malachite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "trees": {
-      "amountPerChunk": 11.0,
+      "amountPerChunk": 11,
       "enable": true,
       "generators": {}
     },
@@ -164,7 +164,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true,
       "generators": {}
     },

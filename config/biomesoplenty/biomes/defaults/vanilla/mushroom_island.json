@@ -53,7 +53,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "portobellos": {
@@ -97,9 +97,9 @@
           "variant": "sapphire"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   }
 }

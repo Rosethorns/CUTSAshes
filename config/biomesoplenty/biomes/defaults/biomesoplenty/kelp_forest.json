@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "minecraft:ocean",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": false,
-  "variationBelow": 5.0,
-  "variationAbove": 5.0,
+  "variationBelow": 5,
+  "variationAbove": 5,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 40.0,
+  "averageHeight": 40,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -62,7 +62,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true
     },
     "roots": {
@@ -73,7 +73,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "kelp": {
@@ -87,7 +87,7 @@
         }
       },
       "generationAttempts": 12,
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 5,
       "maxHeight": 4,
       "enable": true,
       "randomDirection": false
@@ -103,7 +103,7 @@
         }
       },
       "generationAttempts": 12,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 6,
       "maxHeight": 12,
       "enable": true,
       "randomDirection": false
@@ -116,9 +116,9 @@
           "variant": "sapphire"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {}

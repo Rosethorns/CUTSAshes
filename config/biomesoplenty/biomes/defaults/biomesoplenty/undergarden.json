@@ -16,7 +16,7 @@
     }
   },
   "fogColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "roofTopBlock": {
     "block": "minecraft:netherrack",
     "properties": {}
@@ -42,11 +42,11 @@
         "properties": {}
       },
       "generationAttempts": 128,
-      "amountPerChunk": 7.0,
+      "amountPerChunk": 7,
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true,
       "generators": {}
     },
@@ -56,11 +56,11 @@
         "properties": {}
       },
       "generationAttempts": 16,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true,
       "generators": {}
     },
@@ -70,7 +70,7 @@
         "properties": {}
       },
       "generationAttempts": 16,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 2,
       "enable": true
     },
     "ivy": {
@@ -86,12 +86,12 @@
         }
       },
       "generationAttempts": 128,
-      "amountPerChunk": 25.0,
+      "amountPerChunk": 25,
       "maxHeight": 20,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true,
       "generators": {}
     },

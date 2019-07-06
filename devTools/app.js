@@ -35,5 +35,7 @@ oreDictionaryParser.parse('oredictionary.csv').then((data) => {
     fs.writeFileSync('output.json', JSON.stringify(colorblind, null, 2));
     fs.writeFileSync('scannableColors.txt', scannable)
     book.create();
+
+    return worldgenParser.updateBiomeDefs();
 });
 

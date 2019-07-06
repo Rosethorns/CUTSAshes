@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": false,
-  "variationBelow": 8.0,
-  "variationAbove": 10.0,
+  "variationBelow": 8,
+  "variationAbove": 10,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -17,7 +17,7 @@
     "block": "biomesoplenty:hard_ice",
     "properties": {}
   },
-  "averageHeight": 88.0,
+  "averageHeight": 88,
   "topBlock": {
     "block": "minecraft:ice",
     "properties": {}
@@ -56,7 +56,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "tanzanite": {
@@ -67,9 +67,9 @@
           "variant": "tanzanite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {}

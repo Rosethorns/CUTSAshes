@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 8.0,
-  "variationAbove": 2.0,
+  "variationBelow": 8,
+  "variationAbove": 2,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -17,7 +17,7 @@
       "variant": "mud"
     }
   },
-  "averageHeight": 62.0,
+  "averageHeight": 62,
   "topBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -74,11 +74,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 5,
       "enable": true,
       "generators": {}
     },
@@ -90,9 +90,9 @@
           "variant": "sapphire"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {

@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "minecraft:ocean",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": false,
-  "variationBelow": 5.0,
-  "variationAbove": 10.0,
+  "variationBelow": 5,
+  "variationAbove": 10,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 45.0,
+  "averageHeight": 45,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -51,7 +51,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true
     },
     "miners_delight": {
@@ -74,7 +74,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true
     },
     "algae": {
@@ -86,7 +86,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true
     },
     "pink_coral": {
@@ -98,7 +98,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true
     },
     "roots": {
@@ -109,7 +109,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "orange_coral": {
@@ -121,7 +121,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true
     },
     "sapphire": {
@@ -132,9 +132,9 @@
           "variant": "sapphire"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {}

@@ -2,10 +2,10 @@
   "canGenerateRivers": false,
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 8.0,
-  "variationAbove": 6.0,
+  "variationBelow": 8,
+  "variationAbove": 6,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -20,7 +20,7 @@
       "variant": "loamy"
     }
   },
-  "averageHeight": 63.0,
+  "averageHeight": 63,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -93,7 +93,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "malachite": {
@@ -104,12 +104,12 @@
           "variant": "malachite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "trees": {
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 6,
       "enable": true,
       "generators": {}
     },
@@ -121,7 +121,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 15,
       "enable": true
     },
     "toadstools": {
@@ -147,7 +147,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 5,
       "enable": true,
       "generators": {}
     },
@@ -196,7 +196,7 @@
         }
       },
       "maxRadius": 7,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true
     },
     "flat_mushroom": {

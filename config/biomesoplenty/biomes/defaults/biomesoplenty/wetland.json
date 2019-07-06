@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 5.0,
-  "variationAbove": 15.0,
+  "variationBelow": 5,
+  "variationAbove": 15,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -18,7 +18,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 63.0,
+  "averageHeight": 63,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -37,7 +37,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 8,
       "enable": true
     },
     "medium_lily": {
@@ -80,11 +80,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 10.0,
+      "amountPerChunk": 10,
       "enable": true,
       "generators": {}
     },
@@ -122,7 +122,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true,
       "generators": {}
     },
@@ -146,7 +146,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 10.0,
+      "amountPerChunk": 10,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",
@@ -233,7 +233,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "malachite": {
@@ -244,9 +244,9 @@
           "variant": "malachite"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "water_reeds": {
       "with": {
@@ -256,7 +256,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "enable": true
     },
     "toadstools": {
@@ -279,7 +279,7 @@
         }
       },
       "generationAttempts": 24,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 1,
       "maxHeight": 3,
       "enable": true,
       "randomDirection": false
@@ -301,7 +301,7 @@
         }
       },
       "maxRadius": 8,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 6,
       "enable": true
     },
     "river_cane": {
@@ -313,7 +313,7 @@
         }
       },
       "generationAttempts": 24,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 2,
       "maxHeight": 3,
       "enable": true,
       "randomDirection": false

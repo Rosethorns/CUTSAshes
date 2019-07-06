@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 80.0,
-  "variationAbove": 200.0,
+  "variationBelow": 80,
+  "variationAbove": 200,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -18,7 +18,7 @@
       "variant": "stone"
     }
   },
-  "averageHeight": 100.0,
+  "averageHeight": 100,
   "topBlock": {
     "block": "minecraft:gravel",
     "properties": {}
@@ -55,7 +55,7 @@
         "block": "minecraft:emerald_ore",
         "properties": {}
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
       "enable": true
     },
@@ -67,12 +67,12 @@
           "variant": "overgrown_stone"
         }
       },
-      "amountPerChunk": 24.0,
+      "amountPerChunk": 24,
       "enable": true,
       "splotchSize": 16
     },
     "grass": {
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true,
       "generators": {}
     },
@@ -84,7 +84,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "cobblestone_splatter": {
@@ -93,7 +93,7 @@
         "properties": {}
       },
       "generationAttempts": 64,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "stone_splatter": {
@@ -104,7 +104,7 @@
         }
       },
       "generationAttempts": 64,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     }
   },

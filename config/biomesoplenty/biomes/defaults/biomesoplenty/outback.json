@@ -2,10 +2,10 @@
   "canGenerateRivers": true,
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": -1,
-  "fogDensity": 1.0,
+  "fogDensity": 1,
   "hasBiomeEssence": true,
-  "variationBelow": 8.0,
-  "variationAbove": 10.0,
+  "variationBelow": 8,
+  "variationAbove": 10,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -19,7 +19,7 @@
       "variant": "red_sand"
     }
   },
-  "averageHeight": 72.0,
+  "averageHeight": 72,
   "topBlock": {
     "block": "minecraft:sand",
     "properties": {
@@ -72,7 +72,7 @@
         }
       },
       "generationAttempts": 128,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "dead_bushes": {
@@ -85,7 +85,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 16.0,
+      "amountPerChunk": 16,
       "enable": true,
       "generators": {}
     },
@@ -111,7 +111,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "desertgrass": {
@@ -122,11 +122,11 @@
         }
       },
       "generationAttempts": 8,
-      "amountPerChunk": 10.0,
+      "amountPerChunk": 10,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 3,
       "enable": true,
       "generators": {}
     },
@@ -138,9 +138,9 @@
           "variant": "ruby"
         }
       },
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {

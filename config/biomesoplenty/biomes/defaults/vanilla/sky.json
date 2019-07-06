@@ -20,7 +20,7 @@
       },
       "maxRadius": 7,
       "generationAttempts": 1500,
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 12,
       "enable": true
     },
     "miners_delight": {
@@ -42,7 +42,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 4,
       "enable": true
     },
     "amethyst": {
@@ -53,7 +53,7 @@
           "variant": "amethyst"
         }
       },
-      "amountPerChunk": 24.0,
+      "amountPerChunk": 24,
       "maxHeight": 32,
       "enable": true
     },
@@ -63,9 +63,9 @@
         "block": "biomesoplenty:biome_block",
         "properties": {}
       },
-      "amountPerChunk": 24.0,
+      "amountPerChunk": 24,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   }
 }
