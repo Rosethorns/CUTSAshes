@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": 8972496,
-  "fogDensity": 1,
+  "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 5,
-  "variationAbove": 20,
+  "variationBelow": 5.0,
+  "variationAbove": 20.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -19,7 +19,7 @@
       "variant": "silty"
     }
   },
-  "averageHeight": 63,
+  "averageHeight": 63.0,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -147,7 +147,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 1,
+      "amountPerChunk": 1.0,
       "enable": true
     },
     "roots": {
@@ -158,11 +158,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 10,
+      "amountPerChunk": 10.0,
       "enable": true,
       "generators": {}
     },
@@ -210,9 +210,9 @@
           "variant": "topaz"
         }
       },
-      "amountPerChunk": 12,
+      "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": false
+      "enable": true
     },
     "blue_milk_caps": {
       "with": {

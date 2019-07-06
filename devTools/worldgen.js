@@ -389,7 +389,7 @@ function genPostOreScripts() {
 }
 
 function updateBiomeDefs() {
-    const configRoot = "../config/biomesoplenty/biomes/defaults";
+    const configRoot = "../config/biomesoplenty/biomes";
     const generators = {
         // Gems:
         "ruby": {'enable': false},
@@ -419,8 +419,8 @@ function updateBiomeDefs() {
     };
 
     return Promise.all([
-        util.getFilesIn(`${configRoot}/vanilla`),
-        util.getFilesIn(`${configRoot}/biomesoplenty`)
+        util.getFilesIn(`${configRoot}/defaults/vanilla`),
+        util.getFilesIn(`${configRoot}/defaults/biomesoplenty`)
     ]).then(([vanilla, bop]) => {
         const configs = {
             'vanilla': vanilla,
@@ -429,8 +429,7 @@ function updateBiomeDefs() {
 
         _.each(configs, (files, dir) => {
             _.each(files, (file) => {
-                let fileName = `${configRoot}/${dir}/${file}`;
-                const biomeDef = JSON.parse(fs.readFileSync(fileName));
+                const biomeDef = JSON.parse(fs.readFileSync(`${configRoot}/defaults/${dir}/${file}`));
 
                 _.each(biomeDef.generators, (gen, name) => {
                     if (!generators[name]) return;
@@ -443,7 +442,7 @@ function updateBiomeDefs() {
                 });
 
                 console.log(`Updating biome definition for ${dir} biome: ${file}...`);
-                fs.writeFileSync(fileName, JSON.stringify(biomeDef, null, 2));
+                fs.writeFileSync(`${configRoot}/${file}`, JSON.stringify(biomeDef, null, 2));
             })
         });
     });

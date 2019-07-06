@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1,
+  "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 5,
-  "variationAbove": 100,
+  "variationBelow": 5.0,
+  "variationAbove": 100.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -18,7 +18,7 @@
       "variant": "stone"
     }
   },
-  "averageHeight": 70,
+  "averageHeight": 70.0,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -63,12 +63,12 @@
         "block": "minecraft:emerald_ore",
         "properties": {}
       },
-      "amountPerChunk": 12,
+      "amountPerChunk": 12.0,
       "maxHeight": 32,
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 2,
+      "amountPerChunk": 2.0,
       "enable": true,
       "generators": {}
     },
@@ -80,7 +80,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "sprouts": {
@@ -95,7 +95,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 40,
+      "amountPerChunk": 40.0,
       "enable": true,
       "generators": {}
     }

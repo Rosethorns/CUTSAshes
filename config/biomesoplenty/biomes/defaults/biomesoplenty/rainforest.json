@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
   "skyColor": -1,
-  "fogDensity": 1,
+  "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 50,
-  "variationAbove": 50,
+  "variationBelow": 50.0,
+  "variationAbove": 50.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -19,7 +19,7 @@
       "variant": "dirt"
     }
   },
-  "averageHeight": 80,
+  "averageHeight": 80.0,
   "topBlock": {
     "block": "minecraft:grass",
     "properties": {
@@ -107,11 +107,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 4,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 15,
+      "amountPerChunk": 15.0,
       "enable": true,
       "generators": {}
     },
@@ -145,7 +145,7 @@
         }
       },
       "maxRadius": 7,
-      "amountPerChunk": 3,
+      "amountPerChunk": 3.0,
       "enable": true
     },
     "rafflesia": {
@@ -160,7 +160,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 3,
+      "amountPerChunk": 3.0,
       "enable": true,
       "generators": {}
     },
@@ -181,9 +181,9 @@
           "variant": "topaz"
         }
       },
-      "amountPerChunk": 12,
+      "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": false
+      "enable": true
     },
     "tiny_lily": {
       "with": {
