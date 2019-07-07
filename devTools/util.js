@@ -34,9 +34,21 @@ function getFilesIn(dir) {
     });
 }
 
+function pascalCase(input) {
+    return  _.upperFirst(_.camelCase(input));
+}
+
+function gregOreToOreDict(oreName) {
+    if (oreName.startsWith("ore:")) oreName = pascalCase(oreName.substr(4));
+    else if(oreName.startsWith("ore_dict:")) oreName = pascalCase(oreName.substr(12));
+
+    return oreName;
+}
+
 module.exports = {
     createColorblindConfig: createColorblindConfig,
     metricConvs: metricConvs,
-    pascalCase: (input) => _.upperFirst(_.camelCase(input)),
-    getFilesIn: getFilesIn
+    pascalCase: pascalCase,
+    getFilesIn: getFilesIn,
+    gregOreToOreDict: gregOreToOreDict
 };
