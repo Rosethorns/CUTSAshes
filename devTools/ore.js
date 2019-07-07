@@ -7,7 +7,7 @@ const book = require('./book');
 const util = require('./util');
 const oreDictionary = require('./oreDictionary');
 const worldgen = require('./worldgen');
-const oreTexture = require('./oreTexture');
+const contentTweaker = require('./contentTweaker');
 const oreParser = require('./oreParser');
 
 const oreOredicts = {
@@ -229,175 +229,66 @@ function parseCentrifuged() {
     });
 }
 
-function parse(file) {
-    let scannable = '';
 
-    const pathmap = {
-        '': 'ore',
-        'crushed': 'crushed',
-        'purified': 'crushedPurified',
-        'centrifuged': 'crushedCentrifuged',
-        'impureDust': 'dustImpure',
-        'pureDust': 'dustPure'
-    };
-
-    return Promise.all([
-        oreParser.parseOres(file),
-        parseCrushed(),
-        parsePurified(),
-        parseImpureDusts(),
-        parsePureDusts(),
-        parseCentrifuged(),
-        //oreTexture.buildCache()
-    ])
-    .then(async(data) => {
-        let [rawOres, crushedOres, purifiedOres, impureDusts, pureDusts, centrifuged] = data;
-
-        const colorblind = [];
-
-        const conTweaker = {
-            'ore': {
-                "ores": {},
-                "hardness": "10",
-                "resistance": "10",
-                "material": "rock",
-                "sound": "stone",
-                "tool": "pickaxe"
-            },
-            'oreGravel': {
-                "ores": {},
-                "hardness": "1",
-                "resistance": "1",
-                "material": "sand",
-                "sound": "sand",
-                "tool": "shovel"
-            },
-            'oreSand': {
-                "ores": {},
-                "hardness": "2.5",
-                "resistance": "2.5",
-                "material": "ground",
-                "sound": "ground",
-                "tool": "shovel"
-            }
-        };
-
-        // Adjust so veins are listed overworld -> nether -> end
-        const dimAdjusts = {
-            "overworld": 0.3,
-            "nether": 0.2,
-            "end": 0.1
-        }
-
-        // Quick parse of worlden ores for the second page:
-        const worldgenNodesByOre = _.mapValues(worldgen.oreNodesByOre, (node, ore) => {
-            _.each(node, (n) => n.filler = _.sortBy(n.filler, (f) => f.weight).reverse());
-            return _.sortBy(node, (n) => n.weight + dimAdjusts[n.dimension]).reverse();
-        });
-
-        for (row of rawOres) {
-            if(!row.Ore) continue;
-            oreCache.push(row);
-
-            // Link up the other tables:
-            row.crushed = _.find(crushedOres, (o) => o.Ore == row.Ore);
-            row.purified = _.find(purifiedOres, (o) => o.Ore == row.Ore);
-            row.impureDust = _.find(impureDusts, (o) => o.Ore == row.Ore);
-            row.pureDust = _.find(pureDusts, (o) => o.Ore == row.Ore);
-            row.centrifuged = _.find(centrifuged, (o) => o.Ore == row.Ore);
-
-            Object.keys(oreOredicts).forEach(idx => {
-                const dict = oreOredicts[idx];
-
-                const id = `${idx}${row.Ore}`;
-                colorblind.push(util.createColorblindConfig(id, row.Symbol, dict));
-                if (dict.scannable) scannable += `${id}=${row.Color}\n`;
-            });
-
-            // Prep the description:
-            const names = _.map(row.Names.split(','), _.trim);
-            const name = _.first(names);
-
-            // Add the book entry:
-            if (!row["Hide Entry"]) {
-                generateBookEntry(row, name, worldgenNodesByOre, pathmap, names);
-            }
-        };
-
-        // Create the new ConT ores
-        const stoneVariants = _
-            .chain(worldgen.stoneClasses)
-            .flatMap((types) => 
-                _.flatMap(types, (t) => [
-                    `undergroundbiomes:${t}`,
-                    `undergroundbiomes:${t}_sand`,
-                    `undergroundbiomes:${t}_gravel`
-                ])
-            )
-            .union(_.map(worldgen.additionalOre, (t) => t.variant))
-            .join(',')
-            .value();
-
-        fs.writeFileSync(
-            `../scripts/ContentTweakerGregtechOreMaterials.zs`,
-            _.flatten(
-                [
-                    '#priorty 9999',
-                    '#loader contenttweaker',
-                    '',
-                    'import crafttweaker.item.IItemStack;',
-                    'import mods.contenttweaker.Color;',
-                    'import mods.contenttweaker.Material;',
-                    'import mods.contenttweaker.MaterialPartData;',
-                    'import mods.contenttweaker.MaterialSystem;',
-                    '',
-                    'global OREDEFS as Material[string] = {',
-                        _.map(oreCache, (ore) => {
-                            return `    "${ore.Ore}": MaterialSystem.getMaterialBuilder().setName("${_.first(ore.Names.split(','))}")` +
-                                `.setColor(${parseInt(ore.Color)}).build()`
-                        }).join(',\n'),
-                    '};',
-                    '',
-                    'function addMaterialOre (mat as Material, key as string) {',
-                    `    var ore_types = ["ore"] as string[];`,
-                    `    var ores = mat.registerParts(ore_types);`,
-                    '',
-                    _.map([conTweaker.ore], (props) => { //conTweaker, (props, type) => {
-                        return [
-                        `    for i, ore in ores {`,
-                        `        var oreData = ore.getData();`,
-                        `        oreData.addDataValue("variants", "${stoneVariants}");`,
-                        `        oreData.addDataValue("hardness", "${props.hardness}");`,
-                        `        oreData.addDataValue("resistance", "${props.resistance}");`,
-                        `        oreData.addDataValue("harvestTool", "${props.tool}");`,
-                        `        oreData.addDataValue("harvestLevel", "1");`,
-                        `    }`,
-                        ''
-                        ].join('\n');
-                    }),
-                    `    var sample as MaterialPartData = mat.registerPart("ore_sample").getData();`,
-                    `    sample.addDataValue("drops", "oredict:crushed"~key);`,
-                    '}',
-                    '',
-                    'for key, material in OREDEFS {',
-                    '    addMaterialOre(material, key);',
-                    '}'
-                ]
-            ).join('\n')
-        );
-
-        return {
-            ores: oreCache,
-            scannable: scannable,
-            colorblind: colorblind
-        };
-    });
+/**
+ * Generates the content tweaker script
+ * to create all the ore materials and
+ * ore drops
+ */
+function genContentTweakerScripts() {
+    const stoneVariants = _
+        .chain(worldgen.stoneClasses)
+        .flatMap((types) => _.flatMap(types, (t) => [
+            `undergroundbiomes:${t}`,
+            `undergroundbiomes:${t}_sand`,
+            `undergroundbiomes:${t}_gravel`
+        ]))
+        .union(_.map(worldgen.additionalOre, (t) => t.variant))
+        .join(',')
+        .value();
+    fs.writeFileSync(`../scripts/ContentTweakerGregtechOreMaterials.zs`, _.flatten([
+        '#priorty 9999',
+        '#loader contenttweaker',
+        '',
+        'import crafttweaker.item.IItemStack;',
+        'import mods.contenttweaker.Color;',
+        'import mods.contenttweaker.Material;',
+        'import mods.contenttweaker.MaterialPartData;',
+        'import mods.contenttweaker.MaterialSystem;',
+        '',
+        'global OREDEFS as Material[string] = {',
+        _.map(oreCache, (ore) => {
+            return `    "${ore.Ore}": MaterialSystem.getMaterialBuilder().setName("${_.first(ore.Names.split(','))}")` +
+                `.setColor(${parseInt(ore.Color)}).build()`;
+        }).join(',\n'),
+        '};',
+        '',
+        'function addMaterialOre (mat as Material, key as string) {',
+        `    var ore_types = ["ore"] as string[];`,
+        `    var ores = mat.registerParts(ore_types);`,
+        '',
+        _.map([contentTweaker.typeDefs.ore], (props) => {
+            return [
+                `    for i, ore in ores {`,
+                `        var oreData = ore.getData();`,
+                `        oreData.addDataValue("variants", "${stoneVariants}");`,
+                `        oreData.addDataValue("hardness", "${props.hardness}");`,
+                `        oreData.addDataValue("resistance", "${props.resistance}");`,
+                `        oreData.addDataValue("harvestTool", "${props.tool}");`,
+                `        oreData.addDataValue("harvestLevel", "1");`,
+                `    }`,
+                ''
+            ].join('\n');
+        }),
+        `    var sample as MaterialPartData = mat.registerPart("ore_sample").getData();`,
+        `    sample.addDataValue("drops", "oredict:crushed"~key);`,
+        '}',
+        '',
+        'for key, material in OREDEFS {',
+        '    addMaterialOre(material, key);',
+        '}'
+    ]).join('\n'));
 }
-
-module.exports = {
-    parse: parse,
-    ores: oreCache
-};
 
 /**
  * Deals with the heavy lifting of generating the book
@@ -540,3 +431,87 @@ function generateBookEntry(row, name, worldgenNodesByOre, pathmap, names) {
     _.each(names, (n) => book.crossReference.ores[n] = row.Ore);
 }
 
+
+function parse(file) {
+    let scannable = '';
+
+    const pathmap = {
+        '': 'ore',
+        'crushed': 'crushed',
+        'purified': 'crushedPurified',
+        'centrifuged': 'crushedCentrifuged',
+        'impureDust': 'dustImpure',
+        'pureDust': 'dustPure'
+    };
+
+    return Promise.all([
+        oreParser.parseOres(file),
+        parseCrushed(),
+        parsePurified(),
+        parseImpureDusts(),
+        parsePureDusts(),
+        parseCentrifuged(),
+        //oreTexture.buildCache()
+    ])
+    .then(async(data) => {
+        let [rawOres, crushedOres, purifiedOres, impureDusts, pureDusts, centrifuged] = data;
+
+        const colorblind = [];
+
+        // Adjust so veins are listed overworld -> nether -> end
+        const dimAdjusts = {
+            "overworld": 0.3,
+            "nether": 0.2,
+            "end": 0.1
+        }
+
+        // Quick parse of worlden ores for the second page:
+        const worldgenNodesByOre = _.mapValues(worldgen.oreNodesByOre, (node, ore) => {
+            _.each(node, (n) => n.filler = _.sortBy(n.filler, (f) => f.weight).reverse());
+            return _.sortBy(node, (n) => n.weight + dimAdjusts[n.dimension]).reverse();
+        });
+
+        for (row of rawOres) {
+            if(!row.Ore) continue;
+            oreCache.push(row);
+
+            // Link up the other tables:
+            row.crushed = _.find(crushedOres, (o) => o.Ore == row.Ore);
+            row.purified = _.find(purifiedOres, (o) => o.Ore == row.Ore);
+            row.impureDust = _.find(impureDusts, (o) => o.Ore == row.Ore);
+            row.pureDust = _.find(pureDusts, (o) => o.Ore == row.Ore);
+            row.centrifuged = _.find(centrifuged, (o) => o.Ore == row.Ore);
+
+            Object.keys(oreOredicts).forEach(idx => {
+                const dict = oreOredicts[idx];
+
+                const id = `${idx}${row.Ore}`;
+                colorblind.push(util.createColorblindConfig(id, row.Symbol, dict));
+                if (dict.scannable) scannable += `${id}=${row.Color}\n`;
+            });
+
+            // Prep the description:
+            const names = _.map(row.Names.split(','), _.trim);
+            const name = _.first(names);
+
+            // Add the book entry:
+            if (!row["Hide Entry"]) {
+                generateBookEntry(row, name, worldgenNodesByOre, pathmap, names);
+            }
+        };
+
+        // Create the new ConT ores
+        genContentTweakerScripts();
+
+        return {
+            ores: oreCache,
+            scannable: scannable,
+            colorblind: colorblind
+        };
+    });
+}
+
+module.exports = {
+    parse: parse,
+    ores: oreCache
+};
