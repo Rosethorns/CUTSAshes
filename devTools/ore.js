@@ -431,7 +431,6 @@ function generateBookEntry(row, name, worldgenNodesByOre, pathmap, names) {
     _.each(names, (n) => book.crossReference.ores[n] = row.Ore);
 }
 
-
 function parse(file) {
     let scannable = '';
 

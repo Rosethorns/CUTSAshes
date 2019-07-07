@@ -1,5 +1,6 @@
 const _ = require('lodash');
 const fs = require('fs');
+const math = require('mathjs');
 
 function createColorblindConfig(name, symbol, dict) {
     const item = {
@@ -53,11 +54,22 @@ function getRadiationLevel(radiationString) {
     return radiationLevel;
 }
 
+function roundRadiation(rads) {
+    const mult = _.find(metricConvs, (mult) => {
+        let current = rads / mult;
+        return 1 <= current && current < 1000;
+    });
+
+    // Ah JavaScript, your floating point issues are annoying...
+    return math.multiply(math.bignumber(_.ceil(rads / mult)), math.bignumber(mult));
+}
+
 module.exports = {
     createColorblindConfig: createColorblindConfig,
     metricConvs: metricConvs,
     pascalCase: pascalCase,
     getFilesIn: getFilesIn,
     gregOreToOreDict: gregOreToOreDict,
-    getRadiationLevel: getRadiationLevel
+    getRadiationLevel: getRadiationLevel,
+    roundRadiation: roundRadiation
 };
