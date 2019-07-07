@@ -5,6 +5,33 @@ const oreParser = require('./oreParser');
 const mappings = {};
 let cachedOres;
 
+const typedefs = {
+    'ore': {
+        "ores": {},
+        "hardness": "10",
+        "resistance": "10",
+        "material": "rock",
+        "sound": "stone",
+        "tool": "pickaxe"
+    },
+    'oreGravel': {
+        "ores": {},
+        "hardness": "1",
+        "resistance": "1",
+        "material": "sand",
+        "sound": "sand",
+        "tool": "shovel"
+    },
+    'oreSand': {
+        "ores": {},
+        "hardness": "2.5",
+        "resistance": "2.5",
+        "material": "ground",
+        "sound": "ground",
+        "tool": "shovel"
+    }
+};
+
 function parse() {
     return Promise.all([
         new Promise((resolve, reject) => {
@@ -43,5 +70,6 @@ function getGregtechOreMapping(oreName, stoneName, variety, mod) {
 
 module.exports = {
     parse: parse,
-    getGregtechOreMapping: getGregtechOreMapping
+    getGregtechOreMapping: getGregtechOreMapping,
+    typeDefs: typedefs
 };

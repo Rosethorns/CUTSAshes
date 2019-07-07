@@ -45,10 +45,19 @@ function gregOreToOreDict(oreName) {
     return oreName;
 }
 
+function getRadiationLevel(radiationString) {
+    const [match, rads, mult] = radiationString.match(/([0-9]+)([a-z]+)?/i);
+    if (!match) return 0;
+    let radiationLevel = parseFloat(rads);
+    if (mult) radiationLevel *= metricConvs[mult] || 1.0;
+    return radiationLevel;
+}
+
 module.exports = {
     createColorblindConfig: createColorblindConfig,
     metricConvs: metricConvs,
     pascalCase: pascalCase,
     getFilesIn: getFilesIn,
-    gregOreToOreDict: gregOreToOreDict
+    gregOreToOreDict: gregOreToOreDict,
+    getRadiationLevel: getRadiationLevel
 };
