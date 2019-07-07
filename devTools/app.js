@@ -36,6 +36,7 @@ oreDictionaryParser.parse('oredictionary.csv').then((data) => {
     fs.writeFileSync('scannableColors.txt', scannable)
     book.create();
 
+    worldgenParser.genAstralSorceryOreConfigs();
     return worldgenParser.updateBiomeDefs();
 });
 

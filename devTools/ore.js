@@ -289,23 +289,7 @@ function parse(file) {
         }
 
         // Quick parse of worlden ores for the second page:
-        let worldgenNodesByOre = {};
-        _.each(worldgen.oreNodes, (node) => {
-            let n = _.cloneDeep(node);
-            _
-                .chain(n.filler)
-                .filter((f) => f.ore)
-                .each((f) => f.ore = f.ore.substr(4))
-                .each((f) => f.weight = parseInt(f.weight))
-                .each((f) => {
-                    id = util.pascalCase(f.ore);
-                    if (!worldgenNodesByOre[id]) worldgenNodesByOre[id] = [];
-                    worldgenNodesByOre[id].push(_.cloneDeep(n));
-                })
-                .commit();
-        });
-
-        worldgenNodesByOre = _.mapValues(worldgenNodesByOre, (node, ore) => {
+        const worldgenNodesByOre = _.mapValues(worldgen.oreNodesByOre, (node, ore) => {
             _.each(node, (n) => n.filler = _.sortBy(n.filler, (f) => f.weight).reverse());
             return _.sortBy(node, (n) => n.weight + dimAdjusts[n.dimension]).reverse();
         });
@@ -469,7 +453,7 @@ function generateBookEntry(row, name, worldgenNodesByOre, pathmap, names) {
                     oreNodeEntry[`ore${oreIdx + 1}None_p${entryIdx}`] = true;
                     continue;
                 }
-                oreNodeEntry[`ore${oreIdx + 1}_p${entryIdx}`] = `gregtech:ore_${node.filler[oreIdx].ore}_0:${dimOre}`;
+                oreNodeEntry[`ore${oreIdx + 1}_p${entryIdx}`] = `gregtech:ore_${_.snakeCase(node.filler[oreIdx].ore)}_0:${dimOre}`;
                 oreNodeEntry[`ore${oreIdx + 1}Pct_p${entryIdx}`] = `${_.round((node.filler[oreIdx].weight / weightTotal) * 100)}%`;
             }
 
