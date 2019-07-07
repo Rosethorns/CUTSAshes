@@ -498,6 +498,101 @@ function genAstralSorceryOreConfigs() {
     fs.writeFileSync('../config/astralsorcery/treasure_shrine.cfg', output);
 }
 
+function genNuclearCraftRads(oreCache) {
+    const materials = {
+        'Americium': util.getRadiationLevel('111u'),
+        'Darmstadtium': util.getRadiationLevel('111u'),
+        'Plutonium': util.getRadiationLevel('41u'),
+        'Plutonium241': util.getRadiationLevel('71m'),
+        'Thorium': util.getRadiationLevel('1u'),
+        'Uranium': util.getRadiationLevel('385p'),
+        'Uranium235': util.getRadiationLevel('1n')
+    };
+
+    const dicts = {
+        'ingot': 1,
+        'nugget': 1/9,
+        'dustTiny': 1/9,
+        'dustSmall': 4/9,
+        'dust': 1,
+        'dustImpure': 1,
+        'dustPure': 1,
+        'crushed': 1,
+        'crushedPurified': 1,
+        'crushedCentrifuged': 1,
+        'plate': 1,
+        'stick': 0.75,
+        'block': 13,
+        'plateCurved': 1,
+        'ingotDouble': 2.25,
+        'toolHeadSword': 2,
+        'toolHeadPickaxe': 4,
+        'toolHeadShovel': 1,
+        'toolHeadAxe': 4,
+        'toolHeadHoe': 2,
+        'toolHeadHammer': 8,
+        'toolHeadFile': 2,
+        'toolHeadSaw': 2,
+        'toolHeadDrill': 5,
+        'toolHeadChainsaw': 2,
+        'toolHeadWrench': 5,
+        'toolHeadUniversalSpade': 8,
+        'toolHeadSense': 4,
+        'toolHeadBuzzSaw': 5,
+        'turbineBlade': 7
+    };
+
+    fs.writeFileSync('nuclearCraftRads.txt', 
+        _
+            .chain(oreCache)
+            .filter((ore) => ore.Ore && ore.Rads)
+            .map((ore) => [`ore${ore.Ore}`, util.getRadiationLevel(ore.Rads)])
+            .union(_.flatMap(materials, (level, material) => {
+                return _.map(dicts, (mult, dict) => [`${dict}${material}`, util.roundRadiation(level * mult)]);
+            }))
+            // // Right. NC has oredict matching
+            // .flatMap((ore) => {
+            //     return _
+            //         .chain([null, 'gravel', 'sand'])
+            //         .flatMap((variety) => {
+            //             let entries = [];
+            //             _.each(stoneClasses, (types) => {
+            //                 _.each(types, (idx) => {
+            //                     const mapping = contentTweaker.getGregtechOreMapping(ore.Ore, idx, variety);
+            //                     if(!mapping) return;
+            //                     entries.push(`contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}`);
+            //                 });
+            //             });
+    
+            //             _.each(additionalOre, (extra) => {
+            //                 const [mod, variant] = extra.variant.split(':');
+            //                 const mapping = contentTweaker.getGregtechOreMapping(ore.Ore, variant, '', mod);
+            //                 if(!mapping) return;
+            //                 entries.push(`contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}`);
+            //             })
+
+            //             _.each(_.range(1,14), (idx) => {
+            //                 let itemId = `gregtech:ore_${_.snakeCase(ore.Ore).replace(/_(?=[0-9])/,'')}_0:${idx}`;
+    
+            //                 if (!items[itemId]) return;
+    
+            //                 entries.push(itemId);
+            //             });
+
+            //             return entries;
+            //         })
+            //         .uniq()
+            //         .map((entry) => ([entry, ore.RadLevel]))
+            //         .value();
+            // })
+            .sortBy((pair) => pair[0])
+            .fromPairs()
+            .map((v, k) => `${k}_${v}`)
+            .join('\n')
+            .value()
+    );
+}
+
 module.exports = {
     dimensionConfig: dims,
     parse: parse,
@@ -510,5 +605,6 @@ module.exports = {
     stoneClasses: stoneClasses,
     additionalOre: additionalOre,
     updateBiomeDefs: updateBiomeDefs,
-    genAstralSorceryOreConfigs: genAstralSorceryOreConfigs
+    genAstralSorceryOreConfigs: genAstralSorceryOreConfigs,
+    genNuclearCraftRads: genNuclearCraftRads
 }

@@ -33,6 +33,7 @@ oreDictionaryParser.parse('oredictionary.csv').then((data) => {
     worldgenParser.genUndergroundBiomesDefs(ores);
     worldgenParser.genGregtechOregen();
     worldgenParser.genZenScripts();
+    worldgenParser.genNuclearCraftRads(ores);
 
     fs.writeFileSync('output.json', JSON.stringify(colorblind, null, 2));
     fs.writeFileSync('scannableColors.txt', scannable)
