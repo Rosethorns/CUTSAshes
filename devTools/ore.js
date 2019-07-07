@@ -45,6 +45,8 @@ const tiers = { // chem reactor is on tier 1 because I couldn't fit it anywhere 
     ]
 };
 
+let oreCache = [];
+
 /**
  * Keys the process item per the page structure
  * @param {int} i The current key
@@ -251,7 +253,6 @@ function parse(file) {
     .then(async(data) => {
         let [rawOres, crushedOres, purifiedOres, impureDusts, pureDusts, centrifuged] = data;
 
-        let ores = [];
         const colorblind = [];
 
         const conTweaker = {
@@ -296,7 +297,7 @@ function parse(file) {
 
         for (row of rawOres) {
             if(!row.Ore) continue;
-            ores.push(row);
+            oreCache.push(row);
 
             // Link up the other tables:
             row.crushed = _.find(crushedOres, (o) => o.Ore == row.Ore);
@@ -351,7 +352,7 @@ function parse(file) {
                     'import mods.contenttweaker.MaterialSystem;',
                     '',
                     'global OREDEFS as Material[string] = {',
-                        _.map(ores, (ore) => {
+                        _.map(oreCache, (ore) => {
                             return `    "${ore.Ore}": MaterialSystem.getMaterialBuilder().setName("${_.first(ore.Names.split(','))}")` +
                                 `.setColor(${parseInt(ore.Color)}).build()`
                         }).join(',\n'),
@@ -386,7 +387,7 @@ function parse(file) {
         );
 
         return {
-            ores: ores,
+            ores: oreCache,
             scannable: scannable,
             colorblind: colorblind
         };
@@ -394,7 +395,8 @@ function parse(file) {
 }
 
 module.exports = {
-    parse: parse
+    parse: parse,
+    ores: oreCache
 };
 
 /**
