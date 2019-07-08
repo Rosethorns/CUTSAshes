@@ -2275,6 +2275,13 @@
               }
             ]
           }
+        },
+        {
+          "weight": "5",
+          "value": {
+            "type": "state_match",
+            "default": "ore_dict:oreCincinnasite"
+          }
         }
       ]
     }
