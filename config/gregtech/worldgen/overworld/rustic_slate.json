@@ -4,6 +4,7 @@
     "density": 1,
     "max_height": 256,
     "min_height": 10,
+    "count_as_vein": false,
     "generator": {
       "type": "plate",
       "length": {
