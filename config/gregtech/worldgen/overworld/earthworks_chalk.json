@@ -1,6 +1,6 @@
 {
     "priority": 900,
-    "weight": 500,
+    "weight": 2500,
     "density": 1,
     "max_height": 256,
     "min_height": 10,
