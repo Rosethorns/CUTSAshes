@@ -36,3 +36,27 @@ wireQuartzFiber.register();
 
 var plateToughAlloy = VanillaFactory.createItem("plate_tough_alloy");
 plateToughAlloy.register();
+
+var plateHardCarbon = VanillaFactory.createItem("plate_hard_carbon");
+plateHardCarbon.register();
+
+var plateExtremeAlloy = VanillaFactory.createItem("plate_extreme_alloy");
+plateExtremeAlloy.register();
+
+var plateThermoAlloy = VanillaFactory.createItem("plate_thermo_alloy");
+plateThermoAlloy.register();
+
+var plateCurvedHardCarbon = VanillaFactory.createItem("plate_curved_hard_carbon");
+plateCurvedHardCarbon.register();
+
+var plateCurvedThermoAlloy = VanillaFactory.createItem("plate_curved_thermo_alloy");
+plateCurvedThermoAlloy.register();
+
+var rodToughAlloy = VanillaFactory.createItem("rod_tough_alloy");
+rodToughAlloy.register();
+
+var wireMagnesiumDiboride = VanillaFactory.createItem("wire_magnesium_diboride");
+wireMagnesiumDiboride.register();
+
+var motorULV = VanillaFactory.createItem("motor_ulv");
+motorULV.register();
