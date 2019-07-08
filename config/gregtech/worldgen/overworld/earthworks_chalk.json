@@ -1,9 +1,10 @@
 {
-    "priority": 1000,
+    "priority": 900,
     "weight": 500,
     "density": 1,
     "max_height": 256,
     "min_height": 10,
+    "count_as_vein": false,
     "generator": {
       "type": "plate",
       "length": {
@@ -22,7 +23,21 @@
     "generation_predicate": [
         "block:undergroundbiomes:igneous_stone",
         "block:undergroundbiomes:metamorphic_stone",
-        "block:undergroundbiomes:sedimentary_stone"
+        "block:undergroundbiomes:sedimentary_stone",
+        "ore_dict:stoneIgneousGabbro",
+        "ore_dict:stoneIgneousKomatiite",
+        "ore_dict:stoneMetamorphicMarble",
+        "ore_dict:stoneMetamorphicSoapstone",
+        "ore_dict:stoneSedimentaryLimestone",
+        "ore_dict:stoneSedimentaryChalk",
+        "ore_dict:stoneSedimentaryShale",
+        "ore_dict:stoneSedimentarySiltstone",
+        "ore_dict:stoneSedimentaryLignite",
+        "ore_dict:stoneSedimentaryDolomite",
+        "ore_dict:stoneSedimentaryGreywacke",
+        "block:earthworks:block_slate",
+        "block:earthworks:block_slate_green",
+        "block:earthworks:block_slate_purple"
     ],
     "filler": {
       "type": "simple",
@@ -31,7 +46,7 @@
         "values": [
           {
             "weight": "100",
-            "value": "block:earthworks:chalk"
+            "value": "block:earthworks:block_chalk"
           }
         ]
       }
