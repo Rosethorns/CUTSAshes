@@ -13,22 +13,14 @@
   "generation_predicate": [
     "ore_dict:stone",
     "ore_dict:gravel",
-    "ore_dict:sand",
-    "ore_dict:sandstone",
-    "block:undergroundbiomes:igneous_stone",
-    "block:undergroundbiomes:metamorphic_stone",
-    "block:undergroundbiomes:sedimentary_stone",
-    "block:undergroundbiomes:igneous_gravel",
-    "block:undergroundbiomes:metamorphic_gravel",
-    "block:undergroundbiomes:sedimentary_gravel",
-    "block:undergroundbiomes:igneous_sand",
-    "block:undergroundbiomes:metamorphic_sand",
-    "block:undergroundbiomes:sedimentary_sand",
+    "ore_dict:netherrack",
     "block:quark:elder_prismarine",
     "block:earthworks:block_slate_green",
     "block:earthworks:block_slate",
     "block:earthworks:block_slate_purple",
-    "block:rustic:slate"
+    "block:rustic:slate",
+    "ore_dict:stonePermafrost",
+    "ore_dict:stoneBrimstone"
   ],
   "filler": {
     "type": "simple",
@@ -579,6 +571,20 @@
                   "block": "contenttweaker:sub_block_holder_518",
                   "sub_block_number": 0
                 }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_541",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_542",
+                  "sub_block_number": 11
+                }
               }
             ]
           }
@@ -1126,6 +1132,20 @@
                 "value": {
                   "block": "contenttweaker:sub_block_holder_514",
                   "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_542",
+                  "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_551",
+                  "sub_block_number": 4
                 }
               }
             ]
@@ -1675,6 +1695,20 @@
                   "block": "contenttweaker:sub_block_holder_538",
                   "sub_block_number": 4
                 }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_553",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_552",
+                  "sub_block_number": 9
+                }
               }
             ]
           }
@@ -2223,11 +2257,28 @@
                   "block": "contenttweaker:sub_block_holder_517",
                   "sub_block_number": 15
                 }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_549",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_546",
+                  "sub_block_number": 8
+                }
               }
             ]
           }
         }
       ]
     }
-  }
+  },
+  "dimension_filter": [
+    "is_nether"
+  ]
 }
