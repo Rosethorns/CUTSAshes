@@ -5,7 +5,6 @@ const _ = require('lodash');
 const oreDictionary = require('./oreDictionary');
 const contentTweaker = require('./contentTweaker');
 const oreParser = require('./oreParser');
-const util = require('./util');
 
 const dims = {
     'nether': {
@@ -17,11 +16,7 @@ const dims = {
             'minecraft:gravel': 7,
             'minecraft:glowstone': 1,
             'minecraft:magma': 2
-        },
-        'orePredicates': [
-            "ore_dict:netherrack"
-        ],
-        'predicate': ["is_nether"]
+        }
     },
     'overworld': {
         'id': 0,
@@ -36,31 +31,14 @@ const dims = {
             'minecraft:sand:0': 10,
             'minecraft:sand:1': 10,
             'minecraft:clay': 3
-        },
-        'orePredicates': [
-            "ore_dict:sand",
-            "ore_dict:sandstone",
-            "block:undergroundbiomes:igneous_stone",
-            "block:undergroundbiomes:metamorphic_stone",
-            "block:undergroundbiomes:sedimentary_stone",
-            "block:undergroundbiomes:igneous_gravel",
-            "block:undergroundbiomes:metamorphic_gravel",
-            "block:undergroundbiomes:sedimentary_gravel",
-            "block:undergroundbiomes:igneous_sand",
-            "block:undergroundbiomes:metamorphic_sand",
-            "block:undergroundbiomes:sedimentary_sand"
-        ]
+        }
     },
     'end': {
         'id': 1,
         'meta': 7,
         'filler': {
             'minecraft:end_stone': 100
-        },
-        'orePredicates': [
-            "ore_dict:endstone"
-        ],
-        'predicate': ["name:the_end"]
+        }
     }
 };
 
@@ -90,18 +68,8 @@ const additionalOre = [
     {
         "predicate": "block:rustic:slate",
         "variant": "rustic:slate"
-    },
-    {
-        "predicate": "ore_dict:stonePermafrost",
-        "variant": "quark:icy_stone"
-    },
-    {
-        "predicate": "ore_dict:stoneBrimstone",
-        "variant": "quark:fire_stone"
     }
 ]
-
-const items = [];
 
 // Mutate dim filler first:
 _.each(dims, (dim) => {
@@ -114,8 +82,7 @@ _.each(dims, (dim) => {
     });
 });
 
-const oreNodes = [];
-const worldgenNodesByOre = {};
+const oreNodes = []
 
 function parse() {
     return Promise.all([
@@ -137,14 +104,21 @@ function parse() {
                             "type": data.generator_type,
                             "radius": JSON.parse(data.generator_radius)
                         },
-                        "generation_predicate": _.union(
-                            [
-                                "ore_dict:stone",
-                                "ore_dict:gravel"
-                            ], 
-                            _.clone(dims[data.dimension].orePredicates),
-                            _.map(additionalOre, (o) => o.predicate)
-                        ),
+                        "generation_predicate": _.union([
+                            "ore_dict:stone",
+                            "ore_dict:gravel",
+                            "ore_dict:sand",
+                            "ore_dict:sandstone",
+                            "block:undergroundbiomes:igneous_stone",
+                            "block:undergroundbiomes:metamorphic_stone",
+                            "block:undergroundbiomes:sedimentary_stone",
+                            "block:undergroundbiomes:igneous_gravel",
+                            "block:undergroundbiomes:metamorphic_gravel",
+                            "block:undergroundbiomes:sedimentary_gravel",
+                            "block:undergroundbiomes:igneous_sand",
+                            "block:undergroundbiomes:metamorphic_sand",
+                            "block:undergroundbiomes:sedimentary_sand"
+                        ], _.map(additionalOre, (o) => o.predicate)),
                         "filler": _
                             .chain(data.filler)
                             .split(',')
@@ -173,35 +147,7 @@ function parse() {
                         "dimension": data.dimension
                     })
                 })
-                .on('end', () => {
-                    _.each(oreNodes, (node) => {
-                        let n = _.cloneDeep(node);
-                        _
-                            .chain(n.filler)
-                            .filter((f) => f.ore)
-                            .each((f) => f.ore = util.gregOreToOreDict(f.ore))
-                            .each((f) => f.weight = parseInt(f.weight))
-                            .each((f) => {
-                                if (!worldgenNodesByOre[f.ore]) worldgenNodesByOre[f.ore] = [];
-                                worldgenNodesByOre[f.ore].push(_.cloneDeep(n));
-                            })
-                            .commit();
-                    });
-                    
-                    resolve(oreNodes);
-                });
-        }),
-        new Promise((resolve) => {
-            fs
-                .createReadStream('items.csv')
-                .pipe(csv())
-                .on('data', (data) => {
-                    // Get display names for everything:
-                    items[`${data["Registry name"]}:${data["Meta/dmg"]}`] = data["Display name"];
-                })
-                .on('end', () => {
-                    resolve();
-                });
+                .on('end', () => resolve(oreNodes));
         })
     ]
     );
@@ -266,7 +212,6 @@ function genGregtechOregen() {
 
         // This will blow things up otherwise:
         if (output.surface_stone_material === '') delete output.surface_stone_material;
-        if (dims[node.dimension].predicate) output.dimension_filter = dims[node.dimension].predicate;
 
         output.filler = {
             "type": "simple",
@@ -291,7 +236,7 @@ function genGregtechOregen() {
                             }
                         }
 
-                        let oreName = util.gregOreToOreDict(f.ore);
+                        const oreName = _.upperFirst(_.camelCase(f.ore.substr(4)));
 
                         let oreItem = oreDictionary.resolveOredict(`ore${oreName}`);
                         if (!oreItem) {
@@ -398,12 +343,8 @@ function genPostOreScripts() {
                     })
 
                     _.each(_.range(1,14), (idx) => {
-                        let itemId = `gregtech:ore_${_.snakeCase(ore.Ore).replace(/_(?=[0-9])/,'')}_0:${idx}`;
-
-                        if (!items[itemId]) return;
-
                         blocks.push( 
-                            `    <${itemId}>`
+                            `    <gregtech:ore_${_.snakeCase(ore.Ore).replace(/_(?=[0-9])/,'')}_0:${idx}>`
                         );
                     });
                 });
@@ -415,208 +356,14 @@ function genPostOreScripts() {
         });
 }
 
-function updateBiomeDefs() {
-    const configRoot = "../config/biomesoplenty/biomes";
-    const generators = {
-        // Gems:
-        "ruby": {'enable': false},
-        "amber": {'enable': false},
-        "tanzanite": {'enable': false},
-        "peridot": {'enable': false},
-        "topaz": {'enable': false},
-        "sapphire": {'enable': false},
-        "malachite": {'enable': false},
-        "ruby": {'enable': false},
-        "emeralds": {'enable': false},
-
-        // Hazards:
-        "poison_lakes": {},
-        "poison_ivy": {},
-        "quicksand": (biome, name) => (name.startsWith('desert') ? {'enable': false} : {}),
-        "thorns": {},
-        "bramble": {},
-
-        // Features:
-        "barley": {'enable': false},
-        "berry_bushes": {'enable': false},
-        "biome_essence": {'enable': false},
-        "blue_milk_caps": {},
-        "bushes": {},
-        "cattail": {},
-        "flax": {},
-    };
-
-    return Promise.all([
-        util.getFilesIn(`${configRoot}/defaults/vanilla`),
-        util.getFilesIn(`${configRoot}/defaults/biomesoplenty`)
-    ]).then(([vanilla, bop]) => {
-        const configs = {
-            'vanilla': vanilla,
-            'biomesoplenty': bop
-        };
-
-        _.each(configs, (files, dir) => {
-            _.each(files, (file) => {
-                const biomeDef = JSON.parse(fs.readFileSync(`${configRoot}/defaults/${dir}/${file}`));
-
-                _.each(biomeDef.generators, (gen, name) => {
-                    if (!generators[name]) return;
-
-                    _.merge(gen,
-                        _.isFunction(generators[name])
-                            ? generators[name](biomeDef, file)
-                            : generators[name]
-                    );
-                });
-
-                console.log(`Updating biome definition for ${dir} biome: ${file}...`);
-                fs.writeFileSync(`${configRoot}/${file}`, JSON.stringify(biomeDef, null, 2));
-            })
-        });
-    });
-}
-
-function genAstralSorceryOreConfigs() {
-    const ores = _
-        .chain(worldgenNodesByOre)
-        .mapValues((nodes, ore) => _
-            .chain(nodes)
-            .filter((node) => node.dimension === 'overworld')
-            .sumBy((node) =>
-                _.find(node.filler, (f) => f.ore === ore).weight /
-                _.sumBy(node.filler, 'weight') * node.weight
-            )
-            .value()
-        )
-        .mapValues((weight) => _.round(weight * 100))
-        .toPairs((weight, ore) => ({ 'ore': ore, 'weight': weight}))
-        .filter((pair) => 0 < pair[1])
-        .orderBy((pair) => pair[1])
-        .reverse()
-        .fromPairs()
-        .value();
-
-    const output = _.flatten([
-        '# This file generated by a tool',
-        'data {',
-        '    S:data <',
-        _.map(ores, (weight, ore) => `        ore${ore};${weight}`),
-        '     >',
-        '}'
-    ]).join('\n');
-
-    fs.writeFileSync('../config/astralsorcery/aevitas_ore_perk.cfg', output);
-    fs.writeFileSync('../config/astralsorcery/mineralis_ritual.cfg', output);
-    fs.writeFileSync('../config/astralsorcery/treasure_shrine.cfg', output);
-}
-
-function genNuclearCraftRads(oreCache) {
-    const materials = {
-        'Americium': util.getRadiationLevel('111u'),
-        'Darmstadtium': util.getRadiationLevel('111u'),
-        'Plutonium': util.getRadiationLevel('41u'),
-        'Plutonium241': util.getRadiationLevel('71m'),
-        'Thorium': util.getRadiationLevel('1u'),
-        'Uranium': util.getRadiationLevel('385p'),
-        'Uranium235': util.getRadiationLevel('1n')
-    };
-
-    const dicts = {
-        'ingot': 1,
-        'nugget': 1/9,
-        'dustTiny': 1/9,
-        'dustSmall': 4/9,
-        'dust': 1,
-        'dustImpure': 1,
-        'dustPure': 1,
-        'crushed': 1,
-        'crushedPurified': 1,
-        'crushedCentrifuged': 1,
-        'plate': 1,
-        'stick': 0.75,
-        'block': 13,
-        'plateCurved': 1,
-        'ingotDouble': 2.25,
-        'toolHeadSword': 2,
-        'toolHeadPickaxe': 4,
-        'toolHeadShovel': 1,
-        'toolHeadAxe': 4,
-        'toolHeadHoe': 2,
-        'toolHeadHammer': 8,
-        'toolHeadFile': 2,
-        'toolHeadSaw': 2,
-        'toolHeadDrill': 5,
-        'toolHeadChainsaw': 2,
-        'toolHeadWrench': 5,
-        'toolHeadUniversalSpade': 8,
-        'toolHeadSense': 4,
-        'toolHeadBuzzSaw': 5,
-        'turbineBlade': 7
-    };
-
-    fs.writeFileSync('nuclearCraftRads.txt', 
-        _
-            .chain(oreCache)
-            .filter((ore) => ore.Ore && ore.Rads)
-            .map((ore) => [`ore${ore.Ore}`, util.getRadiationLevel(ore.Rads)])
-            .union(_.flatMap(materials, (level, material) => {
-                return _.map(dicts, (mult, dict) => [`${dict}${material}`, util.roundRadiation(level * mult)]);
-            }))
-            // // Right. NC has oredict matching
-            // .flatMap((ore) => {
-            //     return _
-            //         .chain([null, 'gravel', 'sand'])
-            //         .flatMap((variety) => {
-            //             let entries = [];
-            //             _.each(stoneClasses, (types) => {
-            //                 _.each(types, (idx) => {
-            //                     const mapping = contentTweaker.getGregtechOreMapping(ore.Ore, idx, variety);
-            //                     if(!mapping) return;
-            //                     entries.push(`contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}`);
-            //                 });
-            //             });
-    
-            //             _.each(additionalOre, (extra) => {
-            //                 const [mod, variant] = extra.variant.split(':');
-            //                 const mapping = contentTweaker.getGregtechOreMapping(ore.Ore, variant, '', mod);
-            //                 if(!mapping) return;
-            //                 entries.push(`contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}`);
-            //             })
-
-            //             _.each(_.range(1,14), (idx) => {
-            //                 let itemId = `gregtech:ore_${_.snakeCase(ore.Ore).replace(/_(?=[0-9])/,'')}_0:${idx}`;
-    
-            //                 if (!items[itemId]) return;
-    
-            //                 entries.push(itemId);
-            //             });
-
-            //             return entries;
-            //         })
-            //         .uniq()
-            //         .map((entry) => ([entry, ore.RadLevel]))
-            //         .value();
-            // })
-            .sortBy((pair) => pair[0])
-            .fromPairs()
-            .map((v, k) => `${k}_${v}`)
-            .join('\n')
-            .value()
-    );
-}
-
 module.exports = {
     dimensionConfig: dims,
     parse: parse,
     oreNodes: oreNodes,
-    oreNodesByOre: worldgenNodesByOre,
     genUndergroundBiomesDefs: genUndergroundBiomesDefs,
     genGregtechOregen: genGregtechOregen,
     genZenScripts: genZenScripts,
     genPostOreScripts: genPostOreScripts,
     stoneClasses: stoneClasses,
-    additionalOre: additionalOre,
-    updateBiomeDefs: updateBiomeDefs,
-    genAstralSorceryOreConfigs: genAstralSorceryOreConfigs,
-    genNuclearCraftRads: genNuclearCraftRads
+    additionalOre: additionalOre
 }

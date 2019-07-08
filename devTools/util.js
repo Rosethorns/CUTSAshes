@@ -1,6 +1,5 @@
 const _ = require('lodash');
-const fs = require('fs');
-const math = require('mathjs');
+const oredicts = require('./oreDictionary').oredicts;
 
 function createColorblindConfig(name, symbol, dict) {
     const item = {
@@ -27,49 +26,8 @@ const metricConvs = {
     'p': Math.pow(10,-12)
 };
 
-function getFilesIn(dir) {
-    return new Promise((resolve, reject) => {
-        fs.readdir(dir, (err, files) => {
-            err && reject(err) || resolve(files);
-          });
-    });
-}
-
-function pascalCase(input) {
-    return  _.upperFirst(_.camelCase(input));
-}
-
-function gregOreToOreDict(oreName) {
-    if (oreName.startsWith("ore:")) oreName = pascalCase(oreName.substr(4));
-    else if(oreName.startsWith("ore_dict:")) oreName = pascalCase(oreName.substr(12));
-
-    return oreName;
-}
-
-function getRadiationLevel(radiationString) {
-    const [match, rads, mult] = radiationString.match(/([0-9]+)([a-z]+)?/i);
-    if (!match) return 0;
-    let radiationLevel = parseFloat(rads);
-    if (mult) radiationLevel *= metricConvs[mult] || 1.0;
-    return radiationLevel;
-}
-
-function roundRadiation(rads) {
-    const mult = _.find(metricConvs, (mult) => {
-        let current = rads / mult;
-        return 1 <= current && current < 1000;
-    });
-
-    // Ah JavaScript, your floating point issues are annoying...
-    return math.multiply(math.bignumber(_.ceil(rads / mult)), math.bignumber(mult));
-}
-
 module.exports = {
     createColorblindConfig: createColorblindConfig,
     metricConvs: metricConvs,
-    pascalCase: pascalCase,
-    getFilesIn: getFilesIn,
-    gregOreToOreDict: gregOreToOreDict,
-    getRadiationLevel: getRadiationLevel,
-    roundRadiation: roundRadiation
+    pascalCase: (input) => _.upperFirst(_.camelCase(input))
 };

@@ -95,15 +95,11 @@ function create() {
             data.icon = data.pages[0].ingot = oreDictionary.getOredictItem('ingot', id);
             data.pages[0].gear = oreDictionary.getOredictItem('gear', id);
             data.pages[0].plate = oreDictionary.getOredictItem('plate', id);
-
-            return data.icon;
         },
         'ores': (data, id) => {
             data.icon = data.pages[0].ore = oreDictionary.getOredictItem('ore', id);
             data.pages[0].crushed = oreDictionary.getOredictItem('crushed', id);
             data.pages[0].dust = oreDictionary.getOredictItem('dust', id);
-
-            return data.icon;
         }
     };
 
@@ -112,10 +108,7 @@ function create() {
         _.each(book[section], (data, id) => {
             console.log(`Generating book data for ${section}/${id}...`)
 
-            if (!entryDecorators[section](data, id)) {
-                console.warn(`Skipping ${section} page for ${id}.`);
-                return;
-            }
+            entryDecorators[section](data, id);
             generateCrossRefs(id, data);
 
             fs.writeFileSync(`../patchouli_books/gtce/en_us/entries/${section}/${id}.json`, JSON.stringify(data, null, 2));

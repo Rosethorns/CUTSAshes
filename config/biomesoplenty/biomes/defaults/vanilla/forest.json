@@ -51,6 +51,15 @@
       "enable": true
     },
     "amber": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "amber"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
       "enable": true
     },
     "roots": {
@@ -111,6 +120,14 @@
       "generators": {}
     },
     "berry_bushes": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "berrybush"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
       "enable": true
     },
     "blue_milk_caps": {
