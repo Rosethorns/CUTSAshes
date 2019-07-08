@@ -18,6 +18,9 @@ const dims = {
             'minecraft:glowstone': 1,
             'minecraft:magma': 2
         },
+        'orePredicates': [
+            "ore_dict:netherrack"
+        ],
         'predicate': ["is_nether"]
     },
     'overworld': {
@@ -33,7 +36,20 @@ const dims = {
             'minecraft:sand:0': 10,
             'minecraft:sand:1': 10,
             'minecraft:clay': 3
-        }
+        },
+        'orePredicates': [
+            "ore_dict:sand",
+            "ore_dict:sandstone",
+            "block:undergroundbiomes:igneous_stone",
+            "block:undergroundbiomes:metamorphic_stone",
+            "block:undergroundbiomes:sedimentary_stone",
+            "block:undergroundbiomes:igneous_gravel",
+            "block:undergroundbiomes:metamorphic_gravel",
+            "block:undergroundbiomes:sedimentary_gravel",
+            "block:undergroundbiomes:igneous_sand",
+            "block:undergroundbiomes:metamorphic_sand",
+            "block:undergroundbiomes:sedimentary_sand"
+        ]
     },
     'end': {
         'id': 1,
@@ -41,6 +57,9 @@ const dims = {
         'filler': {
             'minecraft:end_stone': 100
         },
+        'orePredicates': [
+            "ore_dict:endstone"
+        ],
         'predicate': ["name:the_end"]
     }
 };
@@ -118,21 +137,14 @@ function parse() {
                             "type": data.generator_type,
                             "radius": JSON.parse(data.generator_radius)
                         },
-                        "generation_predicate": _.union([
-                            "ore_dict:stone",
-                            "ore_dict:gravel",
-                            "ore_dict:sand",
-                            "ore_dict:sandstone",
-                            "block:undergroundbiomes:igneous_stone",
-                            "block:undergroundbiomes:metamorphic_stone",
-                            "block:undergroundbiomes:sedimentary_stone",
-                            "block:undergroundbiomes:igneous_gravel",
-                            "block:undergroundbiomes:metamorphic_gravel",
-                            "block:undergroundbiomes:sedimentary_gravel",
-                            "block:undergroundbiomes:igneous_sand",
-                            "block:undergroundbiomes:metamorphic_sand",
-                            "block:undergroundbiomes:sedimentary_sand"
-                        ], _.map(additionalOre, (o) => o.predicate)),
+                        "generation_predicate": _.union(
+                            [
+                                "ore_dict:stone",
+                                "ore_dict:gravel"
+                            ], 
+                            _.clone(dims[data.dimension].orePredicates),
+                            _.map(additionalOre, (o) => o.predicate)
+                        ),
                         "filler": _
                             .chain(data.filler)
                             .split(',')
