@@ -547,8 +547,8 @@
               {
                 "predicate": "block:earthworks:block_slate_green",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_508",
-                  "sub_block_number": 7
+                  "block": "contenttweaker:sub_block_holder_559",
+                  "sub_block_number": 10
                 }
               },
               {
@@ -561,8 +561,8 @@
               {
                 "predicate": "block:earthworks:block_slate_purple",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_529",
-                  "sub_block_number": 9
+                  "block": "contenttweaker:sub_block_holder_525",
+                  "sub_block_number": 10
                 }
               },
               {

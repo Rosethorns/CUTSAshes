@@ -77,7 +77,7 @@ const additionalOre = [
     },
     {
         "predicate": "block:earthworks:block_slate_green",
-        "variant": "earthworks:block_slate_green"
+        "variant": "earthworks:slate_green"
     },
     {
         "predicate": "block:earthworks:block_slate",
@@ -85,7 +85,7 @@ const additionalOre = [
     },
     {
         "predicate": "block:earthworks:block_slate_purple",
-        "variant": "earthworks:block_slate_purple"
+        "variant": "earthworks:slate_purple"
     },
     {
         "predicate": "block:rustic:slate",

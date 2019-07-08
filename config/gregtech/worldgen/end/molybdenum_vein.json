@@ -548,8 +548,8 @@
               {
                 "predicate": "block:earthworks:block_slate_green",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_511",
-                  "sub_block_number": 7
+                  "block": "contenttweaker:sub_block_holder_535",
+                  "sub_block_number": 10
                 }
               },
               {
@@ -562,8 +562,8 @@
               {
                 "predicate": "block:earthworks:block_slate_purple",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_513",
-                  "sub_block_number": 9
+                  "block": "contenttweaker:sub_block_holder_526",
+                  "sub_block_number": 0
                 }
               },
               {
@@ -1110,8 +1110,8 @@
               {
                 "predicate": "block:earthworks:block_slate_green",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_530",
-                  "sub_block_number": 1
+                  "block": "contenttweaker:sub_block_holder_540",
+                  "sub_block_number": 13
                 }
               },
               {
@@ -1124,8 +1124,8 @@
               {
                 "predicate": "block:earthworks:block_slate_purple",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_510",
-                  "sub_block_number": 14
+                  "block": "contenttweaker:sub_block_holder_507",
+                  "sub_block_number": 12
                 }
               },
               {
@@ -1672,8 +1672,8 @@
               {
                 "predicate": "block:earthworks:block_slate_green",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_525",
-                  "sub_block_number": 10
+                  "block": "contenttweaker:sub_block_holder_521",
+                  "sub_block_number": 9
                 }
               },
               {
@@ -1686,8 +1686,8 @@
               {
                 "predicate": "block:earthworks:block_slate_purple",
                 "value": {
-                  "block": "contenttweaker:sub_block_holder_525",
-                  "sub_block_number": 4
+                  "block": "contenttweaker:sub_block_holder_507",
+                  "sub_block_number": 7
                 }
               },
               {
