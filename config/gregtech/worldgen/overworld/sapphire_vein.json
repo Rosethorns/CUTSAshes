@@ -28,7 +28,9 @@
     "block:earthworks:block_slate_green",
     "block:earthworks:block_slate",
     "block:earthworks:block_slate_purple",
-    "block:rustic:slate"
+    "block:rustic:slate",
+    "ore_dict:stonePermafrost",
+    "ore_dict:stoneBrimstone"
   ],
   "filler": {
     "type": "simple",
@@ -579,6 +581,20 @@
                   "block": "contenttweaker:sub_block_holder_508",
                   "sub_block_number": 9
                 }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_554",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_552",
+                  "sub_block_number": 12
+                }
               }
             ]
           }
@@ -1126,6 +1142,20 @@
                 "value": {
                   "block": "contenttweaker:sub_block_holder_535",
                   "sub_block_number": 2
+                }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_544",
+                  "sub_block_number": 14
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_549",
+                  "sub_block_number": 3
                 }
               }
             ]
@@ -1675,6 +1705,20 @@
                   "block": "contenttweaker:sub_block_holder_511",
                   "sub_block_number": 9
                 }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_547",
+                  "sub_block_number": 4
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_541",
+                  "sub_block_number": 12
+                }
               }
             ]
           }
@@ -2222,6 +2266,20 @@
                 "value": {
                   "block": "contenttweaker:sub_block_holder_517",
                   "sub_block_number": 13
+                }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_553",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_548",
+                  "sub_block_number": 6
                 }
               }
             ]
