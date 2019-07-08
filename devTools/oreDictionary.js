@@ -22,7 +22,6 @@ function getOredictItem(type, id) {
  */
 function resolveOredict(dict) {
     if (dict.startsWith('ore:')) dict = dict.substr(4);
-    else if (dict.startsWith('ore_dict:')) dict = dict.substr(9);
 
     let oredict = oredicts[dict] || [];
 

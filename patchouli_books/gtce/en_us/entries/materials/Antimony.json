@@ -9,6 +9,7 @@
       "link": "https://en.wikipedia.org/wiki/Antimony",
       "source": "Wikipedia",
       "ingot": "gregtech:meta_item_1:10003",
+      "gear": "mystgears:gear_antimony:0",
       "plate": "gregtech:meta_item_1:12003"
     },
     {
