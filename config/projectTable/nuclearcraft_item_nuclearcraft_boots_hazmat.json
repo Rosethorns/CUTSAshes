@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:boots_hazmat",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "nuclearcraft:rad_shielding",
+      "Count": 2,
+      "Damage": 2,
+      "tool": false
+    },
+    {
+      "oredict": "dyeBlack",
+      "Count": 1,
+      "tool": false
+    },
+    {
+      "oredict": "bioplastic",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "id": "minecraft:leather_boots",
+      "Count": 1,
+      "tool": false
+    }
+  ]
+}

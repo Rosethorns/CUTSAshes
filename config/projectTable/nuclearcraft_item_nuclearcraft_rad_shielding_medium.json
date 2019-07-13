@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:rad_shielding",
+      "Count": 1,
+      "Damage": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "bioplastic",
+      "Count": 3,
+      "tool": false
+    },
+    {
+      "id": "nuclearcraft:rad_shielding",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "oredict": "ingotFerroboron",
+      "Count": 1,
+      "tool": false
+    },
+    {
+      "oredict": "plateBasic",
+      "Count": 3,
+      "tool": false
+    }
+  ]
+}

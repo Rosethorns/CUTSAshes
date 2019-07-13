@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:upgrade",
+      "Count": 1,
+      "Damage": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "dustObsidian",
+      "Count": 4,
+      "tool": false
+    },
+    {
+      "oredict": "dustQuartz",
+      "Count": 4,
+      "tool": false
+    },
+    {
+      "id": "minecraft:light_weighted_pressure_plate",
+      "Count": 1,
+      "tool": false
+    }
+  ]
+}

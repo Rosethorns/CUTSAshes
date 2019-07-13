@@ -166,9 +166,9 @@ function extractGregtechRecycling(res) {
         `val names = ["${_.map(res, (r) => r.displayName).join('", "')}"] as string[];\n` +
         `val items = [<${_.map(res, (r) => r.output).join('>, <')}>] as IItemStack[];\n\n` +
         `for i, item in items {\n` +
-        `   recipes.addShapeless(tablenames[i] + "Recycling", \n` +
-        `       <scrap:scrap>.withTag({NAME: names[i],TABLE:"scrap:"+tablenames[i],GEAR:"AB948B",PLATE:"7C7C7C",XP:"0"}), \n` +
-        `       [item, <immersiveengineering:tool:0>.reuse()]);\n` +
+        `    recipes.addShapeless(tablenames[i] + "Recycling",\n` +
+        `        <scrap:scrap>.withTag({NAME: names[i],TABLE:"scrap:"+tablenames[i],GEAR:"AB948B",PLATE:"7C7C7C",XP:"0"}), \n` +
+        `        [item, <immersiveengineering:tool:0>.reuse()]);\n` +
         // Using IE hammer because CT gets along _so great_ with GTCE tools https://github.com/CraftTweaker/CraftTweaker/issues/723
         `}`;
     fs.writeFileSync('../scripts/GregtechRecycling.zs', zenscript);
@@ -335,13 +335,13 @@ Promise.all([
             badOredict = i.id;
             return !od || od.length <= 0;
         })) {
-            console.log(`Skipping recipe ${r.name} with bad oredict ${badOredict}`);
+            // console.log(`Skipping recipe ${r.name} with bad oredict ${badOredict}`);
             return;
         }
 
         const outputItem = `${output[1]}:${output[2]}`;
         if (_.some(oreTools, (t) => _.some(oredicts[t], (oi) => oi.mod === output[1] && oi.id === output[2]))) {
-            console.log(`Skipping recipe ${r.name} with tool output: ${outputItem}`);
+            // console.log(`Skipping recipe ${r.name} with tool output: ${outputItem}`);
             return;
         }
 
@@ -402,6 +402,6 @@ Promise.all([
         };
 
         // Write however many files...
-        fs.writeFileSync(`projectTable/${r.name.replace(/[^A-Z0-9_]/gi,'_')}.json`, JSON.stringify(project, null, 2));
+        fs.writeFileSync(`../config/projectTable/${r.name.replace(/[^A-Z0-9_]/gi,'_')}.json`, JSON.stringify(project, null, 2));
     });
 })

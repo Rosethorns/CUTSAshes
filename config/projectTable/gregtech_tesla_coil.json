@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 1001
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "wireGtQuadrupleCopper",
+      "Count": 6,
+      "tool": false
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 2,
+      "Damage": 32681,
+      "tool": false
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 502,
+      "tool": false
+    }
+  ]
+}

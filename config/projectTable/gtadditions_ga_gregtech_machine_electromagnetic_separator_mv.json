@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 251
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32631,
+      "tool": false
+    },
+    {
+      "oredict": "cableGtSingleCopper",
+      "Count": 3,
+      "tool": false
+    },
+    {
+      "oredict": "wireGtDoubleCopper",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 502,
+      "tool": false
+    },
+    {
+      "oredict": "stickSteel",
+      "Count": 1,
+      "tool": false
+    },
+    {
+      "oredict": "circuitGood",
+      "Count": 1,
+      "tool": false
+    }
+  ]
+}

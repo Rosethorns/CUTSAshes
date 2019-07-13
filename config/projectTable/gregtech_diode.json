@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:meta_item_2",
+      "Count": 4,
+      "Damage": 32451
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "dyeBlack",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "oredict": "paneGlass",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "oredict": "wireFineTin",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "oredict": "dustTinyGallium",
+      "Count": 1,
+      "tool": false
+    }
+  ]
+}

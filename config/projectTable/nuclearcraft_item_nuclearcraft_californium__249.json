@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "nuclearcraft:californium",
+      "Count": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "nuggetCalifornium249",
+      "Count": 9,
+      "tool": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 511
+    }
+  ],
+  "ingredients": [
+    {
+      "oredict": "craftingFurnace",
+      "Count": 3,
+      "tool": false
+    },
+    {
+      "oredict": "circuitBasic",
+      "Count": 3,
+      "tool": false
+    },
+    {
+      "id": "gregtech:metal_casing",
+      "Count": 1,
+      "Damage": 2,
+      "tool": false
+    },
+    {
+      "oredict": "cableGtSingleTin",
+      "Count": 2,
+      "tool": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gtadditions:ga_meta_item",
+      "Count": 3,
+      "Damage": 32032
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "minecraft:clay_ball",
+      "Count": 3,
+      "tool": false
+    },
+    {
+      "id": "minecraft:sand",
+      "Count": 5,
+      "tool": false
+    },
+    {
+      "oredict": "formWood",
+      "Count": 1,
+      "tool": false
+    }
+  ]
+}

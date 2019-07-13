@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomicBlom/ProjectTable/cb2067db150c5a7a56b4122e671f6d3f28e3c43e/src/main/resources/projectTableRecipe.schema.json",
+  "crafts": [
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 2189
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 4,
+      "Damage": 32686,
+      "tool": false
+    },
+    {
+      "id": "gregtech:meta_item_1",
+      "Count": 1,
+      "Damage": 32676,
+      "tool": false
+    },
+    {
+      "oredict": "circuitSuperconductor",
+      "Count": 2,
+      "tool": false
+    },
+    {
+      "id": "gregtech:machine",
+      "Count": 1,
+      "Damage": 507,
+      "tool": false
+    },
+    {
+      "oredict": "cableGtQuadrupleNaquadah",
+      "Count": 1,
+      "tool": false
+    }
+  ]
+}
