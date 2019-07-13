@@ -7,6 +7,8 @@ const contentTweaker = require('./contentTweaker');
 const oreParser = require('./oreParser');
 const util = require('./util');
 
+const nodeChance = 0.0625
+
 const dims = {
     'nether': {
         'id': -1,
@@ -21,7 +23,8 @@ const dims = {
         'orePredicates': [
             "ore_dict:netherrack"
         ],
-        'predicate': ["is_nether"]
+        'predicate': ["is_nether"],
+        'ubize': false
     },
     'overworld': {
         'id': 0,
@@ -49,7 +52,8 @@ const dims = {
             "block:undergroundbiomes:igneous_sand",
             "block:undergroundbiomes:metamorphic_sand",
             "block:undergroundbiomes:sedimentary_sand"
-        ]
+        ],
+        'ubize': true
     },
     'end': {
         'id': 1,
@@ -60,7 +64,8 @@ const dims = {
         'orePredicates': [
             "ore_dict:endstone"
         ],
-        'predicate': ["name:the_end"]
+        'predicate': ["name:the_end"],
+        'ubize': false
     }
 };
 
@@ -301,17 +306,18 @@ function genGregtechOregen() {
 
                         block.value.values = [];
 
-                        oreItem = _.chain(oreItem).split(':').take(2).join('_').value();
-                        _.each({'stone': null, 'gravel': 'gravel', 'sand': 'sand'}, (variety, dict) => {
-                            _.each(stoneClasses, (types, stone) => {
-                                _.each(types, (idx) => {
-                                    addOreVariant(
-                                        oreName, idx, variety, block, 
-                                        `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(idx)}`
-                                    );
+                        if (dims[node.dimension].ubize) {
+                            _.each({'stone': null, 'gravel': 'gravel', 'sand': 'sand'}, (variety, dict) => {
+                                _.each(stoneClasses, (types, stone) => {
+                                    _.each(types, (idx) => {
+                                        addOreVariant(
+                                            oreName, idx, variety, block, 
+                                            `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(idx)}`
+                                        );
+                                    });
                                 });
                             });
-                        });
+                        }
 
                         _.each(additionalOre, (ore) => {
                             const [mod,variant] = ore.variant.split(':');
@@ -326,6 +332,40 @@ function genGregtechOregen() {
         };
 
         fs.writeFileSync(`../config/gregtech/worldgen/${node.dimension}/${node.name}.json`, JSON.stringify(output, null, 2));
+    });
+
+    _.each(dims, (data, dim) => {
+        const output = {
+            "weight": _.ceil(
+                    _
+                    .chain(oreNodes)
+                    .filter((n) => n.dimension == dim)
+                    .sumBy((n) => n.weight)
+                    .value() 
+                    / (nodeChance * 2)
+                ), // Multiply by 2 because it's a 50/50 chance to gen a node
+            "density": 1.0,
+            "min_height": 1,
+            "max_height": 3,
+            "generator": {
+                "type": "single",
+                "blocks_count": [0,0]
+            },
+            "filler": {
+                "type": "ignore_bedrock",
+                "value": {
+                "type": "weight_random",
+                    "values": [
+                        {
+                            "weight": 100,
+                            "value": "block:minecraft:bedrock"
+                        }
+                    ]
+                }
+            },
+            "dimension_filter": data.predicate || undefined
+        };
+        fs.writeFileSync(`../config/gregtech/worldgen/${dim}/whyyousodumbgtce.json`, JSON.stringify(output, null, 2));
     });
 }
 

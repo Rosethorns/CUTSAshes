@@ -1,0 +1,28 @@
+{
+  "weight": 6560,
+  "density": 1,
+  "min_height": 1,
+  "max_height": 3,
+  "generator": {
+    "type": "single",
+    "blocks_count": [
+      0,
+      0
+    ]
+  },
+  "filler": {
+    "type": "ignore_bedrock",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 100,
+          "value": "block:minecraft:bedrock"
+        }
+      ]
+    }
+  },
+  "dimension_filter": [
+    "is_nether"
+  ]
+}
