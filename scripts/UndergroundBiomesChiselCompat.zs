@@ -25,7 +25,6 @@ addVariations([
 <ore:blockMarble>.add(ubMarble);
 
 recipes.replaceAllOccurences(<chisel:marble2:7>, <ore:stoneMarble>, <*>);
-recipes.replaceAllOccurences(<astralsorcery:blockmarble>, <ore:stoneMarble>, <*>);
 
 
 
