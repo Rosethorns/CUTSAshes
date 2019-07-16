@@ -1,0 +1,102 @@
+{
+	"frame": {
+		"type": "VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 3,
+				"maxWidth": 7,
+				"minHeight": 3,
+				"maxHeight": 7
+			},
+			"verticalZ": {
+				"minWidth": 3,
+				"maxWidth": 7,
+				"minHeight": 3,
+				"maxHeight": 7
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "embers:ashen_stone",
+				"meta": 32767,
+				"minimumAmount": 4
+			}
+		],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": false,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "quark:candle",
+				"meta": 14
+			},
+			{
+				"registryName": "harvestcraft:candledeco15",
+				"meta": 32767
+			},
+			{
+				"registryName": "thaumcraft:candle_red",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"RED"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": -23,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": false,
+		"generatePortalIfNotFound": true,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}
