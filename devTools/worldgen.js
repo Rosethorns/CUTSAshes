@@ -66,6 +66,20 @@ const dims = {
         ],
         'predicate': ["name:the_end"],
         'ubize': false
+    },
+    'midnight': {
+        'id': -23,
+        'meta': 0,
+        'filler': {
+            'midnight:nightstone': 60,
+            'midnight:trenchstone': 30,
+            'midnight:deceitful_mud': 10
+        },
+        'orePredicates': [
+            'ore_dict:midnightOreBase'
+        ],
+        'predicate': ['name:midnight'],
+        'ubize': false
     }
 };
 
@@ -104,7 +118,9 @@ const additionalOre = [
         "predicate": "ore_dict:stoneBrimstone",
         "variant": "quark:fire_stone"
     }
-]
+];
+
+const specialOres = {};
 
 const items = [];
 
@@ -117,6 +133,21 @@ _.each(dims, (dim) => {
             'weight': w / totalWeight
         }
     });
+});
+
+// Build up custom ore lists:
+_.each(['Light', 'Dusk', 'Flame', 'Water', 'Wind', 'Earth'], (aspect) => {
+    const blocks = [];
+    _.each(['nightstone', 'trenchstone'], (base) => {
+        blocks.push({
+            'predicate': `block:midnight:${base}`,
+            'value': `block:contenttweaker:${_.toLower(aspect)}_aspected_${base}`
+        });
+    });
+    specialOres[`ore${aspect}AspectedStone`] = {
+        'default': null, // Because oh no, why would Arch CODE ANYTHING USEFUL
+        'values': blocks
+    };
 });
 
 const oreNodes = [];
@@ -292,8 +323,17 @@ function genGregtechOregen() {
                             "weight": f.weight,
                             "value": {
                                 "type": "state_match",
-                                "default": f.ore
+                                "default": f.ore || null,
+                                "values": []
                             }
+                        }
+
+                        // Special handling for things like midnight ores
+                        if (f.ore.startsWith('special')) {
+                            const [__, special] = f.ore.split(':');
+                            delete block.value.default;
+                            _.merge(block.value, specialOres[special]);
+                            return block;
                         }
 
                         let oreName = util.gregOreToOreDict(f.ore);
@@ -303,8 +343,6 @@ function genGregtechOregen() {
                             console.log(`Unable to determine item for oredict ${f.ore}`);
                             return block;
                         };
-
-                        block.value.values = [];
 
                         if (dims[node.dimension].ubize) {
                             _.each({'stone': null, 'gravel': 'gravel', 'sand': 'sand'}, (variety, dict) => {

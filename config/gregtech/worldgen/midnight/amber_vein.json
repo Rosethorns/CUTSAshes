@@ -1,0 +1,94 @@
+{
+  "weight": 15,
+  "density": 0.4,
+  "max_height": 256,
+  "min_height": 5,
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [
+      7,
+      9
+    ]
+  },
+  "generation_predicate": [
+    "ore_dict:stone",
+    "ore_dict:gravel",
+    "ore_dict:midnightOreBase",
+    "block:quark:elder_prismarine",
+    "block:earthworks:block_slate_green",
+    "block:earthworks:block_slate",
+    "block:earthworks:block_slate_purple",
+    "block:rustic:slate",
+    "ore_dict:stonePermafrost",
+    "ore_dict:stoneBrimstone"
+  ],
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": "100",
+          "value": {
+            "type": "state_match",
+            "default": "ore_dict:oreAmber",
+            "values": [
+              {
+                "predicate": "block:quark:elder_prismarine",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_558",
+                  "sub_block_number": 11
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_green",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_510",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_557",
+                  "sub_block_number": 10
+                }
+              },
+              {
+                "predicate": "block:earthworks:block_slate_purple",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_525",
+                  "sub_block_number": 7
+                }
+              },
+              {
+                "predicate": "block:rustic:slate",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_556",
+                  "sub_block_number": 6
+                }
+              },
+              {
+                "predicate": "ore_dict:stonePermafrost",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_557",
+                  "sub_block_number": 8
+                }
+              },
+              {
+                "predicate": "ore_dict:stoneBrimstone",
+                "value": {
+                  "block": "contenttweaker:sub_block_holder_558",
+                  "sub_block_number": 4
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "dimension_filter": [
+    "name:midnight"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "weight": 25,
+  "density": 0.6,
+  "max_height": 25,
+  "min_height": 5,
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [
+      7,
+      9
+    ]
+  },
+  "generation_predicate": [
+    "ore_dict:stone",
+    "ore_dict:gravel",
+    "ore_dict:midnightOreBase",
+    "block:quark:elder_prismarine",
+    "block:earthworks:block_slate_green",
+    "block:earthworks:block_slate",
+    "block:earthworks:block_slate_purple",
+    "block:rustic:slate",
+    "ore_dict:stonePermafrost",
+    "ore_dict:stoneBrimstone"
+  ],
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": "100",
+          "value": {
+            "type": "state_match",
+            "values": [
+              {
+                "predicate": "block:midnight:nightstone",
+                "value": "block:contenttweaker:flame_aspected_nightstone"
+              },
+              {
+                "predicate": "block:midnight:trenchstone",
+                "value": "block:contenttweaker:flame_aspected_trenchstone"
+              }
+            ],
+            "default": null
+          }
+        }
+      ]
+    }
+  },
+  "dimension_filter": [
+    "name:midnight"
+  ]
+}
