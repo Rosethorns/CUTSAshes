@@ -3,6 +3,8 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
 
 #Blocks
 
@@ -60,3 +62,12 @@ wireMagnesiumDiboride.register();
 
 var motorULV = VanillaFactory.createItem("motor_ulv");
 motorULV.register();
+
+var moltenThaumium = VanillaFactory.createFluid("fluid_thaumium", Color.fromHex("7C6AC4"));
+moltenThaumium.stillLocation = "base:fluids/molten";
+moltenThaumium.flowingLocation = "base:fluids/molten_flowing";
+moltenThaumium.material = <blockmaterial:lava>;
+moltenThaumium.luminosity = 14;
+moltenThaumium.density = 500;
+moltenThaumium.viscosity = 500;
+moltenThaumium.register();
