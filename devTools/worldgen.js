@@ -694,6 +694,7 @@ module.exports = {
     genPostOreScripts: genPostOreScripts,
     stoneClasses: stoneClasses,
     additionalOre: additionalOre,
+    specialOres: specialOres,
     updateBiomeDefs: updateBiomeDefs,
     genAstralSorceryOreConfigs: genAstralSorceryOreConfigs,
     genNuclearCraftRads: genNuclearCraftRads

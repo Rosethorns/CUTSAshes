@@ -8,6 +8,7 @@ const materialParser = require('./material');
 const worldgenParser = require('./worldgen');
 const fluids = require('./fluids');
 const book = require('./book');
+const excavator = require('./excavator');
 
 // Data storage
 const colorblind = [];
@@ -41,5 +42,6 @@ oreDictionaryParser.parse('oredictionary.csv').then((data) => {
 
     worldgenParser.genAstralSorceryOreConfigs();
     return worldgenParser.updateBiomeDefs();
-});
-
+})
+    .then(excavator.create)
+    .then(book.create);

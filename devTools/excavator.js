@@ -10,166 +10,120 @@
  * - One 'Excavator{dimension}.zs file per dim
  */
 
-// Config
-const dims = {
-    'nether': {
-        'id': -1,
-        'meta': 6,
-        'filler': {
-            'minecraft:netherrack': 100,
-            'minecraft:soul_sand': 15,
-            'minecraft:gravel': 7,
-            'minecraft:glowstone': 1,
-            'minecraft:magma': 2
-        }
-    },
-    'overworld': {
-        'id': 0,
-        'meta': 0,
-        'filler': {
-            'minecraft:stone:0': 100,
-            'minecraft:stone:1': 50,
-            'minecraft:stone:3': 50,
-            'minecraft:stone:5': 50,
-            'minecraft:dirt:0': 20,
-            'minecraft:gravel:0': 30,
-            'minecraft:sand:0': 10,
-            'minecraft:sand:1': 10,
-            'minecraft:clay': 3
-        }
-    },
-    'end': {
-        'id': 1,
-        'meta': 7,
-        'filler': {
-            'minecraft:end_stone': 100
-        }
-    }
-};
-
 // Imports
 const csv = require('csv-parser');
 const fs = require('fs');
 const _ = require('lodash');
 
+const oredict = require('./oreDictionary');
+const worldgen = require('./worldgen');
+const util = require('./util');
+
 // Outputs
-const oreNodes = [];
-const items = {};
+const dims = worldgen.dimensionConfig;
+const items = [];
 
 function oreToOreDict(ore, dim) {
-    return "oreGtExcavator" + _.map(_.split(ore, /[:_]/), (p) => _.upperFirst(p)).join('') + _.upperFirst(dim);
+    if (ore.startsWith('special:')) return ore.substr(8);
+    return "oreGtExcavator" + util.gregOreToOreDict(ore) + _.upperFirst(dim);
 }
 
-// Mutate dim filler first:
-_.each(dims, (dim) => {
-    const totalWeight = _.sum(_.values(dim.filler));
-    dim.filler = _.map(dim.filler, (w, f) => {
-        return {
-            'block': f,
-            'weight': w / totalWeight
-        }
-    });
-});
-
-Promise.all([
-    // TODO: This needs to migrate to using oregen scripts
-    new Promise((resolve) => {
-        _.each(dims, (data, dir) => {
-            const files = fs.readdirSync(`./worldgen/${dir}/`);
-            // Attempt to make the directory
-            // try {
-            //     fs.mkdirSync(`./excavatorOut/${dir}`);
-            // } catch (err) {}
-        
-            _.each(files, (file) => {
-                const data = JSON.parse(fs.readFileSync(`./worldgen/${dir}/${file}`, 'utf8'));
-                oreNodes.push({
-                    "name": file.replace(".json",""),
-                    "weight": data.weight,
-                    "density": data.density,
-                    "filler": data.filler.value.values,
-                    "dimension": dir
+module.exports = {
+    create: () => {
+        return new Promise((resolve) => {
+            fs
+                .createReadStream('items.csv')
+                .pipe(csv())
+                .on('data', (data) => {
+                    items[`${data["Registry name"]}:${data["Meta/dmg"]}`] = data["Display name"];
                 })
-            });
-        });
+                .on('end', () => {
+                    resolve();
+                });
+        }).then(() => new Promise((resolve) => {
+            const oreNodes = _.cloneDeep(worldgen.oreNodes)
 
-        resolve();
-    }),
-    new Promise((resolve) => {
-        fs
-            .createReadStream('items.csv')
-            .pipe(csv())
-            .on('data', (data) => {
-                items[`${data["Registry name"]}:${data["Meta/dmg"]}`] = data["Display name"];
-            })
-            .on('end', () => {
-                resolve();
-            });
-    })
-]).then(() => {
-    // This is going to ignore:
-    // - Fluids
-    // - Instances where the result is a single block (granite, esp)
-    // - Anything that's not weight_random, but that's currently the only one in use
-    const oresByDim = _
-        .chain(oreNodes)
-        .filter(
-        (n) => 
-            0 < n.filler.length &&
-            _.every(n.filler, (o) => _.isString(o.value) && o.value.startsWith('ore:'))
-        )
-        .groupBy((n) => n.dimension)
-        .mapValues((ores, idx) => {
-            return {
-                "filler": _.map(dims[idx].filler, (f, i) => `oreDict.oreGtExcavatorFiller${idx}${i}.add(<${f.block}>);`),
-                "ores": _
-                    .chain(ores)
-                    .flatMap((o) => {
-                        return _.map(o.filler, (oi) => oi.value);
-                    })
-                    .uniq()
-                    .map((o) => {
-                        return `oreDict.${oreToOreDict(o, idx)}.add(<gregtech:${o.replace(":","_")}_0:${dims[idx].meta}>);`;
-                    })
-                    .value(),
-                "minerals": ores.map((o) => {
-                    // Calculate all the things...
-                    const oreDensity = _.clamp(o.density, 0, 1);
-                    const oreItems = _.map(o.filler, (oi) => oreToOreDict(oi.value, idx));
-                    const totalWeight = _.sumBy(o.filler, (oi) => oi.weight);
-                    const oreWeights = _.map(o.filler, (oi) => _.round((oi.weight / totalWeight) * oreDensity, 4));
+            // - Fluids
+            // - Instances where the result is a single block (granite, esp)
+            // - Anything that's not weight_random, but that's currently the only one in use
+            const oresByDim = _
+                .chain(oreNodes)
+                .groupBy((n) => n.dimension)
+                .mapValues((ores, idx) => {
+                    return {
+                        "filler": _.map(dims[idx].filler, (f, i) => `oreDict.oreGtExcavatorFiller${idx}${i}.add(<${f.block}>);`),
+                        "ores": _
+                            .chain(ores)
+                            .flatMap((o) => {
+                                return _.map(o.filler, (oi) => oi.ore);
+                            })
+                            .uniq()
+                            .map((o) => {
+                                if (o.startsWith('ore_dict:')) {
+                                    return `oreDict.${oreToOreDict(o, idx)}.addAll(<ore:${o.substr(9)}>);`;
+                                }
 
-                    // Filler!
-                    const fillerDensity = 1 - oreDensity;
-                    if (0 < fillerDensity) {
-                        _.each(dims[idx].filler, (f, i) => {
-                            oreItems.push(`oreGtExcavatorFiller${idx}${i}`);
-                            oreWeights.push(_.round(f.weight * fillerDensity, 4));
-                        });
+                                let ore;
+                                if (o.startsWith('ore:')) ore =  `gregtech:${o.replace(":","_")}_0:${dims[idx].meta}`;
+                                else if (o.startsWith('special:')) ore = _.first(worldgen.specialOres[o.substr(8)].values).value.substr(6);
+
+                                return `oreDict.${oreToOreDict(o, idx)}.add(<${ore}>);`;
+                            })
+                            .filter((l) => l)
+                            .sortBy((l) => l.includes('addAll') + l)
+                            .value(),
+                        "minerals": ores.map((o) => {
+                            // Calculate all the things...
+                            const oreDensity = _.clamp(o.density, 0, 1);
+                            const oreItems = _.map(o.filler, (oi) => oreToOreDict(oi.ore, idx));
+                            const totalWeight = _.sumBy(o.filler, (oi) => parseInt(oi.weight));
+                            const oreWeights = _.map(o.filler, (oi) => _.round((oi.weight / totalWeight) * oreDensity, 4));
+
+                            // Filler!
+                            const fillerDensity = 1 - oreDensity;
+                            if (0 < fillerDensity) {
+                                _.each(dims[idx].filler, (f, i) => {
+                                    oreItems.push(`oreGtExcavatorFiller${idx}${i}`);
+                                    oreWeights.push(_.round(f.weight * fillerDensity, 4));
+                                });
+                            }
+
+                            let topOre = _.maxBy(o.filler, (oi) => parseInt(oi.weight)).ore;
+                            if (topOre.startsWith('special:')) {
+                                topOre = _.first(worldgen.specialOres[topOre.substr(8)].values).value.substr(6);
+                            } else {
+                                let oreDictName = util.gregOreToOreDict(topOre);
+                                topOre = oredict.resolveOredict('ore' + oreDictName);
+                                if (!topOre) topOre = oreDictName;
+                                else if (topOre.startsWith("gregtech")) topOre.replace(':0', ':' + dims[idx].meta);
+                            }
+
+                            // Convoluted way of figuring out what the name of the vein should be:
+                            const mainOre = (items[topOre] || _.startCase(topOre.includes(':') ? topOre.split(':')[1] : topOre)).replace(' Ore','').trim();
+
+                            if (oreItems.length != oreWeights.length) {
+                                console.log(`Unable to match all ore entries in ${o.dimension}:${o.name}:`, o);
+                            }
+
+                            return `mods.immersiveengineering.Excavator.addMineral("${mainOre}", ${o.weight}` +
+                                    `, 0.005, ["${oreItems.join('", "')}"], [${oreWeights.join(',')}], [${dims[o.dimension].id}]);`
+                        })
                     }
-
-                    // Convoluted way of figuring out what the name of the vein should be:
-                    const mainOre = items[`gregtech:${_.maxBy(o.filler, (oi) => oi.weight).value.replace(":","_")}_0:${dims[idx].meta}`].replace(' Ore','');
-
-                    if (oreItems.length != oreWeights.length) {
-                        console.log(`Unable to match all ore entries in ${o.dimension}:${o.name}:`, o);
-                    }
-
-                    return `mods.immersiveengineering.Excavator.addMineral("${mainOre}", ${o.weight}` +
-                            `, 0.005, ["${oreItems.join('", "')}"], [${oreWeights.join(',')}], [${dims[o.dimension].id}]);`
                 })
-            }
-        })
-        .value();
+                .value();
 
-    _.each(oresByDim, (data, idx) => {
-        fs.writeFileSync(`../scripts/Excavator${_.upperFirst(idx)}.zs`, _.flatMap([
-            ['import crafttweaker.oredict.IOreDictEntry;','\n','// Ore dicts'],
-            data.ores,
-            ['\n', '// Filler ore dicts'],
-            data.filler,
-            ['\n','// Dig that hole'],
-            data.minerals
-        ]).join('\n'));
-    });
-});
+            _.each(oresByDim, (data, idx) => {
+                fs.writeFileSync(`../scripts/Excavator${_.upperFirst(idx)}.zs`, _.flatMap([
+                    ['import crafttweaker.oredict.IOreDictEntry;','\n','// Ore dicts'],
+                    data.ores,
+                    ['\n', '// Filler ore dicts'],
+                    data.filler,
+                    ['\n','// Dig that hole'],
+                    data.minerals
+                ]).join('\n'));
+            });
+
+            resolve(oresByDim);
+        }));
+    }
+}

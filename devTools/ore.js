@@ -346,7 +346,10 @@ function generateBookEntry(row, name, worldgenNodesByOre, pathmap, names) {
                     oreNodeEntry[`ore${oreIdx + 1}None_p${entryIdx}`] = true;
                     continue;
                 }
-                oreNodeEntry[`ore${oreIdx + 1}_p${entryIdx}`] = `gregtech:ore_${_.snakeCase(node.filler[oreIdx].ore)}_0:${dimOre}`;
+                let oreItem = oreDictionary.resolveOredict('ore' + node.filler[oreIdx].ore);
+                if (!oreItem) oreItem = 'ore:ore' + node.filler[oreIdx].ore;
+                else if (oreItem.startsWith('gregtech:')) oreItem = oreItem.replace(':0', ':' + dimOre);
+                oreNodeEntry[`ore${oreIdx + 1}_p${entryIdx}`] = oreItem;
                 oreNodeEntry[`ore${oreIdx + 1}Pct_p${entryIdx}`] = `${_.round((node.filler[oreIdx].weight / weightTotal) * 100)}%`;
             }
 
