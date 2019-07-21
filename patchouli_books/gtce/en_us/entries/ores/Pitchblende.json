@@ -9,7 +9,7 @@
       "link": "https://en.wikipedia.org/wiki/Uraninite",
       "source": "Wikipedia",
       "scan": "$(#3B3E00)█$() Rare",
-      "precautions": "",
+      "precautions": " - Radiation: $(#FCD116)96 pRads/t$()",
       "ore": "gregtech:ore_pitchblende_0:0",
       "crushed": "gregtech:meta_item_1:5280",
       "dust": "gregtech:meta_item_1:2280"
