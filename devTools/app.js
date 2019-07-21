@@ -9,6 +9,7 @@ const worldgenParser = require('./worldgen');
 const fluids = require('./fluids');
 const book = require('./book');
 const excavator = require('./excavator');
+const lootTables = require('./lootTables');
 
 // Data storage
 const colorblind = [];
@@ -28,7 +29,8 @@ oreDictionaryParser.parse('oredictionary.csv').then((data) => {
             ores = data.ores;
         }),
         worldgenParser.parse(),
-        fluids.parse()
+        fluids.parse(),
+        lootTables.cleanupLootTables()
     ])
 }).then(() => {
     worldgenParser.genUndergroundBiomesDefs(ores);
