@@ -243,7 +243,7 @@ function genContentTweakerScripts() {
             `undergroundbiomes:${t}_sand`,
             `undergroundbiomes:${t}_gravel`
         ]))
-        .union(_.map(worldgen.additionalOre, (t) => t.variant))
+        .union(_.map(worldgen.additionalReplacements, (t) => t.variant))
         .join(',')
         .value();
     fs.writeFileSync(`../scripts/ContentTweakerGregtechOreMaterials.zs`, _.flatten([
@@ -323,7 +323,7 @@ function generatePostScripts() {
             .filter((o) => o !== undefined)
             .value();
 
-        _.each(worldgen.additionalOre, (add) => {
+        _.each(worldgen.additionalReplacements, (add) => {
             const [mod,variant] = add.variant.split(':');
             const mapping = contentTweaker.getGregtechOreMapping(oreName, variant, '', mod);
 

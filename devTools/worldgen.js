@@ -89,7 +89,7 @@ const stoneClasses = {
     "sedimentary": ["limestone", "chalk", "shale", "siltstone", "lignite", "dolomite", "greywacke", "chert"]
 };
 
-const additionalOre = [
+const additionalReplacements = [
     {
         "predicate": "block:quark:elder_prismarine",
         "variant": "quark:elder_prismarine"
@@ -179,7 +179,7 @@ function parse() {
                                 "ore_dict:gravel"
                             ], 
                             _.clone(dims[data.dimension].orePredicates),
-                            _.map(additionalOre, (o) => o.predicate)
+                            _.map(additionalReplacements, (o) => o.predicate)
                         ),
                         "filler": _
                             .chain(data.filler)
@@ -357,7 +357,7 @@ function genGregtechOregen() {
                             });
                         }
 
-                        _.each(additionalOre, (ore) => {
+                        _.each(additionalReplacements, (ore) => {
                             const [mod,variant] = ore.variant.split(':');
                             addOreVariant(oreName, variant, '', block, ore.predicate, mod);
                         });
@@ -470,7 +470,7 @@ function genPostOreScripts() {
                         });
                     });
 
-                    _.each(additionalOre, (extra) => {
+                    _.each(additionalReplacements, (extra) => {
                         const [mod, variant] = extra.variant.split(':');
                         hideOreBlockInJei(ore.Ore, variant, '', blocks, mod);
                     })
@@ -693,7 +693,7 @@ module.exports = {
     genZenScripts: genZenScripts,
     genPostOreScripts: genPostOreScripts,
     stoneClasses: stoneClasses,
-    additionalOre: additionalOre,
+    additionalReplacements: additionalReplacements,
     specialOres: specialOres,
     updateBiomeDefs: updateBiomeDefs,
     genAstralSorceryOreConfigs: genAstralSorceryOreConfigs,
