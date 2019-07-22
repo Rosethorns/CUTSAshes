@@ -300,7 +300,7 @@ function generatePostScripts() {
         const materialPart = contentTweaker.getMaterialPartMapping(`${material}_clump`);
 
         const blocks = _
-            .chain({'stone': null, 'gravel': 'gravel', 'sand': 'sand'})
+            .chain({'cobblestone': null, 'gravel': 'gravel', 'sand': 'sand'})
             .map((variety, dict) => {
                 return _.map(worldgen.stoneClasses, (types, stone) => {
                     return _.map(types, (subtype, idx) => {
@@ -337,7 +337,7 @@ function generatePostScripts() {
         // TODO: make this more generic
         if(oreName !== 'Amber') {
             _.each({
-                'minecraft:stone:0': 0,
+                'minecraft:cobblestone:0': 0,
                 'minecraft:stone:1': 1,
                 'minecraft:stone:3': 2,
                 'minecraft:stone:5': 3,
