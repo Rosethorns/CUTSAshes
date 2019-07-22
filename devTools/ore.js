@@ -300,7 +300,7 @@ function generatePostScripts() {
         const materialPart = contentTweaker.getMaterialPartMapping(`${material}_clump`);
 
         const blocks = _
-            .chain({'cobblestone': null, 'gravel': 'gravel', 'sand': 'sand'})
+            .chain({'stone': null, 'gravel': 'gravel', 'sand': 'sand'})
             .map((variety, dict) => {
                 return _.map(worldgen.stoneClasses, (types, stone) => {
                     return _.map(types, (subtype, idx) => {

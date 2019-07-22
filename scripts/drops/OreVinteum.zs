@@ -10,7 +10,7 @@ furnace.addRecipe(<gregtech:meta_item_1:8247>, clump);
 
 
 /*
- * Red Granite Igneous Cobblestone
+ * Red Granite Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_92:3"])
@@ -34,7 +34,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:0>])
+        .items([<undergroundbiomes:igneous_stone:0>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -44,7 +44,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Black Granite Igneous Cobblestone
+ * Black Granite Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_154:11"])
@@ -68,7 +68,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:1>])
+        .items([<undergroundbiomes:igneous_stone:1>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -78,7 +78,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Rhyolite Igneous Cobblestone
+ * Rhyolite Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_144:4"])
@@ -102,7 +102,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:2>])
+        .items([<undergroundbiomes:igneous_stone:2>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -112,7 +112,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Andesite Igneous Cobblestone
+ * Andesite Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_97:15"])
@@ -136,7 +136,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:3>])
+        .items([<undergroundbiomes:igneous_stone:3>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -146,7 +146,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Gabbro Igneous Cobblestone
+ * Gabbro Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_63:12"])
@@ -170,7 +170,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:4>])
+        .items([<undergroundbiomes:igneous_stone:4>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -180,7 +180,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Basalt Igneous Cobblestone
+ * Basalt Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_78:5"])
@@ -204,7 +204,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:5>])
+        .items([<undergroundbiomes:igneous_stone:5>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -214,7 +214,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Komatiite Igneous Cobblestone
+ * Komatiite Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_80:13"])
@@ -238,7 +238,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:6>])
+        .items([<undergroundbiomes:igneous_stone:6>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -248,7 +248,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Dacite Igneous Cobblestone
+ * Dacite Igneous Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_22:10"])
@@ -272,7 +272,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:igneous_cobblestone:7>])
+        .items([<undergroundbiomes:igneous_stone:7>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -282,7 +282,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Gneiss Metamorphic Cobblestone
+ * Gneiss Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_173:1"])
@@ -306,7 +306,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:0>])
+        .items([<undergroundbiomes:metamorphic_stone:0>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -316,7 +316,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Eclogite Metamorphic Cobblestone
+ * Eclogite Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_41:15"])
@@ -340,7 +340,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:1>])
+        .items([<undergroundbiomes:metamorphic_stone:1>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -350,7 +350,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Marble Metamorphic Cobblestone
+ * Marble Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_50:15"])
@@ -374,7 +374,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:2>])
+        .items([<undergroundbiomes:metamorphic_stone:2>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -384,7 +384,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Quartzite Metamorphic Cobblestone
+ * Quartzite Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_166:14"])
@@ -408,7 +408,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:3>])
+        .items([<undergroundbiomes:metamorphic_stone:3>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -418,7 +418,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Blueschist Metamorphic Cobblestone
+ * Blueschist Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_123:14"])
@@ -442,7 +442,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:4>])
+        .items([<undergroundbiomes:metamorphic_stone:4>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -452,7 +452,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Greenschist Metamorphic Cobblestone
+ * Greenschist Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_124:3"])
@@ -476,7 +476,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:5>])
+        .items([<undergroundbiomes:metamorphic_stone:5>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -486,7 +486,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Soapstone Metamorphic Cobblestone
+ * Soapstone Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_78:6"])
@@ -510,7 +510,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:6>])
+        .items([<undergroundbiomes:metamorphic_stone:6>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -520,7 +520,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Migmatite Metamorphic Cobblestone
+ * Migmatite Metamorphic Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_34:2"])
@@ -544,7 +544,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:metamorphic_cobblestone:7>])
+        .items([<undergroundbiomes:metamorphic_stone:7>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -554,7 +554,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Limestone Sedimentary Cobblestone
+ * Limestone Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_25:2"])
@@ -578,7 +578,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:0>])
+        .items([<undergroundbiomes:sedimentary_stone:0>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -588,7 +588,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Chalk Sedimentary Cobblestone
+ * Chalk Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_109:7"])
@@ -612,7 +612,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:1>])
+        .items([<undergroundbiomes:sedimentary_stone:1>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -622,7 +622,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Shale Sedimentary Cobblestone
+ * Shale Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_76:5"])
@@ -646,7 +646,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:2>])
+        .items([<undergroundbiomes:sedimentary_stone:2>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -656,7 +656,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Siltstone Sedimentary Cobblestone
+ * Siltstone Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_81:9"])
@@ -680,7 +680,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:3>])
+        .items([<undergroundbiomes:sedimentary_stone:3>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -690,7 +690,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Lignite Sedimentary Cobblestone
+ * Lignite Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_43:2"])
@@ -714,7 +714,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:4>])
+        .items([<undergroundbiomes:sedimentary_stone:4>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -724,7 +724,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Dolomite Sedimentary Cobblestone
+ * Dolomite Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_49:13"])
@@ -748,7 +748,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:5>])
+        .items([<undergroundbiomes:sedimentary_stone:5>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -758,7 +758,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Greywacke Sedimentary Cobblestone
+ * Greywacke Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_25:11"])
@@ -782,7 +782,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:6>])
+        .items([<undergroundbiomes:sedimentary_stone:6>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
@@ -792,7 +792,7 @@ clumps.add(Dropt.rule()
 
 
 /*
- * Chert Sedimentary Cobblestone
+ * Chert Sedimentary Stone
  */
 clumps.add(Dropt.rule()
     .matchBlocks(["contenttweaker:sub_block_holder_107:2"])
@@ -816,7 +816,7 @@ clumps.add(Dropt.rule()
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "EXCLUDED", 0)
-        .items([<undergroundbiomes:sedimentary_cobblestone:7>])
+        .items([<undergroundbiomes:sedimentary_stone:7>])
     )
     .addDrop(Dropt.drop()
         .selector(Dropt.weight(1), "REQUIRED")
