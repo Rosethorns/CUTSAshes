@@ -280,14 +280,104 @@ function genContentTweakerScripts() {
                 ''
             ].join('\n');
         }),
-        `    var sample as MaterialPartData = mat.registerPart("ore_sample").getData();`,
-        `    sample.addDataValue("drops", "oredict:crushed"~key);`,
+        `    mat.registerPart("clump");`,
         '}',
         '',
         'for key, material in OREDEFS {',
         '    addMaterialOre(material, key);',
         '}'
     ]).join('\n'));
+}
+
+/**
+ * Generates later scripts after all parsing is complete
+ */
+function generatePostScripts() {
+    _.each(oreCache, (ore) => {
+        const oreName = util.gregOreToOreDict(ore.Ore);
+        const material = contentTweaker.getGregtechMaterialName(oreName);
+        const smelterOutput = ore.Smelter && oreDictionary.resolveOredict(ore.Smelter);
+
+        const blocks = _
+            .chain({'stone': null, 'gravel': 'gravel', 'sand': 'sand'})
+            .map((variety, dict) => {
+                return _.map(worldgen.stoneClasses, (types, stone) => {
+                    return _.map(types, (subtype, idx) => {
+                        const mapping = contentTweaker.getGregtechOreMapping(oreName, subtype, variety);
+
+                        if (!mapping) {
+                            console.warn(`Missing Content Tweaker mapping for ${oreName} in ${subtype}${variety}.`);
+                            return;
+                        }
+
+                        return {
+                            name: `${_.startCase(subtype)} ${_.startCase(stone)} ${_.startCase(dict)}`,
+                            blockstate: `contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}`,
+                            baseBlock: `<undergroundbiomes:${stone}_${dict}:${idx}>`
+                        };
+                    });
+                });
+            })
+            .flattenDeep()
+            .filter((o) => o !== undefined)
+            .value();
+
+
+        fs.writeFileSync(`../scripts/drops/Ore${util.pascalCase(oreName)}.zs`, _.flattenDeep([
+            'import crafttweaker.item.IItemStack;',
+            'import mods.dropt.Dropt;',
+            '',
+            'var clumps = Dropt.list("gtce_clumps").priority(1);',
+            '',
+            `var clump = <materialpart:${material}:clump>.getItemStack() as IItemStack;`,
+            `<ore:ore${util.pascalCase(oreName)}>.add(clump);`,
+            smelterOutput && `furnace.addRecipe(<${smelterOutput}>, clump);` || '// No smelter output',
+            '',
+            '',
+            '',
+            _.map(blocks, (block) => {
+                const blockMatch = `    .matchBlocks(["${block.blockstate}"])`;
+                    
+                return [
+                    '/*',
+                    ` * ${block.name}`,
+                    ' */',
+                    'clumps.add(Dropt.rule()',
+                    blockMatch,
+                    '    .dropStrategy("UNIQUE")',
+                    '    .dropCount(Dropt.range(5))',
+                    '    .addDrop(Dropt.drop()',
+                    '        .selector(Dropt.weight(1), "EXCLUDED", 0)',
+                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(1))`,
+                    '    )',
+                    '    .addDrop(Dropt.drop()',
+                    '        .selector(Dropt.weight(1), "EXCLUDED", 1)',
+                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(0,1))`,
+                    '    )',
+                    '    .addDrop(Dropt.drop()',
+                    '        .selector(Dropt.weight(1), "EXCLUDED", 2)',
+                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(0,1))`,
+                    '    )',
+                    '    .addDrop(Dropt.drop()',
+                    '        .selector(Dropt.weight(1), "EXCLUDED", 3)',
+                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(0,1))`,
+                    '    )',
+                    '    .addDrop(Dropt.drop()',
+                    '        .selector(Dropt.weight(1), "EXCLUDED", 0)',
+                    `        .items([${block.baseBlock}])`,
+                    '    )',
+                    '    .addDrop(Dropt.drop()',
+                    '        .selector(Dropt.weight(1), "REQUIRED")',
+                    `        .items([<${block.blockstate}>])`,
+                    '    )',
+                    ');',
+                    '',
+                    ''
+                ];
+            })
+        ]).join('\n'));
+    });
+
 }
 
 /**
@@ -515,5 +605,6 @@ function parse(file) {
 
 module.exports = {
     parse: parse,
-    ores: oreCache
+    ores: oreCache,
+    generatePostScripts: generatePostScripts
 };

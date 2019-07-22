@@ -135,8 +135,7 @@ function addMaterialOre (mat as Material, key as string) {
         oreData.addDataValue("harvestLevel", "1");
     }
 
-    var sample as MaterialPartData = mat.registerPart("ore_sample").getData();
-    sample.addDataValue("drops", "oredict:crushed"~key);
+    mat.registerPart("clump");
 }
 
 for key, material in OREDEFS {

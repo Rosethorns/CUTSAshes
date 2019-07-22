@@ -59,11 +59,15 @@ function parse() {
     });
 }
 
+function getGregtechMaterialName(oreName) {
+    return _.snakeCase(_.find(cachedOres, (o) => o.Ore === oreName).Names.split(',')[0].replace(/-/m,'')).replace(/_(?=[0-9])/,'');
+}
+
 function getGregtechOreMapping(oreName, stoneName, variety, mod) {
     variety = variety ? '_' + variety : '';
     mod = mod || 'undergroundbiomes';
 
-    let name = _.snakeCase(_.find(cachedOres, (o) => o.Ore === oreName).Names.split(',')[0].replace(/-/m,'')).replace(/_(?=[0-9])/,'');
+    let name = getGregtechMaterialName(oreName);
 
     return mappings[`${name}_ore_${mod}_${stoneName}${variety}`];
 }
@@ -71,5 +75,6 @@ function getGregtechOreMapping(oreName, stoneName, variety, mod) {
 module.exports = {
     parse: parse,
     getGregtechOreMapping: getGregtechOreMapping,
-    typeDefs: typedefs
+    typeDefs: typedefs,
+    getGregtechMaterialName: getGregtechMaterialName
 };

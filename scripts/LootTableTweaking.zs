@@ -4,18 +4,6 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 
 /*
- * Immersiveengineering Chests Engineers House
-*/
-var immersiveengineeringChestsEngineersHouse = LootTables.getTable("immersiveengineering:chests/engineers_house");
-
-var immersiveengineeringChestsEngineersHouse1 = immersiveengineeringChestsEngineersHouse.getPool("immersiveengineering:engineers_village_house");
-immersiveengineeringChestsEngineersHouse1.removeEntry("steel_rod");                                                                                   // Cheaty Metals
-immersiveengineeringChestsEngineersHouse1.removeEntry("aluminium_rod");                                                                               // Cheaty Metals
-immersiveengineeringChestsEngineersHouse1.removeEntry("steel_component");                                                                             // Cheaty Metals
-immersiveengineeringChestsEngineersHouse1.removeEntry("copper_ingot");                                                                                // Cheaty ingots
-immersiveengineeringChestsEngineersHouse1.removeEntry("aluminium_ingot");                                                                             // Cheaty ingots
-
-/*
  * Minecraft Chests Abandoned Mineshaft
 */
 var minecraftChestsAbandonedMineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
@@ -36,21 +24,11 @@ minecraftChestsAbandonedMineshaft3.removeEntry("forestry:miner_bag");           
 minecraftChestsAbandonedMineshaft3.removeEntry("empty");                                                                                              // Just Enough Forestry
 
 var minecraftChestsAbandonedMineshaft4 = minecraftChestsAbandonedMineshaft.getPool("main");
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.ingot_silver@0");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.ingot_lead@0");                                                                 // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@10184");                                                              // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.ingot_bronze@0");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.gem@6");                                                                        // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@8117");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@8212");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@8243");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@8244");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.gem@1");                                                                        // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.emerald@0");                                                                    // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@1234");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@2234");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@1247");                                                               // Greg go away
-minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@2247");                                                               // Greg go away
+minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@10062");                                                              // Greg go away
+minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@10035");                                                              // Greg go away
+minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@10095");                                                              // Greg go away
+minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@8157");                                                               // Greg go away
+minecraftChestsAbandonedMineshaft4.removeEntry("#gregtech:loot_1xitem.meta_item@8154");                                                               // Greg go away
 
 /*
  * Minecraft Chests Desert Pyramid
@@ -71,14 +49,9 @@ minecraftChestsDesertPyramid3.removeEntry("forestry:ash");                      
 minecraftChestsDesertPyramid3.removeEntry("empty");                                                                                                   // Just Enough Forestry
 
 var minecraftChestsDesertPyramid4 = minecraftChestsDesertPyramid.getPool("main");
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.ingot_silver@0");                                                                    // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@10051");                                                                   // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.gem@1");                                                                             // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.gem@6");                                                                             // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@8117");                                                                    // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@8212");                                                                    // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@8243");                                                                    // Greg go away
-minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@8244");                                                                    // Greg go away
+minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@10062");                                                                   // Greg go away
+minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@8154");                                                                    // Greg go away
+minecraftChestsDesertPyramid4.removeEntry("#gregtech:loot_1xitem.meta_item@8157");                                                                    // Greg go away
 
 /*
  * Minecraft Chests End City Treasure
@@ -124,23 +97,9 @@ minecraftChestsJungleTemple2.removeEntry("forestry:sapling");                   
 minecraftChestsJungleTemple2.removeEntry("empty");                                                                                                    // Just Enough Forestry
 
 var minecraftChestsJungleTemple3 = minecraftChestsJungleTemple.getPool("main");
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@32008");                                                                    // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@32599");                                                                    // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.ingot_bronze@0");                                                                     // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.gem@1");                                                                              // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.gem@6");                                                                              // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@8117");                                                                     // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@8212");                                                                     // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@8243");                                                                     // Greg go away
-minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@8244");                                                                     // Greg go away
-
-/*
- * Minecraft Chests Jungle Temple Dispenser
-*/
-var minecraftChestsJungleTempleDispenser = LootTables.getTable("minecraft:chests/jungle_temple_dispenser");
-
-var minecraftChestsJungleTempleDispenser1 = minecraftChestsJungleTempleDispenser.getPool("main");
-minecraftChestsJungleTempleDispenser1.removeEntry("#gregtech:loot_1xitem.fireball@0");                                                                // Greg go away
+minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@10095");                                                                    // Greg go away
+minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@8154");                                                                     // Greg go away
+minecraftChestsJungleTemple3.removeEntry("#gregtech:loot_1xitem.meta_item@8157");                                                                     // Greg go away
 
 /*
  * Minecraft Chests Nether Bridge
@@ -152,9 +111,6 @@ minecraftChestsNetherBridge1.removeEntry("bee_steadfast_drone");                
 minecraftChestsNetherBridge1.removeEntry("bee_sinister_drone");                                                                                       // Just Enough Forestry
 minecraftChestsNetherBridge1.removeEntry("empty");                                                                                                    // Just Enough Forestry
 
-var minecraftChestsNetherBridge2 = minecraftChestsNetherBridge.getPool("main");
-minecraftChestsNetherBridge2.removeEntry("minecraft:flint_and_steel");                                                                                // Cheaty Metals
-
 /*
  * Minecraft Chests Simple Dungeon
 */
@@ -165,24 +121,11 @@ minecraftChestsSimpleDungeon1.removeEntry("bee_steadfast_drone");               
 minecraftChestsSimpleDungeon1.removeEntry("empty");                                                                                                   // Just Enough Forestry
 
 var minecraftChestsSimpleDungeon2 = minecraftChestsSimpleDungeon.getPool("main");
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@32100");                                                                   // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.ingot_silver@0");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.ingot_lead@0");                                                                      // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@10184");                                                                   // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.ingot_bronze@0");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@10039");                                                                   // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@10234");                                                                   // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8247");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.emerald@0");                                                                         // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.gem@1");                                                                             // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.gem@6");                                                                             // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8117");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8212");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8243");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8244");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@2001");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@2042");                                                                    // Greg go away
-minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@2016");                                                                    // Greg go away
+minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@10062");                                                                   // Greg go away
+minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@10035");                                                                   // Greg go away
+minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@10095");                                                                   // Greg go away
+minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8154");                                                                    // Greg go away
+minecraftChestsSimpleDungeon2.removeEntry("#gregtech:loot_1xitem.meta_item@8157");                                                                    // Greg go away
 
 /*
  * Minecraft Chests Spawn Bonus Chest
@@ -192,9 +135,6 @@ var minecraftChestsSpawnBonusChest = LootTables.getTable("minecraft:chests/spawn
 var minecraftChestsSpawnBonusChest1 = minecraftChestsSpawnBonusChest.getPool("forestry_apiculture_bees");
 minecraftChestsSpawnBonusChest1.removeEntry("forestry:scoop");                                                                                        // Just Enough Forestry
 
-var minecraftChestsSpawnBonusChest2 = minecraftChestsSpawnBonusChest.getPool("main");
-minecraftChestsSpawnBonusChest2.removeEntry("#gregtech:loot_1xitem.meta_item@32100");                                                                 // Greg go away
-
 /*
  * Minecraft Chests Stronghold Corridor
 */
@@ -203,12 +143,6 @@ var minecraftChestsStrongholdCorridor = LootTables.getTable("minecraft:chests/st
 var minecraftChestsStrongholdCorridor1 = minecraftChestsStrongholdCorridor.getPool("forestry_apiculture_bees");
 minecraftChestsStrongholdCorridor1.removeEntry("bee_steadfast_drone");                                                                                // Just Enough Forestry
 minecraftChestsStrongholdCorridor1.removeEntry("empty");                                                                                              // Just Enough Forestry
-
-var minecraftChestsStrongholdCorridor2 = minecraftChestsStrongholdCorridor.getPool("main");
-minecraftChestsStrongholdCorridor2.removeEntry("#gregtech:loot_1xitem.meta_item@234");                                                                // Greg go away
-minecraftChestsStrongholdCorridor2.removeEntry("#gregtech:loot_1xitem.meta_item@3234");                                                               // Greg go away
-minecraftChestsStrongholdCorridor2.removeEntry("#gregtech:loot_1xitem.meta_item@1247");                                                               // Greg go away
-minecraftChestsStrongholdCorridor2.removeEntry("#gregtech:loot_1xitem.meta_item@2247");                                                               // Greg go away
 
 /*
  * Minecraft Chests Stronghold Crossing
@@ -235,11 +169,4 @@ minecraftChestsStrongholdLibrary1.removeEntry("empty");                         
 var minecraftChestsVillageBlacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
 
 var minecraftChestsVillageBlacksmith1 = minecraftChestsVillageBlacksmith.getPool("main");
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@2016");                                                                // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@2042");                                                                // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@10039");                                                               // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@10184");                                                               // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.ingot_bronze@0");                                                                // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@10094");                                                               // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@10234");                                                               // Greg go away
-minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@8247");                                                                // Greg go away
+minecraftChestsVillageBlacksmith1.removeEntry("#gregtech:loot_1xitem.meta_item@10095");                                                               // Greg go away

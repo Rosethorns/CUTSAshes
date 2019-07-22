@@ -33,6 +33,8 @@ oreDictionaryParser.parse('oredictionary.csv').then((data) => {
         lootTables.cleanupLootTables()
     ])
 }).then(() => {
+    oreParser.generatePostScripts();
+
     worldgenParser.genUndergroundBiomesDefs(ores);
     worldgenParser.genGregtechOregen();
     worldgenParser.genZenScripts();
