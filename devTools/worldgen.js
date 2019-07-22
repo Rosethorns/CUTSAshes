@@ -291,7 +291,7 @@ function addOreVariant(oreName, idx, variety, block, predicate, mod) {
             'block': `contenttweaker:sub_block_holder_${mapping.block}`,
             'sub_block_number': mapping.sub
         }
-    });    
+    });
 }
 
 function genGregtechOregen() {

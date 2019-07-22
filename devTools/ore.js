@@ -297,6 +297,7 @@ function generatePostScripts() {
         const oreName = util.gregOreToOreDict(ore.Ore);
         const material = contentTweaker.getGregtechMaterialName(oreName);
         const smelterOutput = ore.Smelter && oreDictionary.resolveOredict(ore.Smelter);
+        const materialPart = contentTweaker.getMaterialPartMapping(`${material}_clump`);
 
         const blocks = _
             .chain({'stone': null, 'gravel': 'gravel', 'sand': 'sand'})
@@ -322,6 +323,38 @@ function generatePostScripts() {
             .filter((o) => o !== undefined)
             .value();
 
+        _.each(worldgen.additionalOre, (add) => {
+            const [mod,variant] = add.variant.split(':');
+            const mapping = contentTweaker.getGregtechOreMapping(oreName, variant, '', mod);
+
+            blocks.push({
+                name: `${_.startCase(mod)} ${_.startCase(variant)}`,
+                blockstate: `contenttweaker:sub_block_holder_${mapping.block}:${mapping.sub}`,
+                baseBlock: `<${add.predicate.startsWith('ore_dict') ? oreDictionary.resolveOredict(add.predicate.substr(9)) : add.predicate.substr(6)}>`
+            });
+        });
+
+        // TODO: make this more generic
+        if(oreName !== 'Amber') {
+            _.each({
+                'minecraft:stone:0': 0,
+                'minecraft:stone:1': 1,
+                'minecraft:stone:3': 2,
+                'minecraft:stone:5': 3,
+                'minecraft:gravel': 4,
+                'minecraft:netherrack': 6,
+                'minecraft:end_stone': 7,
+                'minecraft:sand:0': 8,
+                'minecraft:sand:1': 9
+            }, (idx, base) => {
+                blocks.push({
+                    name: _.startCase(base.split(':')[1]),
+                    blockstate: `gregtech:ore_${_.snakeCase(ore.Ore).replace('_235','235')}_0:${idx}`,
+                    baseBlock: `<${base}>`
+                });
+            });
+        }
+
 
         fs.writeFileSync(`../scripts/drops/Ore${util.pascalCase(oreName)}.zs`, _.flattenDeep([
             'import crafttweaker.item.IItemStack;',
@@ -329,7 +362,7 @@ function generatePostScripts() {
             '',
             'var clumps = Dropt.list("gtce_clumps").priority(1);',
             '',
-            `var clump = <materialpart:${material}:clump>.getItemStack() as IItemStack;`,
+            `var clump = <${materialPart}> as IItemStack;`,
             `<ore:ore${util.pascalCase(oreName)}>.add(clump);`,
             smelterOutput && `furnace.addRecipe(<${smelterOutput}>, clump);` || '// No smelter output',
             '',
@@ -348,19 +381,19 @@ function generatePostScripts() {
                     '    .dropCount(Dropt.range(5))',
                     '    .addDrop(Dropt.drop()',
                     '        .selector(Dropt.weight(1), "EXCLUDED", 0)',
-                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(1))`,
+                    `        .items([clump], Dropt.range(1))`,
                     '    )',
                     '    .addDrop(Dropt.drop()',
                     '        .selector(Dropt.weight(1), "EXCLUDED", 1)',
-                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(0,1))`,
+                    `        .items([clump], Dropt.range(0,1))`,
                     '    )',
                     '    .addDrop(Dropt.drop()',
                     '        .selector(Dropt.weight(1), "EXCLUDED", 2)',
-                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(0,1))`,
+                    `        .items([clump], Dropt.range(0,1))`,
                     '    )',
                     '    .addDrop(Dropt.drop()',
                     '        .selector(Dropt.weight(1), "EXCLUDED", 3)',
-                    `        .items([<materialpart:${material}:clump>.getItemStack()], Dropt.range(0,1))`,
+                    `        .items([clump], Dropt.range(0,1))`,
                     '    )',
                     '    .addDrop(Dropt.drop()',
                     '        .selector(Dropt.weight(1), "EXCLUDED", 0)',
