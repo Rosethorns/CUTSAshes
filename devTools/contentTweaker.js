@@ -76,7 +76,8 @@ function parse() {
 }
 
 function getGregtechMaterialName(oreName) {
-    return _.snakeCase(_.find(cachedOres, (o) => o.Ore === oreName).Names.split(',')[0].replace(/-/m,'')).replace(/_(?=[0-9])/,'');
+    const oreEntry = _.find(cachedOres, (o) => o.Ore === oreName);
+    return _.snakeCase((oreEntry && oreEntry.Names.split(',')[0] || oreName).replace(/-/m,'')).replace(/_(?=[0-9])/,'');
 }
 
 function getGregtechOreMapping(oreName, stoneName, variety, mod) {

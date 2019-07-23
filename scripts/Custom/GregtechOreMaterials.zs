@@ -141,3 +141,20 @@ function addMaterialOre (mat as Material, key as string) {
 for key, material in OREDEFS {
     addMaterialOre(material, key);
 }
+
+/*
+ * Aquamarine
+ */
+var oreAquamarine = MaterialSystem
+    .getMaterialBuilder()
+    .setName("Aquamarine")
+    .setColor(5142688)
+    .build()
+    .registerPart("ore")
+    .getData();
+
+oreAquamarine.addDataValue("variants", "undergroundbiomes:red_granite_sand,undergroundbiomes:red_granite_gravel,undergroundbiomes:black_granite_sand,undergroundbiomes:black_granite_gravel,undergroundbiomes:rhyolite_sand,undergroundbiomes:rhyolite_gravel,undergroundbiomes:andesite_sand,undergroundbiomes:andesite_gravel,undergroundbiomes:gabbro_sand,undergroundbiomes:gabbro_gravel,undergroundbiomes:basalt_sand,undergroundbiomes:basalt_gravel,undergroundbiomes:komatiite_sand,undergroundbiomes:komatiite_gravel,undergroundbiomes:dacite_sand,undergroundbiomes:dacite_gravel,undergroundbiomes:gneiss_sand,undergroundbiomes:gneiss_gravel,undergroundbiomes:eclogite_sand,undergroundbiomes:eclogite_gravel,undergroundbiomes:marble_sand,undergroundbiomes:marble_gravel,undergroundbiomes:quartzite_sand,undergroundbiomes:quartzite_gravel,undergroundbiomes:blueschist_sand,undergroundbiomes:blueschist_gravel,undergroundbiomes:greenschist_sand,undergroundbiomes:greenschist_gravel,undergroundbiomes:soapstone_sand,undergroundbiomes:soapstone_gravel,undergroundbiomes:migmatite_sand,undergroundbiomes:migmatite_gravel,undergroundbiomes:limestone_sand,undergroundbiomes:limestone_gravel,undergroundbiomes:chalk_sand,undergroundbiomes:chalk_gravel,undergroundbiomes:shale_sand,undergroundbiomes:shale_gravel,undergroundbiomes:siltstone_sand,undergroundbiomes:siltstone_gravel,undergroundbiomes:lignite_sand,undergroundbiomes:lignite_gravel,undergroundbiomes:dolomite_sand,undergroundbiomes:dolomite_gravel,undergroundbiomes:greywacke_sand,undergroundbiomes:greywacke_gravel,undergroundbiomes:chert_sand,undergroundbiomes:chert_gravel");
+oreAquamarine.addDataValue("hardness", "1");
+oreAquamarine.addDataValue("resistance", "1");
+oreAquamarine.addDataValue("harvestTool", "pickaxe");
+oreAquamarine.addDataValue("harvestLevel", "1");

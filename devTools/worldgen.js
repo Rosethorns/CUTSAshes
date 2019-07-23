@@ -120,6 +120,58 @@ const additionalReplacements = [
     }
 ];
 
+/**
+ * List of additional ores to generate variants for
+ */
+const additionalOres = [
+    {
+        name: "Aquamarine",
+        color: 0x4E78A0,
+        variants: _.flatMapDeep(stoneClasses, (types, stone) => _.map(types, 
+            (t) => _.map(['sand','gravel'], (dict) => ({
+                block: `undergroundbiomes:${t}_${dict}`,
+                predicate: `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(t)}`
+            }))
+        )),
+        def: {
+            "name": "Aquamarine",
+            "density": 1,
+            "max_height": 64,
+            "min_height": 50,
+            "generator": {
+                "type": "ellipsoid",
+                "radius": [3,9]
+            },
+            "generation_predicate": [
+                "ore_dict:sand",
+                "block:undergroundbiomes:igneous_sand",
+                "block:undergroundbiomes:metamorphic_sand",
+                "block:undergroundbiomes:sedimentary_sand",
+                "block:undergroundbiomes:igneous_gravel",
+                "block:undergroundbiomes:metamorphic_gravel",
+                "block:undergroundbiomes:sedimentary_gravel"
+            ],
+            "dimension": "overworld",
+            "biome_modifier": {
+                "type": "biome_dictionary",
+                "WATER": 500,
+                "BEACH": 500,
+                "MESA": -10000
+            }
+        },
+        drops: {
+            blocks: _.flatMapDeep(stoneClasses, (types, stone) => _.map(types, 
+                (t, idx) => _.map(['sand','gravel'], (dict) => ({
+                    subtype: t,
+                    variety: dict,
+                    base: `undergroundbiomes:${stone}_${dict}:${idx}`
+                }))
+            )),
+            drop: "astralsorcery:itemcraftingcomponent:0"
+        }
+    }
+];
+
 const specialOres = {};
 
 const items = [];
@@ -273,11 +325,10 @@ function genUndergroundBiomesDefs(ores) {
  * @param {string} oreName The ore to add
  * @param {string} idx The texture variant
  * @param {string} variety Anything to append to the texture string
- * @param {string} block The object to add it to
  * @param {string} predicate The block predicate to use
  * @param {string} mod Optional mod identifier
  */
-function addOreVariant(oreName, idx, variety, block, predicate, mod) {
+function addOreVariant(oreName, idx, variety, predicate, mod) {
     const mapping = contentTweaker.getGregtechOreMapping(oreName, idx, variety, mod);
 
     if (!mapping) {
@@ -285,18 +336,18 @@ function addOreVariant(oreName, idx, variety, block, predicate, mod) {
         return;
     }
 
-    block.value.values.push({
+    return {
         'predicate': predicate,
         'value': {
             'block': `contenttweaker:sub_block_holder_${mapping.block}`,
             'sub_block_number': mapping.sub
         }
-    });
+    };
 }
 
 function genGregtechOregen() {
-    _.each(oreNodes, (node) => {
-        let output = _.cloneDeep(node);
+    const processor = (node, fn) => {
+        const output = _.cloneDeep(node);
         delete output.name;
         delete output.dimension;
 
@@ -304,84 +355,40 @@ function genGregtechOregen() {
         if (output.surface_stone_material === '') delete output.surface_stone_material;
         if (dims[node.dimension].predicate) output.dimension_filter = dims[node.dimension].predicate;
 
-        output.filler = {
-            "type": "simple",
-            "value": {
-                "type": "weight_random",
-                "values": _
-                    .chain(node.filler)
-                    .map((f) => {
-                        if (f.block) {
-                            // this is one of the granites, leave be
-                            return {
-                                "weight": f.weight,
-                                "value": f.block
-                            };
-                        }
-
-                        let block = {
-                            "weight": f.weight,
-                            "value": {
-                                "type": "state_match",
-                                "default": f.ore || null,
-                                "values": []
-                            }
-                        }
-
-                        // Special handling for things like midnight ores
-                        if (f.ore.startsWith('special')) {
-                            const [__, special] = f.ore.split(':');
-                            delete block.value.default;
-                            _.merge(block.value, specialOres[special]);
-                            return block;
-                        }
-
-                        let oreName = util.gregOreToOreDict(f.ore);
-
-                        let oreItem = oreDictionary.resolveOredict(`ore${oreName}`);
-                        if (!oreItem) {
-                            console.log(`Unable to determine item for oredict ${f.ore}`);
-                            return block;
-                        };
-
-                        if (dims[node.dimension].ubize) {
-                            _.each({'stone': null, 'gravel': 'gravel', 'sand': 'sand'}, (variety, dict) => {
-                                _.each(stoneClasses, (types, stone) => {
-                                    _.each(types, (idx) => {
-                                        addOreVariant(
-                                            oreName, idx, variety, block, 
-                                            `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(idx)}`
-                                        );
-                                    });
-                                });
-                            });
-                        }
-
-                        _.each(additionalReplacements, (ore) => {
-                            const [mod,variant] = ore.variant.split(':');
-                            addOreVariant(oreName, variant, '', block, ore.predicate, mod);
-                        });
-
-                        return block;
-                    })
-                    .filter(o => o)
-                    .value()
-            },
-        };
+        fn(output, node);
 
         fs.writeFileSync(`../config/gregtech/worldgen/${node.dimension}/${node.name}.json`, JSON.stringify(output, null, 2));
-    });
+    };
+
+    // Deal with the standard ore nodes
+    _.each(oreNodes, (node) => processor(node, generateGregOreFiller));
 
     _.each(dims, (data, dim) => {
-        const output = {
-            "weight": _.ceil(
-                    _
+        const fillerWeight = _.ceil(
+            (
+                _
                     .chain(oreNodes)
                     .filter((n) => n.dimension == dim)
                     .sumBy((n) => n.weight)
-                    .value() 
-                    / (nodeChance * 2)
-                ), // Multiply by 2 because it's a 50/50 chance to gen a node
+                    .value()
+                / (nodeChance * 2)
+                // Multiply by 2 because it's a 50/50 chance to gen a node
+            ) / (_.filter(additionalOres, (o) => o.def.dimension == dim).length + 1)
+        );
+
+        // Add in the additional ores:
+        _
+            .chain(additionalOres)
+            .filter((o) => o.def.dimension == dim)
+            .each((ore) =>
+                processor(ore.def,
+                    (output) => generateAdditionalOreFiller(output, fillerWeight, ore)
+                )
+            )
+            .commit();
+
+        const output = {
+            "weight": fillerWeight,
             "density": 1.0,
             "min_height": 1,
             "max_height": 3,
@@ -405,6 +412,101 @@ function genGregtechOregen() {
         };
         fs.writeFileSync(`../config/gregtech/worldgen/${dim}/whyyousodumbgtce.json`, JSON.stringify(output, null, 2));
     });
+}
+
+/**
+ * Generates an entry for the filler ores
+ * @param {object} output The output object to populate
+ * @param {number} fillerWeight The per-object filler
+ * @param {object} ore The ore being handled
+ */
+function generateAdditionalOreFiller(output, fillerWeight, ore) {
+    output.weight = fillerWeight;
+    output.filler = {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [
+                {
+                    "weight": 1,
+                    "value": {
+                        "type": "state_match",
+                        "default": `ore_dict:ore${ore.name}`,
+                        "values": _
+                            .chain(ore.variants)
+                            .map((v) => {
+                                const [mod, variant] = v.block.split(':');
+                                return addOreVariant(ore.name, variant, '', v.predicate, mod);
+                            })
+                            .filter((o) => o)
+                            .value()
+                    }
+                }
+            ]
+        }
+    };
+}
+
+/**
+ * Creates the filler entry for a GTCE ore
+ * @param {object} output The output node
+ * @param {object} node The original node
+ */
+function generateGregOreFiller(output, node) {
+    output.filler = {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": _
+                .chain(node.filler)
+                .map((f) => {
+                    let block = {
+                        "weight": f.weight,
+                        "value": {
+                            "type": "state_match",
+                            "default": f.ore || null,
+                            "values": []
+                        }
+                    };
+
+                    // Special handling for things like midnight ores
+                    if (f.ore.startsWith('special')) {
+                        const [__, special] = f.ore.split(':');
+                        delete block.value.default;
+                        _.merge(block.value, specialOres[special]);
+                        return block;
+                    }
+
+                    let oreName = util.gregOreToOreDict(f.ore);
+                    let oreItem = oreDictionary.resolveOredict(`ore${oreName}`);
+                    if (!oreItem) {
+                        console.log(`Unable to determine item for oredict ${f.ore}`);
+                        return block;
+                    }
+
+                    if (dims[node.dimension].ubize) {
+                        _.each({ 'stone': null, 'gravel': 'gravel', 'sand': 'sand' }, (variety, dict) => {
+                            _.each(stoneClasses, (types, stone) => {
+                                _.each(types, (idx) => {
+                                    block.value.values.push(
+                                        addOreVariant(oreName, idx, variety, `ore_dict:${dict}${_.upperFirst(stone)}${_.upperFirst(idx)}`)
+                                    );
+                                });
+                            });
+                        });
+                    }
+
+                    _.each(additionalReplacements, (ore) => {
+                        const [mod, variant] = ore.variant.split(':');
+                        block.value.values.push(addOreVariant(oreName, variant, '', ore.predicate, mod));
+                    });
+
+                    return block;
+                })
+                .filter(o => o)
+                .value()
+        },
+    };
 }
 
 function genZenScripts() {
@@ -695,6 +797,7 @@ module.exports = {
     stoneClasses: stoneClasses,
     additionalReplacements: additionalReplacements,
     specialOres: specialOres,
+    additionalOres: additionalOres,
     updateBiomeDefs: updateBiomeDefs,
     genAstralSorceryOreConfigs: genAstralSorceryOreConfigs,
     genNuclearCraftRads: genNuclearCraftRads
